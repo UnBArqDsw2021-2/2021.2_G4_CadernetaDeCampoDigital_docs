@@ -1,0 +1,15 @@
+site_name: Grupo 4 ArqDSW
+repo_url: https://github.com/UnBArqDsw2021-2/2021.2_G4_ProjetoProdutores
+
+theme:
+  name: material
+  features: navigation.tabs
+
+nav:
+  - Home: index.md
+  - Base:
+    - Iniciativas Extras:
+      - Ata de Reunião 24/01: reunioes/ata_24_01.md
+  # - Modelagem: ""
+  # - Padrões de Projeto: ""
+  # - Arquitetura de Software e Reutilização: ""
