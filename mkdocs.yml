@@ -1,5 +1,7 @@
+
+  
 site_name: Grupo 4 ArqDSW
-repo_url: https://github.com/UnBArqDsw2021-2/2021.2_G4_ProjetoProdutores
+repo_url: https://github.com/UnBArqDsw2021-2/2021.2_G4_ProjetoProdutores_docs
 
 theme:
   name: material
@@ -16,6 +18,10 @@ nav:
         - Ata de Reunião 24/01: reunioes/ata_24_01.md
         - Ata de Reunião 25/01: reunioes/ata_25_01.md
       - Política de Contribuição: base/politicas_de_contribuicao.md
+    - Módulo Projeto Não Orientado a Abordagens Específicas:
+      - Requisitos:
+        - Elicitação:
+          - Entrevista: requisitos/elicitacao/entrevista.md
   # - Modelagem: ""
   # - Padrões de Projeto: ""
   # - Arquitetura de Software e Reutilização: ""
