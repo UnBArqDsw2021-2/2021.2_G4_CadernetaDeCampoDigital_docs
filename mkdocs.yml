@@ -15,18 +15,18 @@ nav:
       - Modelagem BPMN: base/modelagem_bpmn.md
     - Módulo Projeto Não Orientado a Abordagens Específicas:
       - Requisitos:
+        - Pré-Rastreabilidade:
+          - Rich Picture: base/requisitos/pre-rastreabilidade/rich-picture.md
         - Elicitação:
+          - Brainstorming: requisitos/elicitacao/brainstorming.md
+          - Entrevista: requisitos/elicitacao/entrevista.md
           - Introspecção: requisitos/elicitacao/introspeccao.md
     - Iniciativas Extras:
       - Atas:
         - Ata de Reunião 24/01: reunioes/ata_24_01.md
         - Ata de Reunião 25/01: reunioes/ata_25_01.md
       - Política de Contribuição: base/politicas_de_contribuicao.md
-    - Módulo Projeto Não Orientado a Abordagens Específicas:
-      - Requisitos:
-        - Elicitação:
-          - Brainstorming: requisitos/elicitacao/brainstorming.md
-          - Entrevista: requisitos/elicitacao/entrevista.md
+          
   # - Modelagem: ""
   # - Padrões de Projeto: ""
   # - Arquitetura de Software e Reutilização: ""
