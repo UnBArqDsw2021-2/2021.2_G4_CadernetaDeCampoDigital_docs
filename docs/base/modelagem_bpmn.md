@@ -7,13 +7,13 @@
 |1.1| 28/01/2022| Adição dos fluxogramas de modelagem BPMN | João Pedro Moura |
 
 ## Introdução
-<p align="justify">&emsp;&emsp; O Business Process and Notation (BPMN) ou notação de modelagem de processos de negócio, é um tipo de modelagem que através de um diagrama visa planejar, formalizar, modelar e melhorar a eficiência [1] dos diversos fluxos presentes no desenvolvimento de um software. Para isso, essa diagramação faz o uso da linguagem BPMN, padronizada e universal onde é possível destacar os seguintes elementos presentes dentro desse fluxograma: <b>Objetos de fluxo</b>, <b>Objetos de conexão</b>, <b>Raias</b> e <b>Artefatos</b>.</p>
+<p align="justify">&emsp;&emsp; O Business Process Model and Notation (BPMN) ou notação de modelagem de processos de negócio, é um tipo de modelagem que através de um diagrama visa planejar, formalizar, modelar e melhorar a eficiência [1] dos diversos fluxos presentes no desenvolvimento de um software. Para isso, essa diagramação faz o uso da linguagem BPMN, padronizada e universal onde é possível destacar os seguintes elementos presentes dentro desse fluxograma: <b>Objetos de fluxo</b>, <b>Objetos de conexão</b>, <b>Raias</b> e <b>Artefatos</b>.</p>
 
 ![Notação BPMN](../img/notacao_bpmn.png)
 <h6 align = "center">Figura 1: Alguns elementos presentes na notação BPMN.</h6>
 <h6 align = "center">Fonte: Notação BPMN, a mais usada para modelar processos. Heflo. [2]</h6>
 
-<p align="justify">&emsp;&emsp; Pela característica ágeis do projeto, optou-se pela criação desse documento de forma evolutiva, ou seja, antes do início de cada etapa o documento será atualizado com os novos fluxos de desenvolvimento. Dessa forma, para facilitar o entendimento e o gerênciamento de processos desse software até o momento, a equipe optou por produzir os seguintes fluxogramas, através da plataforma <a href=https://www.lucidchart.com/pages/pt>Lucidchart</a>, utilizando a linguagem BPMN:</p>
+<p align="justify">&emsp;&emsp; Pelas características ágeis do projeto, optou-se pela criação desse documento de forma evolutiva, ou seja, antes do início de cada etapa o documento será atualizado com os novos fluxos de desenvolvimento. Dessa forma, para facilitar o entendimento e o gerenciamento de processos desse software até o momento, a equipe optou por produzir os seguintes fluxogramas, através da plataforma <a href=https://www.lucidchart.com/pages/pt>Lucidchart</a>, utilizando a linguagem BPMN:</p>
 
 ## Processo Geral
 ![Processo Geral](../img/Diagrama_BPMN_1.png)
