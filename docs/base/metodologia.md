@@ -14,7 +14,7 @@ Versão|Data|Descrição|Auto(es)
 <p align = "justify"> &emsp;&emsp; A equipe não utilizará somente uma metodologia dentro do projeto, sendo então adotada uma metodologia híbrida, com base no SCRUM, Kanban, XP e alguns valores Lean. A ideia é reunir alguns artefatos e rituais dessas diferentes metodologias e colocá-las em prática ao longo do projeto. O objetivo da equipe não é estar preso a um processo imutável, e sim ter a disposição uma importante característica de resposta as mudanças dentro do processo de acordo com a necessidade do time, como diz um dos valores das Metodologias Ágeis.</p>
 
 <center>
-![Mapa das metodologias](./assets/metodologia/methodology_map.png)
+![Mapa das metodologias](../assets/metodologia/methodology_map.png)
 <h6 >Figura 1: Figura contendo qual vai ser a aplicação de cada metodologia empregada no projeto</h6>
 <h6 >Fonte: Autor</h6>
 </center>
@@ -58,11 +58,11 @@ Alguns dos príncipios utilizados serão:
 
 ||Ferramenta|Finalidade|
 |:-:|:-:|-|
-| <img src="./assets/metodologia/github.png" width="50px" /> | Github | Versionamento do projeto. |
-| <img src="./assets/metodologia/telegram.png" width="50px" /> | Telegram | Comunicação por texto entre os integrantes. |
-| <img src="./assets/metodologia/teams.png" width="50px" /> | Teams | Gravação das apresentações. |
-| <img src="./assets/metodologia/discord.png" width="50px" /> | Discord | Comunicação por voz entre os integrantes. |
-| <img src="./assets/metodologia/zenhub.png" width="50px" /> | Zenhub | Utilizado como quadro da metodologia kanban. |
+| <img src="../assets/metodologia/github.png" width="50px" /> | Github | Versionamento do projeto. |
+| <img src="../assets/metodologia/telegram.png" width="50px" /> | Telegram | Comunicação por texto entre os integrantes. |
+| <img src="../assets/metodologia/teams.png" width="50px" /> | Teams | Gravação das apresentações. |
+| <img src="../assets/metodologia/discord.png" width="50px" /> | Discord | Comunicação por voz entre os integrantes. |
+| <img src="../assets/metodologia/zenhub.png" width="50px" /> | Zenhub | Utilizado como quadro da metodologia kanban. |
 <h6 align = "center">Tabela 1: Tabela contendo as ferramentas utilizadas no projeto</h6>
 <h6 align = "center">Fonte: Autor</h6>
 
