@@ -8,6 +8,8 @@ theme:
 nav:
   - Home: index.md
   - Base:
+    - Processos, Metodologias e Abordagens:
+      - Metodologia: base/metodologia.md
     - Iniciativas Extras:
       - Ata de Reunião 24/01: reunioes/ata_24_01.md
   # - Modelagem: ""
