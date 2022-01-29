@@ -58,11 +58,11 @@ Alguns dos príncipios utilizados serão:
 
 ||Ferramenta|Finalidade|
 |:-:|:-:|-|
-| <img src="../assets/metodologia/github.png" width="50px" /> | Github | Versionamento do projeto. |
-| <img src="../assets/metodologia/telegram.png" width="50px" /> | Telegram | Comunicação por texto entre os integrantes. |
-| <img src="../assets/metodologia/teams.png" width="50px" /> | Teams | Gravação das apresentações. |
-| <img src="../assets/metodologia/discord.png" width="50px" /> | Discord | Comunicação por voz entre os integrantes. |
-| <img src="../assets/metodologia/zenhub.png" width="50px" /> | Zenhub | Utilizado como quadro da metodologia kanban. |
+| <img src="../../assets/metodologia/github.png" width="50px" /> | Github | Versionamento do projeto. |
+| <img src="../../assets/metodologia/telegram.png" width="50px" /> | Telegram | Comunicação por texto entre os integrantes. |
+| <img src="../../assets/metodologia/teams.png" width="50px" /> | Teams | Gravação das apresentações. |
+| <img src="../../assets/metodologia/discord.png" width="50px" /> | Discord | Comunicação por voz entre os integrantes. |
+| <img src="../../assets/metodologia/zenhub.png" width="50px" /> | Zenhub | Utilizado como quadro da metodologia kanban. |
 <h6 align = "center">Tabela 1: Tabela contendo as ferramentas utilizadas no projeto</h6>
 <h6 align = "center">Fonte: Autor</h6>
 
