@@ -10,19 +10,19 @@
 
 ## 3. Resultados
 ### 3.1 História 1
-<img src="../../assets/requisitos/elicitacao/storyboard1.png"/>
+<img src="../../../assets/requisitos/elicitacao/storyboard1.png"/>
 <h6 align = "center">Figura 1: Storyboard 1</h6>
 <h6 align = "center">Fonte: Autor</h6>
 <p style="text-align: justify;">A primeira história consiste em um caso cuja persona não possui um nível de alfabetização alto, resultando assim numa experiência ruim caso a interface não possua elementos visuais de fácil identificação.</p>
 
 ### 3.2 História 2
-<img src="../../assets/requisitos/elicitacao/storyboard2.png"/>
+<img src="../../../assets/requisitos/elicitacao/storyboard2.png"/>
 <h6 align = "center">Figura 2: Storyboard 2</h6>
 <h6 align = "center">Fonte: Autor</h6>
 <p style="text-align: justify;">O segundo storyboard apresenta um cenário em que o agricultor consegue identificar facilmente o que deseja sem passos complexos ou difíceis.</p>
 
 ### 3.3 História 3
-<img src="../../assets/requisitos/elicitacao/storyboard3.png"/>
+<img src="../../../assets/requisitos/elicitacao/storyboard3.png"/>
 <h6 align = "center">Figura 3: Storyboard 3</h6>
 <h6 align = "center">Fonte: Autor</h6>
 <p style="text-align: justify;">A terceira história apresenta a perspectiva do técnico que consegue sem problemas visualizar o rastreamento de um produtor por meio de sua caderneta de campo.</p>
