@@ -9,7 +9,10 @@ nav:
   - Home: index.md
   - Base:
     - Iniciativas Extras:
-      - Ata de Reunião 24/01: reunioes/ata_24_01.md
+      - Atas:
+        - Ata de Reunião 24/01: reunioes/ata_24_01.md
+        - Ata de Reunião 25/01: reunioes/ata_25_01.md
+      - Política de Contribuição: base/politicas_de_contribuicao.md
   # - Modelagem: ""
   # - Padrões de Projeto: ""
   # - Arquitetura de Software e Reutilização: ""
