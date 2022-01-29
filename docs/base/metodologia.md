@@ -66,7 +66,7 @@ Alguns dos príncipios utilizados serão:
 <h6 align = "center">Tabela 1: Tabela contendo as ferramentas utilizadas no projeto</h6>
 <h6 align = "center">Fonte: Autor</h6>
 
-## 4. Referências
+## 4. Bibliografia
 > Manifesto para Desenvolvimento Ágil de Software. Disponível em: < [https://agilemanifesto.org/iso/ptbr/manifesto.html](https://agilemanifesto.org/iso/ptbr/manifesto.html) > Acesso em: 27 de janeiro de 2022
 
 > Kanban. Disponível em: < [https://www.digitalhouse.com/br/blog/como-usar-metodologia-kanban](https://www.digitalhouse.com/br/blog/como-usar-metodologia-kanban) > Acesso em: 28 de janeiro de 2022
