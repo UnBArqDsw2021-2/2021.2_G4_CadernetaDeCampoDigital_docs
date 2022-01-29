@@ -4,11 +4,12 @@
 |------|----|---------|---------|
 |1.0|28/01|<center>Criação do escopo do documento</center>|<center>Brenno Oliveira</center>|
 |1.1|29/01|<center>Adição do conteúdo do documento</center>|<center>Brenno Oliveira</center>|
+|1.2|29/01|<center>Adição do storyboard 4 e dos RE08, RE09 e RE10</center>|<center>Brenno Oliveira</center>|
 
 ## 2. Introdução
-<p style="text-align: justify;">Storyboards são um tipo de prototipação de baixa fidelidade que busca mostrar tarefas que são esperadas a serem cumpridas, dessa forma simulando um cenário de uso do produto. Pelo foco ser na jornada, não é necessário desenhos muito complexos.</p>
+<p style="text-align: justify;">Storyboards são um tipo de prototipação de baixa fidelidade que busca mostrar tarefas que são esperadas a serem cumpridas, dessa forma simulando um cenário de uso do produto. Pelo foco ser na jornada, não é necessário desenhos muito complexos. A plataforma utilizada para realização dos storyboards foi o <a href="https://www.storyboardthat.com">Storyboard That</a>.</p>
 
-## 3. Resultados
+## 3. Histórias
 ### 3.1 História 1
 <img src="../../../assets/requisitos/elicitacao/storyboard1.png"/>
 <h6 align = "center">Figura 1: Storyboard 1</h6>
@@ -25,7 +26,13 @@
 <img src="../../../assets/requisitos/elicitacao/storyboard3.png"/>
 <h6 align = "center">Figura 3: Storyboard 3</h6>
 <h6 align = "center">Fonte: Autor</h6>
-<p style="text-align: justify;">A terceira história apresenta a perspectiva do técnico que consegue sem problemas visualizar o rastreamento de um produtor por meio de sua caderneta de campo.</p>
+<p style="text-align: justify;">A terceira história apresenta a perspectiva do técnico que consegue, sem problemas, visualizar o rastreamento de um produtor por meio de sua caderneta de campo.</p>
+
+### 3.4 História 4
+<img src="../../../assets/requisitos/elicitacao/storyboard4.png"/>
+<h6 align = "center">Figura 4: Storyboard 4</h6>
+<h6 align = "center">Fonte: Autor</h6>
+<p style="text-align: justify;">Na quarta história um produtor visualiza as informações de seu talhão e em seguida edita um informação que está incorreta.</p>
 
 ## 4. Requisitos
 |ID|Tipo de Requisito|Descrição
@@ -37,8 +44,11 @@
 |RE05|Funcional|A partir do sistema deve ser possível ao produtor enviar informações sobre as culturas presentes nos talhões|
 |RE06|Funcional|O sistema deve informar ao técnico as informações dos produtores designados|
 |RE07|Não funcional|O sistema precisará ter acesso à camera do celular|
+|RE08|Não funcional|A aplicação deverá ser disponibilizada por meio um aplicativo|
+|RE09|Funcional|O produtor deve conseguir ver informações de sua propriedade|
+|RE10|Funcional|O produtor deve conseguir editar as informações das culturas|
 
 ## 5. Bibliografia
 <p style="text-align: justify; text-indent: 20px">ROGERS, Yvonne; PREECE, Jennifer; SHARP, Helen. <b>Design de Interação<b>: Além da Interação Humano-Computador. 1ª. ed. [S. l.]: Bookman, 2005.</p>
 
-<p style="text-align: justify; text-indent: 20px"><b>Storyboard That</b>. Disponível em: <a href="https://www.storyboardthat.com/pt/" target="_blanck">https://www.storyboardthat.com/pt/</a>. Acesso em: 28 de Janeiro de 2022.</p>
+<p style="text-align: justify; text-indent: 20px"><b>Storyboard That</b>. Disponível em: <a href="https://www.storyboardthat.com/pt/" target="_blanck">https://www.storyboardthat.com</a>. Acesso em: 28 de Janeiro de 2022.</p>
