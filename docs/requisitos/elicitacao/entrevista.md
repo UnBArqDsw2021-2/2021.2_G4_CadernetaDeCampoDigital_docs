@@ -6,10 +6,14 @@
 |1.1|28/01|<center>Adição da entrevista editada</center>|<center>Thiago</center>|
 |1.2|28/01|<center>Adição dos resultados</center>|<center>Thiago</center>|
 |1.3|28/01|<center>Adição dos requisitos</center>|<center>Thiago</center>|
+|1.4|29/01|<center>Adição da introdução</center>|<center>Thiago</center>|
 
 ## 2. Introdução
+<p align = "justify"> &emsp;&emsp; Entre as diversas técnicas apresentadas por Wiegers e Beatty (2013) [1], aquela que se destacada como a forma mais óbvia de obtenção de informações é a metodologia de entrevistas. Por meio de um diálogo, formal ou informal, o entrevistado tem a chance de expressar suas necessidades e permite que o entrevistador faça diversas perguntas, a fim de obter informações sobre a aplicação em questionamento [2]. Essa técnica, portanto, é extremamente flexivel e eficiente, pois encurta o caminho do engenheiro de requisitos com seus usuários.</p>
 
 ## 3. Entrevista
+<p align = "justify"> &emsp;&emsp; A pessoa escolhida para a entrevista é a Engenheira Agrônoma Nadja, que atualmente trabalha na Emater-DF, visto que tem um vasto conhecimento do contexto agrícola do DF e, principalmente, do funcionamento da rastreabilidade dos produtos agrícolas pelos produtores locais.</p>
+
 <iframe width="800" height="500" src="https://www.youtube.com/embed/UyjA6WF295g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## 4. Resultados
@@ -25,9 +29,9 @@
 - O produtor deve ser capaz de cadastrar a aplicação de agrotóxicos
 - O produtor pode cadastrar quando colheu o plantio
 - O produtor deve ser capaz de saber o período de carência
-- O tecnico deve ser capaz de supervisionar propriedades
-- O tecnico deve ser capaz de cadastrar culturas
-- O tecnico deve ser capaz de cadastrar agrotóxicos
+- O técnico deve ser capaz de supervisionar propriedades
+- O técnico deve ser capaz de cadastrar culturas
+- O técnico deve ser capaz de cadastrar agrotóxicos
     
 ### 4.2 Você falou de vários programas, mas o foco é na rastreabilidade?
     
@@ -43,8 +47,8 @@
 
 ### 4.5 Quais os produtos que são aplicados?
 
- - O tecnico deve ser capaz de cadastrar os agrotóxicos
- - O tecnico deve ser capaz de cadastrar os tipos dos agrotóxicos
+ - O técnico deve ser capaz de cadastrar os agrotóxicos
+ - O técnico deve ser capaz de cadastrar os tipos dos agrotóxicos
  - O aplicativo deve permitir a rastreabilidade das aplicações de agrotóxicos
 
 ### 4.6 A identificação do agrotóxico é feita pela foto?
@@ -74,9 +78,9 @@
 
 - A propriedade é dividida em diversos setores chamados de talhões
 - Um talhão pode conter apenas um tipo de cultura plantada
-- Em um talhão pode ser plantado diversas culturas em epocas diferentes
+- Em um talhão pode ser plantado diversas culturas em épocas diferentes
 
-### 4.13 Como funcionam as epocas de plantio?
+### 4.13 Como funcionam as épocas de plantio?
 
 - Um talhão pode conter em média 3 plantios em um ano
 
@@ -102,15 +106,20 @@
 |E08|O produtor deve ser capaz de cadastrar a aplicação de agrotóxicos|Requisito Funcional|
 |E09|O produtor pode cadastrar quando colheu o plantio|Requisito Funcional|
 |E10|O produtor deve ser capaz de saber o período de carência|Requisito Funcional|
-|E11|O tecnico deve ser capaz de supervisionar propriedades|Requisito Funcional|
-|E12|O tecnico deve ser capaz de cadastrar culturas|Requisito Funcional|
-|E13|O tecnico deve ser capaz de cadastrar agrotóxicos|Requisito Funcional|
-|E14|O tecnico deve ser capaz de cadastrar os tipos dos agrotóxicos|Requisito Funcional|
+|E11|O técnico deve ser capaz de supervisionar propriedades|Requisito Funcional|
+|E12|O técnico deve ser capaz de cadastrar culturas|Requisito Funcional|
+|E13|O técnico deve ser capaz de cadastrar agrotóxicos|Requisito Funcional|
+|E14|O técnico deve ser capaz de cadastrar os tipos dos agrotóxicos|Requisito Funcional|
 |E15|O aplicativo deve garantir a rastreabilidade dos plantios|Requisito Não Funcional|
 |E16|O aplicativo deve fornecer a Caderneta de Campo para rastreabilidade das colheitas|Requisito Funcional|
 |E17|O aplicativo deve permitir a rastreabilidade das aplicações de agrotóxicos|Requisito Funcional|
 |E18|O aplicativo deve permitir o cadastro da aplicação do agrotóxico pela foto|Requisito Não Funcional|
 |E19|O aplicativo deve possuir um bom desempenho|Requisito Não Funcional|
 |E20|O aplicativo deve possuir uma boa usabilidade|Requisito Não Funcional|
+<h6 align = "center">Tabela 1: Tabela contendo os requisitos levantados pela entrevista</h6>
+<h6 align = "center">Fonte: Autor</h6>
 
-## 6. Referências
+## 6. Bibliografia
+
+- [1] Wiegers, K.. Beatty J. Software Requirements. Third Edition. 2013
+- [2] Vazquez, C.; Simões, G.; Engenharia de Requisitos: Cap. 7 - Elicitação de Requisitos. Brasport. 2016.
