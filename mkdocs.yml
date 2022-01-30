@@ -8,6 +8,9 @@ theme:
 nav:
   - Home: index.md
   - Base:
+    - Processos, Metodologias e Abordagens:
+      - Metodologia: base/metodologia.md
+      - Modelagem BPMN: base/modelagem_bpmn.md
     - Iniciativas Extras:
       - Atas:
         - Ata de Reunião 24/01: reunioes/ata_24_01.md
