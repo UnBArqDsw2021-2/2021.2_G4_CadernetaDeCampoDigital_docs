@@ -27,7 +27,7 @@
 
 ## Sobre 
 <p align="justify">&emsp;&emsp; Para incentivar as boas práticas agrícolas e de rastreabilidade, há a necessidade de armazenamento dos dados referentes a um produto agrícola para que se tenha a origem deste produto de maneira rastreável. Para rastrear esses produtos, necessita-se dos dados do plantio ou caderneta, da propriedade onde foi cultivado o produto, do produtor, da data de plantio/colheita, dos produtos ou agrotóxicos aplicados, do nome da cultura e do talhão onde foi cultivado.</p>
-<p align="justify">&emsp;&emsp; Os dados da caderneta ou plantio são de extrema importância pois nele estão contidas informações cruciais como o produto que foi plantado, onde foi plantado, quais produtos foram aplicados e as datas tanto de plantio quanto de colheita, tornando-se o elemento mais rastreável para referenciar a origem de um produto. Dessa forma, a aplicação busca suprir as necessidades expostas por essa demanda real, de forma simples e viável tanto para os produtores quando para os técnicos que estarão utilizado esse aplicativo.</p>
+<p align="justify">&emsp;&emsp; Os dados da caderneta ou plantio são de extrema importância pois nele estão contidas informações cruciais como o produto que foi plantado, onde foi plantado, quais produtos foram aplicados e as datas tanto de plantio quanto de colheita, tornando-se o elemento mais rastreável para referenciar a origem de um produto. Dessa forma, a aplicação busca suprir as necessidades expostas por essa demanda real, de forma simples e viável tanto para os produtores quando para os técnicos que estarão utilizando esse aplicativo.</p>
 
 ## Screenshots Primeira Entrega <<FOCO: DSW(Base)>>
 Adicione 2 ou mais screenshots do projeto em termos de artefatos da Primeira Entrega.
