@@ -7,6 +7,7 @@
 |1.2|28/01|<center>Adição dos resultados</center>|<center>Thiago</center>|
 |1.3|28/01|<center>Adição dos requisitos</center>|<center>Thiago</center>|
 |1.4|29/01|<center>Adição da introdução</center>|<center>Thiago</center>|
+|1.5|30/01|<center>Adição da legenda</center>|<center>Thiago</center>|
 
 ## 2. Introdução
 <p align = "justify"> &emsp;&emsp; Entre as diversas técnicas apresentadas por Wiegers e Beatty (2013) [1], aquela que se destacada como a forma mais óbvia de obtenção de informações é a metodologia de entrevistas. Por meio de um diálogo, formal ou informal, o entrevistado tem a chance de expressar suas necessidades e permite que o entrevistador faça diversas perguntas, a fim de obter informações sobre a aplicação em questionamento [2]. Essa técnica, portanto, é extremamente flexivel e eficiente, pois encurta o caminho do engenheiro de requisitos com seus usuários.</p>
@@ -96,30 +97,36 @@
 
 |ID|Descrição|Tipo de Requisito
 |--|--|--|
-|E01|O aplicativo deve ser de fácil utilização|Requisito Não Funcional|
-|E02|O aplicativo deve ser intuitivo|Requisito Não Funcional|
-|E03|O aplicativo deve possuir textos simples|Requisito Não Funcional|
-|E04|O aplicativo deve fornecer a Caderneta de Campo para rastreabilidade das colheitas|Requisito Funcional|
-|E05|O aplicativo deve fornecer uma interface simples para o cadastro da aplicação do agrotóxico|Requisito Não Funcional|
-|E06|O produtor deve ser capaz de cadastrar seu plantio|Requisito Funcional|
-|E07|O produtor pode escolher em qual talhão cadastrar o seu plantio|Requisito Funcional|
-|E08|O produtor deve ser capaz de cadastrar a aplicação de agrotóxicos|Requisito Funcional|
-|E09|O produtor pode cadastrar quando colheu o plantio|Requisito Funcional|
-|E10|O produtor deve ser capaz de saber o período de carência|Requisito Funcional|
-|E11|O técnico deve ser capaz de supervisionar propriedades|Requisito Funcional|
-|E12|O técnico deve ser capaz de cadastrar culturas|Requisito Funcional|
-|E13|O técnico deve ser capaz de cadastrar agrotóxicos|Requisito Funcional|
-|E14|O técnico deve ser capaz de cadastrar os tipos dos agrotóxicos|Requisito Funcional|
-|E15|O aplicativo deve garantir a rastreabilidade dos plantios|Requisito Não Funcional|
-|E16|O aplicativo deve fornecer a Caderneta de Campo para rastreabilidade das colheitas|Requisito Funcional|
-|E17|O aplicativo deve permitir a rastreabilidade das aplicações de agrotóxicos|Requisito Funcional|
-|E18|O aplicativo deve permitir o cadastro da aplicação do agrotóxico pela foto|Requisito Não Funcional|
-|E19|O aplicativo deve possuir um bom desempenho|Requisito Não Funcional|
-|E20|O aplicativo deve possuir uma boa usabilidade|Requisito Não Funcional|
+|E01|O aplicativo deve ser de fácil utilização|RNF|
+|E02|O aplicativo deve ser intuitivo|RNF|
+|E03|O aplicativo deve possuir textos simples|RNF|
+|E04|O aplicativo deve fornecer a Caderneta de Campo para rastreabilidade das colheitas|RF|
+|E05|O aplicativo deve fornecer uma interface simples para o cadastro da aplicação do agrotóxico|RNF|
+|E06|O produtor deve ser capaz de cadastrar seu plantio|RF|
+|E07|O produtor pode escolher em qual talhão cadastrar o seu plantio|RF|
+|E08|O produtor deve ser capaz de cadastrar a aplicação de agrotóxicos|RF|
+|E09|O produtor pode cadastrar quando colheu o plantio|RF|
+|E10|O produtor deve ser capaz de saber o período de carência|RF|
+|E11|O técnico deve ser capaz de supervisionar propriedades|RF|
+|E12|O técnico deve ser capaz de cadastrar culturas|RF|
+|E13|O técnico deve ser capaz de cadastrar agrotóxicos|RF|
+|E14|O técnico deve ser capaz de cadastrar os tipos dos agrotóxicos|RF|
+|E15|O aplicativo deve garantir a rastreabilidade dos plantios|RNF|
+|E16|O aplicativo deve fornecer a Caderneta de Campo para rastreabilidade das colheitas|RF|
+|E17|O aplicativo deve permitir a rastreabilidade das aplicações de agrotóxicos|RF|
+|E18|O aplicativo deve permitir o cadastro da aplicação do agrotóxico pela foto|RNF|
+|E19|O aplicativo deve possuir um bom desempenho|RNF|
+|E20|O aplicativo deve possuir uma boa usabilidade|RNF|
 <h6 align = "center">Tabela 1: Tabela contendo os requisitos levantados pela entrevista</h6>
 <h6 align = "center">Fonte: Autor</h6>
 
-## 6. Bibliografia
+#### Legenda:
+- E - Entrevista
+- RF - Requisito Funcional
+- RNF - Requisito Não Funcional
 
-- [1] Wiegers, K.. Beatty J. Software Requirements. Third Edition. 2013
-- [2] Vazquez, C.; Simões, G.; Engenharia de Requisitos: Cap. 7 - Elicitação de Requisitos. Brasport. 2016.
+## 6. Referências
+
+> [1] Wiegers, K.. Beatty J. Software Requirements. Third Edition. 2013
+
+> [2] Vazquez, C.; Simões, G.; Engenharia de Requisitos: Cap. 7 - Elicitação de Requisitos. Brasport. 2016.
