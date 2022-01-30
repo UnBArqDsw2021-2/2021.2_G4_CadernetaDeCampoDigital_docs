@@ -12,6 +12,9 @@ nav:
         - Requisitos:
           - Elicitação:
             - Storyboard: requisitos/elicitacao/storyboard.md
+    - Processos, Metodologias e Abordagens:
+      - Modelagem BPMN: base/modelagem_bpmn.md
+      - Metodologia: base/metodologia.md
     - Iniciativas Extras:
       - Ata de Reunião 24/01: reunioes/ata_24_01.md
       
