@@ -11,7 +11,7 @@ nav:
     - Módulo Projeto Não Orientado a Abordagens Específicas:
         - Requisitos:
           - Elicitação:
-            - Storyboard: requisitos/elicitacao/storyboard.md
+            - Storytelling: requisitos/elicitacao/storytelling.md
     - Processos, Metodologias e Abordagens:
       - Modelagem BPMN: base/modelagem_bpmn.md
       - Metodologia: base/metodologia.md

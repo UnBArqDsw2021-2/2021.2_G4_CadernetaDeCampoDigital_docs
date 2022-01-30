@@ -8,6 +8,7 @@
 
 ## Introdução
 <p style="text-align: justify;">Storyboards são um tipo de prototipação de baixa fidelidade que busca mostrar tarefas que são esperadas a serem cumpridas, dessa forma simulando um cenário de uso do produto. Pelo foco ser na jornada, não é necessário desenhos muito complexos. A plataforma utilizada para realização dos storyboards foi o <a href="https://www.storyboardthat.com">Storyboard That</a>.</p>
+<p style="text-align: justify;">Somado a técnica de storyboard temos a prática de storytelling, que consiste na elicitação de requisitos a partir de uma história, sendo uma poderosa ferramenta de auxílio.</p>
 
 ## Histórias
 ### História 1
@@ -49,6 +50,9 @@
 |RE10|Funcional|O produtor deve conseguir editar as informações das culturas|
 
 ## Bibliografia
+<p style="text-align: justify; text-indent: 20px"> Boulila, N.; Herrmann A.; Hoffmann A. Using Storytelling to record requirements: Elements for an effective requirements elicitation approach. Fourth International Workshop on Multimedia and Enjoyable Requirements Engineering (MERE'11). IEEE. p. 6-7. 2011.</p>
+
 <p style="text-align: justify; text-indent: 20px">ROGERS, Yvonne; PREECE, Jennifer; SHARP, Helen. <b>Design de Interação<b>: Além da Interação Humano-Computador. 1ª. ed. [S. l.]: Bookman, 2005.</p>
 
 <p style="text-align: justify; text-indent: 20px"><b>Storyboard That</b>. Disponível em: <a href="https://www.storyboardthat.com/pt/" target="_blanck">https://www.storyboardthat.com</a>. Acesso em: 28 de Janeiro de 2022.</p>
+
