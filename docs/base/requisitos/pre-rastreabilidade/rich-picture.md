@@ -5,6 +5,7 @@
 Versão|Data|Descrição|Autor(es)
 ------|----|---------|--------
 1.0   | 28/01/2022 | Criação do documento | Eduardo Afonso
+1.1   | 31/01/2022 | Adicionando rich picture escolhido como principal e  referência à página de brainstorm| Eduardo Afonso
 
 ## 2. Introdução
 
@@ -12,13 +13,13 @@ Versão|Data|Descrição|Autor(es)
 
 ## 3. Como foi utilizado
 
-&emsp;&emsp; O grupo optou por utilizar o artefato como uma forma de elucidar as ideias dos membros sobre o conceito geral do produto que se planeja desenvolver. Após realizar um [Brainstorm](https://unbarqdsw2021-2.github.io/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/elicitacao/brainstorming/), cada membro ficou responsável por criar um Rich Picture baseado no que havia sido debatido e enviá-lo no [github](https://github.com/UnBArqDsw2021-2/2021.2_G4_ProjetoProdutores_docs/issues/1). E então, após um debate, o artefato julgado como o mais completo foi escolhido para dar 
+&emsp;&emsp; O grupo optou por utilizar o artefato como uma forma de elucidar as ideias dos membros sobre o conceito geral do produto que se planeja desenvolver. Após realizar um [Brainstorm](https://unbarqdsw2021-2.github.io/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/elicitacao/brainstorming/), cada membro ficou responsável por criar um Rich Picture baseado no que havia sido debatido e enviá-lo no [github](https://github.com/UnBArqDsw2021-2/2021.2_G4_ProjetoProdutores_docs/issues/1). E então, após um debate, o artefato julgado como o mais completo (criado pelo [Vitor Lamego](https://github.com/VitorLamego)) foi escolhido para dar 
 seguimento ao projeto.
 
-## 4. Escolhido
+## 4. O escolhido
 
-![rich picture escolhido](link)
-<center>[Figura 1: Rich picture escolhido pelo grupo](link)</center>
+<center>![rich picture escolhido](https://user-images.githubusercontent.com/54643464/151442301-18e977a6-cc69-4562-9f9d-61d4a3157ff6.svg)</center>
+<center>[Figura 1: Rich picture escolhido pelo grupo](https://user-images.githubusercontent.com/54643464/151442301-18e977a6-cc69-4562-9f9d-61d4a3157ff6.svg)</center>
 
 
 ## 5. Individuais
