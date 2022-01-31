@@ -13,6 +13,10 @@ nav:
     - Processos, Metodologias e Abordagens:
       - Metodologia: base/metodologia.md
       - Modelagem BPMN: base/modelagem_bpmn.md
+    - Módulo Projeto Não Orientado a Abordagens Específicas:
+      - Requisitos:
+        - Elicitação:
+          - Introspecção: requisitos/elicitacao/introspeccao.md
     - Iniciativas Extras:
       - Atas:
         - Ata de Reunião 24/01: reunioes/ata_24_01.md
