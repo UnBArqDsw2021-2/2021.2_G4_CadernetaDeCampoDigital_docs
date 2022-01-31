@@ -5,7 +5,7 @@
 |--|--|--|--|
 |1.0| 30/01/2022| Criação do documento | João Pedro Moura |
 |1.1| 30/01/2022| Adição dos riscos | João Pedro Moura |
-|1.2| 30/01/2022| Adição dos custos | João Pedro Moura |
+|1.2| 31/01/2022| Adição dos custos | João Pedro Moura |
 
 ## 2. Introdução
 <p align="justify">&emsp;&emsp; Esse documento tem como principal objetivo formalizar o início do projeto informando os estudos de viabilidade, prazos e entregas, orçamentos, objetivos e os riscos para a contrução de todos os documentos e softwares desse programa.</p>
@@ -207,11 +207,206 @@
 <h6 align = "center">Tabela 9: Tabela de riscos gerenciais.</h6>
 <h6 align = "center">Fonte: Autor.</h6>
 
-
 ## 7. Custos
+### 7.1 Introdução
+<p align="justify">&emsp;&emsp; Além dos riscos, a gerência de custos de um projeto de software é um outro ponto muito importante em todo o ciclo de vida do mesmo. Apesar de sua importância, essa medição tende a ser problemática visto que não existe um consenso sobre qual técnica ou modelo utilizar, alguns pesquisadores defendem a contagem por pontos de função, já outros afirmam que a utilização de linhas de código em um software é mais eficiente (CORRÊA, 2002) [5].</p>
+<p align="justify">&emsp;&emsp; De acordo com as pesquisas de Capers Jones, é indicado que as técnicas de estimativas formais são capazes de dobrar a probabilidade de um projeto de software ser concluido com sucesso, ressaltando a importância dessa gerência para o ciclo de vida do software. Hazan (2001), Calvert (1996) e Rezende (1999), ainda citam algumas razões principais para realizar essa medição, são elas:</p>
+
+- Formar uma *baseline* para estimativas;
+- Verificar se as metas de produtividade e qualidade estão sendo atingidas;
+- Avaliar as vantagens do uso de novos métodos e ferramentas de engenharia de software;
+- Melhorar o relacionamento com o cliente;
+- Ajudar na justificativa de pedidos de treinamento e aquisição de novas ferramentas;
+- Melhorar a gerência de contratos de software;
+- Reduzir o risco do estabelecimento de um cronograma inviável;
+- Melhorar a gerência de projetos de desenvolvimento de software;
+
+### 7.2 COCOMO
+<p align="justify">&emsp;&emsp; Para realizar essa medição e gerência de riscos do projeto, a equipe optou por estar utilizando o modelo algorítmico COnstructive COst MOdel (COCOMO), desenvolvido por Barry Boehm (1981). Dentro desse modelo, ainda foi apresentado três possíveis implementações de acordo com o tipo de software desenvolvido e o grau de confiabilidade esperado, são eles:</p>
+
+- **COCOMO Básico**: realiza a medição do esforço e custo de desenvolvimento baseado em uma estimativa de tamanho do programa (linhas de código).
+- **COCOMO Intermediário**: por sua vez o intermediário, além de utilizar essa estimativa de tamanho do programa faz o uso de um conjunto de direcionadores de custos, como: avaliações subjetivas do produto, do hardware, do pessoal e dos atributos do projeto.
+- **COCOMO Detalhado**: utiliza todas as métricas do COCOMO intermediário mais uma avaliação do impacto dos direcionadores de custos dentro de cada etapa do ciclo de vida do software.
+
+<p align="justify">&emsp;&emsp; Além disso, o COCOMO ainda se divide em três classes de projeto distintos [5], são eles:</p>
+
+- **Modo Orgânico**: Projetos simples, com equipes pequenas e experientes e sem um conjunto muito rígido de requisitos.
+- **Modo Semidestacado**: Projetos de tamanho e complexidade intermediários, já com alguns requisitos rígidos e outros não tão rígidos e com uma equipe de níveis mistos de experiência.
+- **Modo Embutido**: Projetos com conjuntos rígidos de restrições tando de software como de hardware.
+
+<p align="justify">&emsp;&emsp; Portanto, após discussões o modelo escolhido foi o COCOMO Intermediário Semidestacado com enfoque nos seguintes atributos definidos por Boehm (1981):</p>
+
+- **Atributos de Produto**
+    - Confiabilidade exigida do software;
+    - Complexidade do produto;
+- **Atributos de Pessoal**
+    - Capacidade do programador;
+    - Experiência com a linguagem de programação;
+- **Atributos de Projeto**
+    - Uso de práticas modernas de programação;
+    - Uso de ferramentas de software;
+    - Cronograma exigido de desenvolvimento;
+
+### 7.3 Tabela de Coeficientes
+<p align="justify">&emsp;&emsp; Para suprir as necessidades do COCOMO e calcular a estimativa de esforço e tempo, utilizou-se uma matriz composta do COCOMO intermediário para os atributos "a" e "b" e para os atributos "c" e "d" aproveitou-se os valores referentes da tabela do COCOMO básico, disponibilizados por Boehm (1981).</p>
+
+<center>
+
+|Projeto de Software|a|b|c|d|
+|:-:|:-:|:-:|:-:|:-:|
+|Orgânico|3,20|1,05|2,50|0,38|
+|Semidestacado|3,00|1,12|2,50|0,35|
+|Embutido|2,80|1,20|2,50|0,32|
+
+</center>
+
+<h6 align = "center">Tabela 10: Tabela de coeficientes.</h6>
+<h6 align = "center">Fonte: Boehm (1981).</h6>
+
+### 7.4 Multiplicadores de Esforço
+
+<center>
+<table
+<tr>
+    <td id="celula">Direcionadores de Custo</td>
+    <td id="celula">Muito Baixo</td>
+    <td id="celula">Baixo</td>
+    <td id="celula">Normal</td>
+    <td id="celula">Elevado</td>
+    <td id="celula">Muito Elevado</td>
+    <td id="celula">Extremamente Elevado</td>
+</tr>
+<tr>
+    <td id="celula" colspan="7">Atributos de Produto</td>
+</tr>
+<tr>
+    <td id="celula">Confiabilidade exigida do software</td>
+    <td id="celula">0,75</td>
+    <td id="celula">0,88</td>
+    <td id="celula">1,00</td>
+    <td id="celula">1,15</td>
+    <td id="celula">1,40</td>
+    <td id="celula">-</td>
+</tr>
+<tr>
+    <td id="celula">Complexidade do produto</td>
+    <td id="celula">0,70</td>
+    <td id="celula">0,85</td>
+    <td id="celula">1,00</td>
+    <td id="celula">1,15</td>
+    <td id="celula">1,30</td>
+    <td id="celula">1,65</td>
+</tr>
+<tr>
+    <td id="celula" colspan="7">Atributos de Pessoal</td>
+</tr>
+<tr>
+    <td id="celula">Capacidade do programador</td>
+    <td id="celula">1,42</td>
+    <td id="celula">1,17</td>
+    <td id="celula">1,00</td>
+    <td id="celula">0,86</td>
+    <td id="celula">0,70</td>
+    <td id="celula">-</td>
+</tr>
+<tr>
+    <td id="celula">Experiência com a linguagem de programação</td>
+    <td id="celula">1,14</td>
+    <td id="celula">1,07</td>
+    <td id="celula">1,00</td>
+    <td id="celula">0,95</td>
+    <td id="celula">-</td>
+    <td id="celula">-</td>
+</tr>
+<tr>
+    <td id="celula" colspan="7">Atributos de Projeto</td>
+</tr>
+<tr>
+    <td id="celula">Uso de práticas modernas de programação</td>
+    <td id="celula">1,24</td>
+    <td id="celula">1,10</td>
+    <td id="celula">1,00</td>
+    <td id="celula">0,91</td>
+    <td id="celula">0,82</td>
+    <td id="celula">-</td>
+</tr>
+<tr>
+    <td id="celula">Uso de ferramentas de software</td>
+    <td id="celula">1,24</td>
+    <td id="celula">1,10</td>
+    <td id="celula">1,00</td>
+    <td id="celula">0,91</td>
+    <td id="celula">0,83</td>
+    <td id="celula">-</td>
+</tr>
+<tr>
+    <td id="celula">Cronograma exigido de desenvolvimento</td>
+    <td id="celula">1,23</td>
+    <td id="celula">1,08</td>
+    <td id="celula">1,00</td>
+    <td id="celula">1,04</td>
+    <td id="celula">1,10</td>
+    <td id="celula">-</td>
+</tr>
+</table>
+</center>
+
+<h6 align = "center">Tabela 11: Tabela de multiplicadores de esforço.</h6>
+<h6 align = "center">Fonte: Boehm (1981).</h6>
+
+### 7.5 Cálculo da Estimativa de Esforço
+<p align="justify">&emsp;&emsp; Seguindo, portanto, a modelagem do COCOMO parte-se agora para o cálulo da estimativa de esforço. Pelas características do projeto e pelo modo intermediário ter sido escolhido para o desenvolvimento desses software, Boehm (1981) define a seguinte equação:</p>
+
+$$
+\operatorname{E} = a * S^b * fae
+$$
+
+<p align="justify">&emsp;&emsp; Onde:</p>
+- E: é o esforço aplicado (em pessoas-mês).
+- S: é o número (estimado) de linhas de código para o projeto (em milhares).
+- a: é um coeficiente fornecido pela Tabela 10.
+- b: é um expoente fornecido pela Tabela 10.
+- fae: é o Fator de Ajustamento do Esforço (multiplicação de cada um dos Multiplicadores de Esforço fornecidos pela Tabela 11).
+
+<p align="justify">&emsp;&emsp; Portanto, de acordo com as decisões da equipe em relação aos multiplicadores de esforço, o fae equivale à:</p>
+
+$$
+\begin{align}
+    fae &= 1,15 * 1,00 * 1,00 * 1,07 * 0,82 * 0,91 * 1,10 \\
+    fae &\approx 1,01
+\end{align}
+$$
+
+<p align="justify">&emsp;&emsp; Em equipe, o grupo decidiu utilizar uma estimativa de cerca de 2000 linhas de código equivalente à 2Kloc. Aplicando na equação obtemos:</p>
+
+$$
+\begin{align}
+    \operatorname{E} &= 3,00 * 2^{1,12} * 1,01 \\
+    \operatorname{E} &\approx 3,00 * 2,17 * 1,01 \\
+    \operatorname{E} &\approx 6,59 \textrm{ pessoas/mes}
+\end{align}
+$$
+
+### 7.6 Cálculo da Estimativa de Custo
+<p align="justify">&emsp;&emsp; Por fim, o grupo optou por utilizar o cálculo da estimativa de custo disponível pelo COCOMO básico, definida pela seguinte equação conforme Boehm (1981):</p>
+
+$$
+\operatorname{T} = c * E^d
+$$
+
+<p align="justify">&emsp;&emsp; Dessa forma, utilizando os valores de "c" e "d" da tabela 10 junto com a estimativa de esforço, obtemos o seguinte resultado:</p>
+
+$$
+\begin{align}
+    \operatorname{E} &= 2,50 * 6,59^0,35 \\
+    \operatorname{E} &\approx 2,50 * 1,93 \\
+    \operatorname{E} &\approx 4,83 \textrm{ meses}
+\end{align}
+$$
 
 ## 8. Referências
 > [1] **Gerenciando os riscos do projeto com a matriz de probabilidade e impacto**. Disponível em: <a href=https://danielettinger.com/2011/06/14/gerenciando-os-riscos-do-projeto-com-a-matriz-de-probabilidade-e-impacto/ target="_blanck">https://danielettinger.com/2011/06/14/gerenciando-os-riscos-do-projeto-com-a-matriz-de-probabilidade-e-impacto/</a>. Acesso em: 30 de jan. de 2022.</p>
 > [2] **Gerenciando os riscos do projeto com a matriz de probabilidade e impacto**. Disponível em: <a href=https://glicfas.com.br/estrutura-analitica-de-riscos-2/ target="_blanck">https://glicfas.com.br/estrutura-analitica-de-riscos-2/</a>. Acesso em: 30 de jan. de 2022.</p>
 > [3] **Termo de Abertura de Projeto**, Projeto Curumin. Disponível em: <a href=https://unbarqdsw2021-1.github.io/2021.1_G6_Curumim/base/tap/tap/#introducao target="_blanck">https://unbarqdsw2021-1.github.io/2021.1_G6_Curumim/base/tap/tap/#introducao</a>. Acesso em: 30 de jan. de 2022.</p>
 > [4] **Strength, Weakness, Opportunity, and Threat (SWOT) Analysis**, Investopedia. Disponível em: <a href=https://www.investopedia.com/terms/s/swot.asp target="_blanck">https://www.investopedia.com/terms/s/swot.asp</a>. Acesso em: 30 de jan. de 2022.</p>
+> [5] **Modelos para estimar custos de software: estudo comparativo com softwares de pequeno porte**. CORRÊA, M., M. (2002).
