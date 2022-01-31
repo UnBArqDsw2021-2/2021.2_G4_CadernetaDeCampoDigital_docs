@@ -46,12 +46,12 @@ Versão|Data|Descrição|Autor(es)
 
 * O produtor deve ter a opção de cadastrar apenas a foto do agrotóxico e a data da aplicação.
 * O produtor pode programar o uso de um agrotóxico.
-* O técnico deve pode editar todas as informações, exceto a foto cadastrada.
+* O técnico deve poder editar todas as informações, exceto a foto cadastrada.
 * A interface deve ter boa usabilidade para garantir uma boa rastreabilidade.
 
 ### 3.5 Tela de perfil
-* O usuário deve poder editar suas informações pessoas.
-* O usuário deve ter acesso a informações pertinentes ao uso do app (plantações concluídas, agrotóxicos utilizados)
+* O usuário deve poder editar suas informações pessoais.
+* O usuário deve ter acesso a informações pertinentes ao uso do app (plantações concluídas, agrotóxicos utilizados).
 
 
 ## 4. Requisitos levantados
@@ -68,8 +68,8 @@ Versão|Data|Descrição|Autor(es)
 |I09|O técnico deve visualizar as propriedades supervisionadas por ele|RF|
 |I10|O aplicativo deve ter uso simples|RNF|
 |I11|O usuário deve visualizar as informações das plantações responsáveis|RF|
-|I12|O produtor pode ter acesso a recomendações e boas práticas para o produto agrícola plantado.|RF|
-|I13|O produtor deve adcionar a data de colheita encerrando a plantação |RF|
+|I12|O produtor pode ter acesso a recomendações e boas práticas para o produto agrícola plantado|RF|
+|I13|O produtor deve adicionar a data de colheita encerrando a plantação|RF|
 |I14|O produtor pode programar o uso de um agrotóxico |RF|
 |I15|O técnico deve  editar as informações necessárias da plantação e do agrotóxico |RF|
 |I16|O usuário pode editar suas informações pessoais|RF|
