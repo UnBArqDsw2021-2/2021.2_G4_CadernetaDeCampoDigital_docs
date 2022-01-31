@@ -1,3 +1,5 @@
+
+  
 site_name: Grupo 4 ArqDSW
 repo_url: https://github.com/UnBArqDsw2021-2/2021.2_G4_ProjetoProdutores_docs
 
@@ -8,12 +10,19 @@ theme:
 nav:
   - Home: index.md
   - Base:
+    - Processos, Metodologias e Abordagens:
+      - Metodologia: base/metodologia.md
+      - Modelagem BPMN: base/modelagem_bpmn.md
     - Iniciativas Extras:
-      - Ata de Reunião 24/01: reunioes/ata_24_01.md
+      - Atas:
+        - Ata de Reunião 24/01: reunioes/ata_24_01.md
+        - Ata de Reunião 25/01: reunioes/ata_25_01.md
+      - Política de Contribuição: base/politicas_de_contribuicao.md
     - Módulo Projeto Não Orientado a Abordagens Específicas:
       - Requisitos:
         - Elicitação:
           - Brainstorming: requisitos/elicitacao/brainstorming.md
+          - Entrevista: requisitos/elicitacao/entrevista.md
   # - Modelagem: ""
   # - Padrões de Projeto: ""
   # - Arquitetura de Software e Reutilização: ""
