@@ -28,7 +28,7 @@ Versão|Data|Descrição|Auto(es)
 
 ## 4. Metodologia
 
-<p align="justify" style="text-indent: 20px">Para a construção do artefato mapa mental cada integrante do grupo criou sua própria versão, com base no conhecimento adquirido no brainstorming e com ferramenta de escolha, e enviou a partir de comentários em uma issue no github. Tendo todos os integrantes enviado seu mapa mental, foi feita uma reunião para discutir as ideias e construir um mapa mental definitivo para o projeto.</p>
+<p align="justify" style="text-indent: 20px">Para a construção do artefato mapa mental cada integrante do grupo criou sua própria versão, com base no conhecimento adquirido no brainstorming e com sua ferramenta de escolha, e enviou a partir de comentários em uma <a href="https://github.com/UnBArqDsw2021-2/2021.2_G4_CadernetaDeCampoDigital_docs/issues/2" target="_blank">issue</a> no github. Tendo todos os integrantes enviado seu mapa mental, foi feita uma reunião para discutir as ideias e escolher um para evoluir em definitivo para o projeto.</p>
 
 ## 5. Resultados
 
@@ -117,15 +117,5 @@ Versão|Data|Descrição|Auto(es)
 ## 6. Referências
 
 > [1] **Mapa Mental**. Disponível em: <a href="https://www.estudarfora.org.br/mapa-mental/" target="_blanck">https://www.estudarfora.org.br/mapa-mental/</a>. Acesso em: 31 de jan. de 2022.</p>
-
-
-<style>
-  .zoom{
-    transition: transform .6s;
-  }
-  .zoom:hover{
-    transform: scale(1.5);
-  }
-  </style>
 
 
