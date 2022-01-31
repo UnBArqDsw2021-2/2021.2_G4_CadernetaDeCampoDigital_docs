@@ -21,6 +21,7 @@ nav:
     - Módulo Projeto Não Orientado a Abordagens Específicas:
       - Requisitos:
         - Elicitação:
+          - Brainstorming: requisitos/elicitacao/brainstorming.md
           - Entrevista: requisitos/elicitacao/entrevista.md
   # - Modelagem: ""
   # - Padrões de Projeto: ""
