@@ -15,7 +15,6 @@ Versão|Data|Descrição|Auto(es)
 - Denniel William
 - Eduardo Afonso
 - João Pedro
-- Paulo Vitor
 - Rafael Cleydson
 - Thiago Sampaio
 - Victor Souza
@@ -28,7 +27,7 @@ Versão|Data|Descrição|Auto(es)
 
 ## 4. Metodologia
 
-<p align="justify" style="text-indent: 20px">Desta forma, os participantes se reuniram em uma chamada de vídeo e utilizaram a ferramenta <a href="https://edu.google.com/intl/ALL_br/products/jamboard/ target="_blanck"">Google Jamboard</a> [2], que funciona como um quadro branco, para anotarem suas ideias. A dinâmica aconteceu em dois turnos, sendo que em cada turno era dado 1 minuto e 30 segundos para que cada um anotasse uma funcionalidade que deveria estar presente no app, e ao final era realizada uma discussão passando por todos os post-it escritos. Caso fosse uma ideia validada o post-it era colorido em verde, caso uma ideia já apresentada anteriormente em azul, caso uma ideia a ser mais discutida posteriormente em cor laranja e caso uma ideia rejeitada na cor rosa. </p>
+<p align="justify" style="text-indent: 20px">Desta forma, os participantes se reuniram em uma chamada de vídeo e utilizaram a ferramenta <a href="https://edu.google.com/intl/ALL_br/products/jamboard/" target="_blank">Google Jamboard</a> [2], que funciona como um quadro branco, para anotarem suas ideias. A dinâmica aconteceu em dois turnos, sendo que em cada turno era dado 1 minuto e 30 segundos para que cada um anotasse uma funcionalidade que deveria estar presente no app, e ao final era realizada uma discussão passando por todos os post-it escritos. Caso fosse uma ideia validada o post-it era colorido em verde, caso uma ideia já apresentada anteriormente em azul, caso uma ideia a ser mais discutida posteriormente em cor laranja e caso uma ideia rejeitada na cor rosa. </p>
 
 ## 5. Resultados
 
@@ -38,7 +37,7 @@ Versão|Data|Descrição|Auto(es)
 <h6 align = "center">Figura 1: Quadro Branco</h6>
 <h6 align = "center">Fonte: Autor(es), pela ferramenta Jamboard [2]</h6>
 
-<p align="justify" style="text-indent: 20px">Toda a dinâmica foi gravada e está no vídeo abaixo:</p>
+<p align="justify" style="text-indent: 20px">Toda a dinâmica foi gravada e está no vídeo abaixo na íntegra:</p>
 
 <div align="center">
     <iframe width="800" height="500" src="https://www.youtube.com/embed/wCNXqUrBPRU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
