@@ -27,7 +27,7 @@
 <img src="../../../assets/requisitos/elicitacao/storyboard3.png"/>
 <h6 align = "center">Figura 3: Storyboard 3</h6>
 <h6 align = "center">Fonte: Autor</h6>
-<p style="text-align: justify;">A terceira história apresenta a perspectiva do técnico que consegue, sem problemas, visualizar o rastreamento de um produtor por meio de sua caderneta de campo.</p>
+<p style="text-align: justify;">A terceira história apresenta a perspectiva de um técnico, funcionária do Emater, que consegue, sem problemas, visualizar o rastreamento de um produtor, cadastrado pela própria Emater, por meio de sua caderneta de campo.</p>
 
 ### História 4
 <img src="../../../assets/requisitos/elicitacao/storyboard4.png"/>
@@ -40,7 +40,7 @@
 |--|--|--|
 |RE01|Não funcional|A aplicação deve proporcionar uma interface com elementos visuais autoexplicativos|
 |RE02|Não funcional|A aplicação deve permitir aos usuários acesso às funcionalidades com poucas etapas|
-|RE03|Não funcional|O sistema deve permitir o uso apenas de pessoas já cadastradas em um Instituto de Assistência Técnica e Extensão Rural|
+|RE03|Não funcional|O sistema deve permitir o uso apenas de pessoas já cadastradas pelo Instituto de Assistência Técnica e Extensão Rural(EMATER)|
 |RE04|Funcional|A partir do sistema deve ser possível ao produtor enviar informações sobre o agrotóxico utilizado|
 |RE05|Funcional|A partir do sistema deve ser possível ao produtor enviar informações sobre as culturas presentes nos talhões|
 |RE06|Funcional|O sistema deve informar ao técnico as informações dos produtores designados|
