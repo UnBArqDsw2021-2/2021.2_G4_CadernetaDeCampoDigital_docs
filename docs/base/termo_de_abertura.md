@@ -8,7 +8,7 @@
 |1.2| 31/01/2022| Adição dos custos | João Pedro Moura |
 
 ## 2. Introdução
-<p align="justify">&emsp;&emsp; Esse documento tem como principal objetivo formalizar o início do projeto informando os estudos de viabilidade, prazos e entregas, orçamentos, objetivos e os riscos para a contrução de todos os documentos e softwares desse programa.</p>
+<p align="justify">&emsp;&emsp; Esse documento tem como principal objetivo formalizar o início do projeto informando os estudos de viabilidade, prazos e entregas, orçamentos, objetivos e os riscos para a construção de todos os documentos e softwares desse programa.</p>
 
 ## 3. Objetivos
 <p align="justify">&emsp;&emsp; O objetivo principal é construir um aplicativo que um <a href=#produtor>produtor</a> possa estar utilizando para realizar o <a href=#envio_fotos>envio de fotos</a> de <a href=#agrotoxico>agrotóxicos</a> para a confecção de sua <a href=#cardeneta_de_campo>cardeneta de campo</a> de um <a href=#talhao>talhão</a> de sua <a href=#propriedade>propriedade</a>, através do preenchimento pós-analise de um <a href=#tecnico>técnico</a> sobre as fotos enviadas e sobre a <a href=#cultura>cultura</a> que está recebendo a aplicação do <a href=#agrotoxico>agrotóxico</a>.</p>
@@ -35,7 +35,7 @@
 <h6 align = "center">Fonte: Autor.</h6>
 
 ## 6. Riscos
-<p align="justify">&emsp;&emsp; Dentro da gerência de um projeto de software, um dos pontos essênciais é realizar a gestão de riscos do produto. Com esse controle, é possível a equipe entender, listar, acompanhar, controlar, previnir e medir os impactos de cada risco dentro de todos os ciclos de vida do software que está sendo construído. Com essa medição, é possível focalizar nos riscos com uma maior prioridade - não ignorando aqueles com prioridade inferior - e tomar medidas para previnir seus acontecimentos [1].</p>
+<p align="justify">&emsp;&emsp; Dentro da gerência de um projeto de software, um dos pontos essenciais é realizar a gestão de riscos do produto. Com esse controle, é possível a equipe entender, listar, acompanhar, controlar, previnir e medir os impactos de cada risco dentro de todos os ciclos de vida do software que está sendo construído. Com essa medição, é possível focalizar nos riscos com uma maior prioridade - não ignorando aqueles com prioridade inferior - e tomar medidas para previnir seus acontecimentos [1].</p>
 
 ### 6.1 Estrutura Analítica de Riscos (EAR)
 <p align="justify">&emsp;&emsp; Uma das ferramentas utilizadas para gerir os riscos desse projeto é a Estrutura Analítica de Riscos (EAR), que corresponde a uma ferramenta de agrupamento e organização dos riscos em categorias [2], a seguir é possível visualizer essa categorização de forma visual para o projeto:</p>
@@ -44,20 +44,20 @@
 <h6 align = "center">Fonte: Autor, baseado no projeto Curumim [3].</h6>
 
 #### 6.1.1 Externo
-- Cliente: Diz respeito à critério de aceitação dos clientes desde etapas inicias de elicitação de requisitos até a utilização diária da aplicação.
+- Cliente: Diz respeito ao critério de aceitação dos clientes desde etapas inicias de elicitação de requisitos até a utilização diária da aplicação.
 - Pandemia: Diz respeito à atual situação do mundo, com a pandemia do Covid-19 e da nova gripe H3N2.
 
 #### 6.1.2 Organizacional
-- Depêndencias de Projeto: Se refere à possíveis riscos advindo de depêndencias utilizadas dentro do projeto, sendo aplicável também aos riscos técnicos.
+- Dependências de Projeto: Se refere à possíveis riscos advindo de depêndencias utilizadas dentro do projeto, sendo aplicável também aos riscos técnicos.
 - Financiamento: Referente à riscos em relação aos custos do projeto e possíveis financiamentos de interessados.
 - Recursos: Similar aos riscos de financiamento e também diretamente ligado aos custos do projeto.
-- Priorização: Riscos influênciados pelo cliente e possíveis priorizações equivocadas dos requisitos.
+- Priorização: Riscos influenciados pelo cliente e possíveis priorizações equivocadas dos requisitos.
 
 #### 6.1.3 Técnico
 - Framework: Diz respeito à riscos de software em relação à frameworks utilizados.
 - Qualidade: Referente a modelagem FURPS+ dos requisitos dentro de todo o escopo do projeto e sua utilização.
 - Infraestrutura: Riscos advindos de plataformas que fornecem serviços de hospedagem.
-- Desempenho: Diretamente relacionados à velocidade e eficiência da aplicação construida.
+- Desempenho: Diretamente relacionados à velocidade e eficiência da aplicação construída.
 
 #### 6.1.4 Gerencial
 - Estimativas: Riscos relacionados aos prazos de entregas e estimativas.
@@ -157,7 +157,7 @@
 |Risco|Impacto|Probabilidade|Prevenção|Resposta|Prioridade|
 |:-:|:-:|:-:|:-:|:-:|:-:|
 |Desistência do cliente|Elevado|Pouco Provável|Sempre estar em sincronia com os desejos do cliente e com o que está sendo produzido|Buscar novo cliente com ideias similares e adaptar o projeto|8|
-|Indiponibilidade de um integrante por doença|Moderado|Provável|Buscar sempre atender as prevenções para o Covid-19 e a nova gripe H3N2|Alocação de membros para as issues que ficarem desfalcadas|9|
+|Indisponibilidade de um integrante por doença|Moderado|Provável|Buscar sempre atender as prevenções para o Covid-19 e a nova gripe H3N2|Alocação de membros para as issues que ficarem desfalcadas e revisão e adaptação do escopo do projeto|9|
 
 </center>
 
@@ -169,7 +169,7 @@
 
 |Risco|Impacto|Probabilidade|Prevenção|Resposta|Prioridade|
 |:-:|:-:|:-:|:-:|:-:|:-:|
-|Desistência de integrante da matéria|Alto|Pouco Provável|Manter motivação dos membros sempre alta e uma boa gerência de equipe|Realocação das issues para os membros restantes|10|
+|Desistência de integrante da matéria|Alto|Pouco Provável|Manter motivação dos membros sempre alta e uma boa gerência de equipe|Realocação das issues para os membros restantes e revisão e adaptação do escopo do projeto|10|
 |Priorização equivocada de requisitos|Elevado|Pouco Provável|Realizar uma elicitação e priorização condizente com as necessidades dos clientes|Realizar nova elicitação e priorização de requisitos|8|
 |Falta de recursos e financiamento|Limitado|Quase Nulo|Buscar atender as necessidades do cliente para que se mantenham os financiamentos|Por se tratar de um projeto open source para uma disciplina, não será procurado novas fontes de financiamento|1|
 
@@ -199,7 +199,7 @@
 |Risco|Impacto|Probabilidade|Prevenção|Resposta|Prioridade|
 |:-:|:-:|:-:|:-:|:-:|:-:|
 |Falta de planejamento|Alto|Pouco Provável|Planejar bem sempre previamente às entregas|Buscar alcançar um replanejamento para o tempo restante|10|
-|Falhas de comunicação entre a equipe|Elevado|Quase Nulo|Utilizar formas de engajar e aumentar a comunicação entre a equipe|Alocar issues em pares e usar atividades de enganjamento|4|
+|Falhas de comunicação entre a equipe|Elevado|Quase Nulo|Utilizar formas de engajar e aumentar a comunicação entre a equipe|Alocar issues em pares e usar atividades de engajamento|4|
 |Falta de atenção nas datas de entrega|Alto|Quase Nulo|Sempre estar preparado previamente e ler o plano de ensino da matéria|Realocar membros para realizar as tarefas restantes|5|
 
 </center>
@@ -355,7 +355,7 @@
 <h6 align = "center">Fonte: Boehm (1981).</h6>
 
 ### 7.5 Cálculo da Estimativa de Esforço
-<p align="justify">&emsp;&emsp; Seguindo, portanto, a modelagem do COCOMO parte-se agora para o cálulo da estimativa de esforço. Pelas características do projeto e pelo modo intermediário ter sido escolhido para o desenvolvimento desses software, Boehm (1981) define a seguinte equação:</p>
+<p align="justify">&emsp;&emsp; Seguindo, portanto, a modelagem do COCOMO parte-se agora para o cálculo da estimativa de esforço. Pelas características do projeto e pelo modo intermediário ter sido escolhido para o desenvolvimento desses software, Boehm (1981) define a seguinte equação:</p>
 
 $$
 \operatorname{E} = a * S^b * fae
