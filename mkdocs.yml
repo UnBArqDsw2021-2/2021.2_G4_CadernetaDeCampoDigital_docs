@@ -1,11 +1,20 @@
-
-  
 site_name: Grupo 4 ArqDSW
 repo_url: https://github.com/UnBArqDsw2021-2/2021.2_G4_ProjetoProdutores_docs
 
 theme:
   name: material
   features: navigation.tabs
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+
 
 extra_css:
   - stylesheets/extra.css
@@ -16,11 +25,6 @@ nav:
     - Processos, Metodologias e Abordagens:
       - Metodologia: base/metodologia.md
       - Modelagem BPMN: base/modelagem_bpmn.md
-    - Iniciativas Extras:
-      - Atas:
-        - Ata de Reunião 24/01: reunioes/ata_24_01.md
-        - Ata de Reunião 25/01: reunioes/ata_25_01.md
-      - Política de Contribuição: base/politicas_de_contribuicao.md
     - Módulo Projeto Não Orientado a Abordagens Específicas:
       - Requisitos:
         - Pré-Rastreabilidade:
@@ -29,6 +33,13 @@ nav:
           - Brainstorming: requisitos/elicitacao/brainstorming.md
           - Entrevista: requisitos/elicitacao/entrevista.md
           - Introspecção: requisitos/elicitacao/introspeccao.md
+        - Priorização:
+          - First Thing Firsts: requisitos/priorizacao/first_things_first.md
+    - Iniciativas Extras:
+      - Atas:
+        - Ata de Reunião 24/01: reunioes/ata_24_01.md
+        - Ata de Reunião 25/01: reunioes/ata_25_01.md
+      - Política de Contribuição: base/politicas_de_contribuicao.md
 
   # - Modelagem: ""
   # - Padrões de Projeto: ""
