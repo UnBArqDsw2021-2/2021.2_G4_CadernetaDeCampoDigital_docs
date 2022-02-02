@@ -36,20 +36,32 @@
 <p style="text-align: justify; text-indent: 20px">Na quarta história um produtor visualiza as informações de seu talhão e em seguida marca a sua colheita.</p>
 
 ## Requisitos
-|ID|Tipo de Requisito|Descrição
+|ID|Descrição|Tipo de Requisito
 |--|--|--|
-|ST01|Não funcional|A aplicação deve proporcionar uma interface com elementos visuais autoexplicativos|
-|ST02|Não funcional|A aplicação deve permitir aos usuários acesso às funcionalidades com poucas etapas|
-|ST03|Não funcional|O sistema deve permitir o uso apenas de pessoas já cadastradas pelo Instituto de Assistência Técnica e Extensão Rural(EMATER)|
-|ST04|Funcional|A partir do sistema deve ser possível ao produtor enviar informações sobre o agrotóxico utilizado|
-|ST05|Funcional|A partir do sistema deve ser possível ao produtor enviar informações sobre as culturas presentes nos talhões|
-|ST06|Funcional|O sistema deve informar ao técnico as informações dos produtores designados|
-|ST07|Não funcional|O sistema precisará ter acesso à camera do celular|
-|ST08|Não funcional|A aplicação deverá ser disponibilizada por meio um aplicativo|
-|ST09|Funcional|O produtor deve conseguir ver informações de sua propriedade|
-|ST10|Funcional|O produtor deve conseguir marcar a colheita|
+|ST01|A aplicação deve proporcionar uma interface com elementos visuais autoexplicativos|RNF|
+|ST02|A aplicação deve permitir aos usuários acesso às RFidades com poucas etapas|RNF|
+|ST03|O sistema deve permitir o uso apenas de pessoas já cadastradas pelo Instituto de Assistência Técnica e Extensão Rural(EMATER)|RNF|
+|ST04|A partir do sistema deve ser possível ao produtor enviar informações sobre o agrotóxico utilizado|RF
+|ST05|A partir do sistema deve ser possível ao produtor enviar informações sobre as culturas presentes nos talhões|RF|
+|ST06|O sistema deve informar ao técnico as informações dos produtores designados|RF|
+|ST07|O sistema precisará ter acesso à camera do celular|RNF|
+|ST08|A aplicação deverá ser disponibilizada por meio um aplicativo|RNF|
+|ST09|O produtor deve conseguir ver informações de sua propriedade|RF|
+|ST10|O produtor deve conseguir marcar a colheita|RF|
 <h6 align = "center">Tabela 1: Requisitos elicitados</h6>
 <h6 align = "center">Fonte: Autor</h6>
+
+<center>
+
+|Legenda|Descrição|
+|:--:|:--:|
+|ST|StoryTelling|
+|RF|Requisito Funcional|
+|RNF|Requisito Não Funcional|
+<h6>Tabela 2: Legenda dos acrônimos contidos na Tabela 1</h6>
+<h6>Fonte: Autor</h6>
+
+</center>
 
 ## Bibliografia
 > Boulila, N.; Herrmann A.; Hoffmann A. <b>Using Storytelling to record requirements</b>: Elements for an effective requirements elicitation approach. Fourth International Workshop on Multimedia and Enjoyable Requirements Engineering (MERE'11). IEEE. p. 6-7. 2011.
