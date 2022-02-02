@@ -23,9 +23,10 @@ nav:
       - Metodologia: base/metodologia.md
       - Modelagem BPMN: base/modelagem_bpmn.md
     - Módulo Projeto Não Orientado a Abordagens Específicas:
+      - Design Sprint: base/design_sprint.md
       - Requisitos:
         - Pré-Rastreabilidade:
-          - Mapa Mental: requisitos/preRastreabilidade/mapasMentais.md
+          - Mapa Mental: requisitos/pre_rastreabilidade/mapas_mentais.md
         - Elicitação:
           - Brainstorming: requisitos/elicitacao/brainstorming.md
           - Entrevista: requisitos/elicitacao/entrevista.md
@@ -36,6 +37,7 @@ nav:
       - Atas:
         - Ata de Reunião 24/01: reunioes/ata_24_01.md
         - Ata de Reunião 25/01: reunioes/ata_25_01.md
+        - Ata de Reunião 31/01: reunioes/ata_31_01.md
       - Política de Contribuição: base/politicas_de_contribuicao.md
 
   # - Modelagem: ""
