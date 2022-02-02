@@ -23,9 +23,10 @@ nav:
       - Metodologia: base/metodologia.md
       - Modelagem BPMN: base/modelagem_bpmn.md
     - Módulo Projeto Não Orientado a Abordagens Específicas:
+      - Design Sprint: base/design_sprint.md
       - Requisitos:
         - Pré-Rastreabilidade:
-          - Mapa Mental: requisitos/preRastreabilidade/mapasMentais.md
+          - Mapa Mental: requisitos/pre_rastreabilidade/mapas_mentais.md
         - Elicitação:
           - Brainstorming: requisitos/elicitacao/brainstorming.md
           - Entrevista: requisitos/elicitacao/entrevista.md
