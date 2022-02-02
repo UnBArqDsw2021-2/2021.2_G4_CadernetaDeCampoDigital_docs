@@ -61,6 +61,23 @@ $$
 |           Totais            |                    |                     |     507     |         |      147       |         |      164       |         |    21,100  |
 
 
+<h6 align = "center">Tabela 1: Tabela contendo os requisitos priorizados</h6>
+<h6 align = "center">Fonte: Autores</h6>
+
+<center>
+
+|Legenda|Descrição|
+|:--:|:--:|
+|I|Introspecção|
+|BS|Brainstorm|
+|ST|Storytelling|
+|E|Entrevista|
+
+<h6>Tabela 2: Legenda dos acrônimos contidos na Tabela 1</h6>
+<h6>Fonte: Autores</h6>
+
+</center>
+
 ## 4. Referências
 
 > [1] Wiegers, K.; Beatty, J. Software Requirements. <b>Microsoft Press</b>. ed. 3, 2013.</p>
