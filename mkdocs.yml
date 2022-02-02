@@ -18,7 +18,7 @@ extra_css:
 
 nav:
   - Home: index.md
-  - Base:
+  - Base:            
     - Processos, Metodologias e Abordagens:
       - Metodologia: base/metodologia.md
       - Modelagem BPMN: base/modelagem_bpmn.md
@@ -30,7 +30,8 @@ nav:
           - Brainstorming: requisitos/elicitacao/brainstorming.md
           - Entrevista: requisitos/elicitacao/entrevista.md
           - Introspecção: requisitos/elicitacao/introspeccao.md
-    - Iniciativas Extras:
+          - Personas: requisitos/elicitacao/personas.md
+    - Iniciativas Extras:      
       - Termo de Abertura de Projeto: base/termo_de_abertura.md
       - Atas:
         - Ata de Reunião 24/01: reunioes/ata_24_01.md
