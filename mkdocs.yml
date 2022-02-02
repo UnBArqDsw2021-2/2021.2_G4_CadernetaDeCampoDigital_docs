@@ -34,7 +34,7 @@ nav:
           - Entrevista: requisitos/elicitacao/entrevista.md
           - Introspecção: requisitos/elicitacao/introspeccao.md
         - Priorização:
-          - First Thing Firsts: requisitos/priorizacao/first_things_first.md
+          - First Thing First: requisitos/priorizacao/first_things_first.md
     - Iniciativas Extras:
       - Atas:
         - Ata de Reunião 24/01: reunioes/ata_24_01.md
