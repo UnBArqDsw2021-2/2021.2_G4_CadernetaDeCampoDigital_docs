@@ -11,7 +11,7 @@
 <p align="justify">&emsp;&emsp; Esse documento tem como principal objetivo formalizar o início do projeto informando os estudos de viabilidade, prazos e entregas, orçamentos, objetivos e os riscos para a construção de todos os documentos e softwares desse programa.</p>
 
 ## 3. Objetivos
-<p align="justify">&emsp;&emsp; O objetivo principal é construir um aplicativo que um <a href=#produtor>produtor</a> possa estar utilizando para realizar a confecção de sua <a href=#cardeneta_de_campo>cardeneta de campo</a> de um <a href=#talhao>talhão</a> de sua <a href=#propriedade>propriedade</a>, através da ajuda através do <a href=#envio_fotos>envio de fotos</a>, e análise/verificação de um <a href=#tecnico>técnico</a> sobre o artefato construído, de forma intuitiva, simples e rápida.</p>
+<p align="justify">&emsp;&emsp; O objetivo principal é construir um aplicativo que um <a href=#produtor>produtor</a> possa estar utilizando para realizar a confecção de sua <a href=#cardeneta_de_campo>cardeneta de campo</a> de um <a href=#talhao>talhão</a> de sua <a href=#propriedade>propriedade</a>, através da ajuda pelo <a href=#envio_fotos>envio de fotos</a>, e análise/verificação de um <a href=#tecnico>técnico</a> sobre o artefato construído, de forma intuitiva, simples e rápida.</p>
 
 ## 4. Justificativa
 <p align="justify">&emsp;&emsp; O registro e venda de produtos agrícolas exige um mapeamento preciso e bem feito, de forma que uma cultura possa ser facilmente <a href=#rastreabilidade>rastreável</a>, e caso ocorram problemas, seja de fácil descobrimento a sua causa. Entretanto, é necessário um nível de conhecimento de leitura e escrita para a confecção de uma <a href=#cardeneta_de_campo>cardeneta de campo</a> de acordo com os padrões exigidos.</p>
@@ -38,7 +38,7 @@
 <p align="justify">&emsp;&emsp; Dentro da gerência de um projeto de software, um dos pontos essenciais é realizar a gestão de riscos do produto. Com esse controle, é possível a equipe entender, listar, acompanhar, controlar, previnir e medir os impactos de cada risco dentro de todos os ciclos de vida do software que está sendo construído. Com essa medição, é possível focalizar nos riscos com uma maior prioridade - não ignorando aqueles com prioridade inferior - e tomar medidas para previnir seus acontecimentos [1].</p>
 
 ### 6.1 Estrutura Analítica de Riscos (EAR)
-<p align="justify">&emsp;&emsp; Uma das ferramentas utilizadas para gerir os riscos desse projeto é a Estrutura Analítica de Riscos (EAR), que corresponde a uma ferramenta de agrupamento e organização dos riscos em categorias [2], a seguir é possível visualizer essa categorização de forma visual para o projeto:</p>
+<p align="justify">&emsp;&emsp; Uma das ferramentas utilizadas para gerir os riscos desse projeto é a Estrutura Analítica de Riscos (EAR), que corresponde a uma ferramenta de agrupamento e organização dos riscos em categorias [2], a seguir é possível visualizar essa categorização de forma visual para o projeto:</p>
 ![EAR](../assets/ear/ear.png)
 <h6 align = "center">Figura 1: Estrutura Analítica de Riscos.</h6>
 <h6 align = "center">Fonte: Autor, baseado no projeto Curumim [3].</h6>
