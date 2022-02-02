@@ -85,11 +85,11 @@ Versão|Data|Descrição|Autor(es)
 
 
 ## 4. Referências
-<p style="text-align: justify; text-indent: 20px">[1] Barbosa, S. D. J.; Silva, B. S. da; Silveira, M. S.; Gasparini, I.; Darin, T.; Barbosa, G. D. J. <b>Interação Humano-Computador e Experiência do usuário.</b> Autopublicação. 2021.</p>
+>[1] Barbosa, S. D. J.; Silva, B. S. da; Silveira, M. S.; Gasparini, I.; Darin, T.; Barbosa, G. D. J. <b>Interação Humano-Computador e Experiência do usuário.</b> Autopublicação. 2021.</p>
 
-<p style="text-align: justify; text-indent: 20px">[2] <b>This Person Does Not Exist</b>. Disponível em: <a href="https://thispersondoesnotexist.com/" target="_blanck">https://thispersondoesnotexist.com/</a>. Acesso em: 29 de jan. de 2022.</p>
+>[2] <b>This Person Does Not Exist</b>. Disponível em: <a href="https://thispersondoesnotexist.com/" target="_blanck">https://thispersondoesnotexist.com/</a>. Acesso em: 29 de jan. de 2022.</p>
 
-<p style="text-align: justify; text-indent: 20px">[3] Cooper, Alan, Reimann, Robert, Cronin, David, e Noessel, Christopher (2014). <b>About Face: The Essentials of Interaction Design. </b>  Wiley, Indianapolis, IN, 4th edition edition.</p>
+>[3] Cooper, Alan, Reimann, Robert, Cronin, David, e Noessel, Christopher (2014). <b>About Face: The Essentials of Interaction Design. </b>  Wiley, Indianapolis, IN, 4th edition edition.</p>
 
 
 
