@@ -16,7 +16,7 @@ nav:
     - Módulo Projeto Não Orientado a Abordagens Específicas:
       - Requisitos:
         - Pré-Rastreabilidade:
-          - Rich Picture: base/requisitos/pre-rastreabilidade/rich-picture.md
+          - Rich Picture: base/requisitos/preRastreabilidade/rich_picture.md
         - Elicitação:
           - Brainstorming: requisitos/elicitacao/brainstorming.md
           - Entrevista: requisitos/elicitacao/entrevista.md

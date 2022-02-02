@@ -6,15 +6,16 @@ Versão|Data|Descrição|Autor(es)
 ------|----|---------|--------
 1.0   | 28/01/2022 | Criação do documento | Eduardo Afonso
 1.1   | 31/01/2022 | Adicionando rich picture escolhido como principal e  referência à página de brainstorm| Eduardo Afonso
+1.2   | 02/02/2022 | Adicionando bibliografia| Eduardo Afonso
 
 ## 2. Introdução
 
-&emsp;&emsp; Rich picture é um artefato visual simples, que permite fazer anotações rápidas sobre ideias que surgem durante debates e reuniões. É usado comumente como uma forma de rascunho, sendo altamente recomendado que sejam utilizados elementos gráficos como desenhos e ilustrações.</p>
+<p style="text-align: justify; text-indent: 20px">Rich picture é um artefato visual simples, que permite fazer anotações rápidas sobre ideias que surgem durante debates e reuniões. É usado comumente como uma forma de rascunho, sendo altamente recomendado que sejam utilizados elementos gráficos como desenhos e ilustrações.</p>
 
 ## 3. Como foi utilizado
 
-&emsp;&emsp; O grupo optou por utilizar o artefato como uma forma de elucidar as ideias dos membros sobre o conceito geral do produto que se planeja desenvolver. Após realizar um [Brainstorm](https://unbarqdsw2021-2.github.io/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/elicitacao/brainstorming/), cada membro ficou responsável por criar um Rich Picture baseado no que havia sido debatido e enviá-lo no [github](https://github.com/UnBArqDsw2021-2/2021.2_G4_ProjetoProdutores_docs/issues/1). E então, após um debate, o artefato julgado como o mais completo (criado pelo [Vitor Lamego](https://github.com/VitorLamego)) foi escolhido para dar 
-seguimento ao projeto.
+<p style="text-align: justify; text-indent: 20px">O grupo optou por utilizar o artefato como uma forma de elucidar as ideias dos membros sobre o conceito geral do produto que se planeja desenvolver. Após realizar um <a href="https://unbarqdsw2021-2.github.io/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/elicitacao/brainstorming/" target="_blank">Brainstorm</a>, cada membro ficou responsável por criar um Rich Picture baseado no que havia sido debatido e enviá-lo no <a href="https://github.com/UnBArqDsw2021-2/2021.2_G4_ProjetoProdutores_docs/issues/1" target="_blank">github</a>. E então, após um debate, o artefato julgado como o mais completo (criado pelo <a href="https://github.com/VitorLamego" target="_blank">Vitor Lamego</a>) foi escolhido para dar 
+seguimento ao projeto.</p>
 
 ## 4. O escolhido
 
@@ -62,4 +63,7 @@ seguimento ao projeto.
 
 #### Rich Picture - [Vitor Lamego](https://github.com/VitorLamego)
 <center>![rich picture vitor](https://user-images.githubusercontent.com/54643464/151442301-18e977a6-cc69-4562-9f9d-61d4a3157ff6.svg)</center>
-<center>[Figura 11: Rich picture do NomeC](https://user-images.githubusercontent.com/54643464/151442301-18e977a6-cc69-4562-9f9d-61d4a3157ff6.svg)</center>
+<center>[Figura 11: Rich picture do Vitor Lamego](https://user-images.githubusercontent.com/54643464/151442301-18e977a6-cc69-4562-9f9d-61d4a3157ff6.svg)</center>
+
+## 5. Bibliografia
+> SERRANO, Milene. 02c - VídeoAula - DSW - Base - RichPicture. Material apresentado para a disciplina de Arquitetura e Desenho de Software no curso de Engenharia de Software da Universidade de Brasília, FGA.
