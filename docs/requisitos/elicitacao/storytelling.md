@@ -39,7 +39,7 @@
 |ID|Descrição|Tipo de Requisito
 |--|--|--|
 |ST01|A aplicação deve proporcionar uma interface com elementos visuais autoexplicativos|RNF|
-|ST02|A aplicação deve permitir aos usuários acesso às RFidades com poucas etapas|RNF|
+|ST02|A aplicação deve permitir aos usuários acesso às propriedades com poucas etapas|RNF|
 |ST03|O sistema deve permitir o uso apenas de pessoas já cadastradas pelo Instituto de Assistência Técnica e Extensão Rural(EMATER)|RNF|
 |ST04|A partir do sistema deve ser possível ao produtor enviar informações sobre o agrotóxico utilizado|RF
 |ST05|A partir do sistema deve ser possível ao produtor enviar informações sobre as culturas presentes nos talhões|RF|
