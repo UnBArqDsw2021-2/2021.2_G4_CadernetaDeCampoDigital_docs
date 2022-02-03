@@ -33,6 +33,8 @@ nav:
           - Introspecção: requisitos/elicitacao/introspeccao.md
           - Personas: requisitos/elicitacao/personas.md
           - Storytelling: requisitos/elicitacao/storytelling.md
+        - Priorização:
+          - First Thing First: requisitos/priorizacao/first_things_first.md
     - Iniciativas Extras:      
       - Termo de Abertura de Projeto: base/termo_de_abertura.md
       - Atas:
