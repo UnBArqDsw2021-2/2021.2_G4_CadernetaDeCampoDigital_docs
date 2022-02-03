@@ -7,7 +7,7 @@
 
 ## 2. Introdução
 <p style="text-align: justify; text-indent: 20px"> A priorização de requisitos deve ser feita de forma mais rigorosa e analítica, segundo Wiegers (2013) [1], quando não há um consenso sobre quais requisitos devem ser os mais importantes. Sendo assim, para priorizar os requisitos analíticamente diversos métodos de priorização podem ser utilizados, sendo um deles e que tem enfoque nesse documento é o chamado <b>First Things First</b>.</p>
-<p style="text-align: justify; text-indent: 20px"> Ainda segundo Wiegers (2013) [1], o <b>First Things First</b> é uma técnica que visa ajudar o relacionamento das funcionalidades com um valor estimado definido pelo representante dos clientes e pelo representante da equipe de desenvolvimento. Dessa maneira, para a realização da técnica são necessários os segunties passos:</p>
+<p style="text-align: justify; text-indent: 20px"> Ainda segundo Wiegers (2013) [1], o <b>First Things First</b> é uma técnica que visa ajudar o relacionamento das funcionalidades com um valor estimado definido pelo representante dos clientes e pelo representante da equipe de desenvolvimento. Dessa maneira, para a realização da técnica são necessários os seguintes passos:</p>
 
 - Liste em uma tabela todas as features, casos de uso, histórias de usuários ou requisitos funcionais
 - Estime o benefício relativo que cada requisito fornece ao cliente em uma escala de 1 a 9.
