@@ -11,10 +11,10 @@ Versão|Data|Descrição|Autor(es)
 
 ## 2. Introdução
 
-<p style="text-align: justify; text-indent: 20px"> Entender quem são os <a href="#usuario">usuários</a>, quais são seus objetivos e suas necessidades é extremamente importante para o projeto. Assim algumas abordagens podem ser utilizadas e a metodologia apresentada nesse documento é a criação de personas. Essa metodologia se mostra bastante útil para direcionar as decisões de projeto, mantendo o foco no que realmente importa, os usuários, que nesse caso serão representados por um grupo de pessoas fictícias.
+<p style="text-align: justify; text-indent: 20px"> Entender quem são os <a href="../../modelagem/lexicos#usuario">usuários</a>, quais são seus objetivos e suas necessidades é extremamente importante para o projeto. Assim algumas abordagens podem ser utilizadas e a metodologia apresentada nesse documento é a criação de personas. Essa metodologia se mostra bastante útil para direcionar as decisões de projeto, mantendo o foco no que realmente importa, os usuários, que nesse caso serão representados por um grupo de pessoas fictícias.
 </p>
 
-<p style="text-align: justify; text-indent: 20px"> Uma persona é um personagem fictício, arquétipo hipotético de um grupo de <a href="#usuario">usuários</a> reais, criada para descrever um usuário típico (Cooper et al., 2014; Pruitt e Adlin, 2006; Cooper, 1999). </p>
+<p style="text-align: justify; text-indent: 20px"> Uma persona é um personagem fictício, arquétipo hipotético de um grupo de <a href="../../modelagem/lexicos#usuario">usuários</a> reais, criada para descrever um usuário típico (Cooper et al., 2014; Pruitt e Adlin, 2006; Cooper, 1999). </p>
 
 <p style="text-align: justify; text-indent: 20px"> É preciso ter cuidado na escolha do número de personas elaboradas. É importante representar os principais grupos de usuários, para ajudar a desenvolver um produto que atenda a todos. Porém caso exista muitas personas para representar os diferentes grupos de usuários, elas podem acabar confundindo a mente dos designers e desenvolvedores, perdendo benefícios dessa técnica. </p>
 
@@ -26,9 +26,9 @@ Versão|Data|Descrição|Autor(es)
 |<b>Idade:</b>|25 anos.|
 |<b>Profissão:</b>| Agricultor. |
 |<b>Escolaridade:</b>| Semialfabetizado. |
-|<b>Objetivos:</b>| Deseja ter um terreno maior e ser um grande <a href="#produtor">produtor</a> agrícola.|
-|<b>Habilidades:</b>| Tem muito conhecimento sobre o cultivo de <a href="#cultura">culturas</a> de morango e vagem, tem facilidade pra lidar com os imprevistos do dia a dia. |
-|<b>Tarefas:</b>| Acorda cedo para cuidar das <a href="#plantio">plantações</a>, semear, irrigar, colher e acompanhar o cultivo dos alimentos. No período da noite gosta de assistir jornal e mexer no seu celular. |
+|<b>Objetivos:</b>| Deseja ter um terreno maior e ser um grande <a href="../../modelagem/lexicos#produtor">produtor</a> agrícola.|
+|<b>Habilidades:</b>| Tem muito conhecimento sobre o cultivo de <a href="../../modelagem/lexicos#cultura">culturas</a> de morango e vagem, tem facilidade pra lidar com os imprevistos do dia a dia. |
+|<b>Tarefas:</b>| Acorda cedo para cuidar das <a href="../../modelagem/lexicos#plantio">plantações</a>, semear, irrigar, colher e acompanhar o cultivo dos alimentos. No período da noite gosta de assistir jornal e mexer no seu celular. |
 |<b>Relacionamentos:</b>|Solteiro.|
 |<b>Requisitos:</b>| Romão gosta de fazer as tarefas do seu jeito, porém precisa se adaptar as novas normas do Ministério da Agricultura, Pecuária e Abastecimento, para isso necessita de auxílio no rastreio das suas plantações. |
 |<b>Expectativas:</b>| Devido a sua dificuldade com a leitura, Romão precisa de um aplicativo acessível e que seja simples, para facilitar sua navegação.|
@@ -46,7 +46,7 @@ Versão|Data|Descrição|Autor(es)
 |<b>Habilidades:</b>| Júlio Mauro é inteligente e bem estudioso, apesar de ser relativamente novo nessa área agrícola tem um conhecimento básico.|
 |<b>Tarefas:</b>| Júlio trabalha das 12 as 18hrs e tem que cuidar dos filhos durante a noite, usa o período matutino pra gerir seus negócios. |
 |<b>Relacionamentos:</b>|Casado.|
-|<b>Requisitos:</b>| Apesar de ter um investimento considerável, Júlio ainda não consegue ter um funcionário que o auxilie no controle de suas <a href="#cultura">culturas</a> e vem tendo dificuldade em se alinhar com as novas normas impostas pelo Ministério da Agricultura, Pecuária e Abastecimento, para isso precisa de um aplicativo que o ajude a ter contato com um engenheiro agrônomo.|
+|<b>Requisitos:</b>| Apesar de ter um investimento considerável, Júlio ainda não consegue ter um funcionário que o auxilie no controle de suas <a href="../../modelagem/lexicos#cultura">culturas</a> e vem tendo dificuldade em se alinhar com as novas normas impostas pelo Ministério da Agricultura, Pecuária e Abastecimento, para isso precisa de um aplicativo que o ajude a ter contato com um engenheiro agrônomo.|
 |<b>Expectativas:</b>| Júlio espera um aplicativo que vá direto ao ponto e não tenha muita burocracia, pois não quer perder muito tempo.|
 <h6 align = "center">Tabela 2: Júlio Mauro</h6>
 <h6 align = "center">Fonte: Autor</h6>
@@ -64,7 +64,7 @@ Versão|Data|Descrição|Autor(es)
 |<b>Tarefas:</b>| Todo dia de manhã Débora vai pra aula de canto, quando volta já é hora de ir para o trabalho, onde cumpre turno até as 18hrs, durante a noite costuma passar o tempo com seu namorado. |
 |<b>Relacionamentos:</b>|Namorando.|
 |<b>Requisitos:</b>| Débora gostaria de um aplicativo com as funcionalidades essenciais para a realização de suas tarefas e de simples navegação, sem se preocupar muito com interface bonita.|
-|<b>Expectativas:</b>| Por diversas vezes Débora encontrou em seu trabalho a dificuldade de se comunicar com um <a href="#produtor">produtor</a>, por isso gostaria de um aplicativo que facilitasse a troca de informações entre <a href="#tecnico">técnico</a> e agricultor.|
+|<b>Expectativas:</b>| Por diversas vezes Débora encontrou em seu trabalho a dificuldade de se comunicar com um <a href="../../modelagem/lexicos#produtor">produtor</a>, por isso gostaria de um aplicativo que facilitasse a troca de informações entre <a href="../../modelagem/lexicos#tecnico">técnico</a> e agricultor.|
 <h6 align = "center">Tabela 3: Débora Emília</h6>
 <h6 align = "center">Fonte: Autor</h6>
 
@@ -80,7 +80,7 @@ Versão|Data|Descrição|Autor(es)
 |<b>Tarefas:</b>|Vai para a escola durante o período da manhã e realiza suas atividades de casa pela tarde, nas segundas e quartas vai aos treinos de futebol e natação. O resto do seu dia fica em casa assistindo desenhos e brincando.|
 |<b>Relacionamentos:</b>|Solteiro.|
 |<b>Requisitos:</b>|Não costuma usar aplicativos, usa o celular somente para jogos.|
-|<b>Expectativas:</b>|Por ser criança, Carlos ainda não ajuda seus pais no controle das <a href="#plantio">plantações</a>, então não teria motivos para usar a aplicação.|
+|<b>Expectativas:</b>|Por ser criança, Carlos ainda não ajuda seus pais no controle das <a href="../../modelagem/lexicos#plantio">plantações</a>, então não teria motivos para usar a aplicação.|
 <h6 align = "center">Tabela 4: Antipersona Carlos</h6>
 <h6 align = "center">Fonte: Autor</h6>
 

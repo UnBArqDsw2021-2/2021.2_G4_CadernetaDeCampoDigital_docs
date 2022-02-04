@@ -23,7 +23,7 @@
 
 - **Método:** Em que foram listadas as causas relacionadas ao processo e procedimentos que envolvem como o trabalho é realizado
 - **Mão de obra:** Em que foram listadas as causas relacionadas ao pessoal envolvido com o trabalho, tais como jornada de trabalho, capacitação, e etc.
-- **Ambiente:** Em que foram listadas as causas relacionadas ao ambiente no qual é realizado o trabalho por parte dos <a href="#produtor">produtores</a>;
+- **Ambiente:** Em que foram listadas as causas relacionadas ao ambiente no qual é realizado o trabalho por parte dos <a href="../../modelagem/lexicos#produtor">produtores</a>;
 - **Material:** Em que foram listadas as causas relacionadas ao material ou insumo do processo.
 
 Também foi utilizada de base algumas entrevistas feitas durante a elicitação do projeto.
