@@ -191,7 +191,7 @@
 |----|--------------------|
 |**Nome**|**Visualizar Propriedade**|
 |**Sinônimos**||
-|**Noção**|Visualização das informações sobre a <a href="#propriedade">propriedade</a>|
+|**Noção**|Visualização das informações e histórico sobre a <a href="#propriedade">propriedade</a>|
 |**Impacto**|O <a href="#usuario">usuário</a> pode visualizar propriedade|
 
 <div id="visualizar_aplicacao_agrotoxico"/>
@@ -222,7 +222,7 @@
 |LV010|Descrição|
 |----|--------------------|
 |**Nome**|**Colher Plantio**|
-|**Sinônimos**||
+|**Sinônimos**|Colheita|
 |**Noção**|O <a href="#produtor">produtor</a> pode colher uma ou várias vezes um <a href="#plantio">plantio</a>|
 |**Impacto**|O <a href="#usuario">usuário</a> pode gerar a caderneta de campo<br>Após colher todo o plantio, o <a href="#plantio_finalizado">plantio está finalizado</a>|
 

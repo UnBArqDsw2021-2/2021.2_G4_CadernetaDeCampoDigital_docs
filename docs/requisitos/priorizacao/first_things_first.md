@@ -4,12 +4,13 @@
 |--|--|--|--|
 |1.0|01/02|Abertura do documento|João Pedro Moura|
 |1.1|01/02|Confecção da planilha de priorização|João Pedro Moura e Denniel|
+|1.2|03/02|Linkagem dos léxicos|Thiago|
 
 ## 2. Introdução
 <p style="text-align: justify; text-indent: 20px"> A priorização de requisitos deve ser feita de forma mais rigorosa e analítica, segundo Wiegers (2013) [1], quando não há um consenso sobre quais requisitos devem ser os mais importantes. Sendo assim, para priorizar os requisitos analíticamente diversos métodos de priorização podem ser utilizados, sendo um deles e que tem enfoque nesse documento é o chamado <b>First Things First</b>.</p>
 <p style="text-align: justify; text-indent: 20px"> Ainda segundo Wiegers (2013) [1], o <b>First Things First</b> é uma técnica que visa ajudar o relacionamento das funcionalidades com um valor estimado definido pelo representante dos clientes e pelo representante da equipe de desenvolvimento. Dessa maneira, para a realização da técnica são necessários os seguintes passos:</p>
 
-- Liste em uma tabela todas as features, casos de uso, histórias de usuários ou requisitos funcionais
+- Liste em uma tabela todas as features, casos de uso, histórias de <a href="../../modelagem/lexicos#usuario">usuários</a> ou requisitos funcionais
 - Estime o benefício relativo que cada requisito fornece ao cliente em uma escala de 1 a 9.
 - Estime a penalidade relativa que o cliente sofreria caso a funcionalidade não fosse incluída em uma escala de 1 a 9.
 - Adicione uma coluna que será a soma do benefício multiplicado pelo peso e da penalidade multiplicada pelo peso para cada requisito.
