@@ -6,7 +6,7 @@ Versão|Data|Descrição|Autor(es)
 1.0   | 04/02/2022 | Criação do documento, adição do manual| Carlos
 
 ## 2. Introdução
-<p style="text-align: justify; text-indent: 20px"> Um manual de identidade visual busca apresentar elementos da identidade visual de design de uma aplicação.
+<p style="text-align: justify; text-indent: 20px"> Um manual de identidade visual busca apresentar elementos da identidade visual de design de uma aplicação. É por meio desta identidade que o projeto pode ser reconhecido em outros meios. Nele é indispensável elementos como cores, logo e tipografia.
 </p>
 
 
@@ -21,5 +21,5 @@ Versão|Data|Descrição|Autor(es)
 </div>
 <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAE3a2lLaqA&#x2F;view?utm_content=DAE3a2lLaqA&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Manual de Identidade Visual</a>
 
-## 4. Referências
+## 4. Bibliografia
 > Projeto Hortum. disponível em: "https://fga-eps-mds.github.io/2020.2-Hortum/Guia_de_estilo_e_identidade_visual/". Acesso 04/02/2022
