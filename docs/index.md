@@ -1,7 +1,7 @@
 <h1> Caderneta De Campo Digital</h1>
 
 <center>
-![logo](../assets/logo.png)
+![logo](./assets/logo.png)
 </center>
 
 
