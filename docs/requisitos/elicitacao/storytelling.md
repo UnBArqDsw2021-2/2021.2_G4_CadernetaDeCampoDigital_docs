@@ -5,6 +5,7 @@
 |1.0|28/01|<center>Criação do escopo do documento</center>|<center>Brenno Oliveira</center>|
 |1.1|29/01|<center>Adição do conteúdo do documento</center>|<center>Brenno Oliveira</center>|
 |1.2|29/01|<center>Adição do storyboard 4 e dos RE08, RE09 e RE10</center>|<center>Brenno Oliveira</center>|
+|1.3|03/02|<center>Linkagem dos léxicos</center>|<center>Thiago</center>|
 
 ## Introdução
 <p style="text-align: justify; text-indent: 20px">Storyboards são um tipo de prototipação de baixa fidelidade que busca mostrar tarefas que são esperadas a serem cumpridas, dessa forma simulando um cenário de uso do produto. Pelo foco ser na jornada, não é necessário desenhos muito complexos. A plataforma utilizada para realização dos storyboards foi o <a href="https://www.storyboardthat.com">Storyboard That</a>.</p>
@@ -27,27 +28,27 @@
 <img src="../../../assets/requisitos/elicitacao/storyboard3.png" class="zoom"/>
 <h6 align = "center">Figura 3: Storyboard 3</h6>
 <h6 align = "center">Fonte: Autor</h6>
-<p style="text-align: justify; text-indent: 20px">A terceira história apresenta a perspectiva de um técnico, funcionária do Emater, que consegue, sem problemas, visualizar o rastreamento de um produtor, cadastrado pela própria Emater, por meio de sua caderneta de campo.</p>
+<p style="text-align: justify; text-indent: 20px">A terceira história apresenta a perspectiva de um <a href="../../modelagem/lexicos#tecnico">técnico</a>, funcionária do Emater, que consegue, sem problemas, visualizar o rastreamento de um <a href="../../modelagem/lexicos#produtor">produtor</a>, cadastrado pela própria Emater, por meio de sua <a href="../../modelagem/lexicos#cardeneta_de_campo">caderneta de campo</a>.</p>
 
 ### História 4
 <img src="../../../assets/requisitos/elicitacao/storyboard4.png" class="zoom"/>
 <h6 align = "center">Figura 4: Storyboard 4</h6>
 <h6 align = "center">Fonte: Autor</h6>
-<p style="text-align: justify; text-indent: 20px">Na quarta história um produtor visualiza as informações de seu talhão e em seguida marca a sua colheita.</p>
+<p style="text-align: justify; text-indent: 20px">Na quarta história um <a href="../../modelagem/lexicos#produtor">produtor</a> visualiza as informações de seu <a href="../../modelagem/lexicos#talhao">talhão</a> e em seguida marca a sua colheita.</p>
 
 ## Requisitos
 |ID|Descrição|Tipo de Requisito
 |--|--|--|
 |ST01|A aplicação deve proporcionar uma interface com elementos visuais autoexplicativos|RNF|
-|ST02|A aplicação deve permitir aos usuários acesso às propriedades com poucas etapas|RNF|
+|ST02|A aplicação deve permitir aos <a href="../../modelagem/lexicos#usuario">usuários</a> acesso às <a href="../../modelagem/lexicos#propriedade">propriedades</a> com poucas etapas|RNF|
 |ST03|O sistema deve permitir o uso apenas de pessoas já cadastradas pelo Instituto de Assistência Técnica e Extensão Rural(EMATER)|RNF|
-|ST04|A partir do sistema deve ser possível ao produtor enviar informações sobre o agrotóxico utilizado|RF
-|ST05|A partir do sistema deve ser possível ao produtor enviar informações sobre as culturas presentes nos talhões|RF|
-|ST06|O sistema deve informar ao técnico as informações dos produtores designados|RF|
+|ST04|A partir do sistema deve ser possível ao <a href="../../modelagem/lexicos#produtor">produtor</a> enviar informações sobre o <a href="../../modelagem/lexicos#aplicar_agrotoxico">agrotóxico</a> utilizado|RF
+|ST05|A partir do sistema deve ser possível ao produtor enviar informações sobre as <a href="../../modelagem/lexicos#cultura">culturas</a> presentes nos <a href="../../modelagem/lexicos#talhao">talhões</a>|RF|
+|ST06|O sistema deve informar ao <a href="../../modelagem/lexicos#tecnico">técnico</a> as informações dos produtores designados|RF|
 |ST07|O sistema precisará ter acesso à camera do celular|RNF|
 |ST08|A aplicação deverá ser disponibilizada por meio um aplicativo|RNF|
 |ST09|O produtor deve conseguir ver informações de sua propriedade|RF|
-|ST10|O produtor deve conseguir marcar a colheita|RF|
+|ST10|O produtor deve conseguir marcar a <a href="../../modelagem/lexicos#colher_plantio">colheita</a>|RF|
 <h6 align = "center">Tabela 1: Requisitos elicitados</h6>
 <h6 align = "center">Fonte: Autor</h6>
 
