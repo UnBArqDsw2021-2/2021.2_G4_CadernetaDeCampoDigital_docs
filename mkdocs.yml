@@ -23,7 +23,6 @@ nav:
       - Metodologia: base/metodologia.md
       - Modelagem BPMN: base/modelagem_bpmn.md
       - 5W2H: base/5W2H.md
-    - Iniciativas Extras:
     - Módulo Projeto Não Orientado a Abordagens Específicas:
       - Design Sprint: base/design_sprint.md
       - Requisitos:
