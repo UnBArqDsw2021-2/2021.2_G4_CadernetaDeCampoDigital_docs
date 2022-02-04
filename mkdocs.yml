@@ -26,6 +26,7 @@ nav:
       - Design Sprint: base/design_sprint.md
       - Requisitos:
         - Pré-Rastreabilidade:
+          - Rich Picture: base/requisitos/preRastreabilidade/rich_picture.md
           - Mapa Mental: requisitos/pre_rastreabilidade/mapas_mentais.md
         - Elicitação:
           - Brainstorming: requisitos/elicitacao/brainstorming.md
