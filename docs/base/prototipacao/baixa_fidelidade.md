@@ -6,7 +6,7 @@
 |1.0.1|03/02|Centralizando imagens|Carlos Eduardo|
 
 ## 2. Introdução
-<p style="text-align: justify; text-indent: 20px">A prototipação de baixa fidelidade não busca ser fiel ao produto final, sendo uma alternativa de barata e rápida(BARBOSA et al., 2021) para testar possibilidades, tendo seu foco voltado à exploração de designs e ideias alternativas(ROGERS; SHARP; PREECE, 2005).</p>
+<p style="text-align: justify; text-indent: 20px">A prototipação de baixa fidelidade não busca ser fiel ao produto final, sendo uma alternativa de barata e rápida (BARBOSA et al., 2021) [1] para testar possibilidades, tendo seu foco voltado à exploração de designs e ideias alternativas (ROGERS; SHARP; PREECE, 2005) [2].</p>
 
 ## 3. Metodologia
 <p style="text-align: justify; text-indent: 20px">Ficou decidido que quatro integrantes do grupo fariam seus protótipos separadamente, e posteriormente realizar uma reunião para criar o protótipo de média fidelidade.</p>
@@ -79,6 +79,6 @@
 
 ## 5. Referências
 
->ROGERS, Yvonne; PREECE, Jennifer; SHARP, Helen. <b>Design de Interação</b>: Além da Interação Humano-Computador. 1ª. ed. [S. l.]: Bookman, 2005.
+>[1] BARBOSA, Simone; SILVA, Bruno; SILVEIRA, Milene; GASPARINNI, Isabela; DARIN, Ticiane; BARBOSA, Gabriel. <b>Interação Humano-Computador e Experiência do usuário</b>.[S. l.]: Autopublicação, 2021.
 
->BARBOSA, Simone; SILVA, Bruno; SILVEIRA, Milene; GASPARINNI, Isabela; DARIN, Ticiane; BARBOSA, Gabriel. <b>Interação Humano-Computador e Experiência do usuário</b>.[S. l.]: Autopublicação, 2021.
+>[2] ROGERS, Yvonne; PREECE, Jennifer; SHARP, Helen. <b>Design de Interação</b>: Além da Interação Humano-Computador. 1ª. ed. [S. l.]: Bookman, 2005.
