@@ -5,6 +5,7 @@ theme:
   name: material
   features: navigation.tabs
   logo: assets/logo_branca.png
+  favicon: assets/logo_branca.png
 
 markdown_extensions:
   - pymdownx.arithmatex:

@@ -4,17 +4,21 @@
 ![logo](../assets/logo.png)
 </center>
 
-## Sobre o Projeto
+
+## 1. Versionamento
+
+| Versão | Data  | Descrção                      | Autor(es)       |
+| ------ | ----- | ------------------------------ | --------------- |
+| 1.0    | 03/02 | Criação do Documento           | João Pedro Moura|
+| 1.1    | 03/02 | Alteração do tópico "Sobre o projeto"         | Rafael Ramos e João Pedro Moura|
+
+## 2. Sobre o Projeto
 
 <p align="justify">&emsp;&emsp;
-Para incentivar as boas práticas agrícolas e de rastreabilidade, há a necessidade de armazenamento dos dados referentes a um produto agrícola para que se tenha a origem deste produto de maneira rastreável. Para rastrear esses produtos, necessita-se dos dados do plantio ou caderneta, da propriedade onde foi cultivado o produto, do produtor, da data de plantio/colheita, dos produtos ou agrotóxicos aplicados, do nome da cultura e do talhão onde foi cultivado.
+O projeto tem como objetivo incentivar as boas práticas agrícolas e de rastreabilidade. O <a href="../../requisitos/modelagem/lexicos#produtor">produtor</a> pode estar utilizando a aplicação para realizar a confecção de sua <a href="../../requisitos/modelagem/lexicos#cardeneta_de_campo">cardeneta de campo</a>, pertencente a um <a href="../../requisitos/modelagem/lexicos#talhao">talhão</a> de sua <a href="../../requisitos/modelagem/lexicos#propriedade">propriedade</a>, através do possível <a href="../../requisitos/modelagem/lexicos#enviar_foto_agrotoxico">envio de fotos</a>, e análise/verificação de um <a href="../../requisitos/modelagem/lexicos#tecnico">técnico</a> sobre o documento levantado. Dessa forma, a aplicação busca suprir as necessidades expostas por essa demanda real, de forma simples e viável tanto para os <a href="../../requisitos/modelagem/lexicos#produtor">produtores</a> quando para os <a href="../../requisitos/modelagem/lexicos#tecnico">técnicos </a>que estarão utilizando esse aplicativo.
 </p>
 
-<p align="justify">&emsp;&emsp;
-Os dados da caderneta ou plantio são de extrema importância pois nele estão contidas informações cruciais como o produto que foi plantado, onde foi plantado, quais produtos foram aplicados e as datas tanto de plantio quanto de colheita, tornando-se o elemento mais rastreável para referenciar a origem de um produto. Dessa forma, a aplicação busca suprir as necessidades expostas por essa demanda real, de forma simples e viável tanto para os produtores quando para os técnicos que estarão utilizando esse aplicativo.
-</p>
-
-## Equipe
+## 3. Equipe
 
 <center>
 
@@ -66,10 +70,3 @@ Os dados da caderneta ou plantio são de extrema importância pois nele estão c
 </table>
 
 </center>
-
-
-## Versionamento
-
-| Versão | Data  | Descrção                      | Autor(es)       |
-| ------ | ----- | ------------------------------ | --------------- |
-| 1.0    | 03/02 | Criação do Documento           | João Pedro Moura |
