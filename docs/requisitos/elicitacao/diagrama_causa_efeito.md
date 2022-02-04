@@ -6,7 +6,8 @@
 |------|----|---------|---------|
 |1.0|29/01|<center>Abertura do documento de causa e efeito</center>|<center>Denniel William</center>|
 |1.1|29/01|<center>Adição da introdução, metodologia, diagrama e referências </center>|<center>Denniel William</center>|
-|1.2|03/01|<center>Ajustes no texto e regularização com o padrão dos demais documentos</center>|<center>Denniel William</center>|
+|1.2|03/02|<center>Ajustes no texto e regularização com o padrão dos demais documentos</center>|<center>Denniel William</center>|
+|1.3|03/02|<center>Linkagem dos léxicos</center>|<center>Thiago</center>|
 
 ## 2. Introdução
 
@@ -22,7 +23,7 @@
 
 - **Método:** Em que foram listadas as causas relacionadas ao processo e procedimentos que envolvem como o trabalho é realizado
 - **Mão de obra:** Em que foram listadas as causas relacionadas ao pessoal envolvido com o trabalho, tais como jornada de trabalho, capacitação, e etc.
-- **Ambiente:** Em que foram listadas as causas relacionadas ao ambiente no qual é realizado o trabalho por parte dos produtores;
+- **Ambiente:** Em que foram listadas as causas relacionadas ao ambiente no qual é realizado o trabalho por parte dos <a href="#produtor">produtores</a>;
 - **Material:** Em que foram listadas as causas relacionadas ao material ou insumo do processo.
 
 Também foi utilizada de base algumas entrevistas feitas durante a elicitação do projeto.
