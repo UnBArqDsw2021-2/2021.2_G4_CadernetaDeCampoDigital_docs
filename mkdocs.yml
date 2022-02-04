@@ -1,32 +1,50 @@
-
-  
-site_name: Grupo 4 ArqDSW
+site_name: Caderneta de Campo Digital
 repo_url: https://github.com/UnBArqDsw2021-2/2021.2_G4_ProjetoProdutores_docs
 
 theme:
   name: material
   features: navigation.tabs
 
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+extra_css:
+  - stylesheets/extra.css
+
 nav:
   - Home: index.md
-  - Base:
+  - Base:            
     - Processos, Metodologias e Abordagens:
       - Metodologia: base/metodologia.md
       - Modelagem BPMN: base/modelagem_bpmn.md
     - Módulo Projeto Não Orientado a Abordagens Específicas:
+      - Design Sprint: base/design_sprint.md
       - Requisitos:
         - Pré-Rastreabilidade:
           - Rich Picture: base/requisitos/preRastreabilidade/rich_picture.md
+          - Mapa Mental: requisitos/pre_rastreabilidade/mapas_mentais.md
         - Elicitação:
           - Brainstorming: requisitos/elicitacao/brainstorming.md
           - Entrevista: requisitos/elicitacao/entrevista.md
           - Introspecção: requisitos/elicitacao/introspeccao.md
-    - Iniciativas Extras:
+          - Personas: requisitos/elicitacao/personas.md
+          - Storytelling: requisitos/elicitacao/storytelling.md
+        - Priorização:
+          - First Thing First: requisitos/priorizacao/first_things_first.md
+          - Moscow: requisitos/priorizacao/moscow.md
+    - Iniciativas Extras:      
+      - Termo de Abertura de Projeto: base/termo_de_abertura.md
       - Atas:
         - Ata de Reunião 24/01: reunioes/ata_24_01.md
         - Ata de Reunião 25/01: reunioes/ata_25_01.md
+        - Ata de Reunião 31/01: reunioes/ata_31_01.md
       - Política de Contribuição: base/politicas_de_contribuicao.md
-          
+
   # - Modelagem: ""
   # - Padrões de Projeto: ""
   # - Arquitetura de Software e Reutilização: ""
