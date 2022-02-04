@@ -4,6 +4,8 @@ repo_url: https://github.com/UnBArqDsw2021-2/2021.2_G4_ProjetoProdutores_docs
 theme:
   name: material
   features: navigation.tabs
+  logo: assets/logo_branca.png
+  favicon: assets/logo_branca.png
 
 markdown_extensions:
   - pymdownx.arithmatex:
@@ -53,7 +55,7 @@ nav:
         - Ata de Reunião 31/01: reunioes/ata_31_01.md
       - Política de Contribuição: base/politicas_de_contribuicao.md
       - Manual de Identidade Visual: base/manual_identidade_visual.md
-
+    - Apresentações: apresentacoes/pc1.md
   # - Modelagem: ""
   # - Padrões de Projeto: ""
   # - Arquitetura de Software e Reutilização: ""
