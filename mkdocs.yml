@@ -29,12 +29,14 @@ nav:
           - Mapa Mental: requisitos/pre_rastreabilidade/mapas_mentais.md
         - Elicitação:
           - Brainstorming: requisitos/elicitacao/brainstorming.md
+          - Causa e Efeito: requisitos/elicitacao/diagrama_causa_efeito.md
           - Entrevista: requisitos/elicitacao/entrevista.md
           - Introspecção: requisitos/elicitacao/introspeccao.md
           - Personas: requisitos/elicitacao/personas.md
           - Storytelling: requisitos/elicitacao/storytelling.md
         - Priorização:
           - First Thing First: requisitos/priorizacao/first_things_first.md
+          - Moscow: requisitos/priorizacao/moscow.md
         - Modelagem:
           - Léxicos: requisitos/modelagem/lexicos.md
     - Iniciativas Extras:      
