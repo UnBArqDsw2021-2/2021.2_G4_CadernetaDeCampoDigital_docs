@@ -23,7 +23,12 @@ nav:
       - Metodologia: base/metodologia.md
       - Modelagem BPMN: base/modelagem_bpmn.md
     - Módulo Projeto Não Orientado a Abordagens Específicas:
-      - Design Sprint: base/design_sprint.md
+      - Design Sprint: 
+        - Documento de Design Sprint: base/design_sprint.md
+        - Prototipação: 
+          - Introdução: base/prototipacao/introducao.md
+          - Protótipo de Baixa Fidelidade: base/prototipacao/baixa_fidelidade.md
+          - Protótipo de Média Fidelidade: base/prototipacao/media_fidelidade.md
       - Requisitos:
         - Pré-Rastreabilidade:
           - Rich Picture: base/requisitos/preRastreabilidade/rich_picture.md
