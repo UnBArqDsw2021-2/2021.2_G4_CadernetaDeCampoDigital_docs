@@ -22,13 +22,13 @@ nav:
     - Processos, Metodologias e Abordagens:
       - Metodologia: base/metodologia.md
       - Modelagem BPMN: base/modelagem_bpmn.md
-      - 5W2H: base/5W2H.md
     - Módulo Projeto Não Orientado a Abordagens Específicas:
       - Design Sprint: base/design_sprint.md
       - Requisitos:
         - Pré-Rastreabilidade:
           - Rich Picture: base/requisitos/preRastreabilidade/rich_picture.md
           - Mapa Mental: requisitos/pre_rastreabilidade/mapas_mentais.md
+          - 5W2H: base/5W2H.md
         - Elicitação:
           - Brainstorming: requisitos/elicitacao/brainstorming.md
           - Causa e Efeito: requisitos/elicitacao/diagrama_causa_efeito.md
@@ -52,6 +52,7 @@ nav:
         - Ata de Reunião 25/01: reunioes/ata_25_01.md
         - Ata de Reunião 31/01: reunioes/ata_31_01.md
       - Política de Contribuição: base/politicas_de_contribuicao.md
+      - Manual de Identidade Visual: base/manual_identidade_visual.md
 
   # - Modelagem: ""
   # - Padrões de Projeto: ""
