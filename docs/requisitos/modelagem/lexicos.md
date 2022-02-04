@@ -2,9 +2,9 @@
 
 |Versão|Data|Descrição|Autor(es)|
 |:------:|:----:|:---------:|:---------:|
-|1.0|27/07|Abertura do documento de léxicos|João, Rafael e Thiago|
-|1.1|03/02|Documentação e especificação dos léxicos|Thiago|
-|1.2|03/02|Linkagem dos léxicos|Thiago|
+|1.0|27/07/2022|Abertura do documento de léxicos|João, Rafael e Thiago|
+|1.1|03/02/2022|Documentação e especificação dos léxicos|Thiago|
+|1.2|03/02/2022|Linkagem dos léxicos|Thiago|
 
 ## 2. Introdução
 
