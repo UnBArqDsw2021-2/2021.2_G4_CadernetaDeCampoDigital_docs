@@ -1,18 +1,18 @@
 # Sprint 1 - Planning
 
-## Visão Geral
+## 1. Visão Geral
 - Inicio: 07/02/2022
 - Fim: 14/02/2022
 - Duração: 7 dias
  
-## Objetivos
+## 2. Objetivos
 A Sprint 1 tem os seguintes objetivos:
 
 - Adição dos documentos de diagramação estática
 - Criação do MER
 - Product backlog e especificação suplementar
 
-## Sprint Backlog
+## 3. Sprint Backlog
 | Descrição | Responsáveis | Pontuação
 |--|--|--|
 |Diagrama de Classes|Thiago e Rafael|5|

@@ -1,11 +1,11 @@
 # Sprint 0 - Review
 
-## Visão Geral
+## 1. Visão Geral
 - Inicio: 21/01/2022
 - Fim: 04/02/2022
 - Duração: 14 dias
  
-## Conclusões
+## 2. Conclusões
 <center>
 
 | Issue | Responsáveis | Status
@@ -34,16 +34,16 @@
 
 </center>
 
-## Retrospective
+## 3. Retrospective
 ![Retrospective Sprint 0](../assets/sprints/retrospective_0.png)
 
-## Quadro de Burndown
+## 4. Quadro de Burndown
 ![Quadro de Burndown Sprint 0](../assets/sprints/burndown_0.png)
 
-## Quadro de Velocity
+## 5. Quadro de Velocity
 ![Quadro de Velocity Sprint 0](../assets/sprints/velocity_0.png)
 
-## Review do Scrum Master
+## 6. Review do Scrum Master
 - Equipe se demonstrou muito positiva e conseguiu trabalhar muito bem, apesar de alguns membros nunca terem se falado. O grupo foi empenhado pelas duas semanas e não tiveram problemas muito grandes exceto os citados na retrospective.
 - Vale a pena ressaltar que a pontuação das issues foram feitas de maneira retroativa por cada membro, por esse motivo não existe um documento de planning realizado nessa sprint.
 
