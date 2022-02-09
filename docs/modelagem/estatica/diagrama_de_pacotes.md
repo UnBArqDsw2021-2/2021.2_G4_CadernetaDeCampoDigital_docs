@@ -6,7 +6,7 @@ Versão|Data|Descrição|Auto(es)
 ------|----|---------|--------
 1.0   | 09/02/2022 | Criação do documento | João Pedro e Vitor Lamego
 1.1   | 09/02/2022 | Adição do diagrama de pacotes do backend | João Pedro
-<!-- 1.2   | 09/02/2022 | Adição do diagrama de pacotes do frontend | Vitor Lamego -->
+1.2   | 09/02/2022 | Adição do diagrama de pacotes do frontend | Vitor Lamego
 
 ## 2. Introdução
 <p align="justify" style="text-indent: 20px">O diagrama de pacotes é nada mais que um diagrama estático de estrutura do sistema, que visa mostrar os pacotes e seus relacionamentos entre si. Assim como muitos diagramas estáticos, o diagrama de pacotes também faz o uso da linguagem UML (<i>Unified Modeling Language</i>) [1]. Esses diagramas permitem uma visão clara da estrutura hierárquica do sistema, além de permitir a simplificação e possuir uma ótima visibilidade de projetos grandes e complexos [2].</p>
@@ -19,12 +19,12 @@ Versão|Data|Descrição|Auto(es)
 - Disponibilização: Mostra a implementação de um artefato em um alvo de implementação
 
 ## 3. Metodologia
-<p align="justify" style="text-indent: 20px">Após o entendimento do funcionamento da diagramação, parte-se para a sua confecção. A equipe, portanto, optou pela criação de dois diagramas de pacotes, sendo o primeiro deles voltado para a arquitetura que será implementada no Frontend com o Flutter e o segundo para a arquitetura Django Rest que será construída no Backend. Vale a pena ressaltar, que ambos diagramas estão simplificados e em formatos de <i>templates</i> pois ainda não foram definidos os módulos que serão desenvolvidos para o sistema.</p>
+<p align="justify" style="text-indent: 20px">Após o entendimento do funcionamento da diagramação, parte-se para a sua confecção. A equipe, portanto, optou pela criação de dois diagramas de pacotes, sendo o primeiro deles voltado para a arquitetura que será implementada no Mobile com o Flutter e o segundo para a arquitetura Django Rest que será construída no Backend. Vale a pena ressaltar, que ambos diagramas estão simplificados e em formatos de <i>templates</i> pois ainda não foram definidos os módulos que serão desenvolvidos para o sistema.</p>
 
-### 3.1 Frontend
-<!-- <img src="../../../assets/modelagem/estatica/.png" class="zoom"/>
-<h6 align = "center">Figura 1: Diagrama de pacotes frontend</h6>
-<h6 align = "center">Fonte: Autor</h6> -->
+### 3.1 Mobile
+<img src="../../../assets/modelagem/estatica/mobile.png" class="zoom"/>
+<h6 align = "center">Figura 1: Diagrama de pacotes mobile</h6>
+<h6 align = "center">Fonte: Autor</h6>
 
 ### 3.2 Backend
 <img src="../../../assets/modelagem/estatica/backend.png" class="zoom"/>
