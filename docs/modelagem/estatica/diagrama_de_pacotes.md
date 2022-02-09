@@ -10,7 +10,7 @@ Versão|Data|Descrição|Auto(es)
 
 ## 2. Introdução
 <p align="justify" style="text-indent: 20px">O diagrama de pacotes é nada mais que um diagrama estático de estrutura do sistema, que visa mostrar os pacotes e seus relacionamentos entre si. Assim como muitos diagramas estáticos, o diagrama de pacotes também faz o uso da linguagem UML (<i>Unified Modeling Language</i>) [1]. Esses diagramas permitem uma visão clara da estrutura hierárquica do sistema, além de permitir a simplificação e possuir uma ótima visibilidade de projetos grandes e complexos [2].</p>
-<p align="justify" style="text-indent: 20px">Dentro da linguagem UML, essa diagrama faz o uso de quatro elementos principais para sua composição: pacotes, elementos empacotáveis, dependências e relacionamentos que podem se dividir em três relações, sendo elas: importação de elemento, importação de pacote e mesclagem de pacotes.</p>
+<p align="justify" style="text-indent: 20px">Dentro da linguagem UML, esse diagrama faz o uso de quatro elementos principais para sua composição: pacotes, elementos empacotáveis, dependências e relacionamentos que podem se dividir em três relações, sendo elas: importação de elemento, importação de pacote e mesclagem de pacotes.</p>
 <p align="justify" style="text-indent: 20px">Além disso, os relacionamentos podem receber cinco notações possíveis diferentes [2], que são:</p>
 - Acesso: Um pacote requer assistência das funções de outro pacote
 - Importação: Um pacote importa funcionalidades de outro pacote
