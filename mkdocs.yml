@@ -71,13 +71,17 @@ nav:
       #   - Product Backlog:
       #   - Especificação Suplementar:
       #   - NFR Framework:
-    # - Iniciativas Extras:      
+    - Iniciativas Extras:      
       # - Modelagem Entidade-Relacionamento (MER):
       # - Diagrama Entidade-Relacionamento (DER):
       # - Diagrama Lógico de Dados (DLD):
       # - Dicionário de Dados:
       # - Casos de Uso:
-      # - Sprints:
+      - Sprints:
+        - Sprint 0:
+          - Review: sprints/review_0.md
+        - Sprint 1:
+          - Planning: sprints/planning_1.md
       # - Atas:
   # - Padrões de Projeto: ""
   # - Arquitetura de Software e Reutilização: ""
