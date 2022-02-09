@@ -56,6 +56,28 @@ nav:
       - Política de Contribuição: base/politicas_de_contribuicao.md
       - Manual de Identidade Visual: base/manual_identidade_visual.md
     - Apresentações: apresentacoes/pc1.md
-  # - Modelagem: ""
+  - Modelagem:
+    - Projeto Orientado a Abordagens Tradicionais:
+      # - Modelagem Estática:
+      #   - Diagrama de Classe:
+      #   - Diagrama de Pacotes:
+      #   - Diagrama de Componentes:
+      # - Modelagem Dinâmica:
+      #   - Diagrama de Sequência:
+      #   - Diagrama de Comunicação:
+      #   - Diagrama de Atividades:
+      #   - Diagrama de Estados:
+      - Modelagem Ágil:
+      #   - Product Backlog:
+        - Especificação Suplementar: modelagem/agil/especificacao_suplementar.md
+      #   - NFR Framework:
+    # - Iniciativas Extras:      
+      # - Modelagem Entidade-Relacionamento (MER):
+      # - Diagrama Entidade-Relacionamento (DER):
+      # - Diagrama Lógico de Dados (DLD):
+      # - Dicionário de Dados:
+      # - Casos de Uso:
+      # - Sprints:
+      # - Atas:
   # - Padrões de Projeto: ""
   # - Arquitetura de Software e Reutilização: ""
