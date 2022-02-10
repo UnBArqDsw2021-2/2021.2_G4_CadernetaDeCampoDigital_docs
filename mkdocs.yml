@@ -57,7 +57,7 @@ nav:
       - Manual de Identidade Visual: base/manual_identidade_visual.md
     - Apresentações: apresentacoes/pc1.md
   - Modelagem:
-    # - Projeto Orientado a Abordagens Tradicionais:
+    - Projeto Orientado a Abordagens Tradicionais:
       # - Modelagem Estática:
       #   - Diagrama de Classe:
       #   - Diagrama de Pacotes:
@@ -67,9 +67,9 @@ nav:
       #   - Diagrama de Comunicação:
       #   - Diagrama de Atividades:
       #   - Diagrama de Estados:
-      # - Modelagem Ágil:
+      - Modelagem Ágil:
       #   - Product Backlog:
-      #   - Especificação Suplementar:
+        - Especificação Suplementar: modelagem/agil/especificacao_suplementar.md
       #   - NFR Framework:
     - Iniciativas Extras:      
       # - Modelagem Entidade-Relacionamento (MER):
