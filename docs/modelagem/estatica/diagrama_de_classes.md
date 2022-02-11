@@ -9,7 +9,7 @@
 
 ## 2. Introdução
 
-<p align="justify" style="text-indent: 20px">Diagramas de classes fazem parte de um dos seis tipos de diagrama estrutural em UML (Unified Modeling Language), tem por objetivo modelar a estrutura estática de um sistema que representa suas classes, atributos, operações e as relações entre os objetos. Os diagramas de classes podem ajudar no entendimento dos requisitos do domínio do problema e na identificação de seus componentes, também podem ser traduzidos em classes e objetos reais no software em um projeto orientado a objetos. Portanto os diagramas de classes podem ser usados para visualizar, especificar e documentar recursos estruturais em seus modelos. (IBM) [1]</p>
+<p align="justify" style="text-indent: 20px">Diagramas de classes fazem parte de um dos seis tipos de diagramas estruturais em UML (Unified Modeling Language), tem por objetivo modelar a estrutura estática de um sistema que representa suas classes, atributos, operações e as relações entre os objetos. Os diagramas de classes podem ajudar no entendimento dos requisitos do domínio do problema e na identificação de seus componentes, também podem ser traduzidos em classes e objetos reais no software em um projeto orientado a objetos. Portanto os diagramas de classes podem ser usados para visualizar, especificar e documentar recursos estruturais em seus modelos. (IBM) [1]</p>
 
 ## 3. Diagrama de classes
 
