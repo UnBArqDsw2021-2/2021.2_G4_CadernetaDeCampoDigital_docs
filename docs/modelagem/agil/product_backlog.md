@@ -61,6 +61,12 @@
 
 |Feature|ID|Descrição|
 |:------:|:----:|:---------:|
+| <a href="#FT01">**FT01**</a> | <span id="US01">**US01**</span> | Eu, como [usuário](./lexicos/#usuario), posso me cadastrar na aplicação, para ter acesso as funcionalidades |
+| <a href="#FT01">**FT01**</a> | <span id="US02">**US02**</span> | Eu, como [usuário](./lexicos/#usuario), posso apagar meus dados da aplicação, caso não queira mas usar a aplicação |
+| <a href="#FT01">**FT01**</a> | <span id="US03">**US03**</span> | Eu, como [usuário](./lexicos/#usuario), posso editar meus dados de usuário, para desfazer algum possível erro ou atualizar os dados. |
+| <a href="#FT01">**FT01**</a> | <span id="US04">**US04**</span> | Eu, como [usuário](./lexicos/#usuario), posso fazer login na aplicação, para ter acesso a minha conta. |
+| <a href="#FT01">**FT01**</a> | <span id="US05">**US05**</span> | Eu, como [usuário](./lexicos/#usuario), posso fazer logout, caso não deseje mais estar logado ou mudar de conta. |
+| <a href="#FT01">**FT01**</a> | <span id="US06">**US06**</span> | Eu, como [usuário](./lexicos/#usuario), posso criar uma conta de técnico ou de produtor, para poder ter acesso as funcionalidades e permissões de cada tipo de usuário |
 | <a href="#FT02">**FT02**</a> | <span id="US07">**US07**</span> | Eu, como [produtor](./lexicos/#produtor), posso cadastrar [propriedade](./lexicos/#propriedade) para ter controle sobre a [propriedade](./lexicos/#propriedade) |
 | <a href="#FT02">**FT02**</a> | <span id="US08">**US08**</span> | Eu, como [produtor](./lexicos/#produtor), posso alterar a [propriedade](./lexicos/#propriedade) para ter controle sobre a [propriedade](./lexicos/#propriedade) |
 | <a href="#FT02">**FT02**</a> | <span id="US09">**US09**</span> | Eu, como [produtor](./lexicos/#produtor), posso adicionar [talhão](./lexicos/#talhao) para ter controle sobre a [propriedade](./lexicos/#propriedade) |
