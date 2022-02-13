@@ -61,15 +61,17 @@ nav:
       - Modelagem Estática:
       #   - Diagrama de Classe:
         - Diagrama de Pacotes: modelagem/estatica/diagrama_de_pacotes.md
+        - Diagrama de Classe: modelagem/estatica/diagrama_de_classes.md
+      #   - Diagrama de Pacotes:
       #   - Diagrama de Componentes:
       # - Modelagem Dinâmica:
       #   - Diagrama de Sequência:
       #   - Diagrama de Comunicação:
       #   - Diagrama de Atividades:
       #   - Diagrama de Estados:
-      # - Modelagem Ágil:
+      - Modelagem Ágil:
       #   - Product Backlog:
-      #   - Especificação Suplementar:
+        - Especificação Suplementar: modelagem/agil/especificacao_suplementar.md
       #   - NFR Framework:
     - Iniciativas Extras:      
       # - Modelagem Entidade-Relacionamento (MER):
