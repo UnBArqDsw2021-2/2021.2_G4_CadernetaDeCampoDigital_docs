@@ -58,8 +58,8 @@ nav:
     - Apresentações: apresentacoes/pc1.md
   - Modelagem:
     - Projeto Orientado a Abordagens Tradicionais:
-      # - Modelagem Estática:
-      #   - Diagrama de Classe:
+      - Modelagem Estática:
+        - Diagrama de Classe: modelagem/estatica/diagrama_de_classes.md
       #   - Diagrama de Pacotes:
       #   - Diagrama de Componentes:
       # - Modelagem Dinâmica:
