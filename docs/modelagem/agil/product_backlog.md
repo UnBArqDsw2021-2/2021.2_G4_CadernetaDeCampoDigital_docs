@@ -5,6 +5,7 @@
 |0.1|13/02/2022|Abertura do Product Backlog|Denniel William|
 |0.2|13/02/2022|Adição das Histórias de usuário|Denniel William|
 |0.3|13/02/2022|Adição da Introdução, Metodologia e Épicos|Eduardo Afonso|
+|0.4|13/02/2022|Adição do backlog completo e legenda|Brenno Oliveira|
 
 ## 2. Introdução
 
@@ -41,11 +42,17 @@
 
 <p style="text-align: justify; text-indent: 20px">O projeto foi analisado de uma perspectiva mais ampla com o objetivo de ter uma visão geral sobre o produto e foi possível enxergar os três épicos a seguir.</p>
 
+<center>
+
 |ID|Descrição|
 |:------:|:----:|
-|**E1**|Cadastro e Autenticação|
-|**E2**|<a href="https://unbarqdsw2021-2.github.io/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/modelagem/lexicos/#plantio">Plantação</a> e <a href="https://unbarqdsw2021-2.github.io/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/modelagem/lexicos/#agrotoxico">Agrotóxico</a>|
-|**E3**|Detalhes e Histórico|
+|**EP1**|Cadastro e Autenticação|
+|**EP2**|<a href="https://unbarqdsw2021-2.github.io/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/modelagem/lexicos/#plantio">Plantação</a> e <a href="https://unbarqdsw2021-2.github.io/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/modelagem/lexicos/#agrotoxico">Agrotóxico</a>|
+|**EP3**|Detalhes e Histórico|
+
+</center>
+<h6 align="center">Tabela 1: Épicos</h6>
+<h6 align="center">Fonte: Autores</h6>
 
 ## 5. Features
 
@@ -91,9 +98,69 @@
 | <a href="#FT09">**FT09**</a> | <span id="US28">**US28**</span> | Eu, como [técnico](./lexicos/#tecnico), posso visualizar [caderneta de campo](./lexicos/#cardeneta_de_campo) para regularizar [caderneta de campo](./lexicos/#cardeneta_de_campo) |
 | <a href="#FT09">**FT09**</a> | <span id="US29">**US29**</span> | Eu, como [técnico](./lexicos/#tecnico), posso solicitar alteração da [caderneta de campo](./lexicos/#cardeneta_de_campo) para regularizar [caderneta de campo](./lexicos/#cardeneta_de_campo) |
 
-## 7. Backlog Completo
+<h6 align="center">Tabela 3: Histórias de Usuários</h6>
+<h6 align="center">Fonte: Autores</h6>
 
-## 8. Referências
+## 7. Backlog Completo
+<p style="text-align: justify; text-indent: 20px">A partir de todos os <a href="/modelagem/agil/product_backlog/#4-epicos">épicos</a>, <a href="/modelagem/agil/product_backlog/#5-features">features</a> e <a href="/modelagem/agil/product_backlog/#6-historias-de-usuario">histórias de usuários</a> documentados foi possível fazer uma tabela completa com cada nível de granularidade relacionando-as com os devidos requisitos.</p>
+<p style="text-align: justify; text-indent: 20px">A priorização não está constando por todos as histórias criadas derivam de algum requisito previamente classificado como <i>Must</i> em nossa priorização por <a href="/requisitos/priorizacao/moscow/">Moscow</a>.</p>
+
+<center>
+
+|Épico|Feature|User Story|Requisito|
+|--|--|--|--|
+|EP1|FT01|US01|<a href="/requisitos/elicitacao/introspeccao/">I01</a>|
+|EP1|FT01|US02|<a href="/requisitos/elicitacao/introspeccao/">I16</a>|
+|EP1|FT01|US03|<a href="/requisitos/elicitacao/introspeccao/">I16</a>|
+|EP1|FT01|US04|<a href="/requisitos/elicitacao/introspeccao/">I01</a>|
+|EP1|FT01|US05|<a href="/requisitos/elicitacao/introspeccao/">I01</a>|
+|EP1|FT01|US06|<a href="/requisitos/elicitacao/introspeccao/">I01</a>|
+|EP2|FT02|US07|<a href="/requisitos/elicitacao/introspeccao/">I02</a>|
+|EP2|FT02|US08|<a href="/requisitos/elicitacao/introspeccao/">I02</a>|
+|EP2|FT02|US09|<a href="/requisitos/elicitacao/introspeccao/">I02</a>|
+|EP2|FT02|US10|<a href="/requisitos/elicitacao/introspeccao/">I02</a>|
+|EP2|FT02|US11|<a href="/requisitos/elicitacao/introspeccao/">I09</a>|
+|EP2|FT02|US12|<a href="/requisitos/elicitacao/introspeccao/">I09</a>|
+|EP2|FT02|US13|<a href="/requisitos/elicitacao/introspeccao/">I09</a>|
+|EP2|FT03|US14|<a href="/requisitos/elicitacao/entrevista/">E06</a>|
+|EP2|FT03|US15|<a href="/requisitos/elicitacao/entrevista/">E06</a>|
+|EP2|FT03|US16|<a href="/requisitos/elicitacao/entrevista/">E06</a>, <a href="/requisitos/elicitacao/introspeccao/">I13</a>|
+|EP2|FT04|US17|<a href="/requisitos/elicitacao/entrevista/">E08</a>, <a href="/requisitos/elicitacao/entrevista/">E17</a>, <a href="/requisitos/elicitacao/brainstorming/">BS21</a>|
+|EP2|FT04|US18|<a href="/requisitos/elicitacao/entrevista/">E08</a>, <a href="/requisitos/elicitacao/entrevista/">E17</a>, <a href="/requisitos/elicitacao/brainstorming/">BS21</a>|
+|EP3|FT05|US19|<a href="/requisitos/elicitacao/entrevista/">E17</a>, <a href="/requisitos/elicitacao/introspeccao/">I08</a>|
+|EP3|FT05|US20|<a href="/requisitos/elicitacao/brainstorming/">BS08</a>|
+|EP3|FT05|US21|<a href="/requisitos/elicitacao/entrevista/">E13</a>, <a href="/requisitos/elicitacao/brainstorming/">BS08</a>|
+|EP3|FT05|US22|<a href="/requisitos/elicitacao/entrevista/">E13</a>, <a href="/requisitos/elicitacao/brainstorming/">BS08</a>|
+|EP3|FT06|US23|<a href="/requisitos/elicitacao/entrevista/">E04</a>|
+|EP3|FT06|US24|<a href="/requisitos/elicitacao/entrevista/">E04</a>|
+|EP3|FT07|US25|<a href="/requisitos/elicitacao/entrevista/">E04</a>|
+|EP3|FT07|US26|<a href="/requisitos/elicitacao/brainstorming/">BS20</a>|
+|EP3|FT08|US27|<a href="/requisitos/elicitacao/introspeccao/">I09</a>|
+|EP3|FT09|US28|<a href="/requisitos/elicitacao/entrevista/">E04</a>|
+|EP3|FT09|US29|<a href="/requisitos/elicitacao/entrevista/">E04</a>|
+
+</center>
+<h6 align="center">Tabela 4: Backlog completo</h6>
+<h6 align="center">Fonte: Autores</h6>
+
+## 8. Legenda
+<center>
+
+|Legenda|Significado| 
+|:--:|:--:|
+|EP|Épico|
+|FT|Feature|
+|US|User Story|
+|E|Entrevista|
+|I|Introspecção|
+|BS|Brainstorming|
+
+</center>
+
+<h6 align="center">Tabela 5: Legenda</h6>
+<h6 align="center">Fonte: Autores</h6>
+
+## 9. Referências
 
 > [1] RADIGAN, Dan. **O backlog do produto: sua lista de tarefas definitiva**. Atlassian. Disponível em: <a href="https://www.atlassian.com/br/agile/scrum/backlogs" target="_blanck">https://www.atlassian.com/br/agile/scrum/backlogs</a>. Acesso em: 13/02/2022.
 
