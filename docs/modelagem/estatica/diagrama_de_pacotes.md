@@ -7,6 +7,7 @@ Versão|Data|Descrição|Auto(es)
 1.0   | 09/02/2022 | Criação do documento | João Pedro e Vitor Lamego
 1.1   | 09/02/2022 | Adição do diagrama de pacotes do backend | João Pedro
 1.2   | 09/02/2022 | Adição do diagrama de pacotes do frontend | Vitor Lamego
+1.3   | 13/02/2022 | Revisão por pares | Paulo Vitor e Denniel William
 
 ## 2. Introdução
 <p align="justify" style="text-indent: 20px">O diagrama de pacotes é nada mais que um diagrama estático de estrutura do sistema, que visa mostrar os pacotes e seus relacionamentos entre si. Assim como muitos diagramas estáticos, o diagrama de pacotes também faz o uso da linguagem UML (<i>Unified Modeling Language</i>) [1]. Esses diagramas permitem uma visão clara da estrutura hierárquica do sistema, além de permitir a simplificação e possuir uma ótima visibilidade de projetos grandes e complexos [2].</p>
