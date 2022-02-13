@@ -68,7 +68,7 @@ nav:
       #   - Diagrama de Atividades:
       #   - Diagrama de Estados:
       - Modelagem Ágil:
-      #   - Product Backlog:
+        - Product Backlog: modelagem/agil/product_backlog.md
         - Especificação Suplementar: modelagem/agil/especificacao_suplementar.md
       #   - NFR Framework:
     - Iniciativas Extras:      
