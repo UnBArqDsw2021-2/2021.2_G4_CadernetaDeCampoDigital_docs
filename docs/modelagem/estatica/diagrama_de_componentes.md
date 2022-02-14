@@ -9,7 +9,7 @@
 
 ## 2. Introdução
 
-<p align="justify" style="text-indent: 20px">O Diagrama de componentes é criado em UML e tem como função representar os componentes que pertencem a um sistema e como eles se comunicam entre si, para que assim possa ser criado de forma coesa. Com essas informações podemos ter uma visão geral do sistema e entender o comportamento exato do seviço fornecido pelo software em questão, além disso, por ser em UML, o diagrama faz a descrição de sistemas em qualquer linguagem de programação.[1]</p>
+<p align="justify" style="text-indent: 20px">O Diagrama de componentes é criado em UML e tem como função representar os componentes que pertencem a um sistema e como eles se comunicam entre si, para que assim possa ser criado de forma coesa. Com essas informações podemos ter uma visão geral do sistema e entender o comportamento exato do serviço fornecido pelo software em questão, além disso, por ser em UML, o diagrama faz a descrição de sistemas em qualquer linguagem de programação.[1]</p>
 
 ## 3. Diagrama de componentes
 
