@@ -14,7 +14,7 @@
 
 ## 2. Introdução
 
-<p style="text-align: justify; text-indent: 20px">Product backlog é um importante artefato para a metodologia <a href="https://unbarqdsw2021-2.github.io/2021.2_G4_CadernetaDeCampoDigital_docs/base/metodologia/#31-scrum">Scrum</a>, com ele a equipe é capaz de listar o trabalho de maneira priorizada e escolher os itens que serão trabalhados na Sprint sem a necessidade da participação do proprietário do produto.</p>
+<p style="text-align: justify; text-indent: 20px">Product backlog é um importante artefato para a metodologia <a href="https://unbarqdsw2021-2.github.io/2021.2_G4_CadernetaDeCampoDigital_docs/base/metodologia/#31-scrum">Scrum</a>, com ele a equipe é capaz de listar o trabalho de maneira priorizada e escolher os itens que serão trabalhados na Sprint sem a necessidade da participação do proprietário do produto [1].</p>
 
 <p style="text-align: justify; text-indent: 20px">Foi escolhido, a princípio, três níveis de abstração. Sendo eles: <a href="#4-epicos">Épicos</a>, <a href="#5-features">Features</a> e <a href="#6-historias-de-usuario">Histórias de Usuário</a>.
 
@@ -42,7 +42,7 @@
 
 ## 4. Épicos
 
-<p style="text-align: justify; text-indent: 20px">Épico foi o maior nível de granularidade que a equipe definiu na construção do product backlog. Os épicos são uma visão de mais alto nível em relação ao que deve ser implementado. Eles geralmente levam várias sprints para serem concluídos e podem ser divididos em objetivos menores.</p>
+<p style="text-align: justify; text-indent: 20px">Épico foi o maior nível de granularidade que a equipe definiu na construção do product backlog. Os épicos são uma visão de mais alto nível em relação ao que deve ser implementado [3]. Eles geralmente levam várias sprints para serem concluídos e podem ser divididos em objetivos menores.</p>
 
 <p style="text-align: justify; text-indent: 20px">O projeto foi analisado de uma perspectiva mais ampla com o objetivo de ter uma visão geral sobre o produto e foi possível enxergar os três épicos a seguir.</p>
 
@@ -84,7 +84,7 @@
 
 ## 6. Histórias de Usuário
 
-<p style="text-align: justify; text-indent: 20px">As histórias de usuário se tratam de descrições curtas e simples de uma funcionalidade, contadas da perspectiva de um usuário. Cada história de usuário se refere a implementação de uma pequena parte do comportamento do sistema.</p>
+<p style="text-align: justify; text-indent: 20px">As histórias de usuário se tratam de descrições curtas e simples de uma funcionalidade, contadas da perspectiva de um usuário [4]. Cada história de usuário se refere a implementação de uma pequena parte do comportamento do sistema.</p>
 
 <p style="text-align: justify; text-indent: 20px">Da perspectiva do usuário, consegue se obter a qual usuário a tarefa se refere, o que será feito e porquê será feito.</p>
 
@@ -132,36 +132,150 @@
 
 <center>
 
-|Épico|Feature|User Story|Requisito
-|--|--|--|--|
-|<a href="#EP1">**EP1**</a>|<a href="#FT01">**FT01**</a>|<a href="#US01">**US01**</a>|<a href="/requisitos/elicitacao/introspeccao/">I01</a>|
-|<a href="#EP1">**EP1**</a>|<a href="#FT01">**FT01**</a>|<a href="#US02">**US02**</a>|<a href="/requisitos/elicitacao/introspeccao/">I16</a>|
-|<a href="#EP1">**EP1**</a>|<a href="#FT01">**FT01**</a>|<a href="#US03">**US03**</a>|<a href="/requisitos/elicitacao/introspeccao/">I16</a>|
-|<a href="#EP1">**EP1**</a>|<a href="#FT01">**FT01**</a>|<a href="#US04">**US04**</a>|<a href="/requisitos/elicitacao/introspeccao/">I01</a>|
-|<a href="#EP1">**EP1**</a>|<a href="#FT01">**FT01**</a>|<a href="#US05">**US05**</a>|<a href="/requisitos/elicitacao/introspeccao/">I01</a>|
-|<a href="#EP1">**EP1**</a>|<a href="#FT01">**FT01**</a>|<a href="#US06">**US06**</a>|<a href="/requisitos/elicitacao/introspeccao/">I01</a>|
-|<a href="#EP2">**EP2**</a>|<a href="#FT02">**FT02**</a>|<a href="#US07">**US07**</a>|<a href="/requisitos/elicitacao/introspeccao/">I02</a>|
-|<a href="#EP2">**EP2**</a>|<a href="#FT02">**FT02**</a>|<a href="#US08">**US08**</a>|<a href="/requisitos/elicitacao/introspeccao/">I02</a>|
-|<a href="#EP2">**EP2**</a>|<a href="#FT02">**FT02**</a>|<a href="#US09">**US09**</a>|<a href="/requisitos/elicitacao/introspeccao/">I02</a>|
-|<a href="#EP2">**EP2**</a>|<a href="#FT02">**FT02**</a>|<a href="#US10">**US10**</a>|<a href="/requisitos/elicitacao/introspeccao/">I02</a>|
-|<a href="#EP2">**EP2**</a>|<a href="#FT02">**FT02**</a>|<a href="#US11">**US11**</a>|<a href="/requisitos/elicitacao/introspeccao/">I09</a>|
-|<a href="#EP2">**EP2**</a>|<a href="#FT02">**FT02**</a>|<a href="#US12">**US12**</a>|<a href="/requisitos/elicitacao/introspeccao/">I09</a>|
-|<a href="#EP2">**EP2**</a>|<a href="#FT03">**FT03**</a>|<a href="#US13">**US13**</a>|<a href="/requisitos/elicitacao/entrevista/">E06</a>|
-|<a href="#EP2">**EP2**</a>|<a href="#FT03">**FT03**</a>|<a href="#US14">**US14**</a>|<a href="/requisitos/elicitacao/entrevista/">E06</a>|
-|<a href="#EP2">**EP2**</a>|<a href="#FT03">**FT03**</a>|<a href="#US15">**US15**</a>|<a href="/requisitos/elicitacao/entrevista/">E06</a>, <a href="/requisitos/elicitacao/introspeccao/">I13</a>|
-|<a href="#EP2">**EP2**</a>|<a href="#FT04">**FT04**</a>|<a href="#US16">**US16**</a>|<a href="/requisitos/elicitacao/entrevista/">E08</a>, <a href="/requisitos/elicitacao/entrevista/">E17</a>, <a href="/requisitos/elicitacao/brainstorming/">BS21</a>|
-|<a href="#EP2">**EP2**</a>|<a href="#FT04">**FT04**</a>|<a href="#US17">**US17**</a>|<a href="/requisitos/elicitacao/entrevista/">E08</a>, <a href="/requisitos/elicitacao/entrevista/">E17</a>, <a href="/requisitos/elicitacao/brainstorming/">BS21</a>|
-|<a href="#EP2">**EP2**</a>|<a href="#FT05">**FT05**</a>|<a href="#US18">**US18**</a>|<a href="/requisitos/elicitacao/entrevista/">E17</a>, <a href="/requisitos/elicitacao/introspeccao/">I08</a>|
-|<a href="#EP2">**EP2**</a>|<a href="#FT05">**FT05**</a>|<a href="#US19">**US19**</a>|<a href="/requisitos/elicitacao/brainstorming/">BS08</a>|
-|<a href="#EP2">**EP2**</a>|<a href="#FT05">**FT05**</a>|<a href="#US20">**US20**</a>|<a href="/requisitos/elicitacao/entrevista/">E13</a>, <a href="/requisitos/elicitacao/brainstorming/">BS08</a>|
-|<a href="#EP2">**EP2**</a>|<a href="#FT05">**FT05**</a>|<a href="#US21">**US21**</a>|<a href="/requisitos/elicitacao/entrevista/">E13</a>, <a href="/requisitos/elicitacao/brainstorming/">BS08</a>|
-|<a href="#EP3">**EP3**</a>|<a href="#FT06">**FT06**</a>|<a href="#US22">**US22**</a>|<a href="/requisitos/elicitacao/entrevista/">E04</a>|
-|<a href="#EP3">**EP3**</a>|<a href="#FT06">**FT06**</a>|<a href="#US23">**US23**</a>|<a href="/requisitos/elicitacao/entrevista/">E04</a>|
-|<a href="#EP3">**EP3**</a>|<a href="#FT07">**FT07**</a>|<a href="#US24">**US24**</a>|<a href="/requisitos/elicitacao/entrevista/">E04</a>|
-|<a href="#EP3">**EP3**</a>|<a href="#FT07">**FT07**</a>|<a href="#US25">**US25**</a>|<a href="/requisitos/elicitacao/brainstorming/">BS20</a>|
-|<a href="#EP3">**EP3**</a>|<a href="#FT08">**FT08**</a>|<a href="#US26">**US26**</a>|<a href="/requisitos/elicitacao/introspeccao/">I09</a>|
-|<a href="#EP3">**EP3**</a>|<a href="#FT09">**FT09**</a>|<a href="#US27">**US27**</a>|<a href="/requisitos/elicitacao/entrevista/">E04</a>|
-|<a href="#EP3">**EP3**</a>|<a href="#FT09">**FT09**</a>|<a href="#US28">**US28**</a>|<a href="/requisitos/elicitacao/entrevista/">E04</a>|
+<style>
+    #celula {
+        vertical-align: middle;
+        text-align: center;
+        border: 0.5px solid rgba(0,0,0,0.2);
+    }
+</style>
+
+<table>
+    <thead>
+        <tr>
+            <th>Épico</th>
+            <th>Feature</th>
+            <th>User Story</th>
+            <th>Requisito</th>
+        </tr>
+    </thead>
+    <tbody >
+            <tr>
+                <td id="celula" rowspan="6"><a href="#EP1">EP1</a></td>
+                <td id="celula" rowspan="6"><a href="#FT01">FT01</a></td>
+                <td id="celula"><a href="#US01">US01</a></td>
+                <td id="celula"><a href="/requisitos/elicitacao/introspeccao/">I01</a></td>
+            </tr>
+            <tr>
+                <td id="celula"><a href="#US02">US02</a></td>
+                <td id="celula"><a href="/requisitos/elicitacao/introspeccao/">I16</a></td>
+            </tr>
+            <tr>
+                <td id="celula"><a href="#US03">US03</a></td>
+                <td id="celula"><a href="/requisitos/elicitacao/introspeccao/">I16</a></td>
+            </tr>
+            <tr>
+                <td id="celula"><a href="#US04">US04</a></td>
+                <td id="celula"><a href="/requisitos/elicitacao/introspeccao/">I01</a></td>
+            </tr>
+            <tr>
+                <td id="celula"><a href="#US05">US05</a></td>
+                <td id="celula"><a href="/requisitos/elicitacao/introspeccao/">I01</a></td>
+            </tr>
+            <tr>
+                <td id="celula"><a href="#US06">US06</a></td>
+                <td id="celula"><a href="/requisitos/elicitacao/introspeccao/">I01</a></td>
+            </tr>
+            <tr>
+                <td id="celula" rowspan="15"><a href="#EP2">EP2</a></td>
+                <td id="celula" rowspan="6"><a href="#FT02">FT02</a></td>
+                <td id="celula"><a href="#US07">US07</a></td>
+                <td id="celula"><a href="/requisitos/elicitacao/introspeccao/">I02</a></td>
+            </tr>
+            <tr>
+                <td id="celula"><a href="#US08">US08</a></td>
+                <td id="celula"><a href="/requisitos/elicitacao/introspeccao/">I02</a></td>
+            </tr>
+            <tr>
+                <td id="celula"><a href="#US09">US09</a></td>
+                <td id="celula"><a href="/requisitos/elicitacao/introspeccao/">I02</a></td>
+            </tr>
+            <tr>
+                <td id="celula"><a href="#US10">US10</a></td>
+                <td id="celula"><a href="/requisitos/elicitacao/introspeccao/">I02</a></td>
+            </tr>
+            <tr>
+                <td id="celula"><a href="#US11">US11</a></td>
+                <td id="celula"><a href="/requisitos/elicitacao/introspeccao/">I09</a></td>
+            </tr>
+            <tr>
+                <td id="celula"><a href="#US12">US12</a></td>
+                <td id="celula"><a href="/requisitos/elicitacao/introspeccao/">I09</a></td>
+            </tr>
+            <tr>
+                <td id="celula" rowspan="3"><a href="#FT03">FT03</a></td>
+                <td id="celula"><a href="#US01">US13</a></td>
+                <td id="celula"><a href="/requisitos/elicitacao/entrevista/">E06</a></td>
+            </tr>
+            <tr>
+                <td id="celula"><a href="#US12">US14</a></td>
+                <td id="celula"><a href="/requisitos/elicitacao/entrevista/">E06</a></td>
+            </tr>
+            <tr>
+                <td id="celula"><a href="#US12">US15</a></td>
+                <td id="celula"><a href="/requisitos/elicitacao/entrevista/">E06</a>, <a href="/requisitos/elicitacao/introspeccao/">I13</a></td>
+            </tr>
+            <tr>
+                <td id="celula" rowspan="2"><a href="#FT04">FT04</a></td>
+                <td id="celula"><a href="#US16">US16</a></td>
+                <td id="celula"><a href="/requisitos/elicitacao/entrevista/">E08</a>, <a href="/requisitos/elicitacao/entrevista/">E17</a>, <a href="/requisitos/elicitacao/brainstorming/">BS21</a></td>
+            </tr>
+            <tr>
+                <td id="celula"><a href="#US17">US17</a></td>
+                <td id="celula"><a href="/requisitos/elicitacao/entrevista/">E08</a>, <a href="/requisitos/elicitacao/entrevista/">E17</a>, <a href="/requisitos/elicitacao/brainstorming/">BS21</a></td>
+            </tr>
+            <tr>
+                <td id="celula" rowspan="4"><a href="#FT05">FT05</a></td>
+                <td id="celula"><a href="#US18">US18</a></td>
+                <td id="celula"><a href="/requisitos/elicitacao/entrevista/">E17</a>, <a href="/requisitos/elicitacao/introspeccao/">I08</a></td>
+            </tr>
+            <tr>
+                <td id="celula"><a href="#US19">US19</a></td>
+                <td id="celula"><a href="/requisitos/elicitacao/brainstorming/">BS08</a></td>
+            </tr>
+                        <tr>
+                <td id="celula"><a href="#US20">US20</a></td>
+                <td id="celula"><a href="/requisitos/elicitacao/entrevista/">E13</a>, <a href="/requisitos/elicitacao/brainstorming/">BS08</a></td>
+            </tr>
+            <tr>
+                <td id="celula"><a href="#US21">US21</a></td>
+                <td id="celula"><a href="/requisitos/elicitacao/entrevista/">E13</a>, <a href="/requisitos/elicitacao/brainstorming/">BS08</a></td>
+            </tr>
+            <tr>
+                <td id="celula" rowspan="7"><a href="#EP3">EP3</a></td>
+                <td id="celula" rowspan="2"><a href="#FT06">FT06</a></td>
+                <td id="celula"><a href="#US22">US22</a></td>
+                <td id="celula"><a href="/requisitos/elicitacao/entrevista/">E04</a></td>
+            </tr>
+            <tr>
+                <td id="celula"><a href="#US23">US23</a></td>
+                <td id="celula"><a href="/requisitos/elicitacao/entrevista/">E04</a></td>
+            </tr>
+            <tr>
+                <td id="celula" rowspan="2"><a href="#FT07">FT07</a></td>
+                <td id="celula"><a href="#US24">US24</a></td>
+                <td id="celula"><a href="/requisitos/elicitacao/entrevista/">E04</a></td>
+            </tr>
+            <tr>
+                <td id="celula"><a href="#US25">US25</a></td>
+                <td id="celula"><a href="/requisitos/elicitacao/brainstorming/">BS20</a></td>
+            </tr>
+            <tr>
+                <td id="celula" rowspan="1"><a href="#FT08">FT08</a></td>
+                <td id="celula"><a href="#US26">US26</a></td>
+                <td id="celula"><a href="/requisitos/elicitacao/introspeccao/">I09</a></td>
+            </tr>
+            <tr>
+                <td id="celula" rowspan="2"><a href="#FT09">FT09</a></td>
+                <td id="celula"><a href="#US27">US27</a></td>
+                <td id="celula"><a href="/requisitos/elicitacao/entrevista/">E04</a></td>
+            </tr>
+            <tr>
+                <td id="celula"><a href="#US28">US28</a></td>
+                <td id="celula"><a href="/requisitos/elicitacao/entrevista/">E04</a></td>
+            </tr>
+    </tbody>
+</table>
 
 </center>
 <h6 align="center">Tabela 4: Backlog completo</h6>
