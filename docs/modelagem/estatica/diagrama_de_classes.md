@@ -6,6 +6,7 @@
 | ------ | -----        | ---------------------------------         | ------------ |
 | 1.0    | 10/02/2022   | Criação do documento e introdução         | Rafael Ramos |
 | 1.1    | 10/02/2022   | Adição do Diagrama de Classe              | Rafael Ramos e Thiago |
+| 1.2    | 13/02/2022   | Revisão por pares              | João Pedro Moura e Denniel William |
 
 ## 2. Introdução
 

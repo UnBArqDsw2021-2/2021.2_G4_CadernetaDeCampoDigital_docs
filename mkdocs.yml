@@ -74,7 +74,7 @@ nav:
         - Especificação Suplementar: modelagem/agil/especificacao_suplementar.md
       #   - NFR Framework:
     - Iniciativas Extras:      
-      # - Modelagem Entidade-Relacionamento (MER):
+      - Modelagem Entidade-Relacionamento (MER): modelagem/extras/mer.md
       # - Diagrama Entidade-Relacionamento (DER):
       # - Diagrama Lógico de Dados (DLD):
       # - Dicionário de Dados:
