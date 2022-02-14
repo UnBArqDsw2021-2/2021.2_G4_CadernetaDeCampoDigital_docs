@@ -6,6 +6,7 @@
 | ------ | ---------- | ----------------------- | ------------ |
 | 1.0    | 13/02/2022 | Abertura do documento   | Thiago       |
 | 1.1    | 13/02/2022 | Introdução do documento | Rafael Ramos |
+| 1.1.1   | 14/02/2022 | Revisão do documento    | João Pedro e Carlos |
 
 ## 2. Introdução
 
