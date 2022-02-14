@@ -2,10 +2,13 @@
 
 |Versão|Data|Descrição|Autor(es)|
 |:------:|:----:|:---------:|:---------:|
-|0.1|13/02/2022|Abertura do Product Backlog|Denniel William|
-|0.2|13/02/2022|Adição das Histórias de usuário|Denniel William|
-|0.3|13/02/2022|Adição da Introdução, Metodologia e Épicos|Eduardo Afonso|
-|0.4|13/02/2022|Adição do backlog completo e legenda|Brenno Oliveira|
+|1.1|13/02/2022|Abertura do Product Backlog|Denniel William|
+|1.2|13/02/2022|Adição das Histórias de usuário|Denniel William|
+|1.3|13/02/2022|Adição da Introdução, Metodologia e Épicos|Eduardo Afonso|
+|1.4|13/02/2022|Adição do backlog completo e legenda|Brenno Oliveira|
+|1.5|13/02/2022|Adição das Features|Paulo Vitor|
+
+
 
 ## 2. Introdução
 
@@ -47,7 +50,7 @@
 |ID|Descrição|
 |:------:|:----:|
 |**EP1**|Cadastro e Autenticação|
-|**EP2**|<a href="https://unbarqdsw2021-2.github.io/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/modelagem/lexicos/#plantio">Plantação</a> e <a href="https://unbarqdsw2021-2.github.io/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/modelagem/lexicos/#agrotoxico">Agrotóxico</a>|
+|**EP2**|<a href="/requisitos/modelagem/lexicos#plantio">Plantação</a> e <a href="/requisitos/modelagem/lexicos#agrotoxico">Agrotóxico</a>|
 |**EP3**|Detalhes e Histórico|
 
 </center>
@@ -55,6 +58,30 @@
 <h6 align="center">Fonte: Autores</h6>
 
 ## 5. Features
+
+<p style="text-align: justify; text-indent: 20px"></p>
+
+<p style="text-align: justify; text-indent: 20px"> Uma Feature descreve um conjunto de funcionalidades, caracteŕisticas e requisitos para o projeto, agrupam uma ou muitas User Stories e tem como objetivo realizar um Épico. </p>
+
+<p style="text-align: justify; text-indent: 20px"></p>
+
+<center>
+
+| **Épico** | **ID** | **Descrição** |
+| :-: | :-: | --- |
+| **E1** | **FT01** | Controle de <a href="/requisitos/modelagem/lexicos#usuario">usuário</a> |
+| **E2** | **FT02** | Manter <a href="/requisitos/modelagem/lexicos#propriedade">propriedade</a>|
+| **E2** | **FT03** | Manter <a href="/requisitos/modelagem/lexicos#plantio">plantação</a>|
+| **E2** | **FT04** | <a href="/requisitos/modelagem/lexicos#aplicar_agrotoxico" > Aplicar agrotóxico </a>|
+| **E2** | **FT05** | Gerenciar <a href="/requisitos/modelagem/lexicos#agrotoxico" > agrotóxico </a>|
+| **E3** | **FT06** | Gerenciar  <a href="/requisitos/modelagem/lexicos#cardeneta_de_campo" > caderneta de campo </a> |
+| **E3** | **FT07** | Manter histórico de <a href="/requisitos/modelagem/lexicos#plantio">plantações</a>|
+| **E3** | **FT08** |<a href="/requisitos/modelagem/lexicos#supervisionar_propriedade">Supervisiona propriedade</a>||
+| **E3** | **FT09** | Regularizar <a href="/requisitos/modelagem/lexicos#cardeneta_de_campo" > caderneta de campo </a>|
+                        
+</center>
+<h6 align="center">Tabela 2: Features</h6>
+<h6 align="center">Fonte: Autores</h6>
 
 ## 6. Histórias de Usuário
 
@@ -68,35 +95,35 @@
 
 |Feature|ID|Descrição|
 |:------:|:----:|:---------:|
-| <a href="#FT01">**FT01**</a> | <span id="US01">**US01**</span> | Eu, como [usuário](./lexicos/#usuario), posso me cadastrar na aplicação, para ter acesso as funcionalidades |
-| <a href="#FT01">**FT01**</a> | <span id="US02">**US02**</span> | Eu, como [usuário](./lexicos/#usuario), posso apagar meus dados da aplicação, caso não queira mas usar a aplicação |
-| <a href="#FT01">**FT01**</a> | <span id="US03">**US03**</span> | Eu, como [usuário](./lexicos/#usuario), posso editar meus dados de usuário, para desfazer algum possível erro ou atualizar os dados. |
-| <a href="#FT01">**FT01**</a> | <span id="US04">**US04**</span> | Eu, como [usuário](./lexicos/#usuario), posso fazer login na aplicação, para ter acesso a minha conta. |
-| <a href="#FT01">**FT01**</a> | <span id="US05">**US05**</span> | Eu, como [usuário](./lexicos/#usuario), posso fazer logout, caso não deseje mais estar logado ou mudar de conta. |
-| <a href="#FT01">**FT01**</a> | <span id="US06">**US06**</span> | Eu, como [usuário](./lexicos/#usuario), posso criar uma conta de técnico ou de produtor, para poder ter acesso as funcionalidades e permissões de cada tipo de usuário |
-| <a href="#FT02">**FT02**</a> | <span id="US07">**US07**</span> | Eu, como [produtor](./lexicos/#produtor), posso cadastrar [propriedade](./lexicos/#propriedade) para ter controle sobre a [propriedade](./lexicos/#propriedade) |
-| <a href="#FT02">**FT02**</a> | <span id="US08">**US08**</span> | Eu, como [produtor](./lexicos/#produtor), posso alterar a [propriedade](./lexicos/#propriedade) para ter controle sobre a [propriedade](./lexicos/#propriedade) |
-| <a href="#FT02">**FT02**</a> | <span id="US09">**US09**</span> | Eu, como [produtor](./lexicos/#produtor), posso adicionar [talhão](./lexicos/#talhao) para ter controle sobre a [propriedade](./lexicos/#propriedade) |
-| <a href="#FT02">**FT02**</a> | <span id="US10">**US10**</span> | Eu, como [produtor](./lexicos/#produtor), posso remover [talhão](./lexicos/#talhao) para ter controle sobre a [propriedade](./lexicos/#propriedade) |
-| <a href="#FT02">**FT02**</a> | <span id="US11">**US11**</span> | Eu, como [produtor](./lexicos/#produtor), posso atribuir [técnico](./lexicos/#tecnico) para ter controle sobre a [propriedade](./lexicos/#propriedade) |
-| <a href="#FT02">**FT02**</a> | <span id="US12">**US12**</span> | Eu, como [produtor](./lexicos/#produtor), posso alterar [técnico](./lexicos/#tecnico) para ter controle sobre a [propriedade](./lexicos/#propriedade) |
-| <a href="#FT02">**FT02**</a> | <span id="US13">**US13**</span> | Eu, como [produtor](./lexicos/#produtor), posso remover [técnico](./lexicos/#tecnico) para ter controle sobre a [propriedade](./lexicos/#propriedade) |
-| <a href="#FT03">**FT03**</a> | <span id="US14">**US14**</span> | Eu, como [produtor](./lexicos/#produtor), posso adicionar [plantação](./lexicos/#plantio) para ter controle sobre a [plantio](./lexicos/#plantio) |
-| <a href="#FT03">**FT03**</a> | <span id="US15">**US15**</span> | Eu, como [produtor](./lexicos/#produtor), posso alterar [plantação](./lexicos/#plantio) para ter controle sobre a [plantio](./lexicos/#plantio) |
-| <a href="#FT03">**FT03**</a> | <span id="US16">**US16**</span> | Eu, como [produtor](./lexicos/#produtor), posso marcar [plantação como colhida](./lexicos/#colher_plantio) para ter controle sobre a [plantio](./lexicos/#plantio) |
-| <a href="#FT04">**FT04**</a> | <span id="US17">**US17**</span> | Eu, como [produtor](./lexicos/#produtor), posso registrar [aplicação de agrotóxico](./lexicos/#aplicar_agrotoxico) para ter controle de data de [aplicação do agrotóxico](./lexicos/#aplicar_agrotoxico) |
-| <a href="#FT04">**FT04**</a> | <span id="US18">**US18**</span> | Eu, como [produtor](./lexicos/#produtor), posso registrar [aplicação de agrotóxico](./lexicos/#aplicar_agrotoxico) para manter [rastreabilidade](./lexicos/#rastreabilidade) |
-| <a href="#FT05">**FT05**</a> | <span id="US19">**US19**</span> | Eu, como [técnico](./lexicos/#tecnico), posso identificar [agrotóxico](./lexicos/#agrotoxico) aplicado na [propriedade](./lexicos/#propriedade) para gerenciar [agrotóxico](./lexicos/#agrotoxico) |
-| <a href="#FT05">**FT05**</a> | <span id="US20">**US20**</span> | Eu, como [técnico](./lexicos/#tecnico), posso informar [período de carência](./lexicos/#periodo_carencia) para gerenciar [agrotóxico](./lexicos/#agrotoxico) |
-| <a href="#FT05">**FT05**</a> | <span id="US21">**US21**</span> | Eu, como [técnico](./lexicos/#tecnico), posso cadastrar [agrotóxico](./lexicos/#agrotoxico) para gerenciar [agrotóxico](./lexicos/#agrotoxico) |
-| <a href="#FT05">**FT05**</a> | <span id="US22">**US22**</span> | Eu, como [técnico](./lexicos/#tecnico), posso remover [agrotóxico](./lexicos/#agrotoxico) para gerenciar [agrotóxico](./lexicos/#agrotoxico) |
-| <a href="#FT06">**FT06**</a> | <span id="US23">**US23**</span> | Eu, como [produtor](./lexicos/#produtor), posso gerar [caderneta de campo](./lexicos/#cardeneta_de_campo) para ter gerenciar [caderneta de campo](./lexicos/#cardeneta_de_campo) |
-| <a href="#FT06">**FT06**</a> | <span id="US24">**US24**</span> | Eu, como [produtor](./lexicos/#produtor), posso visualizar [caderneta de campo](./lexicos/#cardeneta_de_campo) para ter gerenciar [caderneta de campo](./lexicos/#cardeneta_de_campo) |
-| <a href="#FT07">**FT07**</a> | <span id="US25">**US25**</span> | Eu, como [produtor](./lexicos/#produtor), posso visualizar [caderneta de campo](./lexicos/#cardeneta_de_campo) para ter gerenciar [caderneta de campo](./lexicos/#cardeneta_de_campo) |
-| <a href="#FT07">**FT07**</a> | <span id="US26">**US26**</span> | Eu, como [produtor](./lexicos/#produtor), posso visualizar [plantações colhidas](./lexicos/#plantio_finalizado) na [propriedade](./lexicos/#propriedade) para ter manter histórico de [plantações](./lexicos/#plantações) |
-| <a href="#FT08">**FT08**</a> | <span id="US27">**US27**</span> | Eu, como [técnico](./lexicos/#tecnico), posso visualizar uma [propriedade](./lexicos/#propriedade) para [supervisionar propriedade](./lexicos/#supervisionar_propriedade) |
-| <a href="#FT09">**FT09**</a> | <span id="US28">**US28**</span> | Eu, como [técnico](./lexicos/#tecnico), posso visualizar [caderneta de campo](./lexicos/#cardeneta_de_campo) para regularizar [caderneta de campo](./lexicos/#cardeneta_de_campo) |
-| <a href="#FT09">**FT09**</a> | <span id="US29">**US29**</span> | Eu, como [técnico](./lexicos/#tecnico), posso solicitar alteração da [caderneta de campo](./lexicos/#cardeneta_de_campo) para regularizar [caderneta de campo](./lexicos/#cardeneta_de_campo) |
+| <a href="#FT01">**FT01**</a> | <span id="US01">**US01**</span> | Eu, como [usuário](/requisitos/modelagem/lexicos#usuario), posso me cadastrar na aplicação, para ter acesso as funcionalidades |
+| <a href="#FT01">**FT01**</a> | <span id="US02">**US02**</span> | Eu, como [usuário](/requisitos/modelagem/lexicos#usuario), posso apagar meus dados da aplicação, caso não queira mas usar a aplicação |
+| <a href="#FT01">**FT01**</a> | <span id="US03">**US03**</span> | Eu, como [usuário](/requisitos/modelagem/lexicos#usuario), posso editar meus dados de usuário, para desfazer algum possível erro ou atualizar os dados. |
+| <a href="#FT01">**FT01**</a> | <span id="US04">**US04**</span> | Eu, como [usuário](/requisitos/modelagem/lexicos#usuario), posso fazer login na aplicação, para ter acesso a minha conta. |
+| <a href="#FT01">**FT01**</a> | <span id="US05">**US05**</span> | Eu, como [usuário](/requisitos/modelagem/lexicos#usuario), posso fazer logout, caso não deseje mais estar logado ou mudar de conta. |
+| <a href="#FT01">**FT01**</a> | <span id="US06">**US06**</span> | Eu, como [usuário](/requisitos/modelagem/lexicos#usuario), posso criar uma conta de técnico ou de produtor, para poder ter acesso as funcionalidades e permissões de cada tipo de usuário |
+| <a href="#FT02">**FT02**</a> | <span id="US07">**US07**</span> | Eu, como [produtor](/requisitos/modelagem/lexicos#produtor), posso cadastrar [propriedade](/requisitos/modelagem/lexicos#propriedade) para ter controle sobre a [propriedade](/requisitos/modelagem/lexicos#propriedade) |
+| <a href="#FT02">**FT02**</a> | <span id="US08">**US08**</span> | Eu, como [produtor](/requisitos/modelagem/lexicos#produtor), posso alterar a [propriedade](/requisitos/modelagem/lexicos#propriedade) para ter controle sobre a [propriedade](/requisitos/modelagem/lexicos#propriedade) |
+| <a href="#FT02">**FT02**</a> | <span id="US09">**US09**</span> | Eu, como [produtor](/requisitos/modelagem/lexicos#produtor), posso adicionar [talhão](/requisitos/modelagem/lexicos#talhao) para ter controle sobre a [propriedade](/requisitos/modelagem/lexicos#propriedade) |
+| <a href="#FT02">**FT02**</a> | <span id="US10">**US10**</span> | Eu, como [produtor](/requisitos/modelagem/lexicos#produtor), posso remover [talhão](/requisitos/modelagem/lexicos#talhao) para ter controle sobre a [propriedade](/requisitos/modelagem/lexicos#propriedade) |
+| <a href="#FT02">**FT02**</a> | <span id="US11">**US11**</span> | Eu, como [produtor](/requisitos/modelagem/lexicos#produtor), posso atribuir [técnico](/requisitos/modelagem/lexicos#tecnico) para ter controle sobre a [propriedade](/requisitos/modelagem/lexicos#propriedade) |
+| <a href="#FT02">**FT02**</a> | <span id="US12">**US12**</span> | Eu, como [produtor](/requisitos/modelagem/lexicos#produtor), posso alterar [técnico](/requisitos/modelagem/lexicos#tecnico) para ter controle sobre a [propriedade](/requisitos/modelagem/lexicos#propriedade) |
+| <a href="#FT02">**FT02**</a> | <span id="US13">**US13**</span> | Eu, como [produtor](/requisitos/modelagem/lexicos#produtor), posso remover [técnico](/requisitos/modelagem/lexicos#tecnico) para ter controle sobre a [propriedade](/requisitos/modelagem/lexicos#propriedade) |
+| <a href="#FT03">**FT03**</a> | <span id="US14">**US14**</span> | Eu, como [produtor](/requisitos/modelagem/lexicos#produtor), posso adicionar [plantação](/requisitos/modelagem/lexicos#plantio) para ter controle sobre a [plantio](/requisitos/modelagem/lexicos#plantio) |
+| <a href="#FT03">**FT03**</a> | <span id="US15">**US15**</span> | Eu, como [produtor](/requisitos/modelagem/lexicos#produtor), posso alterar [plantação](/requisitos/modelagem/lexicos#plantio) para ter controle sobre a [plantio](/requisitos/modelagem/lexicos#plantio) |
+| <a href="#FT03">**FT03**</a> | <span id="US16">**US16**</span> | Eu, como [produtor](/requisitos/modelagem/lexicos#produtor), posso marcar [plantação como colhida](/requisitos/modelagem/lexicos#colher_plantio) para ter controle sobre a [plantio](/requisitos/modelagem/lexicos#plantio) |
+| <a href="#FT04">**FT04**</a> | <span id="US17">**US17**</span> | Eu, como [produtor](/requisitos/modelagem/lexicos#produtor), posso registrar [aplicação de agrotóxico](/requisitos/modelagem/lexicos#aplicar_agrotoxico) para ter controle de data de [aplicação do agrotóxico](/requisitos/modelagem/lexicos#aplicar_agrotoxico) |
+| <a href="#FT04">**FT04**</a> | <span id="US18">**US18**</span> | Eu, como [produtor](/requisitos/modelagem/lexicos#produtor), posso registrar [aplicação de agrotóxico](/requisitos/modelagem/lexicos#aplicar_agrotoxico) para manter [rastreabilidade](/requisitos/modelagem/lexicos#rastreabilidade) |
+| <a href="#FT05">**FT05**</a> | <span id="US19">**US19**</span> | Eu, como [técnico](/requisitos/modelagem/lexicos#tecnico), posso identificar [agrotóxico](/requisitos/modelagem/lexicos#agrotoxico) aplicado na [propriedade](/requisitos/modelagem/lexicos#propriedade) para gerenciar [agrotóxico](/requisitos/modelagem/lexicos#agrotoxico) |
+| <a href="#FT05">**FT05**</a> | <span id="US20">**US20**</span> | Eu, como [técnico](/requisitos/modelagem/lexicos#tecnico), posso informar [período de carência](/requisitos/modelagem/lexicos#periodo_carencia) para gerenciar [agrotóxico](/requisitos/modelagem/lexicos#agrotoxico) |
+| <a href="#FT05">**FT05**</a> | <span id="US21">**US21**</span> | Eu, como [técnico](/requisitos/modelagem/lexicos#tecnico), posso cadastrar [agrotóxico](/requisitos/modelagem/lexicos#agrotoxico) para gerenciar [agrotóxico](/requisitos/modelagem/lexicos#agrotoxico) |
+| <a href="#FT05">**FT05**</a> | <span id="US22">**US22**</span> | Eu, como [técnico](/requisitos/modelagem/lexicos#tecnico), posso remover [agrotóxico](/requisitos/modelagem/lexicos#agrotoxico) para gerenciar [agrotóxico](/requisitos/modelagem/lexicos#agrotoxico) |
+| <a href="#FT06">**FT06**</a> | <span id="US23">**US23**</span> | Eu, como [produtor](/requisitos/modelagem/lexicos#produtor), posso gerar [caderneta de campo](/requisitos/modelagem/lexicos#cardeneta_de_campo) para ter gerenciar [caderneta de campo](/requisitos/modelagem/lexicos#cardeneta_de_campo) |
+| <a href="#FT06">**FT06**</a> | <span id="US24">**US24**</span> | Eu, como [produtor](/requisitos/modelagem/lexicos#produtor), posso visualizar [caderneta de campo](/requisitos/modelagem/lexicos#cardeneta_de_campo) para ter gerenciar [caderneta de campo](/requisitos/modelagem/lexicos#cardeneta_de_campo) |
+| <a href="#FT07">**FT07**</a> | <span id="US25">**US25**</span> | Eu, como [produtor](/requisitos/modelagem/lexicos#produtor), posso visualizar [caderneta de campo](/requisitos/modelagem/lexicos#cardeneta_de_campo) para ter gerenciar [caderneta de campo](/requisitos/modelagem/lexicos#cardeneta_de_campo) |
+| <a href="#FT07">**FT07**</a> | <span id="US26">**US26**</span> | Eu, como [produtor](/requisitos/modelagem/lexicos#produtor), posso visualizar [plantações colhidas](/requisitos/modelagem/lexicos#plantio_finalizado) na [propriedade](/requisitos/modelagem/lexicos#propriedade) para ter manter histórico de [plantações](/requisitos/modelagem/lexicos#plantações) |
+| <a href="#FT08">**FT08**</a> | <span id="US27">**US27**</span> | Eu, como [técnico](/requisitos/modelagem/lexicos#tecnico), posso visualizar uma [propriedade](/requisitos/modelagem/lexicos#propriedade) para [supervisionar propriedade](/requisitos/modelagem/lexicos#supervisionar_propriedade) |
+| <a href="#FT09">**FT09**</a> | <span id="US28">**US28**</span> | Eu, como [técnico](/requisitos/modelagem/lexicos#tecnico), posso visualizar [caderneta de campo](/requisitos/modelagem/lexicos#cardeneta_de_campo) para regularizar [caderneta de campo](/requisitos/modelagem/lexicos#cardeneta_de_campo) |
+| <a href="#FT09">**FT09**</a> | <span id="US29">**US29**</span> | Eu, como [técnico](/requisitos/modelagem/lexicos#tecnico), posso solicitar alteração da [caderneta de campo](/requisitos/modelagem/lexicos#cardeneta_de_campo) para regularizar [caderneta de campo](/requisitos/modelagem/lexicos#cardeneta_de_campo) |
 
 <h6 align="center">Tabela 3: Histórias de Usuários</h6>
 <h6 align="center">Fonte: Autores</h6>
@@ -127,10 +154,10 @@
 |EP2|FT03|US16|<a href="/requisitos/elicitacao/entrevista/">E06</a>, <a href="/requisitos/elicitacao/introspeccao/">I13</a>|
 |EP2|FT04|US17|<a href="/requisitos/elicitacao/entrevista/">E08</a>, <a href="/requisitos/elicitacao/entrevista/">E17</a>, <a href="/requisitos/elicitacao/brainstorming/">BS21</a>|
 |EP2|FT04|US18|<a href="/requisitos/elicitacao/entrevista/">E08</a>, <a href="/requisitos/elicitacao/entrevista/">E17</a>, <a href="/requisitos/elicitacao/brainstorming/">BS21</a>|
-|EP3|FT05|US19|<a href="/requisitos/elicitacao/entrevista/">E17</a>, <a href="/requisitos/elicitacao/introspeccao/">I08</a>|
-|EP3|FT05|US20|<a href="/requisitos/elicitacao/brainstorming/">BS08</a>|
-|EP3|FT05|US21|<a href="/requisitos/elicitacao/entrevista/">E13</a>, <a href="/requisitos/elicitacao/brainstorming/">BS08</a>|
-|EP3|FT05|US22|<a href="/requisitos/elicitacao/entrevista/">E13</a>, <a href="/requisitos/elicitacao/brainstorming/">BS08</a>|
+|EP2|FT05|US19|<a href="/requisitos/elicitacao/entrevista/">E17</a>, <a href="/requisitos/elicitacao/introspeccao/">I08</a>|
+|EP2|FT05|US20|<a href="/requisitos/elicitacao/brainstorming/">BS08</a>|
+|EP2|FT05|US21|<a href="/requisitos/elicitacao/entrevista/">E13</a>, <a href="/requisitos/elicitacao/brainstorming/">BS08</a>|
+|EP2|FT05|US22|<a href="/requisitos/elicitacao/entrevista/">E13</a>, <a href="/requisitos/elicitacao/brainstorming/">BS08</a>|
 |EP3|FT06|US23|<a href="/requisitos/elicitacao/entrevista/">E04</a>|
 |EP3|FT06|US24|<a href="/requisitos/elicitacao/entrevista/">E04</a>|
 |EP3|FT07|US25|<a href="/requisitos/elicitacao/entrevista/">E04</a>|
@@ -169,3 +196,5 @@
 > [3] REHKOPF, Max. **Epics ágeis: definição, exemplos e templates**. Atlassian. Disponível em: <a href="https://www.atlassian.com/br/agile/project-management/epics" target="_blanck">https://www.atlassian.com/br/agile/project-management/epics</a>. Acesso em: 13/02/2022.
 
 > [4] REHKOPF, Max. **Histórias de usuário com exemplos e template**. Atlassian. Disponível em: <a href="https://www.atlassian.com/br/agile/project-management/user-stories" target="_blanck">https://www.atlassian.com/br/agile/project-management/user-stories</a>. Acesso em: 13/02/2022.
+
+> [5]- Ventura, Plínio. **Epic, Feature e User Story: O que são e como se relacionam estes três artefatos no contexto de um product backlog**. Até o momento. Disponível em <https://www.ateomomento.com.br/epic-feature-e-user-story/>. Acesso em: 13/02/2022.
