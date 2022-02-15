@@ -84,6 +84,9 @@ nav:
           - Review: sprints/review_0.md
         - Sprint 1:
           - Planning: sprints/planning_1.md
+          - Review: sprints/review_1.md
+        - Sprint 2:
+          - Planning: sprints/planning_2.md
       # - Atas:
   # - Padrões de Projeto: ""
   # - Arquitetura de Software e Reutilização: ""
