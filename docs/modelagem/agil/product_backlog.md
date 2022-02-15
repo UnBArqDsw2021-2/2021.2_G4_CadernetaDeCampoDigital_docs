@@ -31,7 +31,7 @@
 - Expectativas
 - Personas
 - Features
-- Product Backlog Itens (PBIs)
+- Product Backlog Items (PBIs)
 
 <p style="text-align: justify; text-indent: 20px">O resultado do processo de preenchimento do PBB Canva foi o seguinte:</p>
 
@@ -99,7 +99,7 @@
 | <a href="#FT01">**FT01**</a> | <span id="US03">**US03**</span> | Eu, como <a href="/requisitos/modelagem/lexicos#usuario">usuário</a>, posso editar meus dados de usuário, para desfazer algum possível erro ou atualizar os dados. |
 | <a href="#FT01">**FT01**</a> | <span id="US04">**US04**</span> | Eu, como <a href="/requisitos/modelagem/lexicos#usuario">usuário</a>, posso fazer login na aplicação, para ter acesso a minha conta. |
 | <a href="#FT01">**FT01**</a> | <span id="US05">**US05**</span> | Eu, como <a href="/requisitos/modelagem/lexicos#usuario">usuário</a>, posso fazer logout, caso não deseje mais estar logado ou mudar de conta. |
-| <a href="#FT01">**FT01**</a> | <span id="US06">**US06**</span> | Eu, como <a href="/requisitos/modelagem/lexicos#produtor">produtor</a>, posso me cadastrar na aplicação, para poder ter acesso as funcionalidades de <a href="/requisitos/modelagem/lexicos#produtor">produtor</a> |
+| <a href="#FT01">**FT01**</a> | <span id="US06">**US06**</span> | Eu, como <a href="/requisitos/modelagem/lexicos#produtor">produtor</a>, posso me cadastrar na aplicação, para poder ter acesso às funcionalidades de <a href="/requisitos/modelagem/lexicos#produtor">produtor</a> |
 | <a href="#FT02">**FT02**</a> | <span id="US07">**US07**</span> | Eu, como <a href="/requisitos/modelagem/lexicos#produtor">produtor</a>, posso cadastrar uma <a href="/requisitos/modelagem/lexicos#propriedade">propriedade</a> para ter controle sobre a mesma |
 | <a href="#FT02">**FT02**</a> | <span id="US08">**US08**</span> | Eu, como <a href="/requisitos/modelagem/lexicos#produtor">produtor</a>, posso alterar a <a href="/requisitos/modelagem/lexicos#propriedade">propriedade</a> para ter controle sobre a mesma |
 | <a href="#FT02">**FT02**</a> | <span id="US09">**US09**</span> | Eu, como <a href="/requisitos/modelagem/lexicos#produtor">produtor</a>, posso adicionar <a href="/requisitos/modelagem/lexicos#talhao">talhão</a> para ter controle sobre a <a href="/requisitos/modelagem/lexicos#propriedade">propriedade</a> |
