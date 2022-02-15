@@ -1,4 +1,4 @@
-# Sprint 1 - Planning
+# Sprint 2 - Planning
 
 ## 1. Visão Geral
 - Inicio: 15/02/2022
