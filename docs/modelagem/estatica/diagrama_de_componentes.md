@@ -7,6 +7,7 @@
 | 1.0    | 13/02/2022   | Criação do documento e introdução         | Victor Lima e Carlos Eduardo |
 | 1.1    | 13/02/2022   | Adição do Diagrama de Componentes         | Victor Lima e Carlos Eduardo |
 | 1.2    | 15/02/2022   | Modificação no Diagrama de Componentes    | Victor Lima e Carlos Eduardo |
+| 1.3    | 15/02/2022   | Revisão por pares                         | Rafael Ramos e João Pedro Moura |
 
 ## 2. Introdução
 
