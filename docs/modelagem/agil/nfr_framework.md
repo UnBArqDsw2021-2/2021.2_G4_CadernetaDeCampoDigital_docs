@@ -3,6 +3,7 @@
 | Versão | Data  | Descrição                              | Autor(es)       |
 | ------ | ----- | -------------------------------------- | --------------- |
 | 1.0 | 14/02/2022 | Abertura do documento de NFR Framework | João Pedro |
+| 1.1 | 15/02/2022 | Adição dos diagramas NFR | João Pedro |
 
 ## 2. Introdução
 <p style="text-align: justify; text-indent: 20px">Diversas técnicas podem ser utilizadas para a análise e modelagem dos requisitos funcionais, porém poucas delas são capazes de realizar essa função dentro dos requisitos não funcionais. Para isso, a equipe escolheu utilizar o NFR Framework como uma maneira de representar e analisar esses requisitos não funcionais do projeto, permitindo aos desenvolvedores realizar a implementação de uma solução personalizada que faz o uso desses dois tipos possíveis de requisitos, bem como prioridades e cargas de trabalho do domínio [1].</p>
@@ -32,52 +33,52 @@ E por fim, para a elaboração/propagação serão utilizados os seguintes eleme
 ### 4.1 Usabilidade
 #### 4.1.1 Sem progpagação
 
-<!-- <img class="zoom" src="../../assets/modelagem/agil/.png"> -->
+<img class="zoom" src="../../../assets/modelagem/agil/usabilidade.png">
 <h6 align = "center">Figura 1: SIG de usabilidade</h6>
 <h6 align = "center">Fonte: Autor</h6>
 
 #### 4.1.2 Com propagação
 
-<!-- <img class="zoom" src="../../assets/modelagem/agil/.png"> -->
+<img class="zoom" src="../../../assets/modelagem/agil/usabilidade_propagado.png">
 <h6 align = "center">Figura 2: SIG de usabilidade com propagaçao</h6>
 <h6 align = "center">Fonte: Autor</h6>
 
 ### 4.2 Confiabilidade
 #### 4.2.1 Sem progpagação
 
-<!-- <img class="zoom" src="../../assets/modelagem/agil/.png"> -->
+<img class="zoom" src="../../../assets/modelagem/agil/confiabilidade.png">
 <h6 align = "center">Figura 3: SIG de confiabilidade</h6>
 <h6 align = "center">Fonte: Autor</h6>
 
 #### 4.2.2 Com propagação
 
-<!-- <img class="zoom" src="../../assets/modelagem/agil/.png"> -->
+<img class="zoom" src="../../../assets/modelagem/agil/confiabilidade_propagado.png">
 <h6 align = "center">Figura 4: SIG de confiabilidade com propagação</h6>
 <h6 align = "center">Fonte: Autor</h6>
 
-### 4.5 Desempenho
-#### 4.5.1 Sem progpagação
+### 4.3 Desempenho
+#### 4.3.1 Sem progpagação
 
-<!-- <img class="zoom" src="../../assets/modelagem/agil/.png"> -->
+<img class="zoom" src="../../../assets/modelagem/agil/desempenho.png">
 <h6 align = "center">Figura 5: SIG de desempenho</h6>
 <h6 align = "center">Fonte: Autor</h6>
 
-#### 4.5.2 Com propagação
+#### 4.3.2 Com propagação
 
-<!-- <img class="zoom" src="../../asets/modelagem/agil/.png"> -->
+<img class="zoom" src="../../../assets/modelagem/agil/desempenho_propagado.png">
 <h6 align = "center">Figura 6: SIG de desempenho com propagação</h6>
 <h6 align = "center">Fonte: Autor</h6>
 
-### 4.7 Suportabilidade
-#### 4.2.1 Sem progpagação
+### 4.4 Suportabilidade
+#### 4.4.1 Sem progpagação
 
-<!-- <img class="zoom" src="../../assets/modelagem/agil/.png"> -->
+<img class="zoom" src="../../../assets/modelagem/agil/suportabilidade.png">
 <h6 align = "center">Figura 7: SIG de suportabilidade</h6>
 <h6 align = "center">Fonte: Autor</h6>
 
-#### 4.2.2 Com propagação
+#### 4.4.2 Com propagação
 
-<!-- <img class="zoom" src="../../assets/modelagem/agil/.png"> -->
+<img class="zoom" src="../../../assets/modelagem/agil/suportabilidade_propagado.png">
 <h6 align = "center">Figura 8: SIG de suportabilidade com propagação</h6>
 <h6 align = "center">Fonte: Autor</h6>
 
