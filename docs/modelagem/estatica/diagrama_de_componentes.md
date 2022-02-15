@@ -5,7 +5,8 @@
 | Versão | Data         | Descrição                                 | Autor(es)    |
 | ------ | -----        | ---------------------------------         | ------------ |
 | 1.0    | 13/02/2022   | Criação do documento e introdução         | Victor Lima e Carlos Eduardo |
-| 1.1    | 13/02/2022   | Adição do Diagrama de Componentes              | Victor Lima e Carlos Eduardo|
+| 1.1    | 13/02/2022   | Adição do Diagrama de Componentes         | Victor Lima e Carlos Eduardo |
+| 1.2    | 15/02/2022   | Modificação no Diagrama de Componentes    | Victor Lima e Carlos Eduardo |
 
 ## 2. Introdução
 
@@ -13,11 +14,13 @@
 
 ## 3. Diagrama de componentes
 
-### 3.1 Versão 1.0
-<img src="../../../assets/modelagem/diagramaComponentes.png" class="zoom"/>
-<h6 align = "center">Figura 1: Diagrama de Componentes versão 1</h6>
+### 3.1 Versão 1.1
+<img src="../../../assets/modelagem/diagramaComponentes.svg" class="zoom"/>
+<h6 align = "center">Figura 1: Diagrama de Componentes versão 1.1</h6>
 <h6 align = "center">Fonte: Autores</h6>
 
 ## 4. Referências
 
 > [1] **Diagrama de componentes UML: o que é, como fazer e exemplos**. Disponível em: <a href="https://www.lucidchart.com/pages/pt/diagrama-de-componentes-uml" target="_blanck">https://www.lucidchart.com/pages/pt/diagrama-de-componentes-uml</a>. Acesso em: 11 de fev. de 2022.
+
+> [2] **UML – Diagramas Estruturais Diagrama de Componentes**. Disponível em: <a href="http://www.facom.ufu.br/~flavio/swmod-files/files/2015-02/11-UML-Diagramas-Compoentes-e-Implantacao-Pacotes.pdf" target="_blanck">http://www.facom.ufu.br/~flavio/swmod-files/files/2015-02/11-UML-Diagramas-Compoentes-e-Implantacao-Pacotes.pdf</a> Acesso em: 14 de fev. de 2022.
