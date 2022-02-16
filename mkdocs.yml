@@ -64,8 +64,8 @@ nav:
         - Diagrama de Classes: modelagem/estatica/diagrama_de_classes.md
       #   - Diagrama de Pacotes:
         - Diagrama de Componentes: modelagem/estatica/diagrama_de_componentes.md
-      # - Modelagem Dinâmica:
-      #   - Diagrama de Sequência:
+      - Modelagem Dinâmica:
+        - Diagrama de Sequência: modelagem/dinamica/diagrama_de_sequencia.md
       #   - Diagrama de Comunicação:
       #   - Diagrama de Atividades:
       #   - Diagrama de Estados:

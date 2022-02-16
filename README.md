@@ -6,7 +6,7 @@
 
  (Apague essa seção)-->
 
-# Caderneta de Campo digital
+# Caderneta de Campo Digital
 
 **Código da Disciplina**: FGA0208<br>
 **Número do Grupo**: 04<br>
