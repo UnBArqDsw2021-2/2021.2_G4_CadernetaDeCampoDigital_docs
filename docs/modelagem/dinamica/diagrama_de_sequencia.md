@@ -6,13 +6,14 @@
 | ------ | -----        | ---------------------------------         | ------------ |
 | 1.0    | 16/02/2022   | Criação do documento e introdução         | Brenno Oliveira e Victor Lima |
 | 1.1    | 16/02/2022   | Adição dos diagramas                      | Brenno Oliveira e Victor Lima |
-| 1.1.   | 16/02/2022   | Revisão por pares                         | Paulo e João Pedro            |
+| 1.2    | 16/02/2022   | Adição do link ao LucidChart e correções ortográficas| Brenno Oliveira |
+| 1.3    | 16/02/2022   | Revisão por pares                         | Paulo e João Pedro            |
 
 ## 2. Introdução
 
 <p align="justify" style="text-indent: 20px">Diagramas de Sequências são categorizados dentro da UML (Unified Modeling Language) como um tipo de representação que ilustra a troca de mensagens entre objetos e as estruturas de controle entre objetos ao longo do tempo[1]. Essa passagem de tempo é observável seguindo o eixo vertical de cima para baixo[2].</p>
 
-<p align="justify" style="text-indent: 20px">Para a realização dos diagramas foi utilizada a ferramenta online LucidChart.</p>
+<p align="justify" style="text-indent: 20px">Para a realização dos diagramas foi utilizada a ferramenta online <a href="https://lucidchart.com">LucidChart</a>.</p>
 
 ## 3. Diagramas de sequência
 
