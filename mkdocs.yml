@@ -72,7 +72,7 @@ nav:
       - Modelagem Ágil:
         - Product Backlog: modelagem/agil/product_backlog.md
         - Especificação Suplementar: modelagem/agil/especificacao_suplementar.md
-      #   - NFR Framework:
+        - NFR Framework: modelagem/agil/nfr_framework.md
     - Iniciativas Extras:      
       - Modelagem Entidade-Relacionamento (MER): modelagem/extras/mer.md
       # - Diagrama Entidade-Relacionamento (DER):
