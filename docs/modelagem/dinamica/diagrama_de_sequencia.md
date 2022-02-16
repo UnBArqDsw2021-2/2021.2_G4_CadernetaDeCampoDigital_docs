@@ -6,6 +6,7 @@
 | ------ | -----        | ---------------------------------         | ------------ |
 | 1.0    | 16/02/2022   | Criação do documento e introdução         | Brenno Oliveira e Victor Lima |
 | 1.1    | 16/02/2022   | Adição dos diagramas                      | Brenno Oliveira e Victor Lima |
+| 1.1.   | 16/02/2022   | Revisão por pares                         | Paulo e João Pedro            |
 
 ## 2. Introdução
 
