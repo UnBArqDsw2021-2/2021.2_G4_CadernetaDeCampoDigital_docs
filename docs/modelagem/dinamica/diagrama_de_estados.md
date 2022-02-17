@@ -19,7 +19,7 @@
 
 ## 3. Diagramas de Estados
 
-<p align="justify" style="text-indent: 20px">Na ocasião do projeto, a metodologia de desenvolvimento dos diagramas de estado consistiu, basicamente, em definir quais são os processos chaves da aplicação e a partir disso discutir e desenvolver os estados que podemos encontrar do app dentro desses processos. Foram encontrados cinco principais projetos, sendo eles: <b>Entrar no app</b>, <b>Cadastrar propriedade</b>, <b>Cadastrar plantio</b>, <b>Acompanhar plantio</b> e <b>Acompanhar produtor</b>. A seguir será explicado cada diagrama realizado assim como a apresentação da sua imagem.</p>
+<p align="justify" style="text-indent: 20px">Na ocasião do projeto, a metodologia de desenvolvimento dos diagramas de estado consistiu, basicamente, em definir quais são os processos chaves da aplicação e a partir disso discutir e desenvolver os estados que podemos encontrar do app dentro desses processos. Foram encontrados cinco principais projetos, sendo eles: <b>Entrar no app</b>, <b>Cadastrar <a href="/requisitos/modelagem/lexicos#propriedade">propriedade</a></b>, <b>Cadastrar <a href="/requisitos/modelagem/lexicos#plantio">plantio</a></b>, <b>Acompanhar <a href="/requisitos/modelagem/lexicos#plantio">plantio</a></b> e <b>Acompanhar <a href="/requisitos/modelagem/lexicos#produtor">produtor</a></b>. A seguir será explicado cada diagrama realizado assim como a apresentação da sua imagem.</p>
 
 
 ### 3.1 Entrar no app
@@ -30,28 +30,28 @@
 
 ### 3.2 Cadastrar propriedade
 
-<p align="justify" style="text-indent: 20px">Para o diagrama de cadastro de propriedade, foi identificado que primeiramente o app mostra todas as propriedades já cadastradas. A partir desse estado, existe uma divisão de fluxo em que o usuário pode escolher entre criar um novo registro, ou editar as informações já existentes. Em ambos os casos o aplicativo mostra as informações disponíveis para cada ocasião específica e depois as novas informações são enviadas ao servidor, chegando ao estado final do processo. Veja o diagrama referente a esse processo a seguir:</p>
+<p align="justify" style="text-indent: 20px">Para o diagrama de cadastro de <a href="/requisitos/modelagem/lexicos#propriedade">propriedade</a>, foi identificado que primeiramente o app mostra todas as <a href="/requisitos/modelagem/lexicos#propriedade">propriedade</a> já cadastradas. A partir desse estado, existe uma divisão de fluxo em que o <a href="/requisitos/modelagem/lexicos#usuario">usuário</a> pode escolher entre criar um novo registro, ou editar as informações já existentes. Em ambos os casos o aplicativo mostra as informações disponíveis para cada ocasião específica e depois as novas informações são enviadas ao servidor, chegando ao estado final do processo. Veja o diagrama referente a esse processo a seguir:</p>
 
 <img src="../../../assets/modelagem/dinamica/diagrama_estados/cadastrar_propriedade.svg" class="zoom">
-<h6 align = "center">Figura 2: Diagrama de Estados - Cadastrar propriedade</h6>
+<h6 align = "center">Figura 2: Diagrama de Estados - Cadastrar <a href="/requisitos/modelagem/lexicos#propriedade">propriedade</a></h6>
 <h6 align = "center">Fonte: Autores</h6>
 
 ### 3.3 Cadastrar plantio
 
-<p align="justify" style="text-indent: 20px">No processo de cadastrar um plantio, foi identificado que inialmente o aplicativo estará mostrando todos os talhões de uma determinada propriedade. Após esse estado existe uma divisão de fluxo onde o usuário pode entrar no fluxo de edição das informações de um determinado plantio ou então no fluxo de cadastro de um novo plantio, bem parecido com o fluxo de cadastro visto no processo anterior. Os dois fluxos se encontram futuramente no estado em que o aplicativo envia as novas informações para o servidor e então chegam ao estado final. Veja o diagrama referente a esse processo a seguir: </p>
+<p align="justify" style="text-indent: 20px">No processo de cadastrar um <a href="/requisitos/modelagem/lexicos#plantio">plantio</a>, foi identificado que inialmente o aplicativo estará mostrando todos os <a href="/requisitos/modelagem/lexicos#talhoes">talhões</a> de uma determinada <a href="/requisitos/modelagem/lexicos#propriedade">propriedade</a>. Após esse estado existe uma divisão de fluxo onde o <a href="/requisitos/modelagem/lexicos#usuario">usuário</a> pode entrar no fluxo de edição das informações de um determinado <a href="/requisitos/modelagem/lexicos#plantio">plantio</a> ou então no fluxo de cadastro de um novo plantio, bem parecido com o fluxo de cadastro visto no processo anterior. Os dois fluxos se encontram futuramente no estado em que o aplicativo envia as novas informações para o servidor e então chegam ao estado final. Veja o diagrama referente a esse processo a seguir: </p>
 
 <img src="../../../assets/modelagem/dinamica/diagrama_estados/cadastrar_plantio.svg" class="zoom">
 </center>
-<h6 align = "center">Figura 3: Diagrama de Estados - Cadastrar plantio</h6>
+<h6 align = "center">Figura 3: Diagrama de Estados - Cadastrar <a href="/requisitos/modelagem/lexicos#plantio">plantio</a></h6>
 <h6 align = "center">Fonte: Autores</h6>
 
 ### 3.4 Acompanhar plantio
 
-<p align="justify" style="text-indent: 20px">O acompanhamento de plantio é um processo um pouco mais complexo, uma vez que engloba as principais funcionalidade do aplicativo. O processo, de maneira resumida, inicia-se com um estado inicial onde é mostrado todos os plantios cadastrados. A partir desse estado existe uma divisão de fluxo em que o usuário pode visualizar o histórico de um plantio já colhido ou visualizar as informações de um plantio que ainda não foi colhido. Para a primeira ocasião ele verifica as informações com detalhes e logo em seguida já encontra o estado final do aplicativo. Para a segunda ocasião, se o usuário for um produtor ele passa pelos estados referentes à avaliação de pendências enviadas pelo produtor, se o usuário não for um técnico então ele passa pelos estados de cadastro de agrotóxicos. Futuramente os dois fluxos se encontram na visualização dos detalhes e informações de um determinado plantio. Essa descrição está bastante resumida devido à complexidade deste diagrama, portanto verifique o diagrama a seguir: </p>
+<p align="justify" style="text-indent: 20px">O acompanhamento de <a href="/requisitos/modelagem/lexicos#plantio">plantio</a> é um processo um pouco mais complexo, uma vez que engloba as principais funcionalidade do aplicativo. O processo, de maneira resumida, inicia-se com um estado inicial onde é mostrado todos os <a href="/requisitos/modelagem/lexicos#plantio">plantio</a> cadastrados. A partir desse estado existe uma divisão de fluxo em que o usuário pode visualizar o histórico de um <a href="/requisitos/modelagem/lexicos#plantio">plantio</a> já colhido ou visualizar as informações de um <a href="/requisitos/modelagem/lexicos#plantio">plantio</a> que ainda não foi colhido. Para a primeira ocasião ele verifica as informações com detalhes e logo em seguida já encontra o estado final do aplicativo. Para a segunda ocasião, se o <a href="/requisitos/modelagem/lexicos#usuario">usuário</a> for um <a href="/requisitos/modelagem/lexicos#produtor">produtor</a> ele passa pelos estados referentes à avaliação de pendências enviadas pelo <a href="/requisitos/modelagem/lexicos#produtor">produtor</a>, se o <a href="/requisitos/modelagem/lexicos#usuario">usuário</a> não for um <a href="/requisitos/modelagem/lexicos#tecnico">técnico</a> então ele passa pelos estados de cadastro de <a href="/requisitos/modelagem/lexicos#agrotoxicos">agrotóxicos</a>. Futuramente os dois fluxos se encontram na visualização dos detalhes e informações de um determinado <a href="/requisitos/modelagem/lexicos#plantio">plantio</a>. Essa descrição está bastante resumida devido à complexidade deste diagrama, portanto verifique a imagem a seguir: </p>
 
 <img src="../../../assets/modelagem/dinamica/diagrama_estados/acompanhar_plantio.svg" class="zoom">
 </center>
-<h6 align = "center">Figura 3: Diagrama de Estados - Acompanhar plantio</h6>
+<h6 align = "center">Figura 3: Diagrama de Estados - Acompanhar <a href="/requisitos/modelagem/lexicos#plantio">plantio</a></h6>
 <h6 align = "center">Fonte: Autores</h6>
 
 ### 3.5 Acompanhar produtor
