@@ -6,6 +6,7 @@
 | ------ | ---------- | --------------------------------- | --------------------------- |
 | 1.0    | 16/02/2022 | Criação do documento e introdução | Eduardo Afonso, Rafael Ramos |
 | 1.1    | 16/02/2022 | Adição dos diagramas de atividade | Eduardo Afonso, Rafael Ramos |
+| 1.1.1  | 17/02/2022 | Revisão por pares | João Pedro e Victor Lima |
 
 ## 2. Introdução
 
