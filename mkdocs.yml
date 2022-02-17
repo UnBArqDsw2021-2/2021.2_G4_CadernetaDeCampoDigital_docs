@@ -76,7 +76,7 @@ nav:
     - Iniciativas Extras:      
       - Modelagem Entidade-Relacionamento (MER): modelagem/extras/mer.md
       # - Diagrama Entidade-Relacionamento (DER):
-      # - Diagrama Lógico de Dados (DLD):
+      - Diagrama Lógico de Dados (DLD): modelagem/extras/dld.md
       # - Dicionário de Dados:
       # - Casos de Uso:
       - Sprints:
