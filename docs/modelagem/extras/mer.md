@@ -6,7 +6,8 @@
 | ------ | ---------- | ----------------------- | ------------ |
 | 1.0    | 13/02/2022 | Abertura do documento   | Thiago       |
 | 1.1    | 13/02/2022 | Introdução do documento | Rafael Ramos |
-| 1.1.1   | 14/02/2022 | Revisão do documento    | João Pedro e Carlos |
+| 1.1.1  | 14/02/2022 | Revisão do documento    | João Pedro e Carlos |
+| 1.2    | 17/02/2022 | Correção de formato e erros    | Thiago |
 
 ## 2. Introdução
 
@@ -26,7 +27,7 @@
 
 ## 4. Descrição das Entidades
 
-- USUARIO ( <span style="text-decoration: underline;">idUsuario</span>, cpf, nome, telefone, dataNascimento, senha, telefone )
+- USUARIO ( <span style="text-decoration: underline;">idUsuario</span>, cpf, nome, dataNascimento, senha, telefone )
 - PRODUTOR ( <span style="text-decoration: underline;">idUsuario</span>, dap )
 - TECNICO ( <span style="text-decoration: underline;">idUsuario</span>, crea, formacao, email, emailVerificado )
 - PROPRIEDADE ( <span style="text-decoration: underline;">idPropriedade</span>, idProdutor, idTecnico, endereco(cep, cidade, bairro, logradouro, numero, complemento), hectares )
@@ -38,29 +39,30 @@
 
 ## 5. Relacionamentos
 
-- <b>PLANTIO - registra - CADERNETA_DE_CAMPO</b> 1. Um PLANTIO registra apenas uma ou várias CADERNETA_DE_CAMPO, e
-  uma CADERNETA_DE_CAMPO é registrada por apenas um PLANTIO 2. Cardinalidade: (1,n)
+<ul>
+<li align="justify"><b>PLANTIO - registra - CADERNETA_DE_CAMPO</b>: Um PLANTIO registra apenas uma ou várias CADERNETA_DE_CAMPO, e uma CADERNETA_DE_CAMPO é registrada por apenas um PLANTIO. <br/>Cardinalidade: (1,n)</li>
 
-- <b>PLANTIO - possui - CULTURA</b> 1. Um PLANTIO possui apenas uma CULTURA, e uma CULTURA pode ser
-  possuída por um ou vários PLANTIO 2. Cardinalidade: (n,1)
+<li align="justify"><b>PLANTIO - possui - CULTURA</b>: Um PLANTIO possui apenas uma CULTURA, e uma CULTURA pode ser
+  possuída por um ou vários PLANTIO. <br/>Cardinalidade: (n,1)</li>
 
-- <b>PLANTIO - pertence - PROPRIEDADE</b> 1. Um PLANTIO pertence a uma PROPRIEDADE e uma PROPRIEDADE
-  possui um ou mais PLANTIO 2. Cardinalidade: (n,1)
+<li align="justify"><b>PLANTIO - pertence - PROPRIEDADE</b>: Um PLANTIO pertence a uma PROPRIEDADE e uma PROPRIEDADE
+  possui um ou mais PLANTIO. <br/>Cardinalidade: (n,1)</li>
 
-- <b>PRODUTOR - detem - PROPRIEDADE</b> 1. Um PRODUTOR detém uma ou mais PROPRIEDADE, e uma
-  PROPRIEDADE pertence a apenas um PRODUTOR. 2. Cardinalidade: (1,n)
+<li align="justify"><b>PRODUTOR - detem - PROPRIEDADE</b>: Um PRODUTOR detém uma ou mais PROPRIEDADE, e uma
+  PROPRIEDADE pertence a apenas um PRODUTOR. <br/>Cardinalidade: (1,n)</li>
 
-- <b>PLANTIO - contem - AGROTOXICO</b> 1. Um PLANTIO pode conter nenhum ou vários AGROTOXICO, e um
-  AGROTOXICO pode estar em um ou vários PLANTIO. 2. Cardinalidade: (n,m)
+<li align="justify"><b>PLANTIO - contem - AGROTOXICO</b>: Um PLANTIO pode conter nenhum ou vários AGROTOXICO, e um
+  AGROTOXICO pode estar em um ou vários PLANTIO. <br/>Cardinalidade: (n,m)</li>
 
-- <b>AGROTOXICO - tem - TIPO_AGROTOXICO</b> 1. Um AGROTOXICO tem um TIPO_AGROTOXICO, e um
-  TIPO_AGROTOXICO pode ser de um ou vários AGROTOXICO. 2. Cardinalidade: (n,1)
+<li align="justify"><b>AGROTOXICO - tem - TIPO_AGROTOXICO</b>: Um AGROTOXICO tem um TIPO_AGROTOXICO, e um
+  TIPO_AGROTOXICO pode ser de um ou vários AGROTOXICO. <br/>Cardinalidade: (n,1)</li>
 
-- <b>CULTURA - espera - AGROTOXICO</b> 1. Uma CULTURA espera por um ou vários AGROTOXICO, e um
-  AGROTOXICO pode ser aplicado em uma ou várias CULTURA. 2. Cardinalidade: (n,m)
+<li align="justify"><b>CULTURA - espera - AGROTOXICO</b>: Uma CULTURA espera por um ou vários AGROTOXICO, e um
+  AGROTOXICO pode ser aplicado em uma ou várias CULTURA. <br/>Cardinalidade: (n,m)</li>
 
-- <b>TECNICO - supervisiona - PROPRIEDADE</b> 1. Um TECNICO supervisiona uma ou várias PROPRIEDADE, e uma
-  PROPRIEDADE é supervisionada por apenas um TECNICO. 2. Cardinalidade: (1,n)
+<li align="justify"><b>TECNICO - supervisiona - PROPRIEDADE</b>: Um TECNICO supervisiona uma ou várias PROPRIEDADE, e uma
+  PROPRIEDADE é supervisionada por apenas um TECNICO. <br/>Cardinalidade: (1,n)</li>
+</ul>
 
 ## 6. Referências
 
