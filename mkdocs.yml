@@ -75,7 +75,7 @@ nav:
         - NFR Framework: modelagem/agil/nfr_framework.md
     - Iniciativas Extras:      
       - Modelagem Entidade-Relacionamento (MER): modelagem/extras/mer.md
-      # - Diagrama Entidade-Relacionamento (DER):
+      - Diagrama Entidade-Relacionamento (DER): modelagem/extras/der.md
       # - Diagrama Lógico de Dados (DLD):
       # - Dicionário de Dados:
       # - Casos de Uso:
