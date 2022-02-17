@@ -5,6 +5,7 @@
 | Versão | Data       | Descrição                         | Autor(es)                   |
 | ------ | ---------- | --------------------------------- | --------------------------- |
 | 1.0    | 16/02/2022 | Criação do documento e introdução | Eduardo Afonso, Rafael Ramos |
+| 1.1    | 16/02/2022 | Adição dos diagramas de atividade | Eduardo Afonso, Rafael Ramos |
 
 ## 2. Introdução
 
@@ -12,15 +13,34 @@
 
 <p align="justify" style="text-indent: 20px"> Os elementos utilizados no diagrama de atividades para representar os fluxos de maneira mais clara são os nós iniciais e finais, que marcam respectivamente o começo e o fim dos fluxos. São utilizadas ações, que representam comportamentos e atitudes do usuário ou sistema, geralmente escritas com verbos no infinitivo ou gerúndio. Além de elementos que permitem criar caminhos alternativos, como os nós de bifurcação e decisão, e os que permitem unir caminhos antes separados, como os nós de junção e união. Também é necessário utilizar setas para representar o caminho em que o fluxo segue [3].</p>
 
-## 3. Diagrama de atividades
+## 3. Diagramas de atividades
 
 ### 3.1 Autenticação
+
+<img src="../../../assets/modelagem/dinamica/atividade_autenticacao.svg" class="zoom">
+<h6 align = "center">Figura 1: Diagrama de Atividades de Autenticação</h6>
+<h6 align = "center">Fonte: Autores</h6>
+
 ### 3.2 Produtor
+
+<img src="../../../assets/modelagem/dinamica/atividade_produtor.svg" class="zoom">
+<h6 align = "center">Figura 2: Diagrama de Atividades de <a href="/requisitos/modelagem/lexicos#produtor">Produtor</a></h6>
+<h6 align = "center">Fonte: Autores</h6>
+
 ### 3.3 Técnico
+
+<center>
+<img src="../../../assets/modelagem/dinamica/atividade_tecnico.svg" class="zoom">
+</center>
+<h6 align = "center">Figura 3: Diagrama de Atividades de <a href="/requisitos/modelagem/lexicos#tecnico">Técnico</a></h6></h6>
+<h6 align = "center">Fonte: Autores</h6>
+
 
 
 ## 4. Referências
 
 > [1] O que é diagrama de atividades UML?. Lucidchart. Disponível em: <a href="https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-atividades-uml/#section_0/">https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-atividades-uml/#section_0/</a>. Acesso em: 16 de fevereiro de 2022.
-> [2] Unified Modeling Language (UML) | Activity Diagrams. GeeksforGeeks. Disponível em: <a href="https://www.geeksforgeeks.org/unified-modeling-language-uml-activity-diagrams/#:~:text=An%20activity%20diagram%20is%20a,the%20activity%20is%20being%20executed.">https://www.geeksforgeeks.org/unified-modeling-language-uml-activity-diagrams/#:~:text=An%20activity%20diagram%20is%20a,the%20activity%20is%20being%20executed.</a>
+
+> [2] Unified Modeling Language (UML) | Activity Diagrams. GeeksforGeeks. Disponível em: <a href="https://www.geeksforgeeks.org/unified-modeling-language-uml-activity-diagrams/#:~:text=An%20activity%20diagram%20is%20a,the%20activity%20is%20being%20executed">https://www.geeksforgeeks.org/unified-modeling-language-uml-activity-diagrams/#:~:text=An%20activity%20diagram%20is%20a,the%20activity%20is%20being%20executed</a>. Acesso em: 16 de fevereiro de 2022.
+
 > [3] SERRANO, Milene. 06c - VídeoAula - DSW - Modelagem - Diagrama de Atividades. Material apresentado para a disciplina de Arquitetura e Desenho de Software no curso de Engenharia de Software da Universidade de Brasília, FGA.
