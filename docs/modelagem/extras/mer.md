@@ -8,6 +8,7 @@
 | 1.1    | 13/02/2022 | Introdução do documento | Rafael Ramos |
 | 1.1.1  | 14/02/2022 | Revisão do documento    | João Pedro e Carlos |
 | 1.2    | 17/02/2022 | Correção de formato e erros    | Thiago |
+| 1.3    | 17/02/2022 | Adição do atributo de estado   | Thiago |
 
 ## 2. Introdução
 
@@ -31,7 +32,7 @@
 - PRODUTOR ( <span style="text-decoration: underline;">idUsuario</span>, dap )
 - TECNICO ( <span style="text-decoration: underline;">idUsuario</span>, crea, formacao, email, emailVerificado )
 - PROPRIEDADE ( <span style="text-decoration: underline;">idPropriedade</span>, idProdutor, idTecnico, endereco(cep, cidade, bairro, logradouro, numero, complemento), hectares )
-- PLANTIO ( <span style="text-decoration: underline;">idPlantio</span>, numeroTalhao, idPropriedade, dataPlantio, idCultura )
+- PLANTIO ( <span style="text-decoration: underline;">idPlantio</span>, numeroTalhao, idPropriedade, dataPlantio, idCultura, estado )
 - CADERNETA_DE_CAMPO ( <span style="text-decoration: underline;">numeroSerie</span>, dataColheita, idPlantio )
 - CULTURA ( <span style="text-decoration: underline;">idCultura</span>, nome )
 - AGROTOXICO ( <span style="text-decoration: underline;">idAgrotoxico</span>, nome, idTipoAgrotoxico )
