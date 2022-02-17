@@ -8,14 +8,15 @@
 | ------ | ---------- | ----------------------- | ------------ |
 | 1.0    | 17/02/2022 | Abertura do documento   | Thiago       |
 | 1.1    | 17/02/2022 | Adição do dicionário geral | Thiago    |
-| 1.2    | 17/02/2022 | Adição do dicionário individual das entidades | Eduardo e Thiago |
+| 1.2    | 17/02/2022 | Adição da descrição das tabelas de entidade | Eduardo e Thiago |
+| 1.3    | 17/02/2022 | Adição da descrição das tabelas de relacionamento | Thiago |
 
 ## 2. Introdução
 
 
 ## 3. Dicionário de Dados
 
-### 3.1 Descrição Geral das Entidades
+### 3.1 Descrição Geral das Tabelas de Entidades
 
 <table id="dict">
   <tr>
@@ -114,7 +115,7 @@
 <h6 align = "center">Tabela 1: Descrição Geral das Entidades.</h6>
 <h6 align = "center">Fonte: Autores</h6>
 
-### 3.2 Descrição Individual das Entidades
+### 3.2 Descrição Individual das Tabelas de Entidades
 
 <table id="dict">
   <tr>
@@ -170,7 +171,7 @@
     <td>Número do telefone do usuário</td>
   </tr>
 </table>
-<h6 align = "center">Tabela 2: Descrição Individual do USUARIO.</h6>
+<h6 align = "center">Tabela 2: Descrição Individual da tabela USUARIO.</h6>
 <h6 align = "center">Fonte: Autores</h6>
 
 <table id="dict">
@@ -199,7 +200,7 @@
     <td>Declaração de Aptidão ao Pronaf (DAP) do produtor</td>
   </tr>
 </table>
-<h6 align = "center">Tabela 3: Descrição Individual do PRODUTOR.</h6>
+<h6 align = "center">Tabela 3: Descrição Individual da tabela PRODUTOR.</h6>
 <h6 align = "center">Fonte: Autores</h6>
 
 <table id="dict">
@@ -249,7 +250,7 @@
     <td>Verificar se o e-mail do técnico foi confirmado</td>
   </tr>
 </table>
-<h6 align = "center">Tabela 4: Descrição Individual do TECNICO.</h6>
+<h6 align = "center">Tabela 4: Descrição Individual da tabela TECNICO.</h6>
 <h6 align = "center">Fonte: Autores</h6>
 
 <table id="dict">
@@ -341,7 +342,7 @@
     <td>Identificador do técnico que supervisiona a propriedade</td>
   </tr>
 </table>
-<h6 align = "center">Tabela 5: Descrição Individual do PROPRIEDADE.</h6>
+<h6 align = "center">Tabela 5: Descrição Individual da tabela PROPRIEDADE.</h6>
 <h6 align = "center">Fonte: Autores</h6>
 
 <table id="dict">
@@ -398,7 +399,7 @@
     <td>Estado atual do plantio. Podendo ser Plantado, PeriodoDeCarencia, Colheita, Finalizado e etc</td>
   </tr>
 </table>
-<h6 align = "center">Tabela 6: Descrição Individual do PLANTIO.</h6>
+<h6 align = "center">Tabela 6: Descrição Individual da tabela PLANTIO.</h6>
 <h6 align = "center">Fonte: Autores</h6>
 
 <table id="dict">
@@ -434,7 +435,7 @@
     <td>Identificação do plantio</td>
   </tr>
 </table>
-<h6 align = "center">Tabela 7: Descrição Individual do CADERNETA_DE_CAMPO.</h6>
+<h6 align = "center">Tabela 7: Descrição Individual da tabela CADERNETA_DE_CAMPO.</h6>
 <h6 align = "center">Fonte: Autores</h6>
 
 
@@ -454,7 +455,7 @@
     <td>idCultura</td>
     <td>INT</td>
     <td></td>
-    <td>chave primária, obrigatório</td>
+    <td>chave primária e obrigatório</td>
     <td>Número de identificação da cultura</td>
   </tr>
   <tr>
@@ -465,7 +466,7 @@
     <td>Nome da cultura</td>
   </tr>
 </table>
-<h6 align = "center">Tabela 8: Descrição Individual do CULTURA.</h6>
+<h6 align = "center">Tabela 8: Descrição Individual da tabela CULTURA.</h6>
 <h6 align = "center">Fonte: Autores</h6>
 
 <table id="dict">
@@ -483,7 +484,7 @@
     <td>idAgrotoxico</td>
     <td>INT</td>
     <td></td>
-    <td>chave primária, obrigatório</td>
+    <td>chave primária e obrigatório</td>
     <td>Número de identificação do agrotóxico</td>
   </tr>
   <tr>
@@ -497,11 +498,11 @@
     <td>idTipoAgrotoxico</td>
     <td>INT</td>
     <td></td>
-    <td>chave estrangeira, obrigatório</td>
+    <td>chave estrangeira e obrigatório</td>
     <td>Número de identificação do tipo do agrotóxico</td>
   </tr>
 </table>
-<h6 align = "center">Tabela 9: Descrição Individual do AGROTOXICO.</h6>
+<h6 align = "center">Tabela 9: Descrição Individual da tabela AGROTOXICO.</h6>
 <h6 align = "center">Fonte: Autores</h6>
 
 <table id="dict">
@@ -519,18 +520,113 @@
     <td>idTipoAgrotoxico</td>
     <td>INT</td>
     <td></td>
-    <td>chave primária, obrigatório</td>
+    <td>chave primária e obrigatório</td>
     <td>Número de identificação do tipo do agrotóxico</td>
   </tr>
   <tr>
     <td>nome</td>
     <td>VARCHAR</td>
     <td>80</td>
-    <td>único, obrigatório</td>
+    <td>único e obrigatório</td>
     <td>Nome do tipo do agrotóxico</td>
   </tr>
 </table>
-<h6 align = "center">Tabela 10: Descrição Individual do TIPO_AGROTOXICO.</h6>
+<h6 align = "center">Tabela 10: Descrição Individual da tabela tabela TIPO_AGROTOXICO.</h6>
+<h6 align = "center">Fonte: Autores</h6>
+
+### 3.3 Descrição Individual das Tabelas de Relacionamento
+
+<table id="dict">
+  <tr>
+    <th colspan="6">espera</th>
+  </tr>
+  <tr>
+    <th>Atributo</th>
+    <th>Tipo de Dados</th>
+    <th>Tamanho</th>
+    <th>Restrições</th>
+    <th>Descrição</th>
+  </tr>
+  <tr>
+    <td>idCultura</td>
+    <td>INT</td>
+    <td></td>
+    <td>chave estrangeira, único e obrigatório</td>
+    <td>Identificação da cultura</td>
+  </tr>
+  <tr>
+    <td>idAgrotoxico</td>
+    <td>INT</td>
+    <td></td>
+    <td>chave estrangeira, único e obrigatório</td>
+    <td>Identificação do agrotóxico</td>
+  </tr>
+  <tr>
+    <td>diasCarencia</td>
+    <td>INT</td>
+    <td></td>
+    <td>obrigatório</td>
+    <td>Intervalo de segurança em dias em o produtor pode colher o plantio após a aplicação do agrotóxico</td>
+  <tr>
+</table>
+<h6 align = "center">Tabela 11: Descrição Individual da tabela espera.</h6>
+<h6 align = "center">Fonte: Autores</h6>
+
+<table id="dict">
+  <tr>
+    <th colspan="6">contem</th>
+  </tr>
+  <tr>
+    <th>Atributo</th>
+    <th>Tipo de Dados</th>
+    <th>Tamanho</th>
+    <th>Restrições</th>
+    <th>Descrição</th>
+  </tr>
+  <tr>
+    <td>idPlantio</td>
+    <td>INT</td>
+    <td></td>
+    <td>chave estrangeira e obrigatório</td>
+    <td>Identificação da carência</td>
+  </tr>
+  <tr>
+    <td>idAgrotoxico</td>
+    <td>INT</td>
+    <td></td>
+    <td>chave estrangeira e optativo</td>
+    <td>Identificação do agrotóxico. Ela pode ser NULL até que um funcionário identifique o agrotóxico a partir da foto que o produtor tirou</td>
+  </tr>
+  <tr>
+    <td>dataAplicacao</td>
+    <td>DATE</td>
+    <td></td>
+    <td>obrigatório</td>
+    <td>Data em que o produtor aplicou o agrotóxico</td>
+  </tr>
+  <tr>
+    <td>caminhoFotoAgrotoxico</td>
+    <td>VARCHAR</td>
+    <td>255</td>
+    <td>obrigatório</td>
+    <td>Caminho para a foto do agrotóxico que o produtor aplicou no plantio</td>
+  </tr>
+  <tr>
+    <td>estadoAnalise</td>
+    <td>CHAR</td>
+    <td>1</td>
+    <td>obrigatório</td>
+    <td>Estado da análise da aplicação. Podendo variar entre Sucesso, ComProblema, EmAnalise e etc.</td>
+  </tr>
+  <tr>
+    <td>dosagemAplicacao</td>
+    <td>DECIMAL</td>
+    <td>6 dígitos e 2 casas decimais</td>
+    <td>optativo</td>
+    <td>Dosagem em litros da aplicação do agrotóxico.</td>
+  </tr>
+</table>
+<h6 align = "center">Tabela 12: Descrição Individual da tabela contem.</h6>
 <h6 align = "center">Fonte: Autores</h6>
 
 ## 4. Referências
