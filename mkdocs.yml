@@ -58,10 +58,12 @@ nav:
     - Apresentações: apresentacoes/pc1.md
   - Modelagem:
     - Projeto Orientado a Abordagens Tradicionais:
-      # - Modelagem Estática:
+      - Modelagem Estática:
       #   - Diagrama de Classe:
+        - Diagrama de Pacotes: modelagem/estatica/diagrama_de_pacotes.md
+        - Diagrama de Classes: modelagem/estatica/diagrama_de_classes.md
       #   - Diagrama de Pacotes:
-      #   - Diagrama de Componentes:
+        - Diagrama de Componentes: modelagem/estatica/diagrama_de_componentes.md
       # - Modelagem Dinâmica:
       #   - Diagrama de Sequência:
       #   - Diagrama de Comunicação:
@@ -70,9 +72,9 @@ nav:
       - Modelagem Ágil:
         - Product Backlog: modelagem/agil/product_backlog.md
         - Especificação Suplementar: modelagem/agil/especificacao_suplementar.md
-      #   - NFR Framework:
+        - NFR Framework: modelagem/agil/nfr_framework.md
     - Iniciativas Extras:      
-      # - Modelagem Entidade-Relacionamento (MER):
+      - Modelagem Entidade-Relacionamento (MER): modelagem/extras/mer.md
       # - Diagrama Entidade-Relacionamento (DER):
       # - Diagrama Lógico de Dados (DLD):
       # - Dicionário de Dados:
@@ -82,6 +84,9 @@ nav:
           - Review: sprints/review_0.md
         - Sprint 1:
           - Planning: sprints/planning_1.md
+          - Review: sprints/review_1.md
+        - Sprint 2:
+          - Planning: sprints/planning_2.md
       # - Atas:
   # - Padrões de Projeto: ""
   # - Arquitetura de Software e Reutilização: ""
