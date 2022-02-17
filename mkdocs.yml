@@ -64,10 +64,10 @@ nav:
         - Diagrama de Classes: modelagem/estatica/diagrama_de_classes.md
       #   - Diagrama de Pacotes:
         - Diagrama de Componentes: modelagem/estatica/diagrama_de_componentes.md
-      # - Modelagem Dinâmica:
+      - Modelagem Dinâmica:
       #   - Diagrama de Sequência:
       #   - Diagrama de Comunicação:
-      #   - Diagrama de Atividades:
+        - Diagrama de Atividades: modelagem/dinamica/diagrama_de_atividades.md
       #   - Diagrama de Estados:
       - Modelagem Ágil:
         - Product Backlog: modelagem/agil/product_backlog.md
