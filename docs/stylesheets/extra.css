@@ -1,5 +1,6 @@
 .zoom{
   transition: transform .6s;
+  background-color: #FFFFFF;
 }
 .zoom:hover{
   transform: scale(1.5);
