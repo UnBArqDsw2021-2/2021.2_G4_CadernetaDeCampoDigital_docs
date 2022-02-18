@@ -7,7 +7,7 @@
 | 1.0    | 17/02/2022 | Criação do documento e introdução | Carlos Eduardo e Vitor Lamego |
 | 1.1    | 17/02/2022 | Adição dos diagramas 3.2, 3.3 e 3.4 | Vitor Lamego |
 | 1.2    | 18/02/2022 | Adição dos diagramas 3.1 e 3.5, incremento introdução | Carlos Eduardo |
-<!-- | 1.3   | XX/02/2022 | Revisão por pares | Nome 1 e Nome 2 -->
+| 1.3    | 18/02/2022 | Revisão por pares                 | Denniel e Brenno |
 
 
 ## 2. Introdução
