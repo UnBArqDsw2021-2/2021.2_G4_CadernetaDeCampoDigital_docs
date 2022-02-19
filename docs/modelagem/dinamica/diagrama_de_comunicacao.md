@@ -7,6 +7,8 @@
 | 1.0    | 17/02/2022   | Criação do documento e introdução         | João Pedro e Paulo |
 | 1.1    | 17/02/2022   | Adição dos diagramas                      | João Pedro e Paulo|
 | 1.1.1  | 18/02/2022   | Revisão por pares                         | Rafael e Thiago|
+| 1.2    | 19/02/2022   | Modificação dos diagramas                 | Paulo|
+
 
 ## 2. Introdução
 
