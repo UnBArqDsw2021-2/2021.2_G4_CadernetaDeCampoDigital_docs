@@ -10,6 +10,7 @@
 
 .container {
   position: relative;
+  flex-wrap: wrap;
   max-width: 1220px;
   margin: 0 auto;
   padding: 24px 16px;
@@ -112,6 +113,11 @@
 
 .link-photo:hover{
   transform: scale(1.1);
+}
+
+.button-text {
+  z-index: 10;
+  position: absolute;
 }
 
 h1, h2, h3, h4, h5, h6, p, a {
