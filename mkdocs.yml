@@ -19,7 +19,7 @@ extra_css:
   - stylesheets/extra.css
 
 nav:
-  - Home: index.md
+  - Home: index.html
   - Base:            
     - Processos, Metodologias e Abordagens:
       - Metodologia: base/metodologia.md
