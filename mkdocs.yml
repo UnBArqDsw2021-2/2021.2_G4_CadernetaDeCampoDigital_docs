@@ -66,7 +66,7 @@ nav:
         - Diagrama de Componentes: modelagem/estatica/diagrama_de_componentes.md
       - Modelagem Dinâmica:
         - Diagrama de Sequência: modelagem/dinamica/diagrama_de_sequencia.md
-      #   - Diagrama de Comunicação:
+        - Diagrama de Comunicação: modelagem/dinamica/diagrama_de_comunicacao.md
         - Diagrama de Atividades: modelagem/dinamica/diagrama_de_atividades.md
         - Diagrama de Estados: modelagem/dinamica/diagrama_de_estados.md
       - Modelagem Ágil:
