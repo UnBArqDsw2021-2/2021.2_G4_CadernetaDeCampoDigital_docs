@@ -6,7 +6,8 @@
 | ------ | ---------- | ----------------------- | ------------ |
 | 1.0    | 17/02/2022 | Abertura do documento   | Thiago       |
 | 1.1    | 17/02/2022 | Adição do diagrama      | Thiago       |
-| 1.2    | 18/02/2022 | Adição da introdução      | Thiago       |
+| 1.2    | 18/02/2022 | Adição da introdução    | Thiago       |
+| 1.2.1  | 20/02/2022 | Revisão por pares       | Paulo e Eduardo|
 
 ## 2. Introdução
 
