@@ -64,18 +64,18 @@ nav:
         - Diagrama de Classes: modelagem/estatica/diagrama_de_classes.md
       #   - Diagrama de Pacotes:
         - Diagrama de Componentes: modelagem/estatica/diagrama_de_componentes.md
-      # - Modelagem Dinâmica:
-      #   - Diagrama de Sequência:
-      #   - Diagrama de Comunicação:
-      #   - Diagrama de Atividades:
-      #   - Diagrama de Estados:
+      - Modelagem Dinâmica:
+        - Diagrama de Sequência: modelagem/dinamica/diagrama_de_sequencia.md
+        - Diagrama de Comunicação: modelagem/dinamica/diagrama_de_comunicacao.md
+        - Diagrama de Atividades: modelagem/dinamica/diagrama_de_atividades.md
+        - Diagrama de Estados: modelagem/dinamica/diagrama_de_estados.md
       - Modelagem Ágil:
         - Product Backlog: modelagem/agil/product_backlog.md
         - Especificação Suplementar: modelagem/agil/especificacao_suplementar.md
         - NFR Framework: modelagem/agil/nfr_framework.md
     - Iniciativas Extras:      
       - Modelagem Entidade-Relacionamento (MER): modelagem/extras/mer.md
-      # - Diagrama Entidade-Relacionamento (DER):
+      - Diagrama Entidade-Relacionamento (DER): modelagem/extras/der.md
       - Diagrama Lógico de Dados (DLD): modelagem/extras/dld.md
       # - Dicionário de Dados:
       # - Casos de Uso:
