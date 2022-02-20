@@ -11,6 +11,7 @@
 | 1.2    | 17/02/2022 | Adição do dicionário individual | Eduardo e Thiago |
 | 1.3    | 18/02/2022 | Adição da introdução | Thiago |
 | 1.4    | 20/02/2022 | Renomeando casa para numero | Thiago |
+| 1.4    | 20/02/2022 | Revisão por pares | Brenno e Vitor Lamego |
 
 ## 2. Introdução
 
