@@ -10,6 +10,7 @@
 | 1.1    | 17/02/2022 | Adição do dicionário geral | Thiago    |
 | 1.2    | 17/02/2022 | Adição do dicionário individual | Eduardo e Thiago |
 | 1.3    | 18/02/2022 | Adição da introdução | Thiago |
+| 1.4    | 20/02/2022 | Renomeando casa para numero | Thiago |
 
 ## 2. Introdução
 
@@ -317,7 +318,7 @@
     <td>Endereço da propriedade</td>
   </tr>
   <tr>
-    <td>casa</td>
+    <td>numero</td>
     <td>INT</td>
     <td>4</td>
     <td>obrigatório</td>
