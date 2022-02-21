@@ -33,6 +33,7 @@
 ### 4.1 Objetos
 
 <div id="cardeneta_de_campo"/>
+
 |LO01|Descrição|
 |----|--------------------|
 |**Nome**|**Caderneta de Campo**|
@@ -41,6 +42,7 @@
 |**Impacto**|O <a href="#usuario">usuário</a> pode gerar uma <a href="#cardeneta_de_campo">caderneta de campo</a>|
 
 <div id="produtor"/>
+
 |LO02|Descrição|
 |----|--------------------|
 |**Nome**|**Produtor**|
@@ -49,6 +51,7 @@
 |**Impacto**|O produtor pode <a href="#cadastrar_plantio">cadastrar plantio</a>, <a href="#aplicar_agrotoxico">aplicar agrotóxico</a>, enviar foto, <a href="#colher_plantio">colher plantio</a>, <a href="#visualizar_plantio">visualizar plantio</a>, <a href="#visualizar_aplicacao_agrotoxico">visualizar aplicações de agrotóxico</a> e <a href="#gerar_caderneta_de_campo">gerar caderneta de campo</a>|
 
 <div id="tecnico"/>
+
 |LO03|Descrição|
 |----|--------------------|
 |**Nome**|**Técnico**|
@@ -57,6 +60,7 @@
 |**Impacto**|O técnico pode supervisionar uma <a href="#propriedade">propriedade</a>, <a href="#analisar_aplicacao_agrotoxico">analisar aplicação de agrotóxico</a>, <a href="#visualizar_propriedade">visualizar propriedade</a>, <a href="#visualizar_plantio">visualizar plantios</a>, <a href="#visualizar_aplicacao_agrotoxico">visualizar aplicações de agrotóxico</a> e <a href="#notificar_erro">notificar erro</a>|
 
 <div id="usuario"/>
+
 |LO04|Descrição|
 |----|--------------------|
 |**Nome**|**Usuário**|
@@ -65,6 +69,7 @@
 |**Impacto**|O usuário pode <a href="#visualizar_propriedade">visualizar propriedade</a>, <a href="#visualizar_aplicacao_agrotoxico">visualizar aplicações de agrotóxico</a>, <a href="#visualizar_plantio">visualizar plantio</a> e <a href="#gerar_caderneta_de_campo">gerar caderneta de campo</a>|
 
 <div id="propriedade"/>
+
 |LO05|Descrição|
 |----|--------------------|
 |**Nome**|**Propriedade**|
@@ -73,6 +78,7 @@
 |**Impacto**|O <a href="#usuario">usuário</a> pode <a href="#visualizar_propriedade">visualizar propriedade</a><br>O <a href="#produtor">produtor</a> pode <a href="#cadastrar_plantio">cadastrar um plantio</a><br>O <a href="#tecnico">técnico</a> pode <a href="#supervisionar_propriedade">supervisionar a propriedade</a>|
 
 <div id="cultura"/>
+
 |LO06|Descrição|
 |----|--------------------|
 |**Nome**|**Cultura**|
@@ -81,6 +87,7 @@
 |**Impacto**|O <a href="#produtor">produtor</a> pode plantar uma cultura|
 
 <div id="plantio"/>
+
 |LO07|Descrição|
 |----|--------------------|
 |**Nome**|**Plantio**|
@@ -89,6 +96,7 @@
 |**Impacto**|O usuário pode <a href="#visualizar_plantio">visualizar plantio</a><br>O produtor pode <a href="#cadastrar_plantio">cadastrar plantio</a>, <a href="#aplicar_agrotoxico">aplicar agrotóxico</a> sobre um plantio, <a href="#colher_plantio">colher plantio</a> e <a href="#gerar_caderneta_de_campo">gerar caderneta de campo</a>|
 
 <div id="talhao"/>
+
 |LO08|Descrição|
 |----|--------------------|
 |**Nome**|**Talhão**|
@@ -97,6 +105,7 @@
 |**Impacto**|O produtor pode <a href="#cadastrar_plantio">cadastrar plantio</a> em um talhão|
 
 <div id="agrotoxico"/>
+
 |LO09|Descrição|
 |----|--------------------|
 |**Nome**|**Agrotóxico**|
@@ -105,6 +114,7 @@
 |**Impacto**|O <a href="#produtor">produtor</a> pode <a href="#aplicar_agrotoxico">aplicar agrotóxico</a>|
 
 <div id="tipo_agrotoxico"/>
+
 |LO10|Descrição|
 |----|--------------------|
 |**Nome**|**Tipo de Agrotóxico**|
@@ -113,6 +123,7 @@
 |**Impacto**|O <a href="#tecnico">técnico</a> pode diferenciar o agrotóxico pelo tipo|
 
 <div id="periodo_carencia"/>
+
 |LO11|Descrição|
 |----|--------------------|
 |**Nome**|**Período de Carência**|
@@ -121,6 +132,7 @@
 |**Impacto**|O técnico pode <a href="#notificar_erro">notificar erro</a> na <a href="#rastreabilidade">rastreabilidade</a>|
 
 <div id="aplicacao_agrotoxico"/>
+
 |LO12|Descrição|
 |----|--------------------|
 |**Nome**|**Aplicação de Agrotóxico**|
@@ -129,6 +141,7 @@
 |**Impacto**|O usuário pode <a href="#visualizar_aplicacao_agrotoxico">visualizar aplicações de agrotóxico</a><br>O <a href="#produtor">produtor</a> pode aplicar agrotóxico e enviar foto agrotóxico<br>|
 
 <div id="rastreabilidade"/>
+
 |LO13|Descrição|
 |----|--------------------|
 |**Nome**|**Rastreabilidade**|
@@ -137,6 +150,7 @@
 |**Impacto**|O usuário pode <a href="#gerar_caderneta_de_campo">gerar caderneta de campo</a>|
 
 <div id="whatsapp"/>
+
 |LO14|Descrição|
 |----|--------------------|
 |**Nome**|**WhatsApp**|
@@ -147,6 +161,7 @@
 ## 4.2 Verbos
 
 <div id="cadastrar_plantio"/>
+
 |LV01|Descrição|
 |----|--------------------|
 |**Nome**|**Cadastrar Plantio**|
@@ -155,6 +170,7 @@
 |**Impacto**|O <a href="#usuario">usuário</a> pode <a href="#visualizar_plantio">visualizar plantio</a> e <a href="#gerar_caderneta_de_campo">gerar caderneta de campo</a><br>O produtor pode <a href="#aplicar_agrotoxico">aplicar agrotóxico</a> e <a href="#colher_plantio">colher plantio</a>|
 
 <div id="aplicar_agrotoxico"/>
+
 |LV02|Descrição|
 |----|--------------------|
 |**Nome**|**Aplicar Agrotóxico**|
@@ -163,6 +179,7 @@
 |**Impacto**|O usuário pode <a href="#visualizar_aplicacao_agrotoxico">visualizar aplicações de agrotóxico</a><br>O <a href="#tecnico">técnico</a> pode analisar aplicação do agrotóxico<br>O <a href="#produtor">produtor</a> pode <a href="#enviar_foto_agrotoxico">enviar foto do agrotóxico</a><br>A aplicação do agrotóxico entra em análise pelo técnico|
 
 <div id="analisar_aplicacao_agrotoxico"/>
+
 |LV03|Descrição|
 |----|--------------------|
 |**Nome**|**Analisar Aplicação do Agrotóxico**|
@@ -171,6 +188,7 @@
 |**Impacto**|O <a href="#tecnico">técnico</a> analisa as <a href="#aplicacao_agrotoxico">aplicações de agrotóxicos</a> da <a href="#propriedade">propriedade</a> que ele supervisiona<br>O técnico pode <a href="#notificar_erro">notificar erro</a> quando encontrar algum problema<br>A aplicação de agrotóxico pode estar em análise, finalizada ou com problemas|
 
 <div id="supervisionar_propriedade"/>
+
 |LV04|Descrição|
 |----|--------------------|
 |**Nome**|**Supervisionar Propriedade**|
@@ -179,6 +197,7 @@
 |**Impacto**|O técnico pode <a href="#visualizar_propriedade">visualizar propriedade</a>, <a href="#visualizar_plantio">visualizar plantio</a>, <a href="#visualizar_aplicacao_agrotoxico">visualizar aplicações de agrotóxico</a>, <a href="#gerar_caderneta_de_campo">gerar caderneta de campo</a> e <a href="#analisar_aplicacao_agrotoxico">analisar aplicação de agrotóxico</a>|
 
 <div id="visualizar_plantio"/>
+
 |LV05|Descrição|
 |----|--------------------|
 |**Nome**|**Visualizar Plantio**|
@@ -187,6 +206,7 @@
 |**Impacto**|O <a href="#usuario">usuário</a> pode visualizar plantio|
 
 <div id="visualizar_propriedade"/>
+
 |LV06|Descrição|
 |----|--------------------|
 |**Nome**|**Visualizar Propriedade**|
@@ -195,6 +215,7 @@
 |**Impacto**|O <a href="#usuario">usuário</a> pode visualizar propriedade|
 
 <div id="visualizar_aplicacao_agrotoxico"/>
+
 |LV07|Descrição|
 |----|--------------------|
 |**Nome**|**Visualizar Aplicação de Agrotóxico**|
@@ -203,6 +224,7 @@
 |**Impacto**|O <a href="#usuario">usuário</a> pode visualizar aplicação de agrotóxico|
 
 <div id="gerar_caderneta_de_campo"/>
+
 |LV08|Descrição|
 |----|--------------------|
 |**Nome**|**Gerar Caderneta de Campo**|
@@ -211,6 +233,7 @@
 |**Impacto**|O <a href="#usuario">usuário</a> pode gerar a caderneta de campo|
 
 <div id="enviar_foto_agrotoxico"/>
+
 |LV09|Descrição|
 |----|--------------------|
 |**Nome**|**Enviar Foto do Agrotóxico**|
@@ -219,6 +242,7 @@
 |**Impacto**|O <a href="#produtor">produtor</a> pode enviar foto do agrotóxico aplicado|
 
 <div id="colher_plantio"/>
+
 |LV010|Descrição|
 |----|--------------------|
 |**Nome**|**Colher Plantio**|
@@ -227,6 +251,7 @@
 |**Impacto**|O <a href="#usuario">usuário</a> pode gerar a caderneta de campo<br>Após colher todo o plantio, o <a href="#plantio_finalizado">plantio está finalizado</a>|
 
 <div id="notificar_erro"/>
+
 |LV11|Descrição|
 |----|--------------------|
 |**Nome**|**Notificar Erro**|
@@ -237,6 +262,7 @@
 ## 4.3 Estados
 
 <div id="plantio_plantado"/>
+
 |LE01|Descrição|
 |----|--------------------|
 |**Nome**|**Plantio está Plantado**|
@@ -245,6 +271,7 @@
 |**Impacto**|O <a href="#produtor">produtor</a> pode <a href="#aplicar_agrotoxico">aplicar agrotóxico</a> e colher o plantio<br>Após colhido, o <a href="#plantio_finalizado">plantio está finalizado</a>|
 
 <div id="plantio_finalizado"/>
+
 |LE02|Descrição|
 |----|--------------------|
 |**Nome**|**Plantio está Finalizado**|
@@ -253,6 +280,7 @@
 |**Impacto**|O <a href="#usuario">usuário</a> pode <a href="#gerar_caderneta_de_campo">gerar caderneta de campo</a>|
 
 <div id="aplicacao_agrotoxico_analise"/>
+
 |LE03|Descrição|
 |----|--------------------|
 |**Nome**|**Aplicação de Agrotóxico em Análise**|
@@ -261,6 +289,7 @@
 |**Impacto**|Após análise, a aplicação pode estar com problema ou ser finalizada com sucesso|
 
 <div id="aplicacao_agrotoxico_problema"/>
+
 |LE04|Descrição|
 |----|--------------------|
 |**Nome**|**Aplicação de Agrotóxico com Problemas**|
@@ -269,6 +298,7 @@
 |**Impacto**|O <a href="#tecnico">técnico</a> pode <a href="#notificar_erro">notificar erro</a><br>Após contato com o <a href="#produtor">produtor</a>, o técnico pode finalizar a análise|
 
 <div id="aplicacao_agrotoxico_finalizada"/>
+
 |LE05|Descrição|
 |----|--------------------|
 |**Nome**|**Aplicação de Agrotóxico Finalizada**|
