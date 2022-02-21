@@ -9,6 +9,7 @@
 |  1.5   | 13/02/2022 |            Adição das Features             |   Paulo Vitor   |
 |  1.6   | 14/02/2022 |             Ajustes e Revisões             | Denniel William |
 | 1.6.1  | 14/02/2022 |                  Revisão                   |  Todo o grupo   |
+|  1.7   | 20/02/2022 |           Priorização do backlog           |  Todo o grupo   |
 
 ## 2. Introdução
 
@@ -65,7 +66,7 @@
 <center>
 
 |         **Épico**          |             **ID**              | **Descrição**                                                                                                                           |
-| :------------------------: | :-----------------------------: | --------------------------------------------------------------------------------------------------------------------------------------- | --- |
+| :------------------------: | :-----------------------------: | --------------------------------------------------------------------------------------------------------------------------------------- |
 | <a href="#EP1">**EP1**</a> | <span id="FT01">**FT01**</span> | Controle de <a href="/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/modelagem/lexicos#usuario">usuário</a>                          |
 | <a href="#EP2">**EP2**</a> | <span id="FT02">**FT02**</span> | Gerenciar <a href="/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/modelagem/lexicos#propriedade">propriedade</a>                    |
 | <a href="#EP2">**EP2**</a> | <span id="FT03">**FT03**</span> | Gerenciar <a href="/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/modelagem/lexicos#plantio">plantação</a>                          |
@@ -146,6 +147,7 @@
             <th>Feature</th>
             <th>User Story</th>
             <th>Requisito</th>
+            <th>Priorização</th>
         </tr>
     </thead>
     <tbody >
@@ -154,124 +156,152 @@
                 <td id="celula" rowspan="6"><a href="#FT01">FT01</a></td>
                 <td id="celula"><a href="#US01">US01</a></td>
                 <td id="celula"><a href="/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/elicitacao/introspeccao/">I01</a></td>
+                <td id="celula">MUST</td>
             </tr>
             <tr>
                 <td id="celula"><a href="#US02">US02</a></td>
                 <td id="celula"><a href="/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/elicitacao/introspeccao/">I16</a></td>
+                <td id="celula">SHOULD</td>
             </tr>
             <tr>
                 <td id="celula"><a href="#US03">US03</a></td>
                 <td id="celula"><a href="/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/elicitacao/introspeccao/">I16</a></td>
+                <td id="celula">SHOULD</td>
             </tr>
             <tr>
                 <td id="celula"><a href="#US04">US04</a></td>
                 <td id="celula"><a href="/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/elicitacao/introspeccao/">I01</a></td>
+                <td id="celula">MUST</td>
             </tr>
             <tr>
                 <td id="celula"><a href="#US05">US05</a></td>
                 <td id="celula"><a href="/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/elicitacao/introspeccao/">I01</a></td>
+                <td id="celula">COULD</td>
             </tr>
             <tr>
                 <td id="celula"><a href="#US06">US06</a></td>
                 <td id="celula"><a href="/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/elicitacao/introspeccao/">I01</a></td>
+                <td id="celula">MUST</td>
             </tr>
             <tr>
                 <td id="celula" rowspan="15"><a href="#EP2">EP2</a></td>
                 <td id="celula" rowspan="6"><a href="#FT02">FT02</a></td>
                 <td id="celula"><a href="#US07">US07</a></td>
                 <td id="celula"><a href="/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/elicitacao/introspeccao/">I02</a></td>
+                <td id="celula">MUST</td>
             </tr>
             <tr>
                 <td id="celula"><a href="#US08">US08</a></td>
                 <td id="celula"><a href="/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/elicitacao/introspeccao/">I02</a></td>
+                <td id="celula">COULD</td>
             </tr>
             <tr>
                 <td id="celula"><a href="#US09">US09</a></td>
                 <td id="celula"><a href="/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/elicitacao/introspeccao/">I02</a></td>
+                <td id="celula">MUST</td>
             </tr>
             <tr>
                 <td id="celula"><a href="#US10">US10</a></td>
                 <td id="celula"><a href="/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/elicitacao/introspeccao/">I02</a></td>
+                <td id="celula">WOULD</td>
             </tr>
             <tr>
                 <td id="celula"><a href="#US11">US11</a></td>
                 <td id="celula"><a href="/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/elicitacao/introspeccao/">I09</a></td>
+                <td id="celula">SHOULD</td>
             </tr>
             <tr>
                 <td id="celula"><a href="#US12">US12</a></td>
                 <td id="celula"><a href="/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/elicitacao/introspeccao/">I09</a></td>
+                <td id="celula">WOULD</td>
             </tr>
             <tr>
                 <td id="celula" rowspan="3"><a href="#FT03">FT03</a></td>
                 <td id="celula"><a href="#US01">US13</a></td>
                 <td id="celula"><a href="/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/elicitacao/entrevista/">E06</a></td>
+                <td id="celula">MUST</td>
             </tr>
             <tr>
                 <td id="celula"><a href="#US12">US14</a></td>
                 <td id="celula"><a href="/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/elicitacao/entrevista/">E06</a></td>
+                <td id="celula">SHOULD</td>
             </tr>
             <tr>
                 <td id="celula"><a href="#US12">US15</a></td>
                 <td id="celula"><a href="/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/elicitacao/entrevista/">E06</a>, <a href="/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/elicitacao/introspeccao/">I13</a></td>
+                <td id="celula">MUST</td>
             </tr>
             <tr>
                 <td id="celula" rowspan="2"><a href="#FT04">FT04</a></td>
                 <td id="celula"><a href="#US16">US16</a></td>
                 <td id="celula"><a href="/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/elicitacao/entrevista/">E08</a>, <a href="/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/elicitacao/entrevista/">E17</a>, <a href="/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/elicitacao/brainstorming/">BS21</a></td>
+                <td id="celula">MUST</td>
             </tr>
             <tr>
                 <td id="celula"><a href="#US17">US17</a></td>
                 <td id="celula"><a href="/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/elicitacao/entrevista/">E08</a>, <a href="/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/elicitacao/entrevista/">E17</a>, <a href="/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/elicitacao/brainstorming/">BS21</a></td>
+                <td id="celula">SHOULD</td>
             </tr>
             <tr>
                 <td id="celula" rowspan="4"><a href="#FT05">FT05</a></td>
                 <td id="celula"><a href="#US18">US18</a></td>
                 <td id="celula"><a href="/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/elicitacao/entrevista/">E17</a>, <a href="/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/elicitacao/introspeccao/">I08</a></td>
+                <td id="celula">SHOULD</td>
             </tr>
             <tr>
                 <td id="celula"><a href="#US19">US19</a></td>
                 <td id="celula"><a href="/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/elicitacao/brainstorming/">BS08</a></td>
+                <td id="celula">COULD</td>
             </tr>
                         <tr>
                 <td id="celula"><a href="#US20">US20</a></td>
                 <td id="celula"><a href="/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/elicitacao/entrevista/">E13</a>, <a href="/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/elicitacao/brainstorming/">BS08</a></td>
+                <td id="celula">SHOULD</td>
             </tr>
             <tr>
                 <td id="celula"><a href="#US21">US21</a></td>
                 <td id="celula"><a href="/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/elicitacao/entrevista/">E13</a>, <a href="/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/elicitacao/brainstorming/">BS08</a></td>
+                <td id="celula">WOULD</td>
             </tr>
             <tr>
                 <td id="celula" rowspan="7"><a href="#EP3">EP3</a></td>
                 <td id="celula" rowspan="2"><a href="#FT06">FT06</a></td>
                 <td id="celula"><a href="#US22">US22</a></td>
                 <td id="celula"><a href="/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/elicitacao/entrevista/">E04</a></td>
+                <td id="celula">MUST</td>
             </tr>
             <tr>
                 <td id="celula"><a href="#US23">US23</a></td>
                 <td id="celula"><a href="/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/elicitacao/entrevista/">E04</a></td>
+                <td id="celula">MUST</td>
             </tr>
             <tr>
                 <td id="celula" rowspan="2"><a href="#FT07">FT07</a></td>
                 <td id="celula"><a href="#US24">US24</a></td>
                 <td id="celula"><a href="/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/elicitacao/entrevista/">E04</a></td>
+                <td id="celula">SHOULD</td>
             </tr>
             <tr>
                 <td id="celula"><a href="#US25">US25</a></td>
                 <td id="celula"><a href="/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/elicitacao/brainstorming/">BS20</a></td>
+                <td id="celula">SHOULD</td>
             </tr>
             <tr>
                 <td id="celula" rowspan="1"><a href="#FT08">FT08</a></td>
                 <td id="celula"><a href="#US26">US26</a></td>
                 <td id="celula"><a href="/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/elicitacao/introspeccao/">I09</a></td>
+                <td id="celula">SHOULD</td>
             </tr>
             <tr>
                 <td id="celula" rowspan="2"><a href="#FT09">FT09</a></td>
                 <td id="celula"><a href="#US27">US27</a></td>
                 <td id="celula"><a href="/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/elicitacao/entrevista/">E04</a></td>
+                <td id="celula">SHOULD</td>
             </tr>
             <tr>
                 <td id="celula"><a href="#US28">US28</a></td>
                 <td id="celula"><a href="/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/elicitacao/entrevista/">E04</a></td>
+                <td id="celula">COULD</td>
             </tr>
     </tbody>
 </table>
