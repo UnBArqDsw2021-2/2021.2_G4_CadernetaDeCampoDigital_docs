@@ -2,13 +2,14 @@
 
 ## 1. Versionamento
 
-| Versão | Data       | Descrição                    | Autor(es)           |
-| ------ | ---------- | ---------------------------- | ------------------- |
-| 1.0    | 13/02/2022 | Abertura do documento        | Thiago              |
-| 1.1    | 13/02/2022 | Introdução do documento      | Rafael Ramos        |
-| 1.1.1  | 14/02/2022 | Revisão por pares            | João Pedro e Carlos |
-| 1.2    | 17/02/2022 | Correção de formato e erros  | Thiago              |
-| 1.3    | 17/02/2022 | Adição do atributo de estado | Thiago              |
+| Versão | Data       | Descrição                         | Autor(es)           |
+| ------ | ---------- | --------------------------------- | ------------------- |
+| 1.0    | 13/02/2022 | Abertura do documento             | Thiago              |
+| 1.1    | 13/02/2022 | Introdução do documento           | Rafael Ramos        |
+| 1.1.1  | 14/02/2022 | Revisão por pares                 | João Pedro e Carlos |
+| 1.2    | 17/02/2022 | Correção de formato e erros       | Thiago              |
+| 1.3    | 17/02/2022 | Adição do atributo de estado      | Thiago              |
+| 1.3.1  | 20/02/2022 | Melhoria do tópico de metodologia | Rafael e João Pedro |
 
 ## 2. Introdução
 
@@ -16,7 +17,7 @@
 
 ## 3. Metodologia
 
-<p align="justify" style="text-indent: 20px">O modelo foi elaborado pelo Rafael e pelo Thiago em outra ocasião, então foi adaptado para o novo contexto do domínio de negócios.</p>
+<p align="justify" style="text-indent: 20px">O modelo foi elaborado pelo Rafael e pelo Thiago, através de uma reunião no Discord (canal de comunicação da equipe) no dia 13 de fevereiro de 2022.</p>
 
 ## 4. Entidades
 

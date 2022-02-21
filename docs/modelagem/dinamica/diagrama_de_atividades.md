@@ -7,7 +7,7 @@
 | 1.0    | 16/02/2022 | Criação do documento e introdução | Eduardo Afonso, Rafael Ramos |
 | 1.1    | 16/02/2022 | Adição dos diagramas de atividade | Eduardo Afonso, Rafael Ramos |
 | 1.1.1  | 17/02/2022 | Revisão por pares                 | João Pedro e Victor Lima     |
-| 1.2    | 20/02/2022 | Adicionando metodologia           | Rafael Ramos                 |
+| 1.1.2  | 20/02/2022 | Adição do tópico de metodologia           | Rafael Ramos e João Pedro    |
 
 ## 2. Introdução
 
@@ -17,7 +17,7 @@
 
 ## 3. Metodologia
 
-<p align="justify" style="text-indent: 20px"> Utilizando o software <a href="https://www.lucidchart.com/pages/">Lucidchart</a>, os integrantes Rafael e Eduardo realizaram a confecção dos diagramas enquanto alinhavam as ideias em uma chamada simultânea utilizando o software <a href="https://discord.com/app">Discord</a>. As atividades foram idealizadas tomando em conta a visão dos usuários tanto <a href="/requisitos/modelagem/lexicos#produtor">produtor</a> quanto <a href="/requisitos/modelagem/lexicos#tecnico">técnico</a>, sendo a autenticação uma atividade a parte que pertence aos dois tipos de usuários.</p>
+<p align="justify" style="text-indent: 20px"> Utilizando o software <a href="https://www.lucidchart.com/pages/">Lucidchart</a>, os integrantes Rafael e Eduardo realizaram a confecção dos diagramas enquanto alinhavam as ideias em uma chamada simultânea utilizando o <a href="https://discord.com/app">Discord</a>. As atividades foram idealizadas tomando em conta a visão dos usuários tanto <a href="/requisitos/modelagem/lexicos#produtor">produtor</a> quanto <a href="/requisitos/modelagem/lexicos#tecnico">técnico</a>, sendo a autenticação uma atividade a parte que pertence aos dois tipos de usuários.</p>
 
 ## 4. Diagramas de atividades
 

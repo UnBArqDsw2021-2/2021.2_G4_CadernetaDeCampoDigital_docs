@@ -16,7 +16,7 @@
 
 ## 3. Metodologia
 
-<p align="justify" style="text-indent: 20px">O diagrama foi desenvolvido a partir do MER visando facilitar o entendimento referente a lógica do banco de dados, onde foi adaptado pelo Thiago e revisado pelo Rafael.</p>
+<p align="justify" style="text-indent: 20px">O diagrama foi desenvolvido a partir do modelo conceitual (<a href="../der">DER</a>) visando facilitar o entendimento referente a lógica do banco de dados através de uma representação mais visual dessa lógica, esse diagrama foi adaptado pelo Thiago utilizando o software <a href="https://www.sis4.com/brModelo/">brModelo</a> e posteriormente revisado pelo Rafael.</p>
 
 ## 4. Diagrama Conceitual
 
