@@ -4,6 +4,7 @@
 | Versão | Data | Modificação | Autor |
 |--|--|--|--|
 |1.0| 29/01/2022| Criação do documento | João Pedro Moura |
+|1.1| 20/02/2022| Adição da política de pull request| João Pedro Moura |
 
 ## Políticas de Branch para o repositório Doc
 <p style="text-align: justify; text-indent: 20px">As branches serão nomeadas seguindo um padrão para a melhor organização do projeto. Por se tratar de um projeto baseado em documentos, terá apenas um tipo de nomenclatura de branch. Todas as branchs devem ser criadas a partir da <b>master</b> e devem estar nomeadas da seguinte maneira:</p>
@@ -91,3 +92,6 @@ fi
 
 Co-authored-by: Fábio Silva <fabiosilva@gmail.com>
 ```
+
+## Política de Pull Requests
+<p style="text-align: justify; text-indent: 20px">Para a realização de pull requests, a equipe definiu a utilização da poĺítica de <b>squash e merge</b>, metodologia essa que junta todos os commits em um único após o merge. Dessa forma, o histórico fica mais limpo e organizado, sendo ainda possível visualizar os commits mais atômicos através dos comentários disponíveis nos commits de merge.</p>

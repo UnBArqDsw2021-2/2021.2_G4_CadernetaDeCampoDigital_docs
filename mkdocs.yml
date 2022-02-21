@@ -59,10 +59,8 @@ nav:
   - Modelagem:
     - Projeto Orientado a Abordagens Tradicionais:
       - Modelagem Estática:
-      #   - Diagrama de Classe:
         - Diagrama de Pacotes: modelagem/estatica/diagrama_de_pacotes.md
         - Diagrama de Classes: modelagem/estatica/diagrama_de_classes.md
-      #   - Diagrama de Pacotes:
         - Diagrama de Componentes: modelagem/estatica/diagrama_de_componentes.md
       - Modelagem Dinâmica:
         - Diagrama de Sequência: modelagem/dinamica/diagrama_de_sequencia.md
@@ -78,6 +76,7 @@ nav:
       - Diagrama Entidade-Relacionamento (DER): modelagem/extras/der.md
       - Diagrama Lógico de Dados (DLD): modelagem/extras/dld.md
       - Dicionário de Dados: modelagem/extras/dicionario_dados.md
+      - Política de Contribuição: base/politicas_de_contribuicao.md
       # - Casos de Uso:
       - Sprints:
         - Sprint 0:
@@ -87,6 +86,5 @@ nav:
           - Review: sprints/review_1.md
         - Sprint 2:
           - Planning: sprints/planning_2.md
-      # - Atas:
   # - Padrões de Projeto: ""
   # - Arquitetura de Software e Reutilização: ""
