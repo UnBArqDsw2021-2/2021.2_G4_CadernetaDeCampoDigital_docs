@@ -4,20 +4,21 @@
 
 |Versão|Data|Descrição|Autor(es)|
 |:------:|:----:|:---------:|:---------:|
-|0.1|16/02/2022|Abertura do documento de casos de uso|Denniel William|
-|1.0|17/02/2022|Introdução, especificação, referências|Denniel William|
-|1.1|20/02/2022|Ajustes na especificação de caso de uso|Denniel William|
+|1.0|16/02/2022|Abertura do documento de casos de uso|Denniel William|
+|1.1|17/02/2022|Introdução, especificação, referências|Denniel William|
+|1.2|20/02/2022|Ajustes na especificação de caso de uso|Denniel William|
 
 ## 2. Introdução
 
-<p style="text-align: justify; text-indent: 20px">Os diagramas de caso de uso tem por objetivo auxiliar na modelagem, demonstrando o comportamento do sistema e ajudam a capturar seus requisitos. Eles identificam as interações entre o sistema e os atores. Seu foco é mostrar como o sistema se comporta a nível de usuário mas não descreve a operação interna.</p>.
+<p style="text-align: justify; text-indent: 20px">Os diagramas de caso de uso tem por objetivo auxiliar na modelagem, demonstrando o comportamento do sistema e ajudando a capturar seus requisitos. Eles identificam as interações entre o sistema e os atores. Seu foco é mostrar como o sistema se comporta a nível de usuário, mas não descreve a operação interna. </p>
 
 <p style="text-align: justify; text-indent: 20px">Com os diagramas de caso de uso é possível modelar um sistema complexo em um único diagrama. Ele é desenvolvido na fase inicial do projeto e são consultados durante todo o processo de desenvolvimento</p>.
 
 ## 3. Diagrama de caso de uso
 
-![Diagrama de caso de uso](/docs/assets/requisitos/modelagem/diagrama_de_caso_de_uso.jpg)
-<p style="text-align: center; text-indent: 20px"><strong>Figura 1: Casos de Uso do Caderneta de Campo Digital.<br/>Fonte: Autoria própria</strong></p>.
+<img src="/assets/modelagem/diagrama_de_caso_de_uso.jpg" class="zoom"/>
+<h6 align = "center">Figura 1: Casos de uso da Caderneta de Campo Digital.</h6>
+<h6 align = "center">Fonte: Autor</h6>
 
 ## 4. Especificação dos Casos de Uso
 
@@ -29,7 +30,7 @@
 |Pré-Condições| Acesso a internet e ter conta no aplicativo|
 |Ação|<a href="/requisitos/modelagem/lexicos#tecnico">Técnico</a> ou <a href="/requisitos/modelagem/lexicos#produtor">produtor</a> entrar na conta|
 |Fluxo principal| **FP01:** Fluxo de fazer login no aplicativo <br/> 1. Ator entra no aplicativo <br/> 2. Ator clica em conectar <br/> 3. Ator digita suas informações de login |
-|Pós-condições| O ator poderá ter acesso as funcionalidades do seu tipo de <a href="/requisitos/modelagem/lexicos#usuario">usuário</a> logado|
+|Pós-condições| O ator poderá ter acesso às funcionalidades do seu tipo de <a href="/requisitos/modelagem/lexicos#usuario">usuário</a> logado|
 |Data de criação|17/02/2022|
 
 ### UC02 Cadastrar
@@ -200,7 +201,7 @@
 
 ### UC18 Alterar plantação
 |UC18|Informações|
-|:------:|:----:|:---------:|:---------:|
+|:------:|:----:|
 |Descrição| O <a href="/requisitos/modelagem/lexicos#produtor">produtor</a> altera <a href="/requisitos/modelagem/lexicos#plantio">plantação</a> em uma <a href="/requisitos/modelagem/lexicos#propriedade">propriedade</a> |
 |Ator| <a href="/requisitos/modelagem/lexicos#produtor">Produtor</a>|
 |Pré-Condições| Ter conta como <a href="/requisitos/modelagem/lexicos#produtor">produtor</a> criada no aplicativo, acesso a internet, ter <a href="/requisitos/modelagem/lexicos#plantio">plantação</a> cadastrado em um talhão |
@@ -211,7 +212,7 @@
 
 ### UC19 Marcar plantação como colhida
 |UC19|Informações|
-|:------:|:----:|:---------:|:---------:|
+|:------:|:----:|
 |Descrição| O <a href="/requisitos/modelagem/lexicos#produtor">produtor</a> marca <a href="/requisitos/modelagem/lexicos#plantio">plantação</a> como <a href="/requisitos/modelagem/lexicos#plantio_finalizado">colhida</a> em um <a href="/requisitos/modelagem/lexicos#talhao">talhão</a> |
 |Ator| <a href="/requisitos/modelagem/lexicos#produtor">Produtor</a>|
 |Pré-Condições| Ter conta como <a href="/requisitos/modelagem/lexicos#produtor">produtor</a> criada no aplicativo, acesso a internet, ter ao menos uma <a href="/requisitos/modelagem/lexicos#plantio">plantação</a> cadastrada |
@@ -222,7 +223,7 @@
 
 ### UC20 Remover plantação
 |UC20|Informações|
-|:------:|:----:|:---------:|:---------:|
+|:------:|:----:|
 |Descrição| O <a href="/requisitos/modelagem/lexicos#produtor">produtor</a> remove <a href="/requisitos/modelagem/lexicos#plantio">plantação</a> em uma <a href="/requisitos/modelagem/lexicos#propriedade">propriedade</a> |
 |Ator| <a href="/requisitos/modelagem/lexicos#produtor">Produtor</a>|
 |Pré-Condições| Ter conta como <a href="/requisitos/modelagem/lexicos#produtor">produtor</a> criada no aplicativo, acesso a internet, ter <a href="/requisitos/modelagem/lexicos#plantio">plantação</a> cadastrada em um talhão |
@@ -233,7 +234,7 @@
 
 ### UC21 Visualizar caderneta de campo
 |UC21|Informações|
-|:------:|:----:|:---------:|:---------:|
+|:------:|:----:|
 |Descrição| O <a href="/requisitos/modelagem/lexicos#tecnico">técnico</a> visualiza <a href="/requisitos/modelagem/lexicos#cardeneta_de_campo">caderneta de campo</a> |
 |Ator|<a href="/requisitos/modelagem/lexicos#tecnico">Técnico</a>|
 |Pré-Condições| Ter conta como <a href="/requisitos/modelagem/lexicos#tecnico">técnico</a> criada no aplicativo, acesso a internet, ter <a href="/requisitos/modelagem/lexicos#cardeneta_de_campo">caderneta de campo</a> gerada pelo <a href="/requisitos/modelagem/lexicos#tecnico">produtor</a> |
@@ -244,7 +245,7 @@
 
 ### UC22 Solicitar alteração na caderneta de campo
 |UC22|Informações|
-|:------:|:----:|:---------:|:---------:|
+|:------:|:----:|
 |Descrição| O <a href="/requisitos/modelagem/lexicos#tecnico">técnico</a> solicita alteração na <a href="/requisitos/modelagem/lexicos#cardeneta_de_campo">caderneta de campo</a> |
 |Ator|<a href="/requisitos/modelagem/lexicos#tecnico">Técnico</a>|
 |Pré-Condições| Ter conta como <a href="/requisitos/modelagem/lexicos#tecnico">técnico</a> criada no aplicativo, acesso a internet, ter <a href="/requisitos/modelagem/lexicos#cardeneta_de_campo">caderneta de campo</a> gerada pelo <a href="/requisitos/modelagem/lexicos#tecnico">produtor</a> |
@@ -255,7 +256,7 @@
 
 ### UC23 Desassociar de uma propriedade
 |UC23|Informações|
-|:------:|:----:|:---------:|:---------:|
+|:------:|:----:|
 |Descrição| O <a href="/requisitos/modelagem/lexicos#tecnico">técnico</a> se desassocia de uma <a href="/requisitos/modelagem/lexicos#propriedade">propriedade</a> |
 |Ator|<a href="/requisitos/modelagem/lexicos#tecnico">Técnico</a>|
 |Pré-Condições| Ter conta como <a href="/requisitos/modelagem/lexicos#tecnico">técnico</a> criada no aplicativo, acesso a internet, ter <a href="/requisitos/modelagem/lexicos#propriedade">propriedade</a> cadastrada pelo <a href="/requisitos/modelagem/lexicos#tecnico">produtor</a> |
@@ -266,7 +267,7 @@
 
 ### U24 Se associar a uma propriedade
 |UC24|Informações|
-|:------:|:----:|:---------:|:---------:|
+|:------:|:----:|
 |Descrição| O <a href="/requisitos/modelagem/lexicos#tecnico">técnico</a> se associa a uma <a href="/requisitos/modelagem/lexicos#propriedade">propriedade</a> |
 |Ator|<a href="/requisitos/modelagem/lexicos#tecnico">Técnico</a>|
 |Pré-Condições| Ter conta como <a href="/requisitos/modelagem/lexicos#tecnico">técnico</a> criada no aplicativo, acesso a internet, ter <a href="/requisitos/modelagem/lexicos#propriedade">propriedade</a> cadastrada pelo <a href="/requisitos/modelagem/lexicos#tecnico">produtor</a> |
@@ -277,7 +278,7 @@
 
 ### UC25 Informar período de carência
 |UC25|Informações|
-|:------:|:----:|:---------:|:---------:|
+|:------:|:----:|
 |Descrição| O <a href="/requisitos/modelagem/lexicos#tecnico">técnico</a> informa <a href="/requisitos/modelagem/lexicos#periodo_carencia">período de carência</a> de um <a href="/requisitos/modelagem/lexicos#agrotoxico">agrotóxico</a> a um <a href="/requisitos/modelagem/lexicos#produtor">produtor</a> |
 |Ator|<a href="/requisitos/modelagem/lexicos#tecnico">Técnico</a>|
 |Pré-Condições| Ter conta como <a href="/requisitos/modelagem/lexicos#tecnico">técnico</a> criada no aplicativo, acesso a internet, ter <a href="/requisitos/modelagem/lexicos#propriedade">agrotóxico</a> cadastrado |
@@ -288,7 +289,7 @@
 
 ### UC26 Cadastrar agrotóxico
 |UC26|Informações|
-|:------:|:----:|:---------:|:---------:|
+|:------:|:----:|
 |Descrição| O <a href="/requisitos/modelagem/lexicos#tecnico">técnico</a> cadastra <a href="/requisitos/modelagem/lexicos#agrotoxico">agrotóxico</a> |
 |Ator|<a href="/requisitos/modelagem/lexicos#tecnico">Técnico</a>|
 |Pré-Condições| Ter conta como <a href="/requisitos/modelagem/lexicos#tecnico">técnico</a> criada no aplicativo, acesso a internet |
@@ -299,7 +300,7 @@
 
 ### UC27 Remover agrotóxico
 |UC27|Informações|
-|:------:|:----:|:---------:|:---------:|
+|:------:|:----:|
 |Descrição| O <a href="/requisitos/modelagem/lexicos#tecnico">técnico</a> remove <a href="/requisitos/modelagem/lexicos#agrotoxico">agrotóxico</a> |
 |Ator|<a href="/requisitos/modelagem/lexicos#tecnico">Técnico</a>|
 |Pré-Condições| Ter conta como <a href="/requisitos/modelagem/lexicos#tecnico">técnico</a> criada no aplicativo, acesso a internet, ter <a href="/requisitos/modelagem/lexicos#agrotoxico">agrotóxico</a> cadastrado |
