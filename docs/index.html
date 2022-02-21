@@ -122,6 +122,45 @@
 
     </div>
   </section>
+
+  <section id="section-4" class="column mt-7 ">
+    <h3 class="align-start">Versionamento:</h3>
+
+    <div class="versioning-area mt-5">
+
+      <div class="versioning-content">
+
+        <table class="table">
+          <tr>
+            <th> <h5>Versão</h5> </th>
+            <th> <h5>Data</h5> </th>
+            <th> <h5>Descrição</h5> </th>
+            <th> <h5>Autores</h5> </th>
+          </tr>
+          <tr>
+            <td> <h6>1.0</h6> </td>
+            <td> <h6>03/02</h6> </td>
+            <td> <h6>Criação do Documento</h6> </td>
+            <td> <h6>João Pedro Moura</h6> </td>
+          </tr>
+          <tr>
+            <td> <h6>1.1</h6> </td>
+            <td> <h6>03/02</h6> </td>
+            <td> <h6>Alteração do tópico "Sobre o projeto"</h6> </td>
+            <td> <h6>Rafael Ramos e João Pedro Moura</h6> </td>
+          </tr>
+          <tr>
+            <td> <h6>1.2</h6> </td>
+            <td> <h6>19/02</h6></td>
+            <td> <h6>Adicionando estilo na página</h6> </td>
+            <td> <h6>Carlos Eduardo</h6></td>
+          </tr>
+      </table>
+
+      </div>
+
+    </div>
+  </section>
   
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js" integrity="sha512-5efjkDjhldlK+BrHauVYJpbjKrtNemLZksZWxd6Wdxvm06dceqWGLLNjZywOkvW7BF032ktHRMUOarbK9d60bg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -167,6 +206,14 @@
       stagger: {each: 0.2},
       scrollTrigger: {
         trigger: "#section-2",
+      }
+    })
+    gsap.from("#section-4", {
+      duration: 2,
+      opacity: 0,
+      stagger: {each: 0.2},
+      scrollTrigger: {
+        trigger: "#section-3",
       }
     })
 

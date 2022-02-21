@@ -85,6 +85,34 @@
   -webkit-box-orient: horizontal;
 }
 
+.table {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-x: auto !important;
+  padding-bottom: 10px;
+}
+
+.table {
+  border-radius: 10px !important;
+  box-shadow: 3px 3px #0076b6da !important;
+}
+
+
+th {
+  font-weight: bold;
+  padding: 15px;
+}
+
+th, td {
+  padding: 15px;
+}
+
+tr {
+  border-bottom: 1px solid #ddd;
+  padding: 15px;
+}
 .align-start {
   align-self: flex-start;
 }
