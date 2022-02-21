@@ -64,7 +64,7 @@
 
 </center>
 
-## Bibliografia
+## Referências
 > Boulila, N.; Herrmann A.; Hoffmann A. <b>Using Storytelling to record requirements</b>: Elements for an effective requirements elicitation approach. Fourth International Workshop on Multimedia and Enjoyable Requirements Engineering (MERE'11). IEEE. p. 6-7. 2011.
 
 >ROGERS, Yvonne; PREECE, Jennifer; SHARP, Helen. <b>Design de Interação</b>: Além da Interação Humano-Computador. 1ª. ed. [S. l.]: Bookman, 2005.
