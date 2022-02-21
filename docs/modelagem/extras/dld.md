@@ -13,7 +13,7 @@
 
 <p align="justify" style="text-indent: 20px">O Diagrama Lógico de Dados pertence ao modelo lógico que representa os bancos de dados como um conjunto de relações [1]. Dessa forma, é possível utilizar o Diagrama Lógico de Dados para representar a estrutura de um Banco de Dados Relacional dentro de um Sistema Gerenciador de Bancos de Dados.</p>
 
-<p align="justify" style="text-indent: 20px">Para isso, o modelo lógico foi construído tomando como base o modelo conceitual (<a href="../der">DER</a>) que já foi validado pelos outros integrantes do projeto. As entidades, atributos e relacionamentos foram transformadas em uma estrutura que o Sistema Gerenciador de Bancos de Dados consiga entender. Além disso, os atributos foram especificados com tipo e tamanho de forma que consigam atender o domínio da aplicação. As entidades, relacionamentos e atributos também são especificados de forma mais clara no <a href="../dicionario_dados">Dicionário de Dados</a>.</p>
+<p align="justify" style="text-indent: 20px">Para isso, o modelo lógico foi construído tomando como base o modelo conceitual (<a href="../mer">MER</a>) que já foi validado pelos outros integrantes do projeto. As entidades, atributos e relacionamentos foram transformadas em uma estrutura que o Sistema Gerenciador de Bancos de Dados consiga entender. Além disso, os atributos foram especificados com tipo e tamanho de forma que consigam atender o domínio da aplicação. As entidades, relacionamentos e atributos também são especificados de forma mais clara no <a href="../dicionario_dados">Dicionário de Dados</a>.</p>
 
 ## 3. Diagrama Lógico
 
