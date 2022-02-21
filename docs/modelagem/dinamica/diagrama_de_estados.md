@@ -2,13 +2,12 @@
 
 ## 1. Versionamento
 
-| Versão | Data       | Descrição                         | Autor(es)                   |
-| ------ | ---------- | --------------------------------- | --------------------------- |
-| 1.0    | 17/02/2022 | Criação do documento e introdução | Carlos Eduardo e Vitor Lamego |
-| 1.1    | 17/02/2022 | Adição dos diagramas 3.2, 3.3 e 3.4 | Vitor Lamego |
-| 1.2    | 18/02/2022 | Adição dos diagramas 3.1 e 3.5, incremento introdução | Carlos Eduardo |
-| 1.3    | 18/02/2022 | Revisão por pares                 | Denniel e Brenno |
-
+| Versão | Data       | Descrição                                             | Autor(es)                     |
+| ------ | ---------- | ----------------------------------------------------- | ----------------------------- |
+| 1.0    | 17/02/2022 | Criação do documento e introdução                     | Carlos Eduardo e Vitor Lamego |
+| 1.1    | 17/02/2022 | Adição dos diagramas 3.2, 3.3 e 3.4                   | Vitor Lamego                  |
+| 1.2    | 18/02/2022 | Adição dos diagramas 3.1 e 3.5, incremento introdução | Carlos Eduardo                |
+| 1.2.1    | 18/02/2022 | Revisão por pares                                     | Denniel e Brenno              |
 
 ## 2. Introdução
 
@@ -52,7 +51,6 @@ Estado final:
 
 <p align="justify" style="text-indent: 20px">Na ocasião do projeto, a metodologia de desenvolvimento dos diagramas de estado consistiu, basicamente, em definir quais são os processos chaves da aplicação e a partir disso discutir e desenvolver os estados que podemos encontrar do app dentro desses processos. Foram encontrados cinco principais projetos, sendo eles: <b>Entrar no app</b>, <b>Cadastrar <a href="/requisitos/modelagem/lexicos#propriedade">propriedade</a></b>, <b>Cadastrar <a href="/requisitos/modelagem/lexicos#plantio">plantio</a></b>, <b>Acompanhar <a href="/requisitos/modelagem/lexicos#plantio">plantio</a></b> e <b>Supervisionar <a href="/requisitos/modelagem/lexicos#propriedade">propriedade</a></b>. A seguir será explicado cada diagrama realizado assim como a apresentação da sua imagem.</p>
 
-
 ### 3.1 Entrar no app
 
 <p align="justify" style="text-indent: 20px">Para o diagrama de entrar no app foi pensado quais seriam os estados necessários para que fosse permitida a visualização da tela home do app por qualquer <a href="/requisitos/modelagem/lexicos#usuario">usuário</a>. Assim o primeiro estado seria entrando no app, onde seguiria para uma divisão de fluxo entre <a href="/requisitos/modelagem/lexicos#usuario">usuário</a> já logado e <a href="/requisitos/modelagem/lexicos#usuario">usuário</a> não logado. Caso já logado existe uma transição para a visualização da tela home e assim termina o fluxo. Caso não logado existe uma divisão de fluxo onde o <a href="/requisitos/modelagem/lexicos#usuario">usuário</a> pode escolher realizar login, redefinir senha ou realizar cadastro. Caso a redefinição de senha ocorra bem o fluxo segue para a tela de login, caso não a operação é descartada e o fluxo encerrado. Caso a escolha seja realizar cadastro o <a href="/requisitos/modelagem/lexicos#usuario">usuário</a> segue para uma tela com um formulário para preenchimento, caso os dados de entrada sejam válidos o fluxo segue para a tela home, caso não a operação é descatada e o fluxo encerrado. Veja o diagrama referente a esse processo a seguir:</p>
@@ -91,19 +89,14 @@ Estado final:
 
 <p align="justify" style="text-indent: 20px">Para o processo de supervisionamento da <a href="/requisitos/modelagem/lexicos#propriedade">propriedade</a> pelo <a href="/requisitos/modelagem/lexicos#tecnico">técnico</a> foi criado um diagrama especificamente para isso, onde o estado inicial é a busca pela <a href="/requisitos/modelagem/lexicos#propriedade">propriedade</a> alvo. Com isso, existe uma divisão de fluxo entre <a href="/requisitos/modelagem/lexicos#propriedade">propriedade</a> já atribuida para o <a href="/requisitos/modelagem/lexicos#tecnico">técnico</a> e <a href="/requisitos/modelagem/lexicos#propriedade">propriedade</a> não atribuída, caso ela não esteja atribuída é feita uma transição para a atribuição de <a href="/requisitos/modelagem/lexicos#propriedade">propriedade</a>, que se for bem sucedida segue o fluxo para supervisionamento da <a href="/requisitos/modelagem/lexicos#propriedade">propriedade</a> e, caso não, segue para o fluxo de finalização da operação. Caso já esteja atribuída segue em transição para o estado de supervisionamento da <a href="/requisitos/modelagem/lexicos#propriedade">propriedade</a>, onde o fluxo é dividido entre informações corretas e informações que estão erradas. Caso as informações estejam corretas é feita uma transição para a finalização da operação e, caso não, uma transição para o estado de solicitando alterações, onde o fluxo é dividido entre demais informações corretas e existência de outra informação incorreta. Se demais informações estão corretas o fluxo de operação se encerra, já seguindo pela transição de outra informação incorreta acontece um fluxo cíclico com o estado de solicitando alteração. O diagrama em questão segue abaixo:</p>
 
-
 <img src="../../../assets/modelagem/dinamica/diagrama_estados/supervisionar_propriedade.svg" class="zoom">
 <center>
 <h6 align = "center">Figura 5: Diagrama de Estados - Supervisionar <a href="/requisitos/modelagem/lexicos#propriedade">propriedade</a></h6>
 <h6 align = "center">Fonte: Autores</h6>
 </center>
 
-
 ## 4. Referências
 
 > [1] SERRANO, Milene. 06c - VídeoAula - DSW - Modelagem - Diagrama de Atividades. Material apresentado para a disciplina de Arquitetura e Desenho de Software no curso de Engenharia de Software da Universidade de Brasília, FGA.
 
 > [2] O que é um diagrama de máquina de estados?. Lucidchart. Disponível em: <a href="https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-maquina-de-estados-uml">Lucidchart - Diagrama de Estados</a>. Acesso em: 17 de fevereiro de 2022.
-
-
-

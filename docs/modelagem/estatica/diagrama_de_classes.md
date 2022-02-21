@@ -2,11 +2,11 @@
 
 ## 1. Versionamento
 
-| Versão | Data         | Descrição                                 | Autor(es)    |
-| ------ | -----        | ---------------------------------         | ------------ |
-| 1.0    | 10/02/2022   | Criação do documento e introdução         | Rafael Ramos |
-| 1.1    | 10/02/2022   | Adição do Diagrama de Classe              | Rafael Ramos e Thiago |
-| 1.2    | 13/02/2022   | Revisão por pares              | João Pedro Moura e Denniel William |
+| Versão | Data       | Descrição                         | Autor(es)                          |
+| ------ | ---------- | --------------------------------- | ---------------------------------- |
+| 1.0    | 10/02/2022 | Criação do documento e introdução | Rafael Ramos                       |
+| 1.1    | 10/02/2022 | Adição do Diagrama de Classe      | Rafael Ramos e Thiago              |
+| 1.1.1  | 13/02/2022 | Revisão por pares                 | João Pedro Moura e Denniel William |
 
 ## 2. Introdução
 
@@ -15,6 +15,7 @@
 ## 3. Diagrama de classes
 
 ### 3.1 Versão 1.0
+
 <img src="../../../assets/modelagem/diagrama_classes.svg" class="zoom"/>
 <h6 align = "center">Figura 1: Diagrama de Classes versão 1</h6>
 <h6 align = "center">Fonte: Autores</h6>

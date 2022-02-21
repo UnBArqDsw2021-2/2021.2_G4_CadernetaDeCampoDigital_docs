@@ -2,11 +2,12 @@
 
 ## 1. Versionamento
 
-| Versão | Data       | Descrição                       | Autor(es)    |
-| ------ | ---------- | ------------------------------- | ------------ |
-| 1.0    | 17/02/2022 | Abertura do documento           | Thiago       |
-| 1.1    | 17/02/2022 | Adição do diagrama              | Thiago       |
-| 1.2    | 18/02/2022 | Adição introdução e metodologia | Rafael Ramos |
+| Versão | Data       | Descrição                       | Autor(es)                  |
+| ------ | ---------- | ------------------------------- | -------------------------- |
+| 1.0    | 17/02/2022 | Abertura do documento           | Thiago                     |
+| 1.1    | 17/02/2022 | Adição do diagrama              | Thiago                     |
+| 1.2    | 18/02/2022 | Adição introdução e metodologia | Rafael Ramos               |
+| 1.2.1  | 20/02/2022 | Revisão por pares               | Carlos Fiuza e Victor Lima |
 
 ## 2. Introdução
 

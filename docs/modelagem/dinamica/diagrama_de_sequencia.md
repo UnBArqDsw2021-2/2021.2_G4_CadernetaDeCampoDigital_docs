@@ -2,12 +2,12 @@
 
 ## 1. Versionamento
 
-| Versão | Data         | Descrição                                 | Autor(es)    |
-| ------ | -----        | ---------------------------------         | ------------ |
-| 1.0    | 16/02/2022   | Criação do documento e introdução         | Brenno Oliveira e Victor Lima |
-| 1.1    | 16/02/2022   | Adição dos diagramas                      | Brenno Oliveira e Victor Lima |
-| 1.2    | 16/02/2022   | Adição do link ao LucidChart e correções ortográficas| Brenno Oliveira |
-| 1.3    | 16/02/2022   | Revisão por pares                         | Paulo e João Pedro            |
+| Versão | Data       | Descrição                                             | Autor(es)                     |
+| ------ | ---------- | ----------------------------------------------------- | ----------------------------- |
+| 1.0    | 16/02/2022 | Criação do documento e introdução                     | Brenno Oliveira e Victor Lima |
+| 1.1    | 16/02/2022 | Adição dos diagramas                                  | Brenno Oliveira e Victor Lima |
+| 1.2    | 16/02/2022 | Adição do link ao LucidChart e correções ortográficas | Brenno Oliveira               |
+| 1.2.1  | 16/02/2022 | Revisão por pares                                     | Paulo e João Pedro            |
 
 ## 2. Introdução
 
@@ -18,21 +18,25 @@
 ## 3. Diagramas de sequência
 
 ### 3.1 Cadastro de usuário
+
 <img src="../../../assets/modelagem/diagramaSequencia1.svg" class="zoom"/>
 <h6 align = "center">Figura 1: Diagrama de cadastro de usuário</h6>
 <h6 align = "center">Fonte: Autores</h6>
 
 ### 3.2 Adicionar plantação
+
 <img src="../../../assets/modelagem/diagramaSequencia2.svg" class="zoom"/>
 <h6 align = "center">Figura 2: Diagrama de adição de plantação</h6>
 <h6 align = "center">Fonte: Autores</h6>
 
 ### 3.3 Aplicar agrotóxico
+
 <img src="../../../assets/modelagem/diagramaSequencia3.svg" class="zoom"/>
 <h6 align = "center">Figura 3: Diagrama de aplicação de agrotóxico</h6>
 <h6 align = "center">Fonte: Autores</h6>
 
 ### 3.4 Atribuir técnico à propriedade
+
 <img src="../../../assets/modelagem/diagramaSequencia4.svg" class="zoom"/>
 <h6 align = "center">Figura 4: Diagrama de atribuição de técnico à propriedade</h6>
 <h6 align = "center">Fonte: Autores</h6>

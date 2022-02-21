@@ -4,14 +4,14 @@
 
 ## 1. Versionamento
 
-| Versão | Data       | Descrição               | Autor(es)    |
-| ------ | ---------- | ----------------------- | ------------ |
-| 1.0    | 17/02/2022 | Abertura do documento   | Thiago       |
-| 1.1    | 17/02/2022 | Adição do dicionário geral | Thiago    |
-| 1.2    | 17/02/2022 | Adição do dicionário individual | Eduardo e Thiago |
-| 1.3    | 18/02/2022 | Adição da introdução | Thiago |
-| 1.4    | 20/02/2022 | Renomeando casa para numero | Thiago |
-| 1.5    | 20/02/2022 | Revisão por pares | Brenno e Vitor Lamego |
+| Versão | Data       | Descrição                       | Autor(es)             |
+| ------ | ---------- | ------------------------------- | --------------------- |
+| 1.0    | 17/02/2022 | Abertura do documento           | Thiago                |
+| 1.1    | 17/02/2022 | Adição do dicionário geral      | Thiago                |
+| 1.2    | 17/02/2022 | Adição do dicionário individual | Eduardo e Thiago      |
+| 1.3    | 18/02/2022 | Adição da introdução            | Thiago                |
+| 1.4    | 20/02/2022 | Renomeando casa para numero     | Thiago                |
+| 1.5    | 20/02/2022 | Revisão por pares               | Brenno e Vitor Lamego |
 
 ## 2. Introdução
 
@@ -24,7 +24,6 @@
 - Tamanho em bytes
 - Restrições de Integridades, por exemplo, chave primária, chave estrangeira, obrigatório, único e optativo
 - Descrição do atributo
-
 
 ## 3. Dicionário de Dados
 
@@ -449,8 +448,6 @@
 </table>
 <h6 align = "center">Tabela 7: Descrição Individual do CADERNETA_DE_CAMPO.</h6>
 <h6 align = "center">Fonte: Autores</h6>
-
-
 
 <table id="dict">
   <tr>

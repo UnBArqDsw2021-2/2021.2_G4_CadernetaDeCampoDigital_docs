@@ -2,12 +2,12 @@
 
 ## 1. Versionamento
 
-| Versão | Data       | Descrição               | Autor(es)    |
-| ------ | ---------- | ----------------------- | ------------ |
-| 1.0    | 17/02/2022 | Abertura do documento   | Thiago       |
-| 1.1    | 17/02/2022 | Adição do diagrama      | Thiago       |
-| 1.2    | 18/02/2022 | Adição da introdução    | Thiago       |
-| 1.2.1  | 20/02/2022 | Revisão por pares       | Paulo e Eduardo|
+| Versão | Data       | Descrição             | Autor(es)       |
+| ------ | ---------- | --------------------- | --------------- |
+| 1.0    | 17/02/2022 | Abertura do documento | Thiago          |
+| 1.1    | 17/02/2022 | Adição do diagrama    | Thiago          |
+| 1.2    | 18/02/2022 | Adição da introdução  | Thiago          |
+| 1.2.1  | 20/02/2022 | Revisão por pares     | Paulo e Eduardo |
 
 ## 2. Introdução
 
@@ -22,6 +22,5 @@
 <h6 align = "center">Fonte: Autores.</h6>
 
 ## 4. Referências
-
 
 > [1] O MODELO Lógico. In: CAYRES, Paulo Henrique. **Modelagem de Bancos de Dados**. 1. ed. [S. l.]: Escola Superior de Redes RNP, 2015. cap. 3.
