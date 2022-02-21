@@ -7,7 +7,7 @@
 |1.0|16/02/2022|Abertura do documento de casos de uso|Denniel William|
 |1.1|17/02/2022|Introdução, especificação, referências|Denniel William|
 |1.2|20/02/2022|Ajustes na especificação de caso de uso|Denniel William|
-|1.2.1|21/02/2022|Revisão por pares|Thiago|
+|1.2.1|21/02/2022|Revisão por pares|Thiago e Carlos|
 
 ## 2. Introdução
 
