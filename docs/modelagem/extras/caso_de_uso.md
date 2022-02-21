@@ -7,12 +7,13 @@
 |1.0|16/02/2022|Abertura do documento de casos de uso|Denniel William|
 |1.1|17/02/2022|Introdução, especificação, referências|Denniel William|
 |1.2|20/02/2022|Ajustes na especificação de caso de uso|Denniel William|
+|1.2.1|21/02/2022|Revisão por pares|Thiago|
 
 ## 2. Introdução
 
 <p style="text-align: justify; text-indent: 20px">Os diagramas de caso de uso tem por objetivo auxiliar na modelagem, demonstrando o comportamento do sistema e ajudando a capturar seus requisitos. Eles identificam as interações entre o sistema e os atores. Seu foco é mostrar como o sistema se comporta a nível de usuário, mas não descreve a operação interna. </p>
 
-<p style="text-align: justify; text-indent: 20px">Com os diagramas de caso de uso é possível modelar um sistema complexo em um único diagrama. Ele é desenvolvido na fase inicial do projeto e são consultados durante todo o processo de desenvolvimento</p>.
+<p style="text-align: justify; text-indent: 20px">Com os diagramas de caso de uso é possível modelar um sistema complexo em um único diagrama. Ele é desenvolvido na fase inicial do projeto e são consultados durante todo o processo de desenvolvimento.</p>
 
 ## 3. Diagrama de caso de uso
 
