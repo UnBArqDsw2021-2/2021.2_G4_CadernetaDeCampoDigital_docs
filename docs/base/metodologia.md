@@ -69,7 +69,7 @@ Alguns dos príncipios utilizados serão:
 <h6>Fonte: Autor</h6>
 </center>
 
-## 5. Bibliografia
+## 5. Referências
 > Manifesto para Desenvolvimento Ágil de Software. Disponível em: < [https://agilemanifesto.org/iso/ptbr/manifesto.html](https://agilemanifesto.org/iso/ptbr/manifesto.html) > Acesso em: 27 de janeiro de 2022
 
 > Kanban. Disponível em: < [https://www.digitalhouse.com/br/blog/como-usar-metodologia-kanban](https://www.digitalhouse.com/br/blog/como-usar-metodologia-kanban) > Acesso em: 28 de janeiro de 2022

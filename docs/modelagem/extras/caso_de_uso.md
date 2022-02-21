@@ -17,7 +17,7 @@
 
 ## 3. Diagrama de caso de uso
 
-<img src="/assets/modelagem/diagrama_de_caso_de_uso.jpg" class="zoom"/>
+<img src="../../../assets/modelagem/diagrama_de_caso_de_uso.jpg" class="zoom"/>
 <h6 align = "center">Figura 1: Casos de uso da Caderneta de Campo Digital.</h6>
 <h6 align = "center">Fonte: Autor</h6>
 
@@ -266,7 +266,7 @@
 |Pós-condições| <a href="/requisitos/modelagem/lexicos#tecnico">Técnico</a> não está mais associado a <a href="/requisitos/modelagem/lexicos#cardeneta_de_campo">propriedade</a> do <a href="/requisitos/modelagem/lexicos#produtor">produtor</a> |
 |Data de criação| 20/02/2022 |
 
-### U24 Se associar a uma propriedade
+### UC24 Se associar a uma propriedade
 |UC24|Informações|
 |:------:|:----:|
 |Descrição| O <a href="/requisitos/modelagem/lexicos#tecnico">técnico</a> se associa a uma <a href="/requisitos/modelagem/lexicos#propriedade">propriedade</a> |

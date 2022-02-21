@@ -6,7 +6,7 @@ Versão|Data|Descrição|Autor(es)
 ------|----|---------|--------
 1.0   | 28/01/2022 | Criação do documento | Eduardo Afonso
 1.1   | 31/01/2022 | Adicionando rich picture escolhido como principal e  referência à página de brainstorm| Eduardo Afonso
-1.2   | 02/02/2022 | Adicionando bibliografia| Eduardo Afonso
+1.2   | 02/02/2022 | Adicionando Referências| Eduardo Afonso
 
 ## 2. Introdução
 
@@ -65,5 +65,5 @@ seguimento ao projeto.</p>
 <center>![rich picture vitor](https://user-images.githubusercontent.com/54643464/151442301-18e977a6-cc69-4562-9f9d-61d4a3157ff6.svg)</center>
 <center>[Figura 11: Rich picture do Vitor Lamego](https://user-images.githubusercontent.com/54643464/151442301-18e977a6-cc69-4562-9f9d-61d4a3157ff6.svg)</center>
 
-## 5. Bibliografia
+## 5. Referências
 > SERRANO, Milene. 02c - VídeoAula - DSW - Base - RichPicture. Material apresentado para a disciplina de Arquitetura e Desenho de Software no curso de Engenharia de Software da Universidade de Brasília, FGA.

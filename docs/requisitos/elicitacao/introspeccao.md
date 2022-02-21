@@ -95,5 +95,5 @@ Versão|Data|Descrição|Autor(es)
 </center>
 
 
-## 5. Bibliografia
+## 5. Referências
 > SERRANO, Maurício; SERRANO, Milene. Requisitos - Aula 07. 1º/2019. 50 slides. Material apresentado para a disciplina de Requisitos de Software no curso de Engenharia de Software da UnB, FGA.

@@ -2,11 +2,12 @@
 
 ## 1. Versionamento
 
-| Versão | Data       | Descrição                       | Autor(es)    |
-| ------ | ---------- | ------------------------------- | ------------ |
-| 1.0    | 17/02/2022 | Abertura do documento           | Thiago       |
-| 1.1    | 17/02/2022 | Adição do diagrama              | Thiago       |
-| 1.2    | 18/02/2022 | Adição introdução e metodologia | Rafael Ramos |
+| Versão | Data       | Descrição                       | Autor(es)                  |
+| ------ | ---------- | ------------------------------- | -------------------------- |
+| 1.0    | 17/02/2022 | Abertura do documento           | Thiago                     |
+| 1.1    | 17/02/2022 | Adição do diagrama              | Thiago                     |
+| 1.2    | 18/02/2022 | Adição introdução e metodologia | Rafael Ramos               |
+| 1.2.1  | 20/02/2022 | Revisão por pares               | Carlos Fiuza e Victor Lima |
 
 ## 2. Introdução
 
@@ -15,7 +16,7 @@
 
 ## 3. Metodologia
 
-<p align="justify" style="text-indent: 20px">O diagrama foi desenvolvido a partir do MER visando facilitar o entendimento referente a lógica do banco de dados, onde foi adaptado pelo Thiago e revisado pelo Rafael.</p>
+<p align="justify" style="text-indent: 20px">O diagrama foi desenvolvido a partir do modelo conceitual (<a href="../mer">MER</a>) visando facilitar o entendimento referente a lógica do banco de dados através de uma representação mais visual dessa lógica, esse diagrama foi adaptado pelo Thiago utilizando o software <a href="https://www.sis4.com/brModelo/">brModelo</a> e posteriormente revisado pelo Rafael.</p>
 
 ## 4. Diagrama Conceitual
 

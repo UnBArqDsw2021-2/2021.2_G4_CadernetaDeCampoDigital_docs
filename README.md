@@ -59,13 +59,33 @@
 
 [Videos referentes a primeira entrega](https://unbarqdsw2021-2.github.io/2021.2_G4_CadernetaDeCampoDigital_docs/apresentacoes/pc1/)
 
-<!--
+
 ## Screenshots Segunda Entrega <<FOCO: DSW(Modelagem)>>
-Adicione 2 ou mais screenshots do projeto em termos de artefatos da Segunda Entrega.
+![Diagrama de classes](docs/assets/entrega2/diagrama-classes-wiki.png)
+
+[Figura 5 - Diagrama de classes - Wiki](https://unbarqdsw2021-2.github.io/2021.2_G4_CadernetaDeCampoDigital_docs/modelagem/estatica/diagrama_de_classes/)
+
+![Diagrama de pacotes](docs/assets/entrega2/diagrama-pacotes-wiki.png)
+
+[Figura 6 - Diagrama de pacotes - Wiki](https://unbarqdsw2021-2.github.io/2021.2_G4_CadernetaDeCampoDigital_docs/modelagem/estatica/diagrama_de_pacotes/)
+
+![Diagrama de estados](docs/assets/entrega2/diagrama-estados-wiki.png)
+
+[Figura 7 - Diagrama de estados - Wiki](https://unbarqdsw2021-2.github.io/2021.2_G4_CadernetaDeCampoDigital_docs/modelagem/dinamica/diagrama_de_estados/)
+
+![NFR Framework](docs/assets/entrega2/nfr-framework-wiki.png)
+
+[Figura 8 - NFR Framework - Wiki](https://unbarqdsw2021-2.github.io/2021.2_G4_CadernetaDeCampoDigital_docs/modelagem/agil/nfr_framework/)
+
+![Caso de uso](docs/assets/entrega2/uc-wiki.png)
+
+[Figura 9 - Caso de uso - Wiki](https://unbarqdsw2021-2.github.io/2021.2_G4_CadernetaDeCampoDigital_docs/modelagem/extras/caso_de_uso/)
 
 ## Vídeo(s) Segunda Entrega <<FOCO: DSW(Modelagem)>>
-Adicione o(s)s vídeo(s) da Segunda Entrega.
+[Videos referentes a segunda entrega](https://unbarqdsw2021-2.github.io/2021.2_G4_CadernetaDeCampoDigital_docs/apresentacoes/pc2/)
 
+
+<!--
 ## Screenshots Terceira Entrega <<FOCO: DSW(Padrões de Projeto)>>
 Adicione 2 ou mais screenshots do projeto em termos de artefatos da Terceira Entrega.
 

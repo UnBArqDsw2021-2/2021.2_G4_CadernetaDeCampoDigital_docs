@@ -2,19 +2,24 @@
 
 ## 1. Versionamento
 
-| Versão | Data       | Descrição               | Autor(es)    |
-| ------ | ---------- | ----------------------- | ------------ |
-| 1.0    | 13/02/2022 | Abertura do documento   | Thiago       |
-| 1.1    | 13/02/2022 | Introdução do documento | Rafael Ramos |
-| 1.1.1  | 14/02/2022 | Revisão do documento    | João Pedro e Carlos |
-| 1.2    | 17/02/2022 | Correção de formato e erros    | Thiago |
-| 1.3    | 17/02/2022 | Adição do atributo de estado   | Thiago |
+| Versão | Data       | Descrição                         | Autor(es)           |
+| ------ | ---------- | --------------------------------- | ------------------- |
+| 1.0    | 13/02/2022 | Abertura do documento             | Thiago              |
+| 1.1    | 13/02/2022 | Introdução do documento           | Rafael Ramos        |
+| 1.1.1  | 14/02/2022 | Revisão por pares                 | João Pedro e Carlos |
+| 1.2    | 17/02/2022 | Correção de formato e erros       | Thiago              |
+| 1.3    | 17/02/2022 | Adição do atributo de estado      | Thiago              |
+| 1.3.1  | 20/02/2022 | Melhoria do tópico de metodologia | Rafael e João Pedro |
 
 ## 2. Introdução
 
-<p align="justify" style="text-indent: 20px">O Modelo de Entidade-Relacionamento (ME-R) foi elaborado para facilitar o projeto de um Banco de Dados, por meio da especificação de um esquema de negócio que representa a estrutura lógica geral de um banco de dados (SILBERSCHATZ) [1]. É constituído por um conjunto de objetos básicos que são as Entidades, seus relacionamentos e atributos, baseia-se na percepção abstrata do mundo real e corresponde a uma visão lógica de alto nível dos dados. </p>
+<p align="justify" style="text-indent: 20px">O Modelo de Entidade-Relacionamento (ME-R) foi elaborado para facilitar o projeto de um Banco de Dados, por meio da especificação de um esquema de negócio que representa a estrutura lógica geral de um banco de dados (SILBERSCHATZ) [1]. É constituído por um conjunto de objetos básicos que são as Entidades, seus relacionamentos e atributos, baseia-se na percepção abstrata do mundo real e corresponde a uma visão lógica de alto nível dos dados [2]. </p>
 
-## 3. Entidades
+## 3. Metodologia
+
+<p align="justify" style="text-indent: 20px">O modelo foi elaborado pelo Rafael e pelo Thiago, através de uma reunião no Discord (canal de comunicação da equipe) no dia 13 de fevereiro de 2022.</p>
+
+## 4. Entidades
 
 - [USUARIO](../../../requisitos/modelagem/lexicos#usuario)
 - [PRODUTOR](../../../requisitos/modelagem/lexicos#produtor)
@@ -26,7 +31,7 @@
 - [AGROTOXICO](../../../requisitos/modelagem/lexicos#agrotoxico)
 - [TIPO_AGROTOXICO](../../../requisitos/modelagem/lexicos#tipo_agrotoxico)
 
-## 4. Descrição das Entidades
+## 5. Descrição das Entidades
 
 - USUARIO ( <span style="text-decoration: underline;">idUsuario</span>, cpf, nome, dataNascimento, senha, telefone )
 - PRODUTOR ( <span style="text-decoration: underline;">idUsuario</span>, dap )
@@ -38,7 +43,7 @@
 - AGROTOXICO ( <span style="text-decoration: underline;">idAgrotoxico</span>, nome, idTipoAgrotoxico )
 - TIPO_AGROTOXICO ( <span style="text-decoration: underline;">idTipoAgrotoxico</span>, nome )
 
-## 5. Relacionamentos
+## 6. Relacionamentos
 
 <ul>
 <li align="justify"><b>PLANTIO - registra - CADERNETA_DE_CAMPO</b>: Um PLANTIO registra apenas uma ou várias CADERNETA_DE_CAMPO, e uma CADERNETA_DE_CAMPO é registrada por apenas um PLANTIO. <br/>Cardinalidade: (1,n)</li>
@@ -65,6 +70,8 @@
   PROPRIEDADE é supervisionada por apenas um TECNICO. <br/>Cardinalidade: (1,n)</li>
 </ul>
 
-## 6. Referências
+## 7. Referências
 
 > [1] ABRAHAM, SILBERSCHATZ,. Sistema de Banco de Dados. Grupo GEN, 2020. 9788595157552. Disponível em: <a href="https://integrada.minhabiblioteca.com.br/#/books/9788595157552/" target="_blanck"> https://integrada.minhabiblioteca.com.br/#/books/9788595157552/</a>. Acesso em: 13 fev. 2022.
+
+> [2] RODRIGUES, Joel. **MER e DER: Modelagem de Bancos de Dados**. DEVMEDIA. Disponível em: <a href="https://www.devmedia.com.br/mer-e-der-modelagem-de-bancos-de-dados/14332" target="_blanck">https://www.devmedia.com.br/mer-e-der-modelagem-de-bancos-de-dados/14332</a>. Acesso em: 18/02/2022.

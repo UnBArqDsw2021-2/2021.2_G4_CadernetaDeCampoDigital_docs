@@ -306,5 +306,5 @@
 |**Noção**|A Aplicação de Agrotóxico foi analisada com sucesso pelo <a href="#tecnico">técnico</a>|
 |**Impacto**|O <a href="#produtor">produtor</a> pode colher o plantio sem problemas|
 
-## 5. Bibliografia
+## 5. Referências
 > [1] SERRANO, Milene; SERRANO, Maurício. Requisitos - Aula 10. 2019. 35 slides. Material apresentado para a disciplina de Requisitos de Software no curso de Engenharia de Software da UnB, FGA.
