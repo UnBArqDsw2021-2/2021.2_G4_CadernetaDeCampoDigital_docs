@@ -1,4 +1,4 @@
-# Sprint 2 - Planning
+# Sprint 3 - Planning
 
 ## 1. Visão Geral
 - Inicio: 22/02/2022
@@ -27,7 +27,7 @@ A Sprint 3 tem os seguintes objetivos:
 |Adicionar entidade talhão(MER, DER, DLD e Diagrama de Classes)|Thiago e Rafael|3|
 
 
-## 4. Débitos Acumulados
+## 4. Issues em Andamento (prazo de 2 sprints)
 
 | Issue | Descrição | Pontuação
 |:--|:--:|:--:|
