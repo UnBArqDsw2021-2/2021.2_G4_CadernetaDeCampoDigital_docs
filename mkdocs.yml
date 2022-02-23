@@ -87,5 +87,11 @@ nav:
         - Sprint 2:
           - Planning: sprints/planning_2.md
     - Apresentações: apresentacoes/pc2.md
-  # - Padrões de Projeto: ""
+  - Padrões de Projeto:
+    - Iniciativas Extras:
+      - Sprints:
+        - Sprint 2:
+          - Review : sprints/review_2.md
+        - Sprint 3:
+          - Planning: sprints/planning_3.md
   # - Arquitetura de Software e Reutilização: ""
