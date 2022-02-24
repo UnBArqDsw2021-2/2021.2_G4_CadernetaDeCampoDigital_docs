@@ -41,17 +41,19 @@ th {
 
 .md-header {
   background: linear-gradient(90deg, #273f87 -1.53%, #0076b6da 50.51%);
-  color: white !important;
+  color: #F2F2F2 !important;
+  background-color: #FFFFFF;
 }
 
 .md-tabs {
   background: linear-gradient(90deg, #273f87 -1.53%, #0076b6da 50.51%);
-  color: white !important;
+  color: #F2F2F2 !important;
+  background-color: #FFFFFF;
 }
 
 .md-typeset table thead tr {
   background: #0077B6;
-  color: white;
+  color: F2F2F2;
 }
 
 .md-typeset__table table tbody tr {
