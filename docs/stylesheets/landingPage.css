@@ -89,6 +89,12 @@
   -webkit-text-fill-color: transparent;
 }
 
+.text-gradient-dark {
+  background: -webkit-linear-gradient(0deg, #02033b, #03055ed5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 #container-item-2 {
   flex: 1;
   display: flex;
