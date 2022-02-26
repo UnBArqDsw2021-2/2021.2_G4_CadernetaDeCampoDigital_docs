@@ -5,7 +5,8 @@
 | Versão | Data       | Descrição                                             | Autor(es)                     |
 | ------ | ---------- | ----------------------------------------------------- | ----------------------------- |
 | 1.0    | 24/02/2022 | Criação do documento e introdução                     | Vitor Lamego |
-| 1.1    | 24/02/2022 | Adição dos Padrões Emergentes                     | Denniel e Vitor Lamego |
+| 1.1    | 24/02/2022 | Adição dos Padrões Emergentes                     | Vitor Lamego |
+| 1.2    | 24/02/2022 | Adição dos Padrões Rest e MVT                     | Denniel William |
 
 
 
@@ -32,6 +33,15 @@
 
 <p align="justify" style="text-indent: 20px">O padrão de Factory Method é utilizado quando temos um método m que é responsável por retornar um objeto do tipo T, que podem, a qualquer momento, serem instanciadas apenas a partir do método m. Um exemplo claro de quando temos o Factory Method como um padrão emergente é quando não existem subclasses que permitam a escolha de como será implementado as instâncias desse objeto T.[1]</p>
 
+### 3.3 Rest
+
+<p align="justify" style="text-indent: 20px">O padrão de Rest ou Restful, Representational State Transfer (Transferência de Estado Representacional), define a padronização de rotas, requisições e comunicações sem estado, também conhecico como protocolo HTTP, sendo assim o padrão rest define de utilizar desse protocolo sendo que a API que possui a inteligência de aplicar esse padrão ela tem termo atribuído como Restful.[1]</p>
+
+### 3.4 Padrão MVT (Model - View - Template)
+
+<p align="justify" style="text-indent: 20px">Um dos padrões também que serão seguidos, será o MVT, em que por ter sido de opção da equipe a utilização do framework Django, o padrão a ser utilizado será o MVT.[1]</p>
+<p align="justify" style="text-indent: 20px">O padrão MVT se baseia na distribuição de Model, View e Template: A model atua como a interface de dados, ela é a estrutura lógica por trás do aplicativo e é representado pelo banco de dados do projeto; A view é usado para executar as regras de negócios, interação com o modelo para transporte de dados e renderização do template; O template é a camada de aprensetação de trata da parte de interface do usuário.</p>
+
 
 ## 4. Referências
 
@@ -39,4 +49,8 @@
 
 > [2] **Injeção de Dependência**. O que é injeção de dependência ? Disponível em: <a href="https://medium.com/@eduardolanfredi/inje%C3%A7%C3%A3o-de-depend%C3%AAncia-ff0372a1672" >Injeção de Dependência</a>. Acesso em: 24 de fev. de 2022.
 
+> [3] **Design de API Rest**. Design de API Rest. Disponível em: <a href="https://wssilva-willian.medium.com/design-de-api-rest-9807a5b16c9f" >Design de API Rest</a>. Acesso em: 25 de fev. de 2022.
 
+> [4] **Django MVT**. Django MVT. Disponível em: <a href="https://www.javatpoint.com/django-mvt" >Django MVT</a>. Acesso em: 25 de fev. de 2022.
+
+> [5] **Entendendo o MTV do Django**. Entendendo o MTV do Django. Disponível em: <a href="https://www.treinaweb.com.br/blog/entendendo-o-mtv-do-django" >Entendendo o MVT do Django</a>. Acesso em: 25 de fev. de 2022.
