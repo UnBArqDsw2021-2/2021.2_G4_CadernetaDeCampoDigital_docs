@@ -1,7 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@200;400;600&display=swap');
 .zoom{
   transition: transform .6s;
   background-color: #FFFFFF;
 }
 .zoom:hover{
   transform: scale(1.5);
+}
+
+h1, h2, h3, h4, h5, h6, p, a, li {
+  font-family: 'Roboto Serif', sans-serif;
+  font-weight: 400 !important;
+}
+label {
+  font-family: 'Roboto Serif', sans-serif;
+  font-weight: 200 !important;
+}
+
+th {
+  font-weight: bold;
+}
+
+.md-logo img {
+  width: 40px !important;
+  border-radius: 50%;
+}
+
+.md-typeset__table {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-x: auto !important;
+  padding-bottom: 10px;
+}
+
+.md-typeset__table table {
+  border-radius: 10px !important;
+  box-shadow: 3px 3px #0076b6da !important;
+}
+
+.md-header {
+  background: linear-gradient(90deg, #273f87 -1.53%, #0076b6da 50.51%);
+  color: #F2F2F2 !important;
+  background-color: #FFFFFF;
+}
+
+.md-tabs {
+  background: linear-gradient(90deg, #273f87 -1.53%, #0076b6da 50.51%);
+  color: #F2F2F2 !important;
+  background-color: #FFFFFF;
+}
+
+.md-typeset table thead tr {
+  background: #0077B6;
+  color: F2F2F2;
+}
+
+.md-typeset__table table tbody tr {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.md-typeset__scrollwrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px !important;
+  overflow-x: hidden !important;
+}
+
+.md-typeset__table {
+  width: auto;
+}
+
+.md-logo img {
+  border-radius: 50%;
+
 }
