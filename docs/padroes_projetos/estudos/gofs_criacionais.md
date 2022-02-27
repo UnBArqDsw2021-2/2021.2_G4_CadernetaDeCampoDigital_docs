@@ -6,6 +6,7 @@
 | ------ | ---------- | ------------------------------------------ | ------------------------- |
 | 1.0    | 26/02/2022 | Criação do documento e introdução          | Rafael Ramos e João Pedro |
 | 1.1    | 26/02/2022 | Adição de Factory Method e Abstract Method | Rafael Ramos e João Pedro |
+| 1.2    | 26/02/2022 | Adição do Builder e Prototype              | Rafael Ramos e João Pedro |
 
 ## 2. Introdução
 
@@ -47,6 +48,38 @@
 <center>
 <img src="../../../assets/padroes_projetos/abstract_factory_exemplo.png" class="zoom"> 
 <h6>Figura 2: Exemplo de estrutura do padrão de fábrica abstrata.</h6>
+<h6>Fonte: Refactoring Guru [4].</h6>
+</center>
+
+### 4.3 <i>Builder</i>
+
+<p align="justify" style="text-indent: 20px">Com o passar do desenvolvimento do projeto, começam a surgir objetos cada vez mais e mais complexos que necessitam de uma forma simples e rápida de serem construídos. Para tanto, é que surgem os <i>builders</i> (construtores) permitindo que o cliente apenas solicite a instanciação do objeto, enquanto todo o processo complexo de criação fica oculto para o mesmo [3].</p>
+
+<p align="justify" style="text-indent: 20px">Os GoF's (<i>Gang of Four</i>) [2] definem, dessa forma, a seguinte arquitetura para esse padrão de projeto:</p>
+- ***Builder***: Interface que define os ingredientes da receita para a criação de um **produto**.
+- ***Builders*** **Concretos**: Classes que implementam, através de herança, um fluxo próprio para a criação de **produtos**.
+- **Produtos**: Resultado da criação de um ***builder***.
+- **Diretor**: Classe responsável por definir a ordem em que os ingredientes devem ser utilizados para a construção de um **produto**.
+- **Cliente**: Associação de um **diretor** com um possível ***builder*** **concreto** para a construção de um **produto**.
+
+<center>
+<img src="../../../assets/padroes_projetos/builder_exemplo.png" class="zoom"> 
+<h6>Figura 3: Exemplo de estrutura do <i>builder</i>.</h6>
+<h6>Fonte: Refactoring Guru [4].</h6>
+</center>
+
+### 4.4 <i>Prototype</i>
+
+<p align="justify" style="text-indent: 20px">O <i>Prototype</i> é um padrão de projeto criacional que possibilita a criação de novos objetos a partir da cópia de objetos existentes [1] sem fazer com que o código fique dependente de suas classes.</p>
+<p align="justify" style="text-indent: 20px">O seu funcionamento se resume na criação de um conjunto de objetos, com diversas configurações, quando há a necessidade de criar um objeto parecido com os que já foram configurados, basta clonar um protótipo desse objeto ao invés de criar um novo.</p>
+<p align="justify" style="text-indent: 20px">Como definição da arquitetura para a criação de <i>prototypes</i>, a <i>Gang Of Four</i> (GoF's) [2] define a seguinte modelagem: </p>
+- **Protótipo**: Interface responsável pela definição e declaração dos métodos que executarão a clonagem.
+- **Protótipo Concreto**: Classe que tem como objetivo implementar de forma concreta o método de clonagem definido no **protótipo**.
+- **Cliente**: Responsável por iniciar o fluxo de clonagem de um objeto.
+
+<center>
+<img src="../../../assets/padroes_projetos/prototype_exemplo.png" class="zoom"> 
+<h6>Figura 4: Exemplo de estrutura do <i>prototype</i>.</h6>
 <h6>Fonte: Refactoring Guru [4].</h6>
 </center>
 
