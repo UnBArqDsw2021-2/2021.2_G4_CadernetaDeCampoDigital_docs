@@ -88,6 +88,10 @@ nav:
           - Planning: sprints/planning_2.md
     - Apresentações: apresentacoes/pc2.md
   - Padrões de Projeto:
+    - Estudos:
+      - GOFs Criacionais: padroes_projetos/estudos/gofs_criacionais.md
+    # - Aplicação:
+    #   - ...
     - Iniciativas Extras:
       - Sprints:
         - Sprint 2:
