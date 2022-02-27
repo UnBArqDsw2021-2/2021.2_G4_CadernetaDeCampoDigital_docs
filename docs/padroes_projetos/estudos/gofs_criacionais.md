@@ -7,6 +7,7 @@
 | 1.0    | 26/02/2022 | Criação do documento e introdução          | Rafael Ramos e João Pedro |
 | 1.1    | 26/02/2022 | Adição de Factory Method e Abstract Method | Rafael Ramos e João Pedro |
 | 1.2    | 26/02/2022 | Adição do Builder e Prototype              | Rafael Ramos e João Pedro |
+| 1.2.1  | 26/02/2022 | Corrigindo Referências                     | Rafael Ramos e João Pedro |
 
 ## 2. Introdução
 
@@ -38,7 +39,7 @@
 
 <p align="justify" style="text-indent: 20px">Os <i>Abstract Factory</i> (Fábrica Abstrata) consistem no fornecimento de uma interface que possibilite a criação de vários objetos relacionados ou dependentes sem a necessidade de especificar suas classes concretas [2].</p>
 
-<p align="justify" style="text-indent: 20px">Esse padrão, portanto, tem uma estrutura básica constituida por cinco elementos principais [4], sendo eles:</p>
+<p align="justify" style="text-indent: 20px">Esse padrão, portanto, tem uma estrutura básica constituida por cinco elementos principais [5], sendo eles:</p>
 - **Fábrica Abstrata**: Declara uma interface ou um conjunto de métodos para a criação de qualquer **produto abstrato**.
 - **Fábrica Concreta**: Realiza a implementação das operações derivadas da **fábrica abstrata**, criando os objetos específicos dos **produtos concretos**.
 - **Produto Abstrato**: Declara a interface para um conjunto de **produtos** distintos mas que estão relacionados através de uma família de **produtos**.
@@ -48,7 +49,7 @@
 <center>
 <img src="../../../assets/padroes_projetos/abstract_factory_exemplo.png" class="zoom"> 
 <h6>Figura 2: Exemplo de estrutura do padrão de fábrica abstrata.</h6>
-<h6>Fonte: Refactoring Guru [4].</h6>
+<h6>Fonte: Refactoring Guru [5].</h6>
 </center>
 
 ### 4.3 <i>Builder</i>
@@ -65,7 +66,7 @@
 <center>
 <img src="../../../assets/padroes_projetos/builder_exemplo.png" class="zoom"> 
 <h6>Figura 3: Exemplo de estrutura do <i>builder</i>.</h6>
-<h6>Fonte: Refactoring Guru [4].</h6>
+<h6>Fonte: Refactoring Guru [6].</h6>
 </center>
 
 ### 4.4 <i>Prototype</i>
@@ -80,7 +81,7 @@
 <center>
 <img src="../../../assets/padroes_projetos/prototype_exemplo.png" class="zoom"> 
 <h6>Figura 4: Exemplo de estrutura do <i>prototype</i>.</h6>
-<h6>Fonte: Refactoring Guru [4].</h6>
+<h6>Fonte: Refactoring Guru [7].</h6>
 </center>
 
 ## 5. Referências
@@ -91,4 +92,10 @@
 
 > [3] ALBUQUERQUE, Marcelo Torres; ROJAS, Alexandre; RIBEIRO, Paulo Cezar M. **Utilizando Design Patterns GoF no apoio ao desenvolvimento de um Framework**. Cadernos do IME : Série Informática, [s. l.], v. 30, p. 13-27, dez. 2010.
 
-> [4] Refactoring Guru. **Padrões criacionais**. Disponível em: <a href="https://refactoring.guru/pt-br/design-patterns/creational-patterns">https://refactoring.guru/pt-br/design-patterns/creational-patterns</a>. Acesso em: 26 fev. 2022
+> [4] Refactoring Guru. **Factory Method**. Disponível em: <a href="https://refactoring.guru/pt-br/design-patterns/factory-method">https://refactoring.guru/pt-br/design-patterns/factory-method</a>. Acesso em: 26 fev. 2022
+
+> [5] Refactoring Guru. **Abract Factory**. Disponível em: <a href="https://refactoring.guru/pt-br/design-patterns/abstract-factory">https://refactoring.guru/pt-br/design-patterns/abstract-factory</a>. Acesso em: 26 fev. 2022
+
+> [6] Refactoring Guru. **Builder**. Disponível em: <a href="https://refactoring.guru/pt-br/design-patterns/builder">https://refactoring.guru/pt-br/design-patterns/builder</a>. Acesso em: 26 fev. 2022
+
+> [7] Refactoring Guru. **Prototype**. Disponível em: <a href="https://refactoring.guru/pt-br/design-patterns/prototype">https://refactoring.guru/pt-br/design-patterns/prototype</a>. Acesso em: 26 fev. 2022
