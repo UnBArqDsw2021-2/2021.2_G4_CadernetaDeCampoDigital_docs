@@ -37,14 +37,16 @@
 
 <p align="justify" style="text-indent: 20px">Existem 4 princípios principais do REST: [5]</p>
 
-- **Client-Server (Cliente-Servidor):** Sempre há um cliente e um servidor e esses dois sistemas precisam de limites para o funcionamento.[5]
-- **Stateless (Sem estado):** Os servidores precisam ser capazes de processar as mensagens que recebem. Para fazer isso, cada solicitação que um servidor receber deve ter as informações necessárias para que o servidor funcione.[5]
-- **Uniform Interface (Interface Uniforme):** O uso de terminologia e recursos semelhantes ajuda a padronizar as APIs. De acordo com o princípio, os seguintes verbos HTTP são usados: GET, PUT, POST,DELETE. Os recursos sempre se referem a URIs (identificador uniforme de recursos). As respostas HTTP sempre vêm com um status e um corpo.[5]
-- **Cacheable (Armazenável com cache):** Os clientes precisam ser capazes de armazenar em cache as representações. Devido à ausência de estado (toda representação sendo autodescritiva), isso é possível em uma API RESTful.[5]
+- **Client-Server (Cliente-Servidor):** Sempre há um cliente e um servidor e esses dois sistemas precisam de limites para o funcionamento.
+- **Stateless (Sem estado):** Os servidores precisam ser capazes de processar as mensagens que recebem. Para fazer isso, cada solicitação que um servidor receber deve ter as informações necessárias para que o servidor funcione.
+- **Uniform Interface (Interface Uniforme):** O uso de terminologia e recursos semelhantes ajuda a padronizar as APIs. De acordo com o princípio, os seguintes verbos HTTP são usados: GET, PUT, POST,DELETE. Os recursos sempre se referem a URIs (identificador uniforme de recursos). As respostas HTTP sempre vêm com um status e um corpo.
+- **Cacheable (Armazenável com cache):** Os clientes precisam ser capazes de armazenar em cache as representações. Devido à ausência de estado (toda representação sendo autodescritiva), isso é possível em uma API RESTful.
 
-<img src="../../../assets/padroes_projeto/rest.png" width="800"/>
-<h6 align = "center">Figura 1: API REST Model</h6>
-<h6 align = "center">Fonte: https://www.astera.com/pt/tipo/blog/definição-de-api/</h6>
+<center>
+  <img src="../../../assets/padroes_projeto/rest.png" width="800"/>
+  <h6 align = "center">Figura 1: API REST Model</h6>
+  <h6 align = "center">Fonte: https://www.astera.com/pt/tipo/blog/definição-de-api/</h6>
+</center>
 
 
 ### 4.3 Padrão MVT (Model - View - Template)
@@ -52,9 +54,11 @@
 <p align="justify" style="text-indent: 20px">Um dos padrões também que serão seguidos, será o MVT, em decorrência da utilização do framework Django, definido pela equipe para o back-end.</p>
 <p align="justify" style="text-indent: 20px">O padrão MVT se baseia na distribuição de Model, View e Template: A model atua como a interface de dados, ela é a estrutura lógica por trás do aplicativo e é representado pelo banco de dados do projeto; A view é usada para executar as regras de negócios, interação com o modelo para transporte de dados e renderização do template; O template é a camada de apresentação, e é responsável pela parte da interface do usuário.[4]</p>
 
-<img src="../../../assets/padroes_projeto/mvt.png" width="800"/>
-<h6 align = "center">Figura 2: Padrão MVT</h6>
-<h6 align = "center">Fonte: https://www.treinaweb.com.br/blog/entendendo-o-mtv-do-django</h6>
+<center>
+  <img src="../../../assets/padroes_projeto/mvt.png" width="800"/>
+  <h6 align = "center">Figura 2: Padrão MVT</h6>
+  <h6 align = "center">Fonte: https://www.treinaweb.com.br/blog/entendendo-o-mtv-do-django</h6>
+</center>
 
 ## 5. Referências
 
