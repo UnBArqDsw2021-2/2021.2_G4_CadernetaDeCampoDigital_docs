@@ -88,9 +88,11 @@ nav:
           - Planning: sprints/planning_2.md
     - Apresentações: apresentacoes/pc2.md
   - Padrões de Projeto:
-    - Padrões de Projeto:
-      - Estudos:
-        - Padrões emergentes: padroes_projetos/estudos/padroes_emergentes.md
+    - Estudos:
+      - GOFs Criacionais: padroes_projetos/estudos/gofs_criacionais.md
+      - Padrões emergentes: padroes_projetos/estudos/padroes_emergentes.md
+    # - Aplicação:
+    #   - ...
     - Iniciativas Extras:
       - Sprints:
         - Sprint 2:
