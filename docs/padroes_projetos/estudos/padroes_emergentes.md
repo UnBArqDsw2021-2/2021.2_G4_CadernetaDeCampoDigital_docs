@@ -14,9 +14,9 @@
 
 ## 2. Introdução
 
-<p align="justify" style="text-indent: 20px">Padrões de projeto são formatos de soluções que são utilizadas de forma recorrente dentro do projeto. Esses padrões são comumente utilizados em projetos com o paradigma Orientado a Objeto, tranformando esses padrões em artifícios de comunicação e solução dentro das equipes.[1]</p>
+<p align="justify" style="text-indent: 20px">Padrões de projeto são formatos de soluções que são utilizadas de forma recorrente dentro do projeto. Esses padrões são comumente utilizados em projetos com o paradigma Orientado a Objeto, transformando esses padrões em artifícios de comunicação e solução dentro das equipes.[1]</p>
 
-<p align="justify" style="text-indent: 20px">Os padrões nomeados como emergentes são derivados da necessidade de algum fator específico para utilizar determinada solução. Portanto, os padrões emergentes são definidos quando possuímos um determinado comportamento inerente ao padrão, contudo não possuimos a estrutura que o descreve, o que é muito comum em situações como: falta de conhecimento por parte do desenvolvedor sobre os padrões de projetos, sucessivas mudanças em outras classes que então são refletidos em uma determinada parte do código, falta de refatoração, característica do problema.[1]</p>
+<p align="justify" style="text-indent: 20px">Os padrões nomeados como emergentes são derivados da necessidade de algum fator específico para utilizar determinada solução. Portanto, os padrões emergentes são definidos quando possuímos um determinado comportamento inerente ao padrão, contudo não possuímos a estrutura que o descreve, o que é muito comum em situações como: falta de conhecimento por parte do desenvolvedor sobre os padrões de projetos, sucessivas mudanças em outras classes que são refletidos em uma determinada parte do código, falta de refatoração, característica do problema.[1]</p>
 
 ## 3. Metodologia
 
@@ -27,9 +27,9 @@
 
 ### 4.1 Injeção de Dependência
 
-<p align="justify" style="text-indent: 20px">Injeção de dependência é um padrão utilizado para dimimuir o acoplamento de determinada parte do código, que costuma acontecer quando uma classe depende da instância de uma outra classe para a sua criação. Dessa forma a interface é a responsável por injetar em cada classe as suas dependências declaradas. Nesta ocasião a injeção de dependência se relaciona com o padrão de "Inversão de controle", mas não pode ser considerado como um sinônimo, ou seja, a responsabilidade de informar a implementação utilizada deixa de ser da classe e passa a ser de quem está consumindo a classe.[2]</p>
+<p align="justify" style="text-indent: 20px">Injeção de dependência é um padrão utilizado para diminuir o acoplamento de determinada parte do código, que costuma acontecer quando uma classe depende da instância de uma outra classe para a sua criação. Dessa forma a interface é a responsável por injetar em cada classe as suas dependências declaradas. Nesta ocasião a injeção de dependência se relaciona com o padrão de "Inversão de controle", mas não pode ser considerado como um sinônimo, ou seja, a responsabilidade de informar a implementação utilizada deixa de ser da classe e passa a ser de quem está consumindo a classe.[2]</p>
 
-<p align="justify" style="text-indent: 20px">O baixo acoplamento é importante para facilitar a manutenibilidade do código, além de permitir a utilização de mocks para realizar testes unitários nas respecivas classes. E assim, como explicado sobre a injeção de dependência, esse aumento entre a independência dos módulos colabora para o baixo acoplamento do projeto.</p>
+<p align="justify" style="text-indent: 20px">O baixo acoplamento é importante para facilitar a manutenibilidade do código, além de permitir a utilização de mocks para realizar testes unitários nas respectivas classes. E assim, como explicado sobre a injeção de dependência, esse aumento entre a independência dos módulos colabora para o baixo acoplamento do projeto.</p>
 
 ### 4.2 Rest
 
@@ -43,7 +43,7 @@
 - **Cacheable (Armazenável com cache):** Os clientes precisam ser capazes de armazenar em cache as representações. Devido à ausência de estado (toda representação sendo autodescritiva), isso é possível em uma API RESTful.
 
 <center>
-  <img src="../../../assets/padroes_projeto/rest.png" width="800"/>
+  <img src="../../../assets/padroes_projetos/rest.png" width="800"/>
   <h6 align = "center">Figura 1: API REST Model</h6>
   <h6 align = "center">Fonte: https://www.astera.com/pt/tipo/blog/definição-de-api/</h6>
 </center>
@@ -55,7 +55,7 @@
 <p align="justify" style="text-indent: 20px">O padrão MVT se baseia na distribuição de Model, View e Template: A model atua como a interface de dados, ela é a estrutura lógica por trás do aplicativo e é representado pelo banco de dados do projeto; A view é usada para executar as regras de negócios, interação com o modelo para transporte de dados e renderização do template; O template é a camada de apresentação, e é responsável pela parte da interface do usuário.[4]</p>
 
 <center>
-  <img src="../../../assets/padroes_projeto/mvt.png" width="800"/>
+  <img src="../../../assets/padroes_projetos/mvt.png" width="800"/>
   <h6 align = "center">Figura 2: Padrão MVT</h6>
   <h6 align = "center">Fonte: https://www.treinaweb.com.br/blog/entendendo-o-mtv-do-django</h6>
 </center>
