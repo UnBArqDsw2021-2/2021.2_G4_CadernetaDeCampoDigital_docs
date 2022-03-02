@@ -5,12 +5,11 @@
 | Versão | Data       | Descrição                                             | Autor(es)                     |
 | ------ | ---------- | ----------------------------------------------------- | ----------------------------- |
 | 1.0    | 24/02/2022 | Criação do documento e introdução                     | Vitor Lamego |
-| 1.1    | 24/02/2022 | Adição dos Padrões Emergentes                     | Vitor Lamego |
-| 1.2    | 24/02/2022 | Adição dos Padrões Rest e MVT                     | Denniel William |
-| 1.3    | 27/02/2022 | Remoção dos tópicos tratados no GOFs              | Denniel William |
-| 1.4    | 27/02/2022 | Adição das imagens e adição da Metodologia       | Denniel William |
-
-
+| 1.1    | 24/02/2022 | Adição dos Padrões Emergentes                         | Vitor Lamego |
+| 1.2    | 24/02/2022 | Adição dos Padrões Rest e MVT                         | Denniel William |
+| 1.3    | 27/02/2022 | Remoção dos tópicos tratados no GOFs                  | Denniel William |
+| 1.4    | 27/02/2022 | Adição das imagens e adição da Metodologia            | Denniel William |
+| 1.4.1  | 01/03/2022 | Revisão por pares                                     | João Pedro e Rafael |
 
 ## 2. Introdução
 
