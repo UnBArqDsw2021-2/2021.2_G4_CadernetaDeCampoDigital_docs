@@ -89,7 +89,8 @@ nav:
     - Apresentações: apresentacoes/pc2.md
   - Padrões de Projeto:
     - Estudos:
-      - GOFs Criacionais: padroes_projetos/estudos/gofs_criacionais.md
+      - GoFs Criacionais: padroes_projetos/estudos/gofs_criacionais.md
+      - GoFs Estruturais: padroes_projetos/estudos/gofs_estruturais.md
       - Padrões emergentes: padroes_projetos/estudos/padroes_emergentes.md
     # - Aplicação:
     #   - ...
