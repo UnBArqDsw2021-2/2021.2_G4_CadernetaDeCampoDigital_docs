@@ -6,8 +6,11 @@
 | ------ | ---------- | ------------------------------------------ | ------------------------- |
 | 1.0    | 03/03/2022 | Criação do documento                       | Eduardo Afonso |
 | 1.1    | 03/03/2022 | Adicionando metodologia, adapter, composite, bridge e facade| Eduardo Afonso |
+| 1.2    | 03/03/2022 | Adicionando introdução, decorator, proxy e flyweight| Victor Lima |
 
 ## 2. Introdução
+
+<p align="justify" style="text-indent: 20px">O documento a seguir trata dos GOFS estruturais, esse tipo de padrão de projeto tem como objetivo principal diminuir o acoplamento dos objetos do sistema orientado a objetos, sendo assim,alteram a estrutura do projeto com enfâse no nível de classes. Existem 7 tipos de padrões de projeto estruturais, o Adapter, o Composite,o Bridge, o Facade, o Decorator, o Proxy e o FlyWeight que serão abordados individualmente a seguir. </p>
 
 ## 3. Metodologia
 
@@ -59,15 +62,49 @@
 
 <center>
 <img src="../../../assets/padroes_projetos/facade_exemplo.png" class="zoom"> 
-<h6>Figura 1: Exemplo genérico do padrão de projeto facade.</h6>
+<h6>Figura 4: Exemplo genérico do padrão de projeto facade.</h6>
 <h6>Fonte: 09d - Vídeo-Aula - DSW - GoFs - Estruturais - Demais Padrões - Visão Rápida [4]</h6>
 </center>
 
 ### 4.5 <i>Decorator</i>
 
+<p align="justify" style="text-indent: 20px">O decorator anexa dinamicamente responsabilidades a um objeto, eles fazem com que exista uma alternativa flexível de subclasse para estender a funcionalidade.[5]</p>
+
+<p align="justify" style="text-indent: 20px">As características desse padrão de projeto são dadas por: </p>
+* Os decoradores possuem o mesmo supertipo dos objetos decorados.
+* Podem ser usados um ou mais decoradores para englobar um projeto
+* Quando o decorador possuir o mesmo supertipo que o objeto decorado, é possível passar um objeto decorado em vez de um englobado.
+* O decorador adiciona seu próprio comportamento antes e/ou depois de elegar o objeto que ele decora.
+* Os objetos são decorados a qualquer momento[5]
+
+
+<center>
+<img src="../../../assets/padroes_projetos/decorator_exemplo.png" class="zoom"> 
+<h6>Figura 5: Exemplo genérico do padrão de projeto Decorator.</h6>
+<h6>Fonte: 09d - Vídeo-Aula - DSW - GoFs - Estruturais - Demais Padrões - Visão Rápida [4]</h6>
+</center>
+
 ### 4.6 <i>Proxy</i>
 
-### 4.7 <i>Flyweigth</i>
+<p align="justify" style="text-indent: 20px">O padrão de projeto proxy, tem como objetivo o controle das chamadas de um objeto através de ouro objeto que pertençam a mesma interface[7]. A classe proxy pode se conectar a qualquer objeto, então, é possível que se criem vários proxies para uma instância grande e complexa, isso facilita o controle das solicitações, pois cria objetos responsáveis por isso.[6]</p>
+
+<center>
+<img src="../../../assets/padroes_projetos/proxy_exemplo.png" class="zoom"> 
+<h6>Figura 6: Exemplo genérico do padrão de projeto Proxy.</h6>
+<h6>Fonte: 09d - Vídeo-Aula - DSW - GoFs - Estruturais - Demais Padrões - Visão Rápida [4]</h6>
+</center>
+
+### 4.7 <i>Flyweight</i>
+
+<p align="justify" style="text-indent: 20px">O padrão de projeto Flyweight tem como objetivo minimizar o uso de recursos quando são utilizados vários objetos no projeto. Caso existam muitos objetos idênticos ele é responsável por diminuir a quantidade de memória necessária para isso.[8]</p>
+
+<p align="justify" style="text-indent: 20px">O principal objetivo do Flyweight é estruturar os objetos para que eles possam ser compartilhados em vários contextos dentro do projeto de forma com que não fique pesado para o sistema.[8]</p>
+
+<center>
+<img src="../../../assets/padroes_projetos/flyweight_exemplo.png" class="zoom"> 
+<h6>Figura 7: Exemplo genérico do padrão de projeto Flyweight.</h6>
+<h6>Fonte: 09d - Vídeo-Aula - DSW - GoFs - Estruturais - Demais Padrões - Visão Rápida [4]</h6>
+</center>
 
 ## 5. Referências
 
@@ -78,3 +115,11 @@
 > [3] SERRANO, Milene. 09c - Vídeo-Aula - DSW - GoFs - Estruturais - Composite. Material apresentado para a disciplina de Arquitetura e Desenho de Software no curso de Engenharia de Software da Universidade de Brasília, FGA.
 
 > [4] SERRANO, Milene. 09d - Vídeo-Aula - DSW - GoFs - Estruturais - Demais Padrões - Visão Rápida. Material apresentado para a disciplina de Arquitetura e Desenho de Software no curso de Engenharia de Software da Universidade de Brasília, FGA.
+
+> [5] Padrão de Projeto Decorator em Java Disponível em: https://www.devmedia.com.br/padrao-de-projeto-decorator-em-java/26238. Acesso em: 03 de março de 2022.
+
+> [6] Padrão de Projeto Proxy em .NET Disponível em: https://www.devmedia.com.br/padrao-de-projeto-proxy-em-net/22183. Acesso em: 03 de março de 2022.
+
+> [7] SERRANO, Milene. 09a - Vídeo-Aula - DSW - GoFs - Estruturais. Material apresentado para a disciplina de Arquitetura e Desenho de Software no curso de Engenharia de Software da Universidade de Brasília, FGA.
+
+> [8] Design Patterns .NET: aplicando os padrões Flyweight e Decoratorl em: https://www.devmedia.com.br/design-patterns-net-aplicando-os-padroes-flyweight-e-decorator/31387. Acesso em: 03 de março de 2022.
