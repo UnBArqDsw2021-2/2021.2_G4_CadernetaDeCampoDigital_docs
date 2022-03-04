@@ -1,10 +1,11 @@
 # Aplicação de GRASP(s)
 
 ## 1. Versionamento
-| Versão | Data       | Descrição                         | Autor(es)             |
-| ------ | ---------- | --------------------------------- | --------------------- |
-| 1.0    | 02/03/2022 | Criação do documento              | Paulo e Carlos        |
-| 1.1    | 03/03/2022 | Adição da introdução e metodologia| Carlos                |
+| Versão | Data       | Descrição                              | Autor(es)             |
+| ------ | ---------- | ---------------------------------      | --------------------- |
+| 1.0    | 02/03/2022 | Criação do documento                   | Paulo e Carlos        |
+| 1.1    | 03/03/2022 | Adição da introdução e metodologia     | Carlos                |
+| 1.2    | 04/03/2022 | Adição dos tópicos 4.1, 4.2, 4.3 3 4.4 | Carlos                |
 
 ## 2. Introdução
 
@@ -27,16 +28,15 @@ Quando usados de forma eficaz, eles podem ajudar a melhorar a eficiência no esf
 <p align="justify" style="text-indent: 20px">Como exemplo temos o uso de uma classe abstrata "Peca" para a representação de algumas peças do jogo de xadrez, sendo que cada classe descendente sobrescreveu o método "mover":</p>
 
 <center>
-<img src="../../../assets/padroes_projetos/exemploPolimorfismo.png" class="zoom"> 
+<img src="../../../assets/padroes_projetos/exemplo_polimorfismo.png" class="zoom"> 
 <h6>Figura 1: Exemplo Polimorfismo.</h6>
-<h6>Fonte: Programação
-Orientada a Objetos. Diego Oliveira. [4]</h6>
+<h6>Fonte: Programação Orientada a Objetos. [4]</h6>
 </center>
 
 ### 4.2 Criador
 
 <p align="justify" style="text-indent: 20px">"Padrões de design criacional são padrões para abstrair e controlar a maneira como os objetos são criados em aplicativos de software. Eles desempenham um papel fundamental no projeto de sistemas, tornando-os independentes de como os objetos no sistema são criados, compostos e representados." [1]</p>
-<p align="justify" style="text-indent: 20px">A responsabilidade de Criador é usada para definir qual classe é responsável pela criação de determinado objeto. Para isso, definindo A e B como classes distintas e B como possível responsável por criar instâncias de A, pode-se realizar os seguintes questionamentos [4]:</p>
+<p align="justify" style="text-indent: 20px">A responsabilidade de Criador é usada para definir qual classe é responsável pela criação de determinado objeto. Para isso, definindo A e B como classes distintas e B como possível responsável por criar instâncias de A, pode-se realizar os seguintes questionamentos [5]:</p>
 
 - B “contém” A ou é uma composição de A.
 - B registra A.
@@ -44,11 +44,39 @@ Orientada a Objetos. Diego Oliveira. [4]</h6>
 - B tem dados iniciais de A, os quais serão passados para A quando este
 for criado. B é um “especialista” em relação à criação de A.
 
-<p align="justify" style="text-indent: 20px"></p>
+<p align="justify" style="text-indent: 20px">Como exemplo temos um sistema de vendas em que é questionado quem seria o criador do objeto "ItemLinhaVenda":</p>
+
+<center>
+<img src="../../../assets/padroes_projetos/exemplo_criador.png" class="zoom"> 
+<h6>Figura 2: Exemplo Criador.</h6>
+<h6>Fonte: GRASP:	PADRÕES	PARA ATRIBUIÇÃO DE RESPONSABILIDADES. [6]</h6>
+</center>
 
 ### 4.3 Especialista
 
+<p align="justify" style="text-indent: 20px">O padrão especialista busca delegar a um objeto a responsabilidade de especialista da informação, onde objetos realizam coisas relacionadas à informação que possuem [6]. Assim, é decidido qual a melhor classe para determinada responsabilidade de acordo com um dado aspecto do sistema [5].</p>
+
+<p align="justify" style="text-indent: 20px">Como benefícios temos que mantém o encapsulamento (favorece o acoplamento fraco) e a alta coesão. Por outro lado é contra indicado quando seu uso aumenta o acoplamento e reduz a coesão [6].</p>
+
+<p align="justify" style="text-indent: 20px">Como exemplo temos um sistema de vendas em que é necessário o conhecimento do total geral de uma venda por parte de um objeto:</p>
+
+<center>
+<img src="../../../assets/padroes_projetos/exemplo_especialista.png" class="zoom"> 
+<h6>Figura 3: Exemplo Especialista.</h6>
+<h6>Fonte: GRASP:	PADRÕES	PARA ATRIBUIÇÃO DE RESPONSABILIDADES. [6]</h6>
+</center>
+
 ### 4.4 Coesão 
+
+<p align="justify" style="text-indent: 20px">Ao se tratar de coesão, dentro do paradigma orientado a objetos, temos que cada classe tem responsabilidades e propósitos claros e definidos, se tornando assim uma classe com alto grau de coesão [7].</p>
+
+<p align="justify" style="text-indent: 20px">No exemplo abaixo temos que a classe "Conta Corrente" é altamente coesa, pois possui atributos e métodos relacionados apenas ao escopo de conta corrente:</p>
+
+<center>
+<img src="../../../assets/padroes_projetos/exemplo_coesao.png" class="zoom"> 
+<h6>Figura 4: Exemplo Coesão.</h6>
+<h6>Fonte: DEVMEDIA. [7]</h6>
+</center>
 
 ### 4.5 Acoplamento 
      
@@ -63,15 +91,16 @@ for criado. B é um “especialista” em relação à criação de A.
 
 ## 5. Referências
 
-> [1] Otero, Carlos. Software Engineering Design : Theory and Practice, Auerbach Publishers, Incorporated, 2012. ProQuest Ebook Central, http://ebookcentral.proquest.com/lib/univbrasilia-ebooks/detail.action?docID=1580108.
-Created from univbrasilia-ebooks on 2022-03-03 22:07:59.
+> [1] Otero, Carlos. **Software Engineering Design : Theory and Practice, Auerbach Publishers, Incorporated, 2012**. Disponível em: ProQuest Ebook Central, <a href="http://ebookcentral.proquest.com/lib/univbrasilia-ebooks/detail.action?docID=1580108.">http://ebookcentral.proquest.com/lib/univbrasilia-ebooks/detail.action?docID=1580108.</a>. Acesso em: 03 mar. 2022.
 
-> [2] https://medium.com/@leandrovboas/padr%C3%B5es-grasp-padr%C3%B5es-de-atribuir-responsabilidades-1ae4351eb204
+> [2] Medium. **Padrões GRASP — Padrões de Atribuir Responsabilidades**. Disponível em: <a href="https://medium.com/@leandrovboas/padr%C3%B5es-grasp-padr%C3%B5es-de-atribuir-responsabilidades-1ae4351eb204">https://medium.com/@leandrovboas/padr%C3%B5es-grasp-padr%C3%B5es-de-atribuir-responsabilidades-1ae4351eb204</a>. Acesso em: 03 mar. 2022.
 
-> [3] https://www.devmedia.com.br/desenvolvimento-com-qualidade-com-grasp/28704
+> [3] DEVMEDIA. **Desenvolvimento com qualidade com GRASP**. Disponível em: <a href="https://www.devmedia.com.br/desenvolvimento-com-qualidade-com-grasp/28704">https://www.devmedia.com.br/desenvolvimento-com-qualidade-com-grasp/28704</a>. Acesso em: 03 mar. 2022.
 
-> [4] Milene
+> [4] Oliveira, Diego. **Programação Orientada a Objetos**. Disponível em: <a href="https://docente.ifrn.edu.br/diegooliveira/disciplinas/programacao-oo/aula-11-polimorfismo">https://docente.ifrn.edu.br/diegooliveira/disciplinas/programacao-oo/aula-11-polimorfismo</a>. Acesso em: 03 mar. 2022.
 
-> [5] https://edisciplinas.usp.br/pluginfile.php/2186358/mod_resource/content/1/Aula09_GRASP.pdf]
+> [5] SERRANO, Milene. Arquitetura e Desenho de Software. **AULA - GRASP – PARTE I e II**. Acesso em: 03 mar. 2022.
 
-> https://levelup.gitconnected.com/what-are-general-responsibility-assignment-software-patterns-6ad9635a44da
+> [6] Nakagawa, Elisa Yumi. **GRASP: PADRÕES PARA ATRIBUIÇÃO DE RESPONSABILIDADES**. Disponível em: <a href="https://edisciplinas.usp.br/pluginfile.php/2186358/mod_resource/content/1/Aula09_GRASP.pdf">https://edisciplinas.usp.br/pluginfile.php/2186358/mod_resource/content/1/Aula09_GRASP.pdf</a>. Acesso em: 04 mar. 2022.
+
+> [7] DEVMEDIA. **Coesão e Acoplamento em Sistemas Orientados a Objetos**. Disponível em: <a href="https://www.devmedia.com.br/coesao-e-acoplamento-em-sistemas-orientados-a-objetos/16167#">https://www.devmedia.com.br/coesao-e-acoplamento-em-sistemas-orientados-a-objetos/16167#</a>. Acesso em: 04 mar. 2022.
