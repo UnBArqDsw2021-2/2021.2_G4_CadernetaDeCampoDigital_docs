@@ -7,10 +7,11 @@
 | 1.0    | 01/03/2022 | Abertura do documento                      | Brenno e Thiago           |
 | 1.1    | 02/03/2022 | Adicionando tópicos 4.1 a 4.5              | Brenno                    |
 | 1.2    | 04/03/2022 | Adicionando tópicos 4.6 a 4.10             | Thiago                    |
+| 1.3    | 04/03/2022 | Adicionando introdução                     | Brenno e Thiago                    |
 
 ## 2. Introdução
 
-<p align="justify" style="text-indent: 20px"> </p>
+<p align="justify" style="text-indent: 20px">Os padrões comportamentais identificam padrões de comunicação, algoritmo e atribuição de responsabilidade entre objetos [2]. Esses padrões abstraem os fluxos de controle difíceis de acompanhar em tempo de execução por meio da utilização de herança para distribuir a comunicação entre classes [2]. Dessa forma, os padrões comportamentais descrevem como um grupo de objetos conseguem desempenhar uma tarefa que seria bastante complicada de desempenhar por um objeto sozinho [12].</p>
 
 ## 3. Metodologia
 
@@ -203,3 +204,5 @@
 > [10] Refactoring Guru. **Visitor**. Disponível em: <a href="https://refactoring.guru/pt-br/design-patterns/visitor">https://refactoring.guru/pt-br/design-patterns/visitor</a>. Acesso em: 04 mar. 2022
 
 > [11] Refactoring Guru. **Memento**. Disponível em: <a href="https://refactoring.guru/pt-br/design-patterns/memento">https://refactoring.guru/pt-br/design-patterns/memento</a>. Acesso em: 04 mar. 2022
+
+> [11] GofPatterns. **Introduction to Behavioral Design Patterns**. Disponível em: <a href="https://www.gofpatterns.com/design-patterns/module6/intro-behavioral-designPatterns.php">https://www.gofpatterns.com/design-patterns/module6/intro-behavioral-designPatterns.php</a>. Acesso em: 04 mar. 2022
