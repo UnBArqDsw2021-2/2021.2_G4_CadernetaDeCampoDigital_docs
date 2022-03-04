@@ -2,11 +2,12 @@
 
 ## 1. Versionamento
 
-| Versão | Data       | Descrição               | Autor(es)   |
-| ------ | ---------- | ----------------------- | ----------- |
-| 1.0    | 24/02/2022 | Realização do Dojo      | João Pedro  |
-| 1.1    | 02/03/2022 | Abertura do documento   | João Pedro  |
-| 1.2    | 03/03/2022 | Adicionando referências | João Pedro  |
+| Versão | Data       | Descrição               | Autor(es)     |
+| ------ | ---------- | ----------------------- | -----------   |
+| 1.0    | 24/02/2022 | Realização do Dojo      | João Pedro    |
+| 1.1    | 02/03/2022 | Abertura do documento   | João Pedro    |
+| 1.2    | 03/03/2022 | Adicionando referências | João Pedro    |
+| 1.2.1  | 04/03/2022 | Revisão por pares       | Carlos e Paulo|
 
 ## 2. Introdução
 
