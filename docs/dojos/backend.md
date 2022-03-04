@@ -2,10 +2,11 @@
 
 ## 1. Versionamento
 
-| Versão | Data       | Descrição             | Autor(es)   |
-| ------ | ---------- | --------------------- | ----------- |
-| 1.0    | 24/02/2022 | Realização do Dojo    | João Pedro  |
-| 1.1    | 02/03/2022 | Abertura do documento | João Pedro  |
+| Versão | Data       | Descrição               | Autor(es)   |
+| ------ | ---------- | ----------------------- | ----------- |
+| 1.0    | 24/02/2022 | Realização do Dojo      | João Pedro  |
+| 1.1    | 02/03/2022 | Abertura do documento   | João Pedro  |
+| 1.2    | 03/03/2022 | Adicionando referências | João Pedro  |
 
 ## 2. Introdução
 
@@ -18,3 +19,11 @@
 <iframe width="800" height="400" src="https://www.youtube.com/embed/hatJ4TQ58BY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <p align="justify" style="text-indent: 20px">Além disso, é possível realizar o <i>download</i> do programa feito através do seguinte link: <a href="https://drive.google.com/file/d/1fj_ce7Ognbadj88JV5P_C8T4sUW0CKzy/view?usp=sharing">Arquivos dojo</a></p>
+
+## 4. Referências
+
+> [1] **Django documentation**. Disponível em: <a href="https://docs.djangoproject.com/en/4.0/">https://docs.djangoproject.com/en/4.0/</a>. Acesso em: 02 mar. 2022.
+
+> [2] **Django-rest-framework**. Disponível em: <a href="https://www.django-rest-framework.org/">https://www.django-rest-framework.org/</a>. Acesso em: 02 mar. 2022.
+
+> [3] **Rest Framwork Generics**. Disponível em: <a href="https://www.cdrf.co/3.9/rest_framework.generics/CreateAPIView.html">https://www.cdrf.co/3.9/rest_framework.generics/CreateAPIView.html</a>. Acesso em: 02 mar. 2022.
