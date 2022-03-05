@@ -8,7 +8,7 @@
 | 1.1    | 17/02/2022 | Adição do diagrama                                     | Thiago                     |
 | 1.2    | 18/02/2022 | Adição introdução e metodologia                        | Rafael Ramos               |
 | 1.2.1  | 20/02/2022 | Revisão por pares                                      | Carlos Fiuza e Victor Lima |
-| 1.3    | 20/02/2022 | Adição da versão 2.0 do diagrama com a entidade talhao | Rafael                     |
+| 1.3    | 05/03/2022 | Adição da versão 2.0 do diagrama com a entidade talhao | Rafael e Thiago            |
 
 ## 2. Introdução
 

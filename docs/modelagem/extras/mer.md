@@ -10,7 +10,7 @@
 | 1.2    | 17/02/2022 | Correção de formato e erros                      | Thiago              |
 | 1.3    | 17/02/2022 | Adição do atributo de estado                     | Thiago              |
 | 1.3.1  | 20/02/2022 | Melhoria do tópico de metodologia                | Rafael e João Pedro |
-| 1.4    | 20/02/2022 | Adição da entidade talhão e seus relacionamentos | Rafael              |
+| 1.4    | 05/03/2022 | Adição da entidade talhão e seus relacionamentos | Rafael e Thiago     |
 
 ## 2. Introdução
 
@@ -40,7 +40,7 @@
 - TECNICO ( <span style="text-decoration: underline;">idUsuario</span>, crea, formacao, email, emailVerificado )
 - PROPRIEDADE ( <span style="text-decoration: underline;">idPropriedade</span>, idProdutor, idTecnico, endereco(cep, cidade, bairro, logradouro, numero, complemento), hectares )
 - TALHAO ( <span style="text-decoration: underline;">idTalhao</span>, idPropriedade, numero, estaAtivo)
-- PLANTIO ( <span style="text-decoration: underline;">idPlantio</span>, numeroTalhao, idPropriedade, dataPlantio, idCultura, estado )
+- PLANTIO ( <span style="text-decoration: underline;">idPlantio</span>, dataPlantio, estado, idCultura, idTalhao )
 - CADERNETA_DE_CAMPO ( <span style="text-decoration: underline;">numeroSerie</span>, dataColheita, idPlantio )
 - CULTURA ( <span style="text-decoration: underline;">idCultura</span>, nome )
 - AGROTOXICO ( <span style="text-decoration: underline;">idAgrotoxico</span>, nome, idTipoAgrotoxico )
