@@ -2,14 +2,15 @@
 
 ## 1. Versionamento
 
-| Versão | Data       | Descrição                         | Autor(es)           |
-| ------ | ---------- | --------------------------------- | ------------------- |
-| 1.0    | 13/02/2022 | Abertura do documento             | Thiago              |
-| 1.1    | 13/02/2022 | Introdução do documento           | Rafael Ramos        |
-| 1.1.1  | 14/02/2022 | Revisão por pares                 | João Pedro e Carlos |
-| 1.2    | 17/02/2022 | Correção de formato e erros       | Thiago              |
-| 1.3    | 17/02/2022 | Adição do atributo de estado      | Thiago              |
-| 1.3.1  | 20/02/2022 | Melhoria do tópico de metodologia | Rafael e João Pedro |
+| Versão | Data       | Descrição                                        | Autor(es)           |
+| ------ | ---------- | ------------------------------------------------ | ------------------- |
+| 1.0    | 13/02/2022 | Abertura do documento                            | Thiago              |
+| 1.1    | 13/02/2022 | Introdução do documento                          | Rafael Ramos        |
+| 1.1.1  | 14/02/2022 | Revisão por pares                                | João Pedro e Carlos |
+| 1.2    | 17/02/2022 | Correção de formato e erros                      | Thiago              |
+| 1.3    | 17/02/2022 | Adição do atributo de estado                     | Thiago              |
+| 1.3.1  | 20/02/2022 | Melhoria do tópico de metodologia                | Rafael e João Pedro |
+| 1.4    | 20/02/2022 | Adição da entidade talhão e seus relacionamentos | Rafael              |
 
 ## 2. Introdução
 
@@ -25,6 +26,7 @@
 - [PRODUTOR](../../../requisitos/modelagem/lexicos#produtor)
 - [TECNICO](../../../requisitos/modelagem/lexicos#tecnico)
 - [PROPRIEDADE](../../../requisitos/modelagem/lexicos#propriedade)
+- [TALHAO](../../../requisitos/modelagem/lexicos#talhao)
 - [PLANTIO](../../../requisitos/modelagem/lexicos#plantio)
 - [CADERNETA_DE_CAMPO](../../../requisitos/modelagem/lexicos#cardeneta_de_campo)
 - [CULTURA](../../../requisitos/modelagem/lexicos#cultura)
@@ -37,6 +39,7 @@
 - PRODUTOR ( <span style="text-decoration: underline;">idUsuario</span>, dap )
 - TECNICO ( <span style="text-decoration: underline;">idUsuario</span>, crea, formacao, email, emailVerificado )
 - PROPRIEDADE ( <span style="text-decoration: underline;">idPropriedade</span>, idProdutor, idTecnico, endereco(cep, cidade, bairro, logradouro, numero, complemento), hectares )
+- TALHAO ( <span style="text-decoration: underline;">idTalhao</span>, idPropriedade, numero, estaAtivo)
 - PLANTIO ( <span style="text-decoration: underline;">idPlantio</span>, numeroTalhao, idPropriedade, dataPlantio, idCultura, estado )
 - CADERNETA_DE_CAMPO ( <span style="text-decoration: underline;">numeroSerie</span>, dataColheita, idPlantio )
 - CULTURA ( <span style="text-decoration: underline;">idCultura</span>, nome )
@@ -51,8 +54,11 @@
 <li align="justify"><b>PLANTIO - possui - CULTURA</b>: Um PLANTIO possui apenas uma CULTURA, e uma CULTURA pode ser
   possuída por um ou vários PLANTIO. <br/>Cardinalidade: (n,1)</li>
 
-<li align="justify"><b>PLANTIO - pertence - PROPRIEDADE</b>: Um PLANTIO pertence a uma PROPRIEDADE e uma PROPRIEDADE
-  possui um ou mais PLANTIO. <br/>Cardinalidade: (n,1)</li>
+<li align="justify"><b>PLANTIO - plantado - TALHAO</b>: Um PLANTIO é plantado em um TALHAO e um TALHAO 
+  pode ter plantado um ou mais PLANTIO. <br/>Cardinalidade: (n,1)</li>
+
+<li align="justify"><b>TALHAO - pertence - PROPRIEDADE</b>: Um TALHAO pertence a uma PROPRIEDADE e uma PROPRIEDADE
+  possui um ou mais TALHAO. <br/>Cardinalidade: (n,1)</li>
 
 <li align="justify"><b>PRODUTOR - detem - PROPRIEDADE</b>: Um PRODUTOR detém uma ou mais PROPRIEDADE, e uma
   PROPRIEDADE pertence a apenas um PRODUTOR. <br/>Cardinalidade: (1,n)</li>
