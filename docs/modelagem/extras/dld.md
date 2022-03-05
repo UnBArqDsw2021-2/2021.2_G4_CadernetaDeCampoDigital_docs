@@ -8,6 +8,7 @@
 | 1.1    | 17/02/2022 | Adição do diagrama    | Thiago          |
 | 1.2    | 18/02/2022 | Adição da introdução  | Thiago          |
 | 1.2.1  | 20/02/2022 | Revisão por pares     | Paulo e Eduardo |
+| 1.3    | 05/03/2022 | Adição da entidade talhão e seus relacionamentos | Thiago              |
 
 ## 2. Introdução
 
@@ -17,8 +18,14 @@
 
 ## 3. Diagrama Lógico
 
+### Versão 2.0
+<img src="../../../assets/modelagem/extras/dldV2.png" class="zoom"/>
+<h6 align = "center">Figura 1: Diagrama Lógico Versão 2.0.</h6>
+<h6 align = "center">Fonte: Autores.</h6>
+
+### Versão 1.0
 <img src="../../../assets/modelagem/extras/dld.png" class="zoom"/>
-<h6 align = "center">Figura 1: Diagrama Lógico.</h6>
+<h6 align = "center">Figura 2: Diagrama Lógico Versão 1.0.</h6>
 <h6 align = "center">Fonte: Autores.</h6>
 
 ## 4. Referências

@@ -11,7 +11,8 @@
 | 1.2    | 17/02/2022 | Adição do dicionário individual | Eduardo e Thiago      |
 | 1.3    | 18/02/2022 | Adição da introdução            | Thiago                |
 | 1.4    | 20/02/2022 | Renomeando casa para numero     | Thiago                |
-| 1.5    | 20/02/2022 | Revisão por pares               | Brenno e Vitor Lamego |
+| 1.4.1  | 20/02/2022 | Revisão por pares               | Brenno e Vitor Lamego |
+| 1.5    | 05/03/2022 | Adição da entidade talhão e seus relacionamentos | Thiago              |
 
 ## 2. Introdução
 
@@ -61,10 +62,20 @@
     <td>Cadastro da caderneta de campo que o produtor faz do plantio</td>
   </tr>
   <tr>
+    <td rowspan="2">TALHAO</td>
+    <td>PROPRIEDADE</td>
+    <td>pertence</td>
+    <td rowspan="2">Cadastro de um talhão da propriedade</td>
+    <tr>
+      <td>PLANTIO</td>
+      <td>plantado</td>
+    </tr>
+  </tr>
+  <tr>
     <td rowspan="4">PLANTIO</td>
     <td>CADERNETA_DE_CAMPO</td>
     <td>registra</td>
-    <td rowspan="4">Cadastro de uma plantação da propriedade</td>
+    <td rowspan="4">Cadastro de uma plantação</td>
     <tr>
       <td>CULTURA</td>
       <td>possui</td>
@@ -74,8 +85,8 @@
       <td>contem</td>
     </tr>
     <tr>
-      <td>PROPRIEDADE</td>
-      <td>pertence</td>
+      <td>TALHAO</td>
+      <td>plantado</td>
     </tr>
   </tr>
   <tr>
@@ -358,6 +369,49 @@
 
 <table id="dict">
   <tr>
+    <th colspan="6">TALHAO</th>
+  <tr>
+  <tr>
+    <th>Atributo</th>
+    <th>Tipo de Dados</th>
+    <th>Tamanho (bytes)</th>
+    <th>Restrições</th>
+    <th>Descrição</th>
+  </tr>
+  <tr>
+    <td>idTalhao</td>
+    <td>INT</td>
+    <td>4</td>
+    <td>chave primária e obrigatório</td>
+    <td>Identificação do talhão</td>
+  <tr>
+  </tr>
+    <td>numero</td>
+    <td>INT</td>
+    <td>4</td>
+    <td>obrigatório</td>
+    <td>Número da parte da propriedade</td>
+  </tr>
+  <tr>
+    <td>idPropriedade</td>
+    <td>INT</td>
+    <td>4</td>
+    <td>obrigatório e chave estrangeira</td>
+    <td>Identificação da propriedade que o talhão se encontra</td>
+  </tr>
+  <tr>
+    <td>estaAtivo</td>
+    <td>BOOLEAN</td>
+    <td>1</td>
+    <td>obrigatório</td>
+    <td>Verificação se o talhão está ativo</td>
+  </tr>
+</table>
+<h6 align = "center">Tabela 6: Descrição Individual do TALHAO.</h6>
+<h6 align = "center">Fonte: Autores</h6>
+
+<table id="dict">
+  <tr>
     <th colspan="6">PLANTIO</th>
   <tr>
   <tr>
@@ -382,11 +436,11 @@
     <td>Data em que o produtor plantou a cultura</td>
   </tr>
   <tr>
-    <td>numeroTalhao</td>
+    <td>idTalhao</td>
     <td>INT</td>
     <td>4</td>
-    <td>obrigatório</td>
-    <td>Número do talhão que o produtor plantou</td>
+    <td>obrigatório e chave estrangeira</td>
+    <td>Identificação do talhão que o produtor plantou</td>
   </tr>
   <tr>
     <td>idCultura</td>
@@ -396,13 +450,6 @@
     <td>Identificação da cultura que foi plantada</td>
   </tr>
   <tr>
-    <td>idPropriedade</td>
-    <td>INT</td>
-    <td>4</td>
-    <td>chave estrangeira e obrigatório</td>
-    <td>Identificação da propriedade</td>
-  </tr>
-  <tr>
     <td>estado</td>
     <td>CHAR</td>
     <td>1</td>
@@ -410,7 +457,7 @@
     <td>Estado atual do plantio. Podendo ser Plantado, PeriodoDeCarencia, Colheita, Finalizado e etc</td>
   </tr>
 </table>
-<h6 align = "center">Tabela 6: Descrição Individual do PLANTIO.</h6>
+<h6 align = "center">Tabela 7: Descrição Individual do PLANTIO.</h6>
 <h6 align = "center">Fonte: Autores</h6>
 
 <table id="dict">
@@ -446,7 +493,7 @@
     <td>Identificação do plantio</td>
   </tr>
 </table>
-<h6 align = "center">Tabela 7: Descrição Individual do CADERNETA_DE_CAMPO.</h6>
+<h6 align = "center">Tabela 8: Descrição Individual do CADERNETA_DE_CAMPO.</h6>
 <h6 align = "center">Fonte: Autores</h6>
 
 <table id="dict">
@@ -475,7 +522,7 @@
     <td>Nome da cultura</td>
   </tr>
 </table>
-<h6 align = "center">Tabela 8: Descrição Individual do CULTURA.</h6>
+<h6 align = "center">Tabela 9: Descrição Individual do CULTURA.</h6>
 <h6 align = "center">Fonte: Autores</h6>
 
 <table id="dict">
@@ -511,7 +558,7 @@
     <td>Número de identificação do tipo do agrotóxico</td>
   </tr>
 </table>
-<h6 align = "center">Tabela 9: Descrição Individual do AGROTOXICO.</h6>
+<h6 align = "center">Tabela 10: Descrição Individual do AGROTOXICO.</h6>
 <h6 align = "center">Fonte: Autores</h6>
 
 <table id="dict">
@@ -540,7 +587,7 @@
     <td>Nome do tipo do agrotóxico</td>
   </tr>
 </table>
-<h6 align = "center">Tabela 10: Descrição Individual do TIPO_AGROTOXICO.</h6>
+<h6 align = "center">Tabela 11: Descrição Individual do TIPO_AGROTOXICO.</h6>
 <h6 align = "center">Fonte: Autores</h6>
 
 ## 4. Referências
