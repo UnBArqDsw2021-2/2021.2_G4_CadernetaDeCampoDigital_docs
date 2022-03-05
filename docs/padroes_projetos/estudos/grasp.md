@@ -1,11 +1,12 @@
 # Aplicação de GRASP(s)
 
 ## 1. Versionamento
-| Versão | Data       | Descrição                              | Autor(es)             |
-| ------ | ---------- | ---------------------------------      | --------------------- |
-| 1.0    | 02/03/2022 | Criação do documento                   | Paulo e Carlos        |
-| 1.1    | 03/03/2022 | Adição da introdução e metodologia     | Carlos                |
-| 1.2    | 04/03/2022 | Adição dos tópicos 4.1, 4.2, 4.3 3 4.4 | Carlos                |
+| Versão | Data       | Descrição                                    | Autor(es)         |
+| ------ | ---------- | ---------------------------------------      | ------------------|
+| 1.0    | 02/03/2022 | Criação do documento                         | Paulo e Carlos    |
+| 1.1    | 03/03/2022 | Adição da introdução e metodologia           | Carlos            |
+| 1.2    | 04/03/2022 | Adição dos tópicos 4.1, 4.2, 4.3 e 4.4       | Carlos            |
+| 1.3    | 05/03/2022 | Adição dos tópicos 4.5, 4.6, 4.7, 4.8 e 4.9  | Paulo             |
 
 ## 2. Introdução
 
@@ -79,15 +80,63 @@ for criado. B é um “especialista” em relação à criação de A.
 </center>
 
 ### 4.5 Acoplamento 
-     
+
+<p align="justify" style="text-indent: 20px"> O acoplamento se refere ao quanto uma classe  está conectada, tem conhecimento ou depende da outra [1]. Uma classe com acoplamento forte depende de muitas outras classes, porém esse não é o problema em si. O problema
+é o acoplamento a classes que, de alguma forma são instáveis, gerando problemas como:</p>
+
+- Mudanças nas classes relacionadas forçam mudanças locais.
+- São mais difíceis de entender isoladamente.
+- Mais difíceis de reutilizar porque seu reuso requer a presença adicional das classes das quais ela depende.
+
+<p align="justify" style="text-indent: 20px"> Portanto, um acoplamento fraco, com classes mais independentes reduz o impacto de mudanças e favorece reúso de classes. Importante ressaltar que o extremo de acoplamento	fraco também não é desejável, fere princípios da orientação	a objetos e tem-se objetos inchados e complexos. [6] </p>
+
+<p align="justify" style="text-indent: 20px"> Como exemplo, considere que temos que criar uma instância de Payment e associá-la a Sale, e a Register “registra” um Payment no domínio. Na figura 5 percebemos que a atribuição de responsabilidade acopla a classe Register a conhecer a classe Payment, já na figura 6 existe uma solução que não aumenta o acoplamento.</p>
+
+<center>
+<img src="../../../assets/padroes_projetos/exemplo_acoplamento.png" class="zoom"> 
+<h6>Figura 5: Exemplo Alto Acoplamento.</h6>
+<h6>Fonte: GRASP: Designing Objetos com Responsabilidades. [9]</h6>
+</center>
+
+<center>
+<img src="../../../assets/padroes_projetos/exemplo_acoplamento2.png" class="zoom"> 
+<h6>Figura 6: Exemplo Baixo Acoplamento.</h6>
+<h6>Fonte: GRASP: Designing Objetos com Responsabilidades. [9]</h6>
+</center>
+
 ### 4.6 Controlador
+
+<p align="justify" style="text-indent: 20px"> Um Controlador é um objeto responsável por receber e lidar com um evento do sistema. Os controladores devem somente coordenar a tarefa, delegando sua execução para os outros objetos do sistema [9]. </p>
+
+<p align="justify" style="text-indent: 20px"> Existem duas alternativas possíveis para o objeto controlador. Uma das alternativas é um objeto Controlador para todo o sistema, porém quanto se tem uma quantidade muito grande de eventos de sistema, pode acabar gerando um controlador como alto acoplamento e/ou baixa coesão, a solução para isso é um objeto Controlador por Caso de Uso [6]. </p>
+
+<p align="justify" style="text-indent: 20px"> Alguns dos beneficios que um controlador pode trazer é: </p>
+
+- Aumento das possibilidades de reutilização de classes.	
+- Aumento das possibilidades de interfaces “plugáveis”.	
+- Conhecimento do estado do caso de uso - controlador pode armazenar estado do caso de uso garantindo a sequência correta de execução de operações.
 
 ### 4.7 Invenção pura ou Fabricação Própria
 
-### 4.8 Variações Protegidas
+<p align="justify" style="text-indent: 20px"> É uma classe que não tem assuntos diretamente relacionados com o domínio da aplicação, ela apenas funciona como uma classe fictícia, e é projetada para que possamos ter um baixo acoplamento e alta coesão no sistema, sendo considerada e apartada como uma "invenção" [10].</p>
 
-### 4.9 Indireção
+<p align="justify" style="text-indent: 20px">  Portanto, já que define que as classes de domínio não contenham funcionalidades que vão além das suas reais responsabilidades, ajuda no aumento da coesão, favorecendo também o reuso [10]. </p>
 
+### 4.8 Indireção
+
+<p align="justify" style="text-indent: 20px"> Determina que o objeto intermediário crie uma camada de indireção entre dois componentes que não mais dependem um do outro: ambos dependem da indireção, ou seja, este princípio ajuda a manter o baixo acoplamento, delegando responsabilidades através de uma classe mediadora [8].</p>
+
+<p align="justify" style="text-indent: 20px"> Existem muitas formas de se aplicar a indireção. O padrão Controller é um exemplo de indireção, outro excelente exemplo de aplicação deste conceito é a Injeção de Dependência (Exemplo abaixo), além do que diversos design-patterns também se beneficiam deste conceito, por exemplo: Abstract Factory, Facade, Adapter, Strategy, Proxy, etc [10]. </p>
+
+<center>
+<img src="../../../assets/padroes_projetos/exemplo_indirecao.png" class="zoom"> 
+<h6>Figura 7: Exemplo de injeção de dependência.</h6>
+<h6>Fonte: Facom/UFU. [8]</h6>
+</center>
+
+### 4.9 Variações Protegidas
+
+<p align="justify" style="text-indent: 20px"> A variação protegida é uma forma de indireção. A diferença é que neste caso protege o sistema com a variação de componentes, encapsulando o comportamento que realmente importa [2]. Um exemplo deste tipo de situação é quando utilizamos componentes ou serviços de terceiros ou quando integramos com APIs de pacotes de aplicações [10].</p>
 
 ## 5. Referências
 
@@ -104,3 +153,9 @@ for criado. B é um “especialista” em relação à criação de A.
 > [6] Nakagawa, Elisa Yumi. **GRASP: PADRÕES PARA ATRIBUIÇÃO DE RESPONSABILIDADES**. Disponível em: <a href="https://edisciplinas.usp.br/pluginfile.php/2186358/mod_resource/content/1/Aula09_GRASP.pdf">https://edisciplinas.usp.br/pluginfile.php/2186358/mod_resource/content/1/Aula09_GRASP.pdf</a>. Acesso em: 04 mar. 2022.
 
 > [7] DEVMEDIA. **Coesão e Acoplamento em Sistemas Orientados a Objetos**. Disponível em: <a href="https://www.devmedia.com.br/coesao-e-acoplamento-em-sistemas-orientados-a-objetos/16167#">https://www.devmedia.com.br/coesao-e-acoplamento-em-sistemas-orientados-a-objetos/16167#</a>. Acesso em: 04 mar. 2022.
+
+> [8] Facom/UFU. **Apresentação: Padrões GRASP**. Disponível em: <a href="http://www.facom.ufu.br/~bacala/ESOF/05a-Padr%C3%B5es%20GRASP.pdf">http://www.facom.ufu.br/~bacala/ESOF/05a-Padr%C3%B5es%20GRASP.pdf</a>. Acesso em 04 mar. 2022.
+
+> [9] Baranauskas, Cecilia. **GRASP: Designing Objetos com Responsabilidades**. Disponível em: <a href="https://www.ic.unicamp.br/~ariadne/mc436/1s2017/Lar16GRASP.pdf">hhttps://www.ic.unicamp.br/~ariadne/mc436/1s2017/Lar16GRASP.pdf</a> Acesso em 04 mar. 2022.
+
+> [10] Basseto, Nelson. **RDD – Responsibility Driven Design e GRASP – General Responsibility Assignment Software Principles**. Disponivel em: <a href= "http://nelsonbassetto.com/blog/tags/grasp/"> http://nelsonbassetto.com/blog/tags/grasp/ </a> Acesso em: 05 mar. 2022.
