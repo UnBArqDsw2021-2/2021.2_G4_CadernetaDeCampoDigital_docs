@@ -11,7 +11,7 @@
 
 ## 2. Introdução
 
-<p align="justify" style="text-indent: 20px">Os padrões comportamentais identificam padrões de comunicação, algoritmo e atribuição de responsabilidade entre objetos [2]. Esses padrões abstraem os fluxos de controle difíceis de acompanhar em tempo de execução por meio da utilização de herança para distribuir a comunicação entre classes [2]. Dessa forma, os padrões comportamentais descrevem como um grupo de objetos conseguem desempenhar uma tarefa que seria bastante complicada de desempenhar por um objeto sozinho [12].</p>
+<p align="justify" style="text-indent: 20px">Os padrões comportamentais identificam padrões de comunicação, algoritmo e atribuição de responsabilidade entre objetos [2]. Esses padrões abstraem os fluxos de controle difíceis de acompanhar em tempo de execução, focando no modo que os objetos se relacionam e não no fluxo de controle. Dessa forma, os padrões comportamentais descrevem como um grupo de objetos consegue desempenhar uma tarefa que seria bastante complicada de realizar por um sozinho [12].</p>
 
 ## 3. Metodologia
 
@@ -97,7 +97,7 @@
 
 ### 4.6 <i>Command</i>
 
-<p align="justify" style="text-indent: 20px">O padrão de projeto <i>Command</i> visa gerenciar as chamadas para um determinado componente[1], de forma que transforma o pedido em um objeto independente contendo todas as informações para a sua realização[7]. Essa transformação permite que você parametrize métodos com diferentes pedidos, atrase ou coloque a execução do pedido em uma fila, e suporte ao desfazimento de operações.[7]</p>
+<p align="justify" style="text-indent: 20px">O padrão de projeto <i>Command</i> visa gerenciar as chamadas para um determinado componente[1], de forma que transforma o pedido em um objeto independente contendo todas as informações para a sua realização[7]. Essa transformação permite que você parametrize métodos com diferentes pedidos, atrase ou coloque a execução do pedido em uma fila, e suporte ao desfazimento de operações[7].</p>
 
 <p align="justify" style="text-indent: 20px">Sua estrutura consiste em:</p>
 
@@ -150,7 +150,7 @@
 
 ### 4.9 <i>Visitor</i>
 
-<p align="justify" style="text-indent: 20px">O padrão de projeto <i>Mediator</i> permite separar algoritmos dos objetos nos quais eles operam [10]. O padrão utiliza uma técnica chamada de <i>Double Dispatch</i>. Há uma inversão de controle, ao invés do cliente escolher o método adequado para chamar, essa escolha é delegada para os objetos que estão sendo visitados [10].</p>
+<p align="justify" style="text-indent: 20px">O padrão de projeto <i>Visitor</i> permite separar algoritmos dos objetos nos quais eles operam [10]. O padrão utiliza uma técnica chamada de <i>Double Dispatch</i>. Há uma inversão de controle, ao invés do cliente escolher o método adequado para chamar, essa escolha é delegada para os objetos que estão sendo visitados [10].</p>
 
 <p align="justify" style="text-indent: 20px">A estrutura necessária para a implementação do padrão precisa dos seguintes elementos:</p>
 
@@ -167,12 +167,12 @@
 
 ### 4.10 <i>Memento</i>
 
-<p align="justify" style="text-indent: 20px">O padrão de projeto <i>Mediator</i> permite salvar e restaurar o estado anterior de um objeto sem revelar detalhes de sua implementação[11]. Para isso, uma classe fica responsável por salvar o estado do objeto, enquanto que outra classe armazena todas essas cópias [1].</p>
+<p align="justify" style="text-indent: 20px">O padrão de projeto <i>Memento</i> permite salvar e restaurar o estado anterior de um objeto sem revelar detalhes de sua implementação[11]. Para isso, uma classe fica responsável por salvar o estado do objeto, enquanto que outra classe armazena todas essas cópias [1].</p>
 
 <p align="justify" style="text-indent: 20px">Sua estrutura consiste em:</p>
 
 - **Originadora** **(*****Originator*****)**: Classe que pode reproduzir cópias do seu próprio estado.
-- *******Memento*******: Objeto que age como um retrato do estado da objeto originador.
+- **Memento**: Objeto que age como um retrato do estado da objeto originador.
 - **Cuidadora** **(*****CareTaker*****)**: Classe que sabe “quando” e "porquê" capturar o estado da originadora, mas também quando deve ser restaurado. Ela armazena o histórico de cada estado da originadora em uma pilha.
 
 <center>
@@ -205,4 +205,4 @@
 
 > [11] Refactoring Guru. **Memento**. Disponível em: <a href="https://refactoring.guru/pt-br/design-patterns/memento">https://refactoring.guru/pt-br/design-patterns/memento</a>. Acesso em: 04 mar. 2022
 
-> [11] GofPatterns. **Introduction to Behavioral Design Patterns**. Disponível em: <a href="https://www.gofpatterns.com/design-patterns/module6/intro-behavioral-designPatterns.php">https://www.gofpatterns.com/design-patterns/module6/intro-behavioral-designPatterns.php</a>. Acesso em: 04 mar. 2022
+> [12] GofPatterns. **Introduction to Behavioral Design Patterns**. Disponível em: <a href="https://www.gofpatterns.com/design-patterns/module6/intro-behavioral-designPatterns.php">https://www.gofpatterns.com/design-patterns/module6/intro-behavioral-designPatterns.php</a>. Acesso em: 04 mar. 2022
