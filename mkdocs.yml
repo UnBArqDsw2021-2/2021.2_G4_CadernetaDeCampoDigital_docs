@@ -90,6 +90,7 @@ nav:
   - Padrões de Projeto:
     - Estudos:
       - GOFs Criacionais: padroes_projetos/estudos/gofs_criacionais.md
+      - GOFs Comportamentais: padroes_projetos/estudos/gofs_comportamentais.md
       - Padrões emergentes: padroes_projetos/estudos/padroes_emergentes.md
     # - Aplicação:
     #   - ...
