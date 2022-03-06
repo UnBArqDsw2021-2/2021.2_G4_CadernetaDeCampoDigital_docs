@@ -90,11 +90,14 @@ nav:
   - Padrões de Projeto:
     - Estudos:
       - GOFs Criacionais: padroes_projetos/estudos/gofs_criacionais.md
+      - GOFs Comportamentais: padroes_projetos/estudos/gofs_comportamentais.md
       - GRASP(s): padroes_projetos/estudos/grasp.md
       - Padrões emergentes: padroes_projetos/estudos/padroes_emergentes.md
     # - Aplicação:
     #   - ...
     - Iniciativas Extras:
+      - Dojos:
+        - Backend (Django): dojos/backend.md
       - Sprints:
         - Sprint 2:
           - Review : sprints/review_2.md
