@@ -6,6 +6,7 @@
 | ------ | ---------- | ----------------------- | -----------   |
 | 1.0    | 06/03/2022 | Realização do Dojo      | Vitor Lamego  |
 | 1.1    | 06/03/2022 | Abertura do documento   | Vitor Lamego  |
+| 1.2    | 06/03/2022 | Adição do vídeo         | Vitor Lamego  |
 
 ## 2. Introdução
 
@@ -17,5 +18,4 @@
 
 <p align="justify" style="text-indent: 20px">Como forma de manter a rastreabilidade dos documentos e/ou caso alguém necessite rever ou assistir pela primeira vez, é possível visualizar o vídeo a seguir na íntegra:</p>
 
-
-<p align="justify" style="text-indent: 20px">Além disso, é possível realizar o <i>download</i> dos códigos desenvolvidos através do seguinte link: <a href="">Arquivos Dojo Mobile</a></p>
+<iframe width="800" height="400" src="https://www.youtube.com/embed/UKY5-OVQSj8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
