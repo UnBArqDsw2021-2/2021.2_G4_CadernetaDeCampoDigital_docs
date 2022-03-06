@@ -108,7 +108,7 @@ for criado. B é um “especialista” em relação à criação de A.
 
 <p align="justify" style="text-indent: 20px"> Um Controlador é um objeto responsável por receber e lidar com um evento do sistema. Os controladores devem somente coordenar a tarefa, delegando sua execução para os outros objetos do sistema [9]. </p>
 
-<p align="justify" style="text-indent: 20px"> Existem duas alternativas possíveis para o objeto controlador. Uma das alternativas é um objeto Controlador para todo o sistema, porém quanto se tem uma quantidade muito grande de eventos de sistema, pode acabar gerando um controlador como alto acoplamento e/ou baixa coesão, a solução para isso é um objeto Controlador por Caso de Uso [6]. </p>
+<p align="justify" style="text-indent: 20px"> Existem duas alternativas possíveis para o objeto controlador. Uma das alternativas é um objeto Controlador para todo o sistema, porém quando se tem uma quantidade muito grande de eventos de sistema, pode acabar gerando um controlador com alto acoplamento e/ou baixa coesão, a solução para isso é um objeto Controlador por Caso de Uso [6]. </p>
 
 <p align="justify" style="text-indent: 20px"> Alguns dos beneficios que um controlador pode trazer é: </p>
 
