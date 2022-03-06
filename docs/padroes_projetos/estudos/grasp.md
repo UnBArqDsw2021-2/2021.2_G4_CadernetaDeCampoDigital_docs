@@ -25,7 +25,7 @@ Quando usados de forma eficaz, eles podem ajudar a melhorar a eficiência no esf
 
 <p align="justify" style="text-indent: 20px">O polimorfismo é um recurso muito importante na orientação a objetos, se trata da capacidade de classes de mesmo tipo de possuírem métodos que se comportam de formas diferentes. </p>
 
-<p>"Isso permite que objetos da mesma hierarquia de tipo se comportem de forma diferente em tempo de execução simplesmente associando a chamada de método de interface à instância de tempo de execução apropriada. Esse recurso é conhecido como polimorfismo." [1]</p>
+<p align="justify" style="text-indent: 20px">"Isso permite que objetos da mesma hierarquia de tipo se comportem de forma diferente em tempo de execução simplesmente associando a chamada de método de interface à instância de tempo de execução apropriada. Esse recurso é conhecido como polimorfismo." [1]</p>
 
 <p align="justify" style="text-indent: 20px">Como exemplo temos o uso de uma classe abstrata "Peca" para a representação de algumas peças do jogo de xadrez, sendo que cada classe descendente sobrescreveu o método "mover":</p>
 
