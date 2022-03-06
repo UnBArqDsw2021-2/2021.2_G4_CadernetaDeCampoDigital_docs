@@ -23,7 +23,7 @@
 
 ### 4.1 <i>Observer</i>
 
-<p align="justify" style="text-indent: 20px">O padrão de projeto <i>Observer</i> tem como objetivo "definir um mecanismo eficiente para reagir às alterações realizadas em determinados objetos"[1], funcionando como um mecanismo de assinatura[2] para enviar as mudanças.</p>
+<p align="justify" style="text-indent: 20px">O padrão de projeto <i>Observer</i> tem como objetivo "definir um mecanismo eficiente para reagir às alterações realizadas em determinados objetos" [1], funcionando como um mecanismo de assinatura [2] para enviar as mudanças.</p>
 
 <p align="justify" style="text-indent: 20px">Para a modelagem desse padrão é preciso a implementação dos seguintes objetos:</p>
 - **Observador** **(*****Observer*****)**: Interface padronizadora dos objetos observadores concretos  relacionados às alterações, os <i>Subjects</i>.
@@ -34,12 +34,12 @@
 <center>
 <img src="../../../assets/padroes_projetos/observer_exemplo.png" class="zoom"> 
 <h6>Figura 1: Estrutura do Observer</h6>
-<h6>Fonte: Padrões de Projetos[3]</h6>
+<h6>Fonte: Padrões de Projetos [3]</h6>
 </center>
 
 ### 4.2 <i>State</i>
 
-<p align="justify" style="text-indent: 20px">O padrão <i>State</i> propõe a alteração do comportamento de um objeto dependendo do estado que ele possui[4], parecendo que sua classe foi alterada[3].</p>
+<p align="justify" style="text-indent: 20px">O padrão <i>State</i> propõe a alteração do comportamento de um objeto dependendo do estado que ele possui [4], parecendo que sua classe foi alterada [3].</p>
 
 <p align="justify" style="text-indent: 20px">A modelagem do Estado possui os participantes abaixo:</p>
 - **Context**: Classe que define o que será de interesse aos clientes, isto é, fará referência ao <i>State</i>.
@@ -49,12 +49,12 @@
 <center>
 <img src="../../../assets/padroes_projetos/state_exemplo.png" class="zoom"> 
 <h6>Figura 2: Estrutura do State</h6>
-<h6>Fonte: Padrões de Projetos[3]</h6>
+<h6>Fonte: Padrões de Projetos [3]</h6>
 </center>
 
 ### 4.3 <i>Strategy</i>
 
-<p align="justify" style="text-indent: 20px">A partir do padrão Strategy é possível variar os algoritmos utilizados na resolução de determinado problema[1].</p>
+<p align="justify" style="text-indent: 20px">A partir do padrão Strategy é possível variar os algoritmos utilizados na resolução de determinado problema [1].</p>
 
 <p align="justify" style="text-indent: 20px">A estrutura necessária para a implementação do padrão precisa dos seguintes elementos:</p>
 - **Estratégia** **(*****Strategy*****)**: Interface para a definição dos algoritmos a serem suportados.
@@ -64,12 +64,12 @@
 <center>
 <img src="../../../assets/padroes_projetos/strategy_exemplo.png" class="zoom"> 
 <h6>Figura 3: Estrutura do Strategy</h6>
-<h6>Fonte: Padrões de Projetos[3]</h6>
+<h6>Fonte: Padrões de Projetos [3]</h6>
 </center>
 
 ### 4.4 <i>Template Method</i>
 
-<p align="justify" style="text-indent: 20px">O <i>Template Method</i> busca definir o esqueleto de um algoritmo em sua superclasse, enquanto as suas subclasses sobrescrevem as etapas ao mesmo tempo que sua estrutura é mantida[5].</p>
+<p align="justify" style="text-indent: 20px">O <i>Template Method</i> busca definir o esqueleto de um algoritmo em sua superclasse, enquanto as suas subclasses sobrescrevem as etapas ao mesmo tempo que sua estrutura é mantida [5].</p>
 
 <p align="justify" style="text-indent: 20px">Sua estruturação consiste em:</p>
 - **Classe Abstrata** **(*****AbstractClass*****)**: Classe abstrata para a definição das operações primitivas e qual sequência deve ser seguida.
@@ -78,12 +78,12 @@
 <center>
 <img src="../../../assets/padroes_projetos/template_method_exemplo.png" class="zoom"> 
 <h6>Figura 4: Estrutura do Template Method</h6>
-<h6>Fonte: Padrões de Projetos[3]</h6>
+<h6>Fonte: Padrões de Projetos [3]</h6>
 </center>
 
 ### 4.5 <i>Chain of Responsibility</i>
 
-<p align="justify" style="text-indent: 20px">O padrão de projeto <i>Chain of Responsibility</i> tem como objetivo evitar a dependência entre objetos receptores com seus solicitantes[1]. Para que seu objetivo seja alcançado é preciso que uma corrente de <i>handlers</i> processe os pedidos[6].</p>
+<p align="justify" style="text-indent: 20px">O padrão de projeto <i>Chain of Responsibility</i> tem como objetivo evitar a dependência entre objetos receptores com seus solicitantes [1]. Para que seu objetivo seja alcançado é preciso que uma corrente de <i>handlers</i> processe os pedidos [6].</p>
 
 <p align="justify" style="text-indent: 20px">Os participantes abaixo definem sua estrutura:</p>
 
@@ -94,12 +94,12 @@
 <center>
 <img src="../../../assets/padroes_projetos/cor_exemplo.png" class="zoom"> 
 <h6>Figura 5: Estrutura do Chain of Responsibility</h6>
-<h6>Fonte: Padrões de Projetos[3]</h6>
+<h6>Fonte: Padrões de Projetos [3]</h6>
 </center>
 
 ### 4.6 <i>Command</i>
 
-<p align="justify" style="text-indent: 20px">O padrão de projeto <i>Command</i> visa gerenciar as chamadas para um determinado componente[1], de forma que transforma o pedido em um objeto independente contendo todas as informações para a sua realização[7]. Essa transformação permite que você parametrize métodos com diferentes pedidos, atrase ou coloque a execução do pedido em uma fila, e suporte ao desfazimento de operações[7].</p>
+<p align="justify" style="text-indent: 20px">O padrão de projeto <i>Command</i> visa gerenciar as chamadas para um determinado componente [1], de forma que transforma o pedido em um objeto independente contendo todas as informações para a sua realização [7]. Essa transformação permite que você parametrize métodos com diferentes pedidos, atrase ou coloque a execução do pedido em uma fila, e suporte ao desfazimento de operações [7].</p>
 
 <p align="justify" style="text-indent: 20px">Sua estrutura consiste em:</p>
 
@@ -169,7 +169,7 @@
 
 ### 4.10 <i>Memento</i>
 
-<p align="justify" style="text-indent: 20px">O padrão de projeto <i>Memento</i> permite salvar e restaurar o estado anterior de um objeto sem revelar detalhes de sua implementação[11]. Para isso, uma classe fica responsável por salvar o estado do objeto, enquanto que outra classe armazena todas essas cópias [1].</p>
+<p align="justify" style="text-indent: 20px">O padrão de projeto <i>Memento</i> permite salvar e restaurar o estado anterior de um objeto sem revelar detalhes de sua implementação [11]. Para isso, uma classe fica responsável por salvar o estado do objeto, enquanto que outra classe armazena todas essas cópias [1].</p>
 
 <p align="justify" style="text-indent: 20px">Sua estrutura consiste em:</p>
 
