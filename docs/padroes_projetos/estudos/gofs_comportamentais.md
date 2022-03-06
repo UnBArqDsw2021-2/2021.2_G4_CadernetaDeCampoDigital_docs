@@ -7,7 +7,9 @@
 | 1.0    | 01/03/2022 | Abertura do documento                      | Brenno e Thiago           |
 | 1.1    | 02/03/2022 | Adicionando tópicos 4.1 a 4.5              | Brenno                    |
 | 1.2    | 04/03/2022 | Adicionando tópicos 4.6 a 4.10             | Thiago                    |
-| 1.3    | 04/03/2022 | Adicionando introdução                     | Brenno e Thiago                    |
+| 1.3    | 04/03/2022 | Adicionando introdução                     | Brenno e Thiago           |
+| 1.3.1  | 06/03/2022 | Revisão por pares                          | Carlos Eduardo e Vitor Lamego |
+
 
 ## 2. Introdução
 
