@@ -17,7 +17,7 @@ Quando usados de forma eficaz, eles podem ajudar a melhorar a eficiência no esf
 
 ## 3. Metodologia
 
-<p align="justify" style="text-indent: 20px">Como forma de ter um melhor preparo para a aplicação dos padrões GRASP no projeto assim como um melhor entendimento do conteúdo, este documento foi elaborado pelos integrantes Carlos Eduardo e Paulo Vitor. Após estudos individuais e reunião para planejamento, os tópicos aqui presentes foram divididos e elaborados pelos integrantes há pouco citados. </p>
+<p align="justify" style="text-indent: 20px">Como forma de ter um melhor preparo para a aplicação dos padrões GRASP no projeto, assim como um melhor entendimento do conteúdo, este documento foi elaborado pelos integrantes Carlos Eduardo e Paulo Vitor. Após estudos individuais e reunião para planejamento, os tópicos aqui presentes foram divididos e elaborados pelos integrantes há pouco citados. </p>
 
 ## 4. Padrões GRASP
 
@@ -127,7 +127,7 @@ for criado. B é um “especialista” em relação à criação de A.
 
 <p align="justify" style="text-indent: 20px"> Determina que o objeto intermediário crie uma camada de indireção entre dois componentes que não mais dependem um do outro: ambos dependem da indireção, ou seja, este princípio ajuda a manter o baixo acoplamento, delegando responsabilidades através de uma classe mediadora [8].</p>
 
-<p align="justify" style="text-indent: 20px"> Existem muitas formas de se aplicar a indireção. O padrão Controller é um exemplo de indireção, outro excelente exemplo de aplicação deste conceito é a Injeção de Dependência (Exemplo abaixo), além do que diversos design-patterns também se beneficiam deste conceito, por exemplo: Abstract Factory, Facade, Adapter, Strategy, Proxy, etc [10]. </p>
+<p align="justify" style="text-indent: 20px"> Existem muitas formas de se aplicar a indireção. O padrão Controlador é um exemplo de indireção, outro excelente exemplo de aplicação deste conceito é a Injeção de Dependência (Exemplo abaixo), além do que diversos design-patterns também se beneficiam deste conceito, por exemplo: Abstract Factory, Facade, Adapter, Strategy, Proxy, etc [10]. </p>
 
 <center>
 <img src="../../../assets/padroes_projetos/exemplo_indirecao.png" class="zoom"> 
