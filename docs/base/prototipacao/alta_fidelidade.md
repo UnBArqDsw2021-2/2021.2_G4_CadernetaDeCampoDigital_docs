@@ -6,6 +6,7 @@ Versão|Data|Descrição|Autor(es)
 1.0   | 06/03/2022 | Criação do documento | Vitor Lamego
 1.1   | 06/03/2022 | Adição da introdução e metodologia | Vitor Lamego
 1.2   | 06/03/2022 | Adição do protótipo | Brenno, Eduardo, Carlos e Vitor
+1.2.1 | 07/03/2022 | Revisão por pares | Toda a equipe
 
 ## 2. Introdução
 
