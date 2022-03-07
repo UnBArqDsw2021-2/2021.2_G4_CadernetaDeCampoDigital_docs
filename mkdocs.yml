@@ -94,6 +94,11 @@ nav:
     # - Aplicação:
     #   - ...
     - Iniciativas Extras:
+      - Documentos alterados:
+        - Modelagem Entidade-Relacionamento (MER): modelagem/extras/mer.md
+        - Diagrama Entidade-Relacionamento (DER): modelagem/extras/der.md
+        - Diagrama Lógico de Dados (DLD): modelagem/extras/dld.md
+        - Dicionário de Dados: modelagem/extras/dicionario_dados.md
       - Dojos:
         - Backend (Django): dojos/backend.md
       - Sprints:
