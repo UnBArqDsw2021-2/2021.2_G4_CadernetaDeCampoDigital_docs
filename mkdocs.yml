@@ -98,6 +98,7 @@ nav:
     - Iniciativas Extras:
       - Dojos:
         - Backend (Django): dojos/backend.md
+        - Mobile (Flutter): dojos/mobile.md
       - Sprints:
         - Sprint 2:
           - Review : sprints/review_2.md
