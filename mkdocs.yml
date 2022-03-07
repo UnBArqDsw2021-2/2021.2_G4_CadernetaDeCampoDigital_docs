@@ -92,6 +92,7 @@ nav:
     - Estudos:
       - GOFs Criacionais: padroes_projetos/estudos/gofs_criacionais.md
       - GOFs Comportamentais: padroes_projetos/estudos/gofs_comportamentais.md
+      - GoFs Estruturais: padroes_projetos/estudos/gofs_estruturais.md
       - GRASP(s): padroes_projetos/estudos/grasp.md
       - Padrões emergentes: padroes_projetos/estudos/padroes_emergentes.md
     # - Aplicação:
