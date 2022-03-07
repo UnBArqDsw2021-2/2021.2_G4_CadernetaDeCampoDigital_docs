@@ -26,7 +26,7 @@
 <h6 align = "center">Figura 1: Diagrama de Classes Versão 2.0.</h6>
 <h6 align = "center">Fonte: Autores</h6>
 #### Observações
-- Todos os atributos públicos possuem métodos Getters e Setters, não foram incluídos no diagama para facilitar a visualização.
+- Todos os atributos públicos possuem métodos Getters e Setters, não foram incluídos no diagrama para facilitar a visualização.
 - A nomenclatura dos atributos foi em Snake case para facilitar a futura implementação com a linguagem utilizada no back-end (Python).
 
 ### Versão 1.0
