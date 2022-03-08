@@ -9,6 +9,7 @@
 | 1.2    | 18/02/2022 | Adição da introdução  | Thiago          |
 | 1.2.1  | 20/02/2022 | Revisão por pares     | Paulo e Eduardo |
 | 1.3    | 05/03/2022 | Adição da entidade talhão e seus relacionamentos | Thiago              |
+| 1.3.1 | 07/03/2022 | Revisão por pares                 | João Pedro Moura e Denniel William |
 
 ## 2. Introdução
 

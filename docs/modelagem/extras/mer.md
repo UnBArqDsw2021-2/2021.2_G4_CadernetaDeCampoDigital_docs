@@ -11,6 +11,7 @@
 | 1.3    | 17/02/2022 | Adição do atributo de estado                     | Thiago              |
 | 1.3.1  | 20/02/2022 | Melhoria do tópico de metodologia                | Rafael e João Pedro |
 | 1.4    | 05/03/2022 | Adição da entidade talhão e seus relacionamentos | Rafael e Thiago     |
+| 1.4.1 | 07/03/2022 | Revisão por pares                 | João Pedro Moura e Denniel William |
 
 ## 2. Introdução
 

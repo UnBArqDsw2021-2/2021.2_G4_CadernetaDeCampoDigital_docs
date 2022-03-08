@@ -13,6 +13,7 @@
 | 1.4    | 20/02/2022 | Renomeando casa para numero     | Thiago                |
 | 1.4.1  | 20/02/2022 | Revisão por pares               | Brenno e Vitor Lamego |
 | 1.5    | 05/03/2022 | Adição da entidade talhão e seus relacionamentos | Thiago              |
+| 1.5.1 | 07/03/2022 | Revisão por pares                 | João Pedro Moura e Denniel William |
 
 ## 2. Introdução
 

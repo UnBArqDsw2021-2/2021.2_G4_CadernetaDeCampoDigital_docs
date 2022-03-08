@@ -9,6 +9,7 @@
 | 1.1.1  | 13/02/2022 | Revisão por pares                 | João Pedro Moura e Denniel William |
 | 1.1.2  | 20/02/2022 | Adição do tópico de metodologia   | Rafael Ramos e João Pedro          |
 | 1.2    | 05/03/2022 | Adição da classe talhão           | Thiago     |
+| 1.2.1 | 07/03/2022 | Revisão por pares                 | João Pedro Moura e Denniel William |
 
 ## 2. Introdução
 
