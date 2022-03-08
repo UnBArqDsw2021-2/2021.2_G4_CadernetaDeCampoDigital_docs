@@ -8,6 +8,8 @@
 | 1.1    | 10/02/2022 | Adição do Diagrama de Classe      | Rafael Ramos e Thiago              |
 | 1.1.1  | 13/02/2022 | Revisão por pares                 | João Pedro Moura e Denniel William |
 | 1.1.2  | 20/02/2022 | Adição do tópico de metodologia   | Rafael Ramos e João Pedro          |
+| 1.2    | 05/03/2022 | Adição da classe talhão           | Thiago     |
+| 1.2.1 | 07/03/2022 | Revisão por pares                 | João Pedro Moura e Denniel William |
 
 ## 2. Introdução
 
@@ -19,10 +21,19 @@
 
 ## 4. Diagrama de classes
 
-### 4.1 Versão 1.0
+### Versão 2.0
+
+<img src="../../../assets/modelagem/estatica/diagramaClasseV2.svg" class="zoom"/>
+<h6 align = "center">Figura 1: Diagrama de Classes Versão 2.0.</h6>
+<h6 align = "center">Fonte: Autores</h6>
+#### Observações
+- Todos os atributos públicos possuem métodos Getters e Setters, não foram incluídos no diagrama para facilitar a visualização.
+- A nomenclatura dos atributos foi em Snake case para facilitar a futura implementação com a linguagem utilizada no back-end (Python).
+
+### Versão 1.0
 
 <img src="../../../assets/modelagem/diagrama_classes.svg" class="zoom"/>
-<h6 align = "center">Figura 1: Diagrama de Classes versão 1</h6>
+<h6 align = "center">Figura 2: Diagrama de Classes versão 1.0</h6>
 <h6 align = "center">Fonte: Autores</h6>
 #### Observações
 - Todos os atributos públicos possuem métodos Getters e Setters, não foram incluídos no diagama para facilitar a visualização.

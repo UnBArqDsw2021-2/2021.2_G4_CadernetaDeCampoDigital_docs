@@ -2,12 +2,14 @@
 
 ## 1. Versionamento
 
-| Versão | Data       | Descrição                       | Autor(es)                  |
-| ------ | ---------- | ------------------------------- | -------------------------- |
-| 1.0    | 17/02/2022 | Abertura do documento           | Thiago                     |
-| 1.1    | 17/02/2022 | Adição do diagrama              | Thiago                     |
-| 1.2    | 18/02/2022 | Adição introdução e metodologia | Rafael Ramos               |
-| 1.2.1  | 20/02/2022 | Revisão por pares               | Carlos Fiuza e Victor Lima |
+| Versão | Data       | Descrição                                              | Autor(es)                  |
+| ------ | ---------- | ------------------------------------------------------ | -------------------------- |
+| 1.0    | 17/02/2022 | Abertura do documento                                  | Thiago                     |
+| 1.1    | 17/02/2022 | Adição do diagrama                                     | Thiago                     |
+| 1.2    | 18/02/2022 | Adição introdução e metodologia                        | Rafael Ramos               |
+| 1.2.1  | 20/02/2022 | Revisão por pares                                      | Carlos Fiuza e Victor Lima |
+| 1.3    | 05/03/2022 | Adição da versão 2.0 do diagrama com a entidade talhao | Rafael e Thiago            |
+| 1.3.1 | 07/03/2022 | Revisão por pares                 | João Pedro Moura e Denniel William |
 
 ## 2. Introdução
 
@@ -19,9 +21,14 @@
 <p align="justify" style="text-indent: 20px">O diagrama foi desenvolvido a partir do modelo conceitual (<a href="../mer">MER</a>) visando facilitar o entendimento referente a lógica do banco de dados através de uma representação mais visual dessa lógica, esse diagrama foi adaptado pelo Thiago utilizando o software <a href="https://www.sis4.com/brModelo/">brModelo</a> e posteriormente revisado pelo Rafael.</p>
 
 ## 4. Diagrama Conceitual
+### Versão 2.0
+<img src="../../../assets/modelagem/extras/derV2.png" class="zoom"/>
+<h6 align = "center">Figura 1: Diagrama Conceitual Versão 2.0.</h6>
+<h6 align = "center">Fonte: Autores.</h6>
 
+### Versão 1.0
 <img src="../../../assets/modelagem/extras/der.png" class="zoom"/>
-<h6 align = "center">Figura 1: Diagrama Conceitual.</h6>
+<h6 align = "center">Figura 2: Diagrama Conceitual Versão 1.0.</h6>
 <h6 align = "center">Fonte: Autores.</h6>
 
 ## 5. Referências
