@@ -42,18 +42,22 @@
 
 <center>
 <img src="../../../assets/padroes_projetos/memento_aplicacao1.png" class="zoom"> 
-<h6>Figura 2: Classe</h6>
+<h6>Figura 2: Classe Cuidadora</h6>
 <h6>Fonte: Autores.</h6>
 </center>
+
+<hr>
 
 <center>
 <img src="../../../assets/padroes_projetos/memento_aplicacao2.png" class="zoom"> 
-<h6>Figura 3: Estrutura do Memento</h6>
+<h6>Figura 3: Classe Originadora</h6>
 <h6>Fonte: Autores.</h6>
 </center>
 
+<hr>
+
 <center>
 <img src="../../../assets/padroes_projetos/memento_aplicacao3.png" class="zoom"> 
-<h6>Figura 4: Estrutura do Memento</h6>
+<h6>Figura 4: Aplicação no projeto</h6>
 <h6>Fonte: Autores.</h6>
 </center>
