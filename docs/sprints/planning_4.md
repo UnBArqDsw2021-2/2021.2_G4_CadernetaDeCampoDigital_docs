@@ -26,7 +26,6 @@ A Sprint 4 tem os seguintes objetivos:
 |[Front] Home Produtor|Brenno e Paulo|3|
 |[Front] Home Técnico|Brenno e Paulo|3|
 |[Front] Cadastro|Denniel e Eduardo|3|
-|Alterações protótipo|Vitor Lamego|2|
 
 <!-- COPIA E COLA TEMPLATE. -->
 <!--
