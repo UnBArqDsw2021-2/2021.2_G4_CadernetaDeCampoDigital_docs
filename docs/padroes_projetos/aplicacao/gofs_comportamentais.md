@@ -11,15 +11,24 @@
 
 ## 2. Introdução
 
-<p align="justify" style="text-indent: 20px">Após estudo dos padrões GOFs comportamentais, iremos demonstrar como eles podem ser aplicados no nosso contexto de estudo, isso é, utilizando Flutter, desenvolvido em Dart, e Django REST, desenvolvido em Python, de que forma os padrões podem ser aplicados a fim de colaborarem com um melhor desenvolvimento do código e padronização desses fatores.</p>
+<p align="justify" style="text-indent: 20px">Após estudo dos padrões GOFs comportamentais, iremos demonstrar como eles podem ser aplicados no nosso contexto de estudo, isso é, utilizando Flutter, desenvolvido em Dart, e Django REST, desenvolvido em Python, de forma que os padrões podem ser aplicados a fim de colaborarem com um melhor desenvolvimento do código e padronização desses fatores.</p>
 
 ## 3. Metodologia
 
-<p align="justify" style="text-indent: 20px">A metodologia utilizada para a elaboração do documento foi cada membro responsável por esta tarefa documentar um padrão de projeto encontrado no código desenvolvido para o projeto. Sendo assim, serão demonstradas três padrões de projetos, sendo eles: State, Memento e Observer. Vale ressaltar que o documento está sujeito a atualizações, caso o grupo sinta necessidade de apresentar novos padrões, ou até mesmo atualizar os já existentes.</p>
+<p align="justify" style="text-indent: 20px">A metodologia utilizada para a elaboração do documento foi cada membro responsável por esta tarefa documentar um padrão de projeto encontrado no código desenvolvido. Sendo assim, serão demonstrados três padrões de projetos, sendo eles: State, Memento e Observer. Vale ressaltar que o documento está sujeito a atualizações, caso o grupo sinta necessidade de apresentar novos padrões, ou até mesmo atualizar os já existentes.</p>
 
 ## 4. GoF's Comportamentais
 
 ### 4.1 <i>State</i>
+<p align="justify" style="text-indent: 20px"> O padrão de projeto <a href=https://unbarqdsw2021-2.github.io/2021.2_G4_CadernetaDeCampoDigital_docs/padroes_projetos/estudos/gofs_comportamentais/#42-state>State</a> apresenta a possibilidade de alterar o comportamento de um objeto tendo como base o estado atual. Ao utilizar o framework flutter é possível alterar elementos de uma página a partir da classe State. Ao criar uma página que estende a classe StatefulWidget é possível realizar alterações em estados nas páginas a partir do método setState.</p>
+
+<p align="justify" style="text-indent: 20px">Em nosso projeto esse padrão está sendo utilizado para que informações presentes nas telas da aplicação sejam alteradas de acordo com a necessidade, como exemplificado abaixo na tela de login: </p>
+
+<center>
+<img src="../../../assets/padroes_projetos/state_aplicacao.png" class="zoom"> 
+<h6>Figura 1: Aplicação State</h6>
+<h6>Fonte: Autores</h6>
+</center>
 
 ### 4.2 <i>Memento</i>
 
