@@ -33,7 +33,7 @@
 <img src="../../assets/sprints/velocity_4.png" class="zoom"/>
 
 ## 6. Review do Scrum Master
-- Nessa Sprint houve bastante dificuldade em relação a entrega das issues do front-end, seja por falta de tempo, ou falta de organização, além do que a equipe está um pouco enferrujada em relação a linguagem. Em relação ao Back-end, tudo foi entrego em excelente prazo e resolvido conforme o planejado. Por fim, ficaram faltando as informações referentes a issue "Splash Screen", que não foi aberta.
+- Nessa Sprint houve bastante dificuldade em relação à entrega das issues do front-end, seja por falta de tempo, ou falta de organização, além do que a equipe está um pouco enferrujada em relação à linguagem. Em relação ao Back-end, tudo foi entrego em excelente prazo e resolvido conforme o planejado. Por fim, ficaram faltando as informações referentes a issue "Splash Screen", que não foi aberta.
 
 
 
