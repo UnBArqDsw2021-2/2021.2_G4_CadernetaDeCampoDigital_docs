@@ -46,3 +46,27 @@
 ### 4.2 <i>Builder</i>
 <p align="justify" style="text-indent: 20px">O <i>Builder</i> é um padrão de projeto criacional que permite a instanciação de um objeto complexo através de uma simples solicitação, mantendo todo o processo complexo de criação oculto para o cliente.</p>
 <p align="justify" style="text-indent: 20px">Um importante requisito do nosso projeto é a conversão dos dados de uma caderneta para o formato pdf que será utilizado quando o produtor encerra uma plantação, este pdf pode ser considerado um objeto complexo permitindo a implementação do padrão <i>Builder</i> para permitir uma construção simples e rápida.</p>
+
+<center>
+  <img src="../../../assets/padroes_projetos/builder_abstract.png" width="800" class="zoom"/>
+  <h6 align = "center">Figura 4: Builder abstrato</h6>
+  <h6 align = "center">Fonte: Autores</h6>
+</center>
+
+<center>
+  <img src="../../../assets/padroes_projetos/builder_tecnico.png" width="800" class="zoom"/>
+  <h6 align = "center">Figura 5: Builder concreto de técnico</h6>
+  <h6 align = "center">Fonte: Autores</h6>
+</center>
+
+<center>
+  <img src="../../../assets/padroes_projetos/builder_produtor.png" width="800" class="zoom"/>
+  <h6 align = "center">Figura 6: Builder concreto de produtor</h6>
+  <h6 align = "center">Fonte: Autores</h6>
+</center>
+
+<center>
+  <img src="../../../assets/padroes_projetos/builder_director.png" width="800" class="zoom"/>
+  <h6 align = "center">Figura 7: Diretor</h6>
+  <h6 align = "center">Fonte: Autores</h6>
+</center>
