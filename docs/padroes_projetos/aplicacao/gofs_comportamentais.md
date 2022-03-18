@@ -66,13 +66,21 @@
 
 ### 4.3 <i>Observer</i>
 
-<p align="justify" style="text-indent: 20px">O padrão de projeto <a href="../../estudos/gofs_comportamentais/#41-observer">Observer</a> fornece um mecanismo eficiente para reagir a determinadas alterações em um determinado objeto. Sendo assim, pode ser utilizado quando há a necessidade de realizar tarefas após uma determinada ação. Para isso, duas classes abstratas foram criadas: Observador, que representa um objeto que está aguardando alguma modificação, como mostra a Figura 5; e a Observável, que representa um objeto que suas alterações estão sendo observadas por outros objetos observadores, como mostra a Figura 6.</p>
+<p align="justify" style="text-indent: 20px">O padrão de projeto <a href="../../estudos/gofs_comportamentais/#41-observer">Observer</a> fornece um mecanismo eficiente para reagir a determinadas alterações em um determinado objeto. Sendo assim, pode ser utilizado quando há a necessidade de realizar tarefas após uma determinada ação. Para isso, duas classes abstratas foram criadas: Observador, que representa um objeto que está aguardando alguma modificação, como mostra a Figura 5 e 6; e a Observável, que representa um objeto que suas alterações estão sendo observadas por outros objetos observadores, como mostra a Figura 7.</p>
 
-<p align="justify" style="text-indent: 20px">Em nosso projeto, há a necessidade de cadastrar um técnico e realizar diversas tarefas após isso. Como mostra a Figura 7, pode-se utilizar o padrão <i>Observer</i> para que diversas tarefas, como enviar um e-mail, SMS ou notificar a Emater, sejam executadas assim que um técnico é cadastrado. Desta forma, é possível adicionar novas tarefas de forma simples e eficiente</p>
+<p align="justify" style="text-indent: 20px">Em nosso projeto, há a necessidade de cadastrar um técnico e realizar diversas tarefas após isso. Como mostra a Figura 8, pode-se utilizar o padrão <i>Observer</i> para que diversas tarefas, como enviar um e-mail, SMS ou notificar a Emater, sejam executadas assim que um técnico é cadastrado. Desta forma, é possível adicionar novas tarefas de forma simples e eficiente</p>
+
+<center>
+<img src="../../../assets/padroes_projetos/aplicacao_modelagem_observer.png" class="zoom"> 
+<h6>Figura 5: Diagrama de classes da aplicação</h6>
+<h6>Fonte: Autores.</h6>
+</center>
+
+<hr>
 
 <center>
 <img src="../../../assets/padroes_projetos/observer_aplicacao1.png" class="zoom"> 
-<h6>Figura 5: Classe Observador</h6>
+<h6>Figura 6: Classe Observador</h6>
 <h6>Fonte: Autores.</h6>
 </center>
 
@@ -80,7 +88,7 @@
 
 <center>
 <img src="../../../assets/padroes_projetos/observer_aplicacao2.png" class="zoom"> 
-<h6>Figura 6: Classe Observável</h6>
+<h6>Figura 7: Classe Observável</h6>
 <h6>Fonte: Autores.</h6>
 </center>
 
@@ -88,6 +96,6 @@
 
 <center>
 <img src="../../../assets/padroes_projetos/observer_aplicacao3.png" class="zoom"> 
-<h6>Figura 7: Aplicação no projeto no cadastro de um técnico</h6>
+<h6>Figura 8: Aplicação no projeto no cadastro de um técnico</h6>
 <h6>Fonte: Autores.</h6>
 </center>
