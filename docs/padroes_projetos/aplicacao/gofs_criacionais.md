@@ -2,13 +2,14 @@
 
 ## 1. Versionamento
 
-| Versão | Data       | Descrição                   | Autor(es)                 |
-| ------ | ---------- | --------------------------- | ------------------------- |
-| 1.0    | 16/03/2022 | Abertura do documento       | João Moura e Rafael Ramos |
-| 1.1    | 16/03/2022 | Adição da aplicação de Factory Method        | João Moura e Rafael Ramos                   |
-| 1.2    | 16/03/2022 | Adição da aplicação de Builder | João Moura e Rafael Ramos              |
-| 1.3    | 18/03/2022 | Adição dos exemplos de modelagem | João Moura e Rafael Ramos              |
-| 1.3.1  | 18/03/2022 | Correções de texto | João Moura |
+| Versão | Data       | Descrição                               | Autor(es)                 |
+| ------ | ---------- | --------------------------------------- | ------------------------- |
+| 1.0    | 16/03/2022 | Abertura do documento                   | João Moura e Rafael Ramos |
+| 1.1    | 16/03/2022 | Adição da aplicação do Abstract Factory | João Moura e Rafael Ramos |
+| 1.2    | 16/03/2022 | Adição da aplicação do Builder          | João Moura e Rafael Ramos |
+| 1.3    | 18/03/2022 | Adição dos exemplos de modelagem        | João Moura e Rafael Ramos |
+| 1.3.1  | 18/03/2022 | Correções de texto                      | João Moura e Rafael Ramos |
+| 1.3.2  | 19/03/2022 | Revisão por pares                       | Brenno e Thiago           |
 
 
 ## 2. Introdução
@@ -17,7 +18,7 @@
 
 ## 3. Metodologia
 
-<p align="justify" style="text-indent: 20px">A metodologia utilizada para a elaboração do documento consistiu na reunião dos membros responsáveis por esta tarefa via discord, onde foram levantados alguns padrões de GoF's criacionais encontrados ou não no código desenvolvido para o projeto. Sendo assim, serão demonstradas dois padrões de projetos, sendo eles: <i>Factory Method</i> e <i>Builder</i>. Vale ressaltar que o documento está sujeito a atualizações, caso o grupo sinta necessidade de apresentar novos padrões, ou até mesmo atualizar os já existentes.</p>
+<p align="justify" style="text-indent: 20px">A metodologia utilizada para a elaboração do documento consistiu na reunião dos membros responsáveis por esta tarefa via Discord, onde foram levantados alguns padrões de GoF's criacionais encontrados ou não no código desenvolvido para o projeto. Sendo assim, serão demonstrados dois padrões de projetos, sendo eles: <i>Abstract Factory</i> e <i>Builder</i>. Vale ressaltar que o documento está sujeito a atualizações, caso o grupo sinta necessidade de apresentar novos padrões, ou até mesmo atualizar os já existentes.</p>
 
 ## 4. GoF's Criacionais
 
