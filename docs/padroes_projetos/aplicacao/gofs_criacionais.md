@@ -5,7 +5,7 @@
 | Versão | Data       | Descrição                               | Autor(es)                 |
 | ------ | ---------- | --------------------------------------- | ------------------------- |
 | 1.0    | 16/03/2022 | Abertura do documento                   | João Moura e Rafael Ramos |
-| 1.1    | 16/03/2022 | Adição da aplicação do Abstract Factory | João Moura e Rafael Ramos |
+| 1.1    | 16/03/2022 | Adição da aplicação do Factory Method   | João Moura e Rafael Ramos |
 | 1.2    | 16/03/2022 | Adição da aplicação do Builder          | João Moura e Rafael Ramos |
 | 1.3    | 18/03/2022 | Adição dos exemplos de modelagem        | João Moura e Rafael Ramos |
 | 1.3.1  | 18/03/2022 | Correções de texto                      | João Moura e Rafael Ramos |
@@ -18,13 +18,13 @@
 
 ## 3. Metodologia
 
-<p align="justify" style="text-indent: 20px">A metodologia utilizada para a elaboração do documento consistiu na reunião dos membros responsáveis por esta tarefa via Discord, onde foram levantados alguns padrões de GoF's criacionais encontrados ou não no código desenvolvido para o projeto. Sendo assim, serão demonstrados dois padrões de projetos, sendo eles: <i>Abstract Factory</i> e <i>Builder</i>. Vale ressaltar que o documento está sujeito a atualizações, caso o grupo sinta necessidade de apresentar novos padrões, ou até mesmo atualizar os já existentes.</p>
+<p align="justify" style="text-indent: 20px">A metodologia utilizada para a elaboração do documento consistiu na reunião dos membros responsáveis por esta tarefa via Discord, onde foram levantados alguns padrões de GoF's criacionais encontrados ou não no código desenvolvido para o projeto. Sendo assim, serão demonstrados dois padrões de projetos, sendo eles: <i>Factory Method</i> e <i>Builder</i>. Vale ressaltar que o documento está sujeito a atualizações, caso o grupo sinta necessidade de apresentar novos padrões, ou até mesmo atualizar os já existentes.</p>
 
 ## 4. GoF's Criacionais
 
-### 4.1 <i>Abstract Factory</i>
+### 4.1 <i>Factory Method</i>
 
-<p align="justify" style="text-indent: 20px">A <a href="../../estudos/gofs_criacionais/#42-abstract-factory"><i>Abstract Factory</i></a> é um padrão de projeto criacional que através de herança e polimorfismo permitem às classes herdarem métodos que serão implementados apenas pelas subclasses.</p>
+<p align="justify" style="text-indent: 20px">A <a href="../../estudos/gofs_criacionais/#41-factory-method"><i>Factory Method</i></a> é um padrão de projeto criacional que através de herança e polimorfismo permitem às classes herdarem métodos que serão implementados apenas pelas subclasses.</p>
 <p align="justify" style="text-indent: 20px">Entendendo esse conceito, parte-se então para sua implementação no backend. O django-rest utiliza as ideias de <i>serializers</i>, que "traduzem" as informações. Nessa implementação, existem diversos métodos que podem ser sobrescritos e que repassam suas responsabilidades para as subclasses respectivas, sendo viável a utilização desse padrão de projeto criacional.</p>
 <p align="justify" style="text-indent: 20px">Para tanto, foi necessário ser feita uma refatoração dos modelos já existentes de Usuário, Produtor e Técnico para comportarem esse padrão. Uma dessas alterações foi a retirada completa do fluxo <i>create</i> existente no <i>serializer</i> de Usuário, passando-se as responsabilidades desse método para as classes de Produtor e Técnico. Dessa forma, o código resultante que representa esse GoF Criacional pode ser visto abaixo.</p>
 
@@ -32,7 +32,7 @@
 
 <center>
   <img src="../../../assets/padroes_projetos/abstract_factory_modelagem.png" width="800" class="zoom"/>
-  <h6 align = "center">Figura 1: Modelagem da fábrica abstrata no projeto</h6>
+  <h6 align = "center">Figura 1: Modelagem do método de fábrica no projeto</h6>
   <h6 align = "center">Fonte: Autores</h6>
 </center>
 
