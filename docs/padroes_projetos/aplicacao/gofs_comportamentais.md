@@ -24,11 +24,17 @@
 
 <p align="justify" style="text-indent: 20px"> O padrão de projeto <a href="../../estudos/gofs_comportamentais/#42-state"><i>State</i></a> apresenta a possibilidade de alterar o comportamento de um objeto tendo como base o estado atual. Ao utilizar o framework flutter é possível alterar elementos de uma página a partir da classe State. Ao criar uma página que estende a classe StatefulWidget é possível realizar alterações em estados nas páginas a partir do método setState.</p>
 
+<center>
+<img src="../../../assets/padroes_projetos/state_modelagem.png" class="zoom"> 
+<h6>Figura 1: Modelagem State</h6>
+<h6>Fonte: Autores</h6>
+</center>
+
 <p align="justify" style="text-indent: 20px">Em nosso projeto esse padrão está sendo utilizado para que informações presentes nas telas da aplicação sejam alteradas de acordo com a necessidade, como exemplificado abaixo na tela de login: </p>
 
 <center>
 <img src="../../../assets/padroes_projetos/state_aplicacao.png" class="zoom"> 
-<h6>Figura 1: Aplicação State</h6>
+<h6>Figura 2: Aplicação State</h6>
 <h6>Fonte: Autores</h6>
 </center>
 
@@ -36,7 +42,7 @@
 
 <p align="justify" style="text-indent: 20px">A partir do estudo conseguimos definir que o padrão de projeto <a href="../../estudos/gofs_comportamentais/#410-memento"><i>Memento</i></a> salva e restaura estados anteriores de um objeto a partir de uma pilha. Além disso, foi definido a participação de duas classes dentro desse padrão de projeto, que serão comentadas posteriormente. A partir disso, foi feita uma análise no Flutter para identificar possíveis aplicações do padrão estudado.</p>
 
-<p align="justify" style="text-indent: 20px">Utilizando o Flutter, podemos perceber que a navegação a partir das interfaces do app é realizada utilzando o padrão de <i>Memento</i>. A partir de uma pilha de memória os estados das páginas vão sendo armazenados e restaurados quando for necessário.</p>
+<p align="justify" style="text-indent: 20px">Utilizando o Flutter, podemos perceber que a navegação a partir das interfaces do app são realizadas utilizando o padrão de <i>Memento</i>. A partir de uma pilha de memória, onde os estados das páginas vão sendo armazenados e restaurados quando for necessário.</p>
 
 <p align="justify" style="text-indent: 20px">Sendo assim, dentro do padrão temos a participação de duas classes: Cuidadora e Originadora. A partir disso, podemos definir que no Flutter a classe Navigator é a classe Cuidadora em questão, uma vez que é responsável por armazenar o histórico de cada estado da originadora em uma pilha e por sua vez, a classe Page acaba sendo a originadora nessa ocasião, sendo responsável por reproduzir cópias do seu próprio estado.</p>
 
@@ -44,7 +50,7 @@
 
 <center>
 <img src="../../../assets/padroes_projetos/memento_aplicacao1.png" class="zoom"> 
-<h6>Figura 2: Classe Cuidadora</h6>
+<h6>Figura 3: Classe Cuidadora</h6>
 <h6>Fonte: Autores.</h6>
 </center>
 
@@ -52,7 +58,7 @@
 
 <center>
 <img src="../../../assets/padroes_projetos/memento_aplicacao2.png" class="zoom"> 
-<h6>Figura 3: Classe Originadora</h6>
+<h6>Figura 4: Classe Originadora</h6>
 <h6>Fonte: Autores.</h6>
 </center>
 
@@ -60,7 +66,7 @@
 
 <center>
 <img src="../../../assets/padroes_projetos/memento_aplicacao3.png" class="zoom"> 
-<h6>Figura 4: Aplicação no projeto</h6>
+<h6>Figura 5: Aplicação no projeto</h6>
 <h6>Fonte: Autores.</h6>
 </center>
 
@@ -72,7 +78,7 @@
 
 <center>
 <img src="../../../assets/padroes_projetos/aplicacao_modelagem_observer.png" class="zoom"> 
-<h6>Figura 5: Diagrama de classes da aplicação</h6>
+<h6>Figura 6: Diagrama de classes da aplicação</h6>
 <h6>Fonte: Autores.</h6>
 </center>
 
@@ -80,7 +86,7 @@
 
 <center>
 <img src="../../../assets/padroes_projetos/observer_aplicacao1.png" class="zoom"> 
-<h6>Figura 6: Classe Observador</h6>
+<h6>Figura 7: Classe Observador</h6>
 <h6>Fonte: Autores.</h6>
 </center>
 
@@ -88,7 +94,7 @@
 
 <center>
 <img src="../../../assets/padroes_projetos/observer_aplicacao2.png" class="zoom"> 
-<h6>Figura 7: Classe Observável</h6>
+<h6>Figura 8: Classe Observável</h6>
 <h6>Fonte: Autores.</h6>
 </center>
 
@@ -96,6 +102,6 @@
 
 <center>
 <img src="../../../assets/padroes_projetos/observer_aplicacao3.png" class="zoom"> 
-<h6>Figura 8: Aplicação no projeto no cadastro de um técnico</h6>
+<h6>Figura 9: Aplicação no projeto no cadastro de um técnico</h6>
 <h6>Fonte: Autores.</h6>
 </center>
