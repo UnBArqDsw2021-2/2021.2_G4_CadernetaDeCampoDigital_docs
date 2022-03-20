@@ -2,11 +2,12 @@
 
 ## 1. Versionamento
 
-| Versão | Data       | Descrição                                  | Autor(es)                 |
-| ------ | ---------- | ------------------------------------------ | ------------------------- |
-| 1.0    | 17/03/2022 | Abertura do documento                      | Carlos e Paulo            |
-| 1.1    | 18/03/2022 | Adição do tópico 4.4 e 5                   | Carlos e Paulo            |
-| 1.2    | 19/03/2022 | Adição do tópico 4.1                       | Carlos e Paulo            |
+| Versão | Data       | Descrição                | Autor(es)                   |
+| ------ | ---------- | ------------------------ | --------------------------- |
+| 1.0    | 17/03/2022 | Abertura do documento    | Carlos e Paulo              |
+| 1.1    | 18/03/2022 | Adição do tópico 4.4 e 5 | Carlos e Paulo              |
+| 1.2    | 19/03/2022 | Adição do tópico 4.1     | Carlos e Paulo              |
+| 1.2.1  | 20/03/2022 | Revisão por pares        | Rafael Ramos e Vitor Lamego |
 
 
 ## 2. Introdução
