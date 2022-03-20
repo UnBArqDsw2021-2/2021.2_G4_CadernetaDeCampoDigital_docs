@@ -96,6 +96,7 @@ nav:
       - GRASP(s): padroes_projetos/estudos/grasp.md
       - Padrões emergentes: padroes_projetos/estudos/padroes_emergentes.md
     - Aplicação:
+      - GRASP(s): padroes_projetos/aplicacao/grasp.md
       - GOFs Criacionais: padroes_projetos/aplicacao/gofs_criacionais.md
       - Padrão Emergente: padroes_projetos/aplicacao/padrao_emergente.md
     - Iniciativas Extras:
