@@ -97,6 +97,7 @@ nav:
       - Padrões emergentes: padroes_projetos/estudos/padroes_emergentes.md
     - Aplicação:
       - GOFs Criacionais: padroes_projetos/aplicacao/gofs_criacionais.md
+      - GOFs Estruturais: padroes_projetos/aplicacao/gofs_estruturais.md
     - Iniciativas Extras:
       - Documentos alterados:
         - Modelagem Entidade-Relacionamento (MER): modelagem/extras/mer.md
