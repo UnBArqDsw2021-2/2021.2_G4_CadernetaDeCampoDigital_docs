@@ -2,11 +2,12 @@
 
 ## 1. Versionamento
 
-| Versão | Data       | Descrição                                     | Autor(es)                 |
-| ------ | ---------- | ---------------------------                   | ------------------------- |
-| 1.0    | 17/03/2022 | Abertura do documento                         | Denniel e Thiago |
-| 1.1    | 18/03/2022 | Padrões emergentes e exemplos com projeto     | Denniel e Thiago |
-| 1.2    | 19/03/2022 | Adição da introdução e metodologia            | Denniel e Thiago |
+| Versão | Data       | Descrição                                 | Autor(es)                 |
+| ------ | ---------- | ----------------------------------------- | ------------------------- |
+| 1.0    | 17/03/2022 | Abertura do documento                     | Denniel e Thiago          |
+| 1.1    | 18/03/2022 | Padrões emergentes e exemplos com projeto | Denniel e Thiago          |
+| 1.2    | 19/03/2022 | Adição da introdução e metodologia        | Denniel e Thiago          |
+| 1.2.1  | 19/03/2022 | Revisão por pares                         | João Moura e Rafael Ramos |
 
 ## 2. Introdução
 
