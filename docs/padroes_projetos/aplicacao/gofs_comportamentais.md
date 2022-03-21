@@ -8,6 +8,7 @@
 | 1.1    | 16/03/2022 | Adição da aplicação State                  | Brenno                    |
 | 1.2    | 16/03/2022 | Adição da aplicação Memento                | Vitor Lamego              |
 | 1.3    | 18/03/2022 | Adição da aplicação Observer               | Thiago                    |
+| 1.3.1  | 20/03/2022 | Revisão por pares                          | Carlos e João             |
 
 
 ## 2. Introdução
