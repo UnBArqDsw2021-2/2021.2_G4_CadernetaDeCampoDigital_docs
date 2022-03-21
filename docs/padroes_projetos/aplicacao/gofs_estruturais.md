@@ -8,7 +8,8 @@
 | 1.1    | 20/03/2022 | Adicionando introdução e metodologia                   | Eduardo Afonso |
 | 1.2    | 20/03/2022 | Adicionando padrão decorator                 | Eduardo Afonso |
 | 1.3    | 20/03/2022 | Adicionando padrão bridge                 | victor Lima| 
-| 1.4    | 21/03/2022 | Alterando imagens para tiradas com o codesnap                | Victor Lima e Eduardo Afonso| 
+| 1.4    | 21/03/2022 | Alterando imagens para tiradas com o codesnap                | Victor Lima e Eduardo Afonso|
+| 1.4.1  | 21/03/2022 | Revisão por pares                | João Moura e Brenno |
 
 ## 2. Introdução
 
