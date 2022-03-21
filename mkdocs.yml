@@ -96,8 +96,11 @@ nav:
       - GRASP(s): padroes_projetos/estudos/grasp.md
       - Padrões emergentes: padroes_projetos/estudos/padroes_emergentes.md
     - Aplicação:
+      - GRASP(s): padroes_projetos/aplicacao/grasp.md
       - GOFs Criacionais: padroes_projetos/aplicacao/gofs_criacionais.md
       - GOFs Estruturais: padroes_projetos/aplicacao/gofs_estruturais.md
+      - GOFs Comportamentais: padroes_projetos/aplicacao/gofs_comportamentais.md
+      - Padrão Emergente: padroes_projetos/aplicacao/padrao_emergente.md
     - Iniciativas Extras:
       - Documentos alterados:
         - Modelagem Entidade-Relacionamento (MER): modelagem/extras/mer.md
