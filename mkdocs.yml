@@ -98,6 +98,7 @@ nav:
     - Aplicação:
       - GRASP(s): padroes_projetos/aplicacao/grasp.md
       - GOFs Criacionais: padroes_projetos/aplicacao/gofs_criacionais.md
+      - GOFs Comportamentais: padroes_projetos/aplicacao/gofs_comportamentais.md
       - Padrão Emergente: padroes_projetos/aplicacao/padrao_emergente.md
     - Iniciativas Extras:
       - Documentos alterados:
