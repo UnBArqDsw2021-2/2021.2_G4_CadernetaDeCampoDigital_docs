@@ -7,6 +7,7 @@
 | 1.0    | 20/03/2022 | Abertura do documento                   | Eduardo Afonso |
 | 1.1    | 20/03/2022 | Adicionando introdução e metodologia                   | Eduardo Afonso |
 | 1.2    | 20/03/2022 | Adicionando padrão decorator                 | Eduardo Afonso |
+| 1.3    | 20/03/2022 | Adicionando padrão bridge                 | victor Lima| 
 
 ## 2. Introdução
 
@@ -20,22 +21,30 @@
 
 ### 4.1 <i>Bridge</i>
 
-<p align="justify" style="text-indent: 20px"></p>
+<p align="justify" style="text-indent: 20px">O <a href="../../estudos/gofs_estruturais/#43-bridge"><i>Bridge</i></a> trata da hierarquia de abstração do projeto em que elemento específicos são separados por divergirem do intuito principal da abstração. Portanto, é feito uma lógica separada para que se possam ser tratadas de forma individual a hierarquia principal e a hierarquia que divergiu deste foco.</p>
+
+<p align="justify" style="text-indent: 20px">No contexto do frontend, no flutter, para melhor organização do projeto, são criados services para que sejam realizadas as requisições ao backend e as informações necessárias sejam mostradas na tela. Então podemos tomar como exemplo a criação de um service para chamada da rota de login no app, assim como os outros fluxos que necessitem de uma informação salva no banco de dados.</p>
 
 
 #### 4.1.1 Modelagem
 
 <center>
-  <img src="../../../assets/padroes_projetos/" width="800" class="zoom"/>
-  <h6 align = "center">Figura 1: Modelagem do padrão bridge  no projeto</h6>
+  <img src="../../../assets/padroes_projetos/modelagem_login_bridge.png" width="800" class="zoom"/>
+  <h6 align = "center">Figura 1: Modelagem do padrão bridge no projeto</h6>
   <h6 align = "center">Fonte: Autores</h6>
 </center>
 
 #### 4.1.2 Aplicação
 
 <center>
-  <img src="../../../assets/padroes_projetos/" width="800" class="zoom"/>
-  <h6 align = "center">Figura 2: -</h6>
+  <img src="../../../assets/padroes_projetos/exemplo_bridge_login.png" width="800" class="zoom"/>
+  <h6 align = "center">Figura 2: Exemplo de serviço de login flutter-</h6>
+  <h6 align = "center">Fonte: Autores</h6>
+</center>
+
+<center>
+  <img src="../../../assets/padroes_projetos/exemplo_bridge_home_produtor.png" width="800" class="zoom"/>
+  <h6 align = "center">Figura 3: Exemplo de serviço para busca das informações da home page de produtor-</h6>
   <h6 align = "center">Fonte: Autores</h6>
 </center>
 
@@ -50,7 +59,7 @@
 
 <center>
   <img src="../../../assets/padroes_projetos/decorator_modelagem.png" width="800" class="zoom"/>
-  <h6 align = "center">Figura 3: Modelagem do padrão decorator no projeto</h6>
+  <h6 align = "center">Figura 4: Modelagem do padrão decorator no projeto</h6>
   <h6 align = "center">Fonte: Autores</h6>
 </center>
 
@@ -58,24 +67,24 @@
 
 <center>
   <img src="../../../assets/padroes_projetos/decorator_base_authentication.png" width="800" class="zoom"/>
-  <h6 align = "center">Figura 4: Classe base do decorator</h6>
+  <h6 align = "center">Figura 5: Classe base do decorator</h6>
   <h6 align = "center">Fonte: Autores</h6>
 </center>
 
 <center>
   <img src="../../../assets/padroes_projetos/decorator_producer_register.png" width="800" class="zoom"/>
-  <h6 align = "center">Figura 5: Classe decoradora para pagina de cadastro de produtor</h6>
+  <h6 align = "center">Figura 6: Classe decoradora para pagina de cadastro de produtor</h6>
   <h6 align = "center">Fonte: Autores</h6>
 </center>
 
 <center>
   <img src="../../../assets/padroes_projetos/decorator_technician_register.png" width="800" class="zoom"/>
-  <h6 align = "center">Figura 6: Classe decoradora para pagina de cadastro de técnico</h6>
+  <h6 align = "center">Figura 7: Classe decoradora para pagina de cadastro de técnico</h6>
   <h6 align = "center">Fonte: Autores</h6>
 </center>
 
 <center>
   <img src="../../../assets/padroes_projetos/decorator_login_page.png" width="800" class="zoom"/>
-  <h6 align = "center">Figura 7: Classe decoradora para pagina de logino</h6>
+  <h6 align = "center">Figura 8: Classe decoradora para pagina de logino</h6>
   <h6 align = "center">Fonte: Autores</h6>
 </center>
