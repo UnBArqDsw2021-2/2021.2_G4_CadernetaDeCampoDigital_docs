@@ -44,7 +44,7 @@
 
 <p align="justify" style="text-indent: 20px">Este conceito se encaixa bastante no contexto do frontend, pois o framework flutter permite que o usuário crie widgets personalizados que podem agregar outros widgets dentro dele. Fazendo com que um widget sirva de decorado e os demais que serão acrescentados a eles sejam os decoradores.</p>
 
-<p align="justify" style="text-indent: 20px">Conforme o protótipo existem, duas telas que teriam basicamente a mesma base, sendo elas a tela de cadastro de técnico e de produtor. Às duas telas possuem um fundo branco, com os mesmos detalhes azuis no topo e no rodapé da tela, além de um titulo branco, com a mesma fonte de tamanho. Então o componente BaseAuthentication foi criado para que cada tela utilize-o como base e decore com os widget que as caracterizam.</p>
+<p align="justify" style="text-indent: 20px">Conforme o protótipo, existem três telas que teriam basicamente a mesma base, sendo elas a tela de login e as telas de cadastro de técnico e produtor. Às três telas possuem um fundo branco, com os mesmos detalhes azuis no topo e no rodapé da tela, além de um titulo branco, com a mesma fonte de tamanho. Então o componente BaseAuthentication foi criado para que cada tela utilize-o como base e decore com os widget que as caracterizam.</p>
 
 #### 4.2.1 Modelagem
 
@@ -71,5 +71,11 @@
 <center>
   <img src="../../../assets/padroes_projetos/decorator_technician_register.png" width="800" class="zoom"/>
   <h6 align = "center">Figura 6: Classe decoradora para pagina de cadastro de técnico</h6>
+  <h6 align = "center">Fonte: Autores</h6>
+</center>
+
+<center>
+  <img src="../../../assets/padroes_projetos/decorator_login_page.png" width="800" class="zoom"/>
+  <h6 align = "center">Figura 7: Classe decoradora para pagina de logino</h6>
   <h6 align = "center">Fonte: Autores</h6>
 </center>
