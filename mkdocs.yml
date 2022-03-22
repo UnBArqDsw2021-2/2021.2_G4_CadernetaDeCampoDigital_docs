@@ -122,5 +122,10 @@ nav:
         - Sprint 5:
           - Planning: sprints/planning_5.md
     - Apresentações: apresentacoes/pc3.md
-
-  # - Arquitetura de Software e Reutilização: ""
+  - Arquitetura de Software e Reutilização:
+    - Iniciativas Extras:
+      - Sprints:
+        - Sprint 5:
+          - Review : sprints/review_5.md
+        - Sprint 6:
+          - Planning: sprints/planning_6.md
