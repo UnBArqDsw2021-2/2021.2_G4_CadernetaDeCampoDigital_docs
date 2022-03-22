@@ -1,4 +1,4 @@
-# Aplicação GOFS Comportamentais
+# Aplicação GoF's Comportamentais
 
 ## 1. Versionamento
 

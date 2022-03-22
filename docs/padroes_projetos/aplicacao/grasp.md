@@ -1,4 +1,4 @@
-# Aplicação Grasp
+# GRASP(s)
 
 ## 1. Versionamento
 

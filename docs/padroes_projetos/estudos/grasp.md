@@ -1,13 +1,13 @@
-# Aplicação de GRASP(s)
+# GRASP(s)
 
 ## 1. Versionamento
-| Versão | Data       | Descrição                                    | Autor(es)         |
-| ------ | ---------- | ---------------------------------------      | ------------------|
-| 1.0    | 02/03/2022 | Criação do documento                         | Paulo e Carlos    |
-| 1.1    | 03/03/2022 | Adição da introdução e metodologia           | Carlos            |
-| 1.2    | 04/03/2022 | Adição dos tópicos 4.1, 4.2, 4.3 e 4.4       | Carlos            |
-| 1.3    | 05/03/2022 | Adição dos tópicos 4.5, 4.6, 4.7, 4.8 e 4.9  | Paulo             |
-| 1.3.1  | 06/03/2022 | Revisão por pares                            | Vitor Lamego e Brenno|
+| Versão | Data       | Descrição                                   | Autor(es)             |
+| ------ | ---------- | ------------------------------------------- | --------------------- |
+| 1.0    | 02/03/2022 | Criação do documento                        | Paulo e Carlos        |
+| 1.1    | 03/03/2022 | Adição da introdução e metodologia          | Carlos                |
+| 1.2    | 04/03/2022 | Adição dos tópicos 4.1, 4.2, 4.3 e 4.4      | Carlos                |
+| 1.3    | 05/03/2022 | Adição dos tópicos 4.5, 4.6, 4.7, 4.8 e 4.9 | Paulo                 |
+| 1.3.1  | 06/03/2022 | Revisão por pares                           | Vitor Lamego e Brenno |
 
 ## 2. Introdução
 
