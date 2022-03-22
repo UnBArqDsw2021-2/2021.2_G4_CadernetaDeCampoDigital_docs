@@ -8,9 +8,9 @@
 ## 2. Objetivos
 A Sprint 6 tem os seguintes objetivos:
 
-- Criação Documento de Arquiteura e Reutilização de Software
+- Criação Documento de Arquitetura e Reutilização de Software
 - Implementações no Backend
-- Definição dos estilos e padrões arquiteturais
+- Estudo dos estilos e padrões arquiteturais
 
 ## 3. Sprint Backlog
 | Descrição | Responsáveis | Pontuação
