@@ -7,6 +7,7 @@
 | 1.0    | 06/03/2022 | Realização do Dojo      | Vitor Lamego  |
 | 1.1    | 06/03/2022 | Abertura do documento   | Vitor Lamego  |
 | 1.2    | 06/03/2022 | Adição do vídeo         | Vitor Lamego  |
+| 1.2.1  | 06/03/2022 | Revisão por pares       | Rafael e Paulo|
 
 ## 2. Introdução
 

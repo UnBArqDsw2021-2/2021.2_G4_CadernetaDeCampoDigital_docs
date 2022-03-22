@@ -90,17 +90,17 @@ nav:
     - Apresentações: apresentacoes/pc2.md
   - Padrões de Projeto:
     - Estudos:
+      - GRASP(s): padroes_projetos/estudos/grasp.md
       - GOFs Criacionais: padroes_projetos/estudos/gofs_criacionais.md
       - GOFs Comportamentais: padroes_projetos/estudos/gofs_comportamentais.md
       - GoFs Estruturais: padroes_projetos/estudos/gofs_estruturais.md
-      - GRASP(s): padroes_projetos/estudos/grasp.md
-      - Padrões emergentes: padroes_projetos/estudos/padroes_emergentes.md
+      - Padrões Emergentes: padroes_projetos/estudos/padroes_emergentes.md
     - Aplicação:
       - GRASP(s): padroes_projetos/aplicacao/grasp.md
       - GOFs Criacionais: padroes_projetos/aplicacao/gofs_criacionais.md
-      - GOFs Estruturais: padroes_projetos/aplicacao/gofs_estruturais.md
       - GOFs Comportamentais: padroes_projetos/aplicacao/gofs_comportamentais.md
-      - Padrão Emergente: padroes_projetos/aplicacao/padrao_emergente.md
+      - GOFs Estruturais: padroes_projetos/aplicacao/gofs_estruturais.md
+      - Padrões Emergentes: padroes_projetos/aplicacao/padrao_emergente.md
     - Iniciativas Extras:
       - Documentos alterados:
         - Modelagem Entidade-Relacionamento (MER): modelagem/extras/mer.md
@@ -121,5 +121,6 @@ nav:
           - Review : sprints/review_4.md
         - Sprint 5:
           - Planning: sprints/planning_5.md
+    - Apresentações: apresentacoes/pc3.md
 
   # - Arquitetura de Software e Reutilização: ""

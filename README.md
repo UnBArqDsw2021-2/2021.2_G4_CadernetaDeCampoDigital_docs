@@ -32,6 +32,13 @@
     <img src="./docs/assets/logo.png"></img>
 </div>
 
+<p align="center">
+    <a href="https://github.com/UnBArqDsw2021-2/2021.2_G4_CadernetaDeCampoDigital_Mobile"><strong>Repositório Mobile</strong></a>
+</p>
+<p align="center">
+    <a href="https://github.com/UnBArqDsw2021-2/2021.2_G4_CadernetaDeCampoDigital_Backend"><strong>Repositório Backend</strong></a>
+</p>
+
 <p align="justify">&emsp;&emsp; Para incentivar as boas práticas agrícolas e de <a href=https://unbarqdsw2021-2.github.io/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/modelagem/lexicos/#rastreabilidade>rastreabilidade</a>, há a necessidade de uma aplicação que armazena os dados referentes a um produto agrícola para que se tenha a origem deste produto de maneira rastreável. Para rastrear esses produtos, necessita-se dos dados do <a href=https://unbarqdsw2021-2.github.io/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/modelagem/lexicos/#plantio>plantio</a> ou <a href=https://unbarqdsw2021-2.github.io/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/modelagem/lexicos/#cardeneta_de_campo>caderneta</a>, da <a href=https://unbarqdsw2021-2.github.io/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/modelagem/lexicos/#propriedade>propriedade</a> onde foi cultivado o produto, do produtor, da data de <a href=https://unbarqdsw2021-2.github.io/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/modelagem/lexicos/#plantio>plantio</a>/<a href=https://unbarqdsw2021-2.github.io/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/modelagem/lexicos/#colher_plantio>colheita</a>, dos produtos ou <a href=https://unbarqdsw2021-2.github.io/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/modelagem/lexicos/#agrotoxico>agrotóxicos</a> aplicados, do nome da <a href=https://unbarqdsw2021-2.github.io/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/modelagem/lexicos/#cultura>cultura</a> e do <a href=https://unbarqdsw2021-2.github.io/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/modelagem/lexicos/#talhao>talhão</a> onde foi cultivado.</p>
 <p align="justify">&emsp;&emsp; Os dados da <a href=https://unbarqdsw2021-2.github.io/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/modelagem/lexicos/#cardeneta_de_campo>caderneta</a> ou <a href=https://unbarqdsw2021-2.github.io/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/modelagem/lexicos/#plantio>plantio</a> são de extrema importância pois nele estão contidas informações cruciais como o produto que foi plantado, onde foi plantado, quais produtos foram aplicados e as datas tanto de <a href=https://unbarqdsw2021-2.github.io/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/modelagem/lexicos/#plantio>plantio</a> quanto de <a href=https://unbarqdsw2021-2.github.io/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/modelagem/lexicos/#colher_plantio>colheita</a>, tornando-se o elemento mais rastreável para referenciar a origem de um produto. Dessa forma, a aplicação busca suprir as necessidades expostas por essa demanda real, de forma simples e viável tanto para os <a href=https://unbarqdsw2021-2.github.io/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/modelagem/lexicos/#produtor>produtores</a> quando para os <a href=https://unbarqdsw2021-2.github.io/2021.2_G4_CadernetaDeCampoDigital_docs/requisitos/modelagem/lexicos/#tecnico>técnicos</a> que estarão utilizando esse aplicativo.</p>
 
@@ -85,13 +92,27 @@
 [Videos referentes a segunda entrega](https://unbarqdsw2021-2.github.io/2021.2_G4_CadernetaDeCampoDigital_docs/apresentacoes/pc2/)
 
 
-<!--
 ## Screenshots Terceira Entrega <<FOCO: DSW(Padrões de Projeto)>>
-Adicione 2 ou mais screenshots do projeto em termos de artefatos da Terceira Entrega.
+![GRASP(s)](docs/assets/entrega3/grasp_aplicacao.png)
+
+[Figura 10 - GRASP(s) - Wiki](https://unbarqdsw2021-2.github.io/2021.2_G4_CadernetaDeCampoDigital_docs/padroes_projetos/aplicacao/grasp/)
+
+![GoF's Criacionais](docs/assets/entrega3/gof_criacional_aplicacao.png)
+
+[Figura 11 - GoF's Criacionais - Wiki](https://unbarqdsw2021-2.github.io/2021.2_G4_CadernetaDeCampoDigital_docs/padroes_projetos/aplicacao/gofs_criacionais/)
+
+![GoF's Estruturais](docs/assets/entrega3/gof_estrutural_aplicacao.png)
+
+[Figura 12 - GoF's Estruturais - Wiki](https://unbarqdsw2021-2.github.io/2021.2_G4_CadernetaDeCampoDigital_docs/padroes_projetos/aplicacao/gofs_estruturais/)
+
+![GoF's Comportamentais](docs/assets/entrega3/gof_comportamental_aplicacao.png)
+
+[Figura 13 - GoF's Comportamental - Wiki](https://unbarqdsw2021-2.github.io/2021.2_G4_CadernetaDeCampoDigital_docs/padroes_projetos/aplicacao/gofs_comportamental/)
 
 ## Vídeo(s) Terceira Entrega <<FOCO: DSW(Padrões de Projeto)>>
-Adicione o(s)s vídeo(s) da Terceira Entrega.
+[Videos referentes a segunda entrega](https://unbarqdsw2021-2.github.io/2021.2_G4_CadernetaDeCampoDigital_docs/apresentacoes/pc3/)
 
+<!--
 ## Screenshots Quarta Entrega (FINAL) <<FOCOS: Arquitetura & Reutilização de Software & PROJETO FINAL>>
 Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcionamento.
 
@@ -107,10 +128,8 @@ Adicione o(s)s vídeo(s) da Entrega Final.
 
 ## O Projeto está rodando?
 
-( ) SIM
-(X) NÃO
-
-<!-- Se SIM, insira um manual (ou um script) para auxiliar ainda mais os interessados em consultar o projeto. -->
+(X) SIM
+( ) NÃO
 
 ## Informações Complementares
 

@@ -2,13 +2,13 @@
 
 ## 1. Versionamento
 
-| Versão | Data       | Descrição                                  | Autor(es)                 |
-| ------ | ---------- | ------------------------------------------ | ------------------------- |
-| 1.0    | 03/03/2022 | Criação do documento                       | Eduardo Afonso |
-| 1.1    | 03/03/2022 | Adicionando metodologia, adapter, composite, bridge e facade| Eduardo Afonso |
-| 1.2    | 03/03/2022 | Adicionando introdução, decorator, proxy e flyweight| Victor Lima |
-| 1.3    | 07/03/2022 | Corrigindo links nas referências e erros de português| Victor Lima |
-| 1.3.1  | 07/03/2022 | Revisão em pares| João Pedro e Thiago |
+| Versão | Data       | Descrição                                                    | Autor(es)           |
+| ------ | ---------- | ------------------------------------------------------------ | ------------------- |
+| 1.0    | 03/03/2022 | Criação do documento                                         | Eduardo Afonso      |
+| 1.1    | 03/03/2022 | Adicionando metodologia, adapter, composite, bridge e facade | Eduardo Afonso      |
+| 1.2    | 03/03/2022 | Adicionando introdução, decorator, proxy e flyweight         | Victor Lima         |
+| 1.3    | 07/03/2022 | Corrigindo links nas referências e erros de português        | Victor Lima         |
+| 1.3.1  | 07/03/2022 | Revisão por pares                                            | João Pedro e Thiago |
 
 
 ## 2. Introdução

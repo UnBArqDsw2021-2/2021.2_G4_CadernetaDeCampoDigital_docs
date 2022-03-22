@@ -1,4 +1,4 @@
-# Aplicação GOFS Criacionais
+# Aplicação GoF's Criacionais
 
 ## 1. Versionamento
 
