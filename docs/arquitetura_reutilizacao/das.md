@@ -2,11 +2,12 @@
 
 ## 1. Versionamento
 
-| Versão | Data       | Descrição                         | Autor(es)                    |
-| ------ | ---------- | --------------------------------- | ---------------------------- |
-| 1.0    | 22/03/2022 | Abertura do documento             | Vitor Lamego e João Moura    |
-| 1.1    | 22/03/2022 | Adição da Visão Lógica            | Vitor Lamego                 |
-| 1.2    | 22/03/2022 | Adição do tópico de Qualidade     | João Moura                   |
+| Versão | Data       | Descrição                                            | Autor(es)                    |
+| ------ | ---------- | ---------------------------------------------------- | ---------------------------- |
+| 1.0    | 22/03/2022 | Abertura do documento                                | Vitor Lamego e João Moura    |
+| 1.1    | 22/03/2022 | Adição da Visão Lógica                               | Vitor Lamego                 |
+| 1.2    | 22/03/2022 | Adição do tópico de Qualidade                        | João Moura                   |
+| 1.3    | 23/03/2022 | Adição do tópico de Metas e Restrições Arquiteturais | Brenno                       |
 
 ## 2. Introdução 
 ### 2.1 Proposta
@@ -16,7 +17,18 @@
 
 ## 3. Representação Arquitetural
 
-## 4. Objetivos e Restrições Arquiteturais
+## 4. Metas e Restrições Arquiteturais
+### 4.1 Metas
+- O aplicativo deve ser de fácil utilização
+- O aplicativo deve garantir a rastreabilidade dos plantios
+- O aplicativo deve desempenhar suas funções de forma eficiente
+
+### 4.2 Restrições
+- O sistema deve permitir o uso apenas de pessoas já cadastradas pelo Instituto de Assistência Técnica e Extensão Rural(EMATER)
+- A aplicação deverá ser disponibilizada por meio um aplicativo
+- É necessário possuir um smartphone para acessar a aplicação
+- É preciso ter uma conexão com a internet para utilizar a aplicação
+- Deve ser desenvolvida em Python(Django) e Dart(Flutter)
 
 ## 5. Visão de Casos de Uso
 
