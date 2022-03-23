@@ -122,5 +122,8 @@ nav:
         - Sprint 5:
           - Planning: sprints/planning_5.md
     - Apresentações: apresentacoes/pc3.md
+  - Arquitetura de Software e Reutilização:
+    - Estilos e Padrões Arquiteturais:
+      - Parte 4: arquitetura_reutilizacao/estilos_padroes/parte4.md
 
   # - Arquitetura de Software e Reutilização: ""
