@@ -123,7 +123,4 @@ nav:
           - Planning: sprints/planning_5.md
     - Apresentações: apresentacoes/pc3.md
   - Arquitetura de Software e Reutilização:
-    - Arquitetura de Software:
-      - DAS: arquitetura_reutilizacao/arquitetura_software/das.md
-
-  # - Arquitetura de Software e Reutilização: ""
+    - Documento de Arquitetura de Software: arquitetura_reutilizacao/das.md
