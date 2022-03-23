@@ -125,3 +125,9 @@ nav:
   - Arquitetura de Software e Reutilização:
     - Estilos e Padrões Arquiteturais:
       - Parte 1: arquitetura_reutilizacao/estilos_padroes/parte1.md
+    - Iniciativas Extras:
+      - Sprints:
+        - Sprint 5:
+          - Review : sprints/review_5.md
+        - Sprint 6:
+          - Planning: sprints/planning_6.md
