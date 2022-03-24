@@ -17,6 +17,22 @@
 
 ## 3. Representação Arquitetural
 
+### 3.1 Frontend
+
+<center>
+<img src="../../../assets/arquitetura_reutilizacao/flutter.png" class="zoom"/>
+<h6>Figura 1: Imagem Flutter</h6>
+<h6>Fonte: Flutter.</h6>
+</center>
+
+<p style="text-align: justify; text-indent: 20px"> Flutter é um framework open source, desenvolvido pelo google para aplicações multiplataformas: mobile, desktop e web; permitindo a criação de aplicações nativas a partir de um único código base. A linguagem base do Flutter é o Dart, uma linguagem também criada pelo Google que se assemelha bastante ao JavaScript. </p>
+
+<p style="text-align: justify; text-indent: 20px"> A equipe optou pela escolha do flutter por diversos motivos, o principal deles foi que grande parte dos membros ja tiveram um contato prévio com a tecnologia, além do que, as 3 principais características em que o flutter é baseado (produtivo, rápido e flexivel) já são motivos suficientes para considerar como um forte candidato. Bom salientar que diversas empresas têm investido na ferramenta, desta forma, provocando um grande crescimento no mercado.</p>
+
+### 3.2 Backend
+
+### 3.3 Banco de dados
+
 ## 4. Metas e Restrições Arquiteturais
 ### 4.1 Metas
 - O aplicativo deve ser de fácil utilização
