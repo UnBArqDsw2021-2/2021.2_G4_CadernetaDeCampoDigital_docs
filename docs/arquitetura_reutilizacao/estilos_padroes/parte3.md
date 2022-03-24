@@ -23,7 +23,7 @@
 
 - **Filtro** **(*****Filter*****)**: Recebe, processa e recoloca dados no fluxo.
 - **Duto** **(*****Pipe*****)**: Transfere dados e realiza buffer(dado temporário)
-- **Fonte de dados** **(*****Data source*****)**: Fonte para os dados a serem utilizados
+- **Fonte de dados** **(*****Data source*****)**: Fonte dos dados a serem utilizados
 - **Coletor de dados** **(*****Data sink*****)**: Destino dos dados processados ao final
 
 <p align="justify" style="text-indent: 20px">Dessa forma temos uma estrutura chamada tubulação de processamento, onde dutos fazem a ligação entre filtros, representada na figura 1. O estilo é útil para aplicações com pouca interação com usuários.</p>
@@ -49,7 +49,7 @@
 
 <p align="justify" style="text-indent: 20px">As duas principais maneiras para a troca de dados entre subsistemas são: o compartilhamento de um banco de dados central que permite o acesso de outros subsistemas e bancos de dados próprios para o subsistema, sendo esses os responsáveis pela troca de dados entre si.</p>
 
-<p align="justify" style="text-indent: 20px">O Estilo Repositório consiste nas primeira maneira apresentada, chamada de repositório compartilhado, sendo mais adequada para o compartilhamento de grandes quantidades de dados, dessa forma os subsistemas não interagem diretamente para acessar os dados.</p>
+<p align="justify" style="text-indent: 20px">O Estilo Repositório consiste nas primeira maneira apresentada, também chamada de repositório compartilhado, sendo mais adequada para o compartilhamento de grandes quantidades de dados, dessa forma os subsistemas não interagem diretamente para acessar os dados.</p>
 
 **Vantagens**
 
@@ -58,7 +58,7 @@
 
 **Desvantagens**
 
-- Problemas no repositório afeta todos
+- Problemas no repositório afetam todos subsistemas que o utilizam
 - Distribuição do repositório pode ser difícil
 - Pode se tornar ineficiente de ser evoluída
 
