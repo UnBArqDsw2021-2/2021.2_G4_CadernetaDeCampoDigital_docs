@@ -82,7 +82,24 @@
 
 ## 9. Visão da Implementação
 ### 9.1 Visão Geral
-### 9.2 Camadas
+<p align="justify" style="text-indent: 20px">Esta visão tem como objetivo apresentar as decisões arquiteturais feitas pela equipe para realizar a implementação do produto, tais como os sistemas e subsistemas da implementação juntamente com suas dependências.</p>
+
+<p align="justify" style="text-indent: 20px">A equipe ao longo do projeto confeccionou o <a href="../../modelagem/estatica/diagrama_de_componentes">diagrama de componentes</a> que retrata o esse escopo de sistemas e subsistemas, além disso, diagramas que também foram confeccionados e trazem uma ideia melhor das camadas das implementações tanto do back-end como do front-end são os <a href="../../modelagem/estatica/diagrama_de_pacotes">diagramas de pacotes</a>.</p>
+
+### 9.2 Diagrama de Componentes
+<img src="../../../assets/modelagem/diagramaComponentes.svg" class="zoom"/>
+<h6 align = "center">Figura X: Diagrama de pacotes componentes</h6>
+<h6 align = "center">Fonte: Autor</h6>
+
+### 9.3 Diagrama de Pacotes Backend
+<img src="../../../assets/modelagem/estatica/backend.png" class="zoom"/>
+<h6 align = "center">Figura X: Diagrama de pacotes backend</h6>
+<h6 align = "center">Fonte: Autor</h6>
+
+### 9.4 Diagrama de Pacotes Frontend
+<img src="../../../assets/modelagem/estatica/mobile.png" class="zoom"/>
+<h6 align = "center">Figura X: Diagrama de pacotes frontend</h6>
+<h6 align = "center">Fonte: Autor</h6>
 
 ## 10. Visão do Banco de Dados
 
