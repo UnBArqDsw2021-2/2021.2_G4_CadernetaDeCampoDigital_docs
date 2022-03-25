@@ -8,6 +8,7 @@
 | 1.1    | 22/03/2022 | Adição da Visão Lógica                               | Vitor Lamego                 |
 | 1.2    | 22/03/2022 | Adição do tópico de Qualidade                        | João Moura                   |
 | 1.3    | 23/03/2022 | Adição do tópico de Metas e Restrições Arquiteturais | Brenno                       |
+| 1.4    | 25/03/2022 | Adição do tópico de Visão de Implementação | Eduardo Afonso                       |
 
 ## 2. Introdução 
 ### 2.1 Proposta
@@ -82,7 +83,7 @@
 
 ## 9. Visão da Implementação
 ### 9.1 Visão Geral
-<p align="justify" style="text-indent: 20px">Esta visão tem como objetivo apresentar as decisões arquiteturais feitas pela equipe para realizar a implementação do produto, tais como os sistemas e subsistemas da implementação juntamente com suas dependências.</p>
+<p align="justify" style="text-indent: 20px">Esta visão tem como objetivo apresentar as decisões arquiteturais feitas pela equipe para realizar a implementação do produto, tais como os sistemas e subsistemas da implementação com suas dependências.</p>
 
 <p align="justify" style="text-indent: 20px">A equipe ao longo do projeto confeccionou o <a href="../../modelagem/estatica/diagrama_de_componentes">diagrama de componentes</a> que retrata o esse escopo de sistemas e subsistemas, além disso, diagramas que também foram confeccionados e trazem uma ideia melhor das camadas das implementações tanto do back-end como do front-end são os <a href="../../modelagem/estatica/diagrama_de_pacotes">diagramas de pacotes</a>.</p>
 
