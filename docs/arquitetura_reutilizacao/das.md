@@ -2,13 +2,14 @@
 
 ## 1. Versionamento
 
-| Versão | Data       | Descrição                                            | Autor(es)                    |
-| ------ | ---------- | ---------------------------------------------------- | ---------------------------- |
-| 1.0    | 22/03/2022 | Abertura do documento                                | Vitor Lamego e João Moura    |
-| 1.1    | 22/03/2022 | Adição da Visão Lógica                               | Vitor Lamego                 |
-| 1.2    | 22/03/2022 | Adição do tópico de Qualidade                        | João Moura                   |
-| 1.3    | 23/03/2022 | Adição do tópico de Metas e Restrições Arquiteturais | Brenno                       |
-| 1.4    | 25/03/2022 | Adição do tópico de Visão de Implementação | Eduardo Afonso                       |
+| Versão | Data       | Descrição                                            | Autor(es)                 |
+| ------ | ---------- | ---------------------------------------------------- | ------------------------- |
+| 1.0    | 22/03/2022 | Abertura do documento                                | Vitor Lamego e João Moura |
+| 1.1    | 22/03/2022 | Adição da Visão Lógica                               | Vitor Lamego              |
+| 1.2    | 22/03/2022 | Adição do tópico de Qualidade                        | João Moura                |
+| 1.3    | 23/03/2022 | Adição do tópico de Metas e Restrições Arquiteturais | Brenno                    |
+| 1.4    | 25/03/2022 | Adição do tópico de Visão de Implementação           | Eduardo Afonso            |
+| 1.5    | 25/03/2022 | Adição do tópico de Visão de Implantação             | Rafael Ramos              |
 
 ## 2. Introdução 
 ### 2.1 Proposta
@@ -79,7 +80,15 @@
 
 ## 7. Visão de Processos
 
-## 8. Visão de _Deploy_
+## 8. Visão de Implantação
+
+### 8.1 Visão Geral
+<p align="justify" style="text-indent: 20px">A visão de implantação objetiva a representação física tanto a nível dos processos e/ou dos componentes, é estabelecida uma configuração física do sistema a partir dos nós representados nos diagramas. O diagrama abaixo busca essa representação física da implantação de uma maneira um pouco generalista, porém com os processos e componentes necessários para tal implantação.</p>
+
+### 8.2 Diagrama de Implantação
+<img src="../../../assets/das/diagrama_de_implantacao.png" class="zoom"/>
+<h6 align = "center">Figura X: Diagrama de implantação</h6>
+<h6 align = "center">Fonte: Autor</h6>
 
 ## 9. Visão da Implementação
 ### 9.1 Visão Geral
@@ -112,14 +121,14 @@
 
 <center>
 
-|Fatores de Qualidade|Aplicação no Programa|
-|:-:|--|
-|Eficiência|A API e o Frontend, para alcançarem essa meta, utilizaram os padrões GoF's de <a href="../../padroes_projetos/aplicacao/gofs_criacionais/#41-factory-method">Método de Fábrica</a>, <a href="../../padroes_projetos/aplicacao/gofs_comportamentais/#41-state">State</a>, <a href="../../padroes_projetos/aplicacao/gofs_estruturais/#42-decorator">Decorator</a> e outros identificados nos documentos de aplicação.|
-|Usabilidade|Como forma de alcançar a usabilidade, a equipe desenvolveu uma arquitetura simples e eficiente com a <a href="../../base/prototipacao/alta_fidelidade/">prototipação</a>, de forma a definir um modelo usável para o usuário, conforme métricas definidas no documento de <a href="../../modelagem/agil/especificacao_suplementar/">Especificação Suplementar</a> e na <a href="../../modelagem/agil/nfr_framework/">Modelagem NFR</a>|
-|Confiabilidade|Para atingir a confiabilidade, também descrita na <a href="../../modelagem/agil/especificacao_suplementar/">Especificação Suplementar</a>, foi necessário a <a href="../../modelagem/extras/dld/">modelagem de um banco de dados</a> que atendesse as necessidades expostas por esse fator de qualidade. Com isso, tanto o backend e o frontend conseguem cumprir com as metas de confiabilidade esperadas para a aplicação.|
-|Testabilidade|A testabilidade também foi um princípio definido e utilizado desde o início das implementações do backend e do frontend. Isso, principalmente na visão do backend, se deve ao formato escolhido para o desenvolvimento da aplicação, o <i>Test Driven Development</i> (TDD) [].|
-|Manutenabilidade|Em relação a meta de manutenabilidade, a equipe buscou criar uma arquitetura que utiliza de <i>frameworks</i> conhecidos e com grande suporte da comunidade. Dessa forma, esse fator de qualidade é fácilmente atingido permitindo a equipe manter o software por muito tempo. Além disso, é importante ressaltar que essa meta facilitou as pesquisas sobre os padrões de projeto que podem ser utilizados no projeto.|
-|Portabilidade|Por fim, a meta de portabilidade foi destacada principalmente pelas vantagens provindas dos Padrões de Projetos utilizados, que auxiliam diretamente essa meta. Outro ponto muito importante, é que a API foi desenvolvida para poder ser utilizada independente do Frontend feito para o projeto.|
+| Fatores de Qualidade | Aplicação no Programa                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| :------------------: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|      Eficiência      | A API e o Frontend, para alcançarem essa meta, utilizaram os padrões GoF's de <a href="../../padroes_projetos/aplicacao/gofs_criacionais/#41-factory-method">Método de Fábrica</a>, <a href="../../padroes_projetos/aplicacao/gofs_comportamentais/#41-state">State</a>, <a href="../../padroes_projetos/aplicacao/gofs_estruturais/#42-decorator">Decorator</a> e outros identificados nos documentos de aplicação.                   |
+|     Usabilidade      | Como forma de alcançar a usabilidade, a equipe desenvolveu uma arquitetura simples e eficiente com a <a href="../../base/prototipacao/alta_fidelidade/">prototipação</a>, de forma a definir um modelo usável para o usuário, conforme métricas definidas no documento de <a href="../../modelagem/agil/especificacao_suplementar/">Especificação Suplementar</a> e na <a href="../../modelagem/agil/nfr_framework/">Modelagem NFR</a> |
+|    Confiabilidade    | Para atingir a confiabilidade, também descrita na <a href="../../modelagem/agil/especificacao_suplementar/">Especificação Suplementar</a>, foi necessário a <a href="../../modelagem/extras/dld/">modelagem de um banco de dados</a> que atendesse as necessidades expostas por esse fator de qualidade. Com isso, tanto o backend e o frontend conseguem cumprir com as metas de confiabilidade esperadas para a aplicação.           |
+|    Testabilidade     | A testabilidade também foi um princípio definido e utilizado desde o início das implementações do backend e do frontend. Isso, principalmente na visão do backend, se deve ao formato escolhido para o desenvolvimento da aplicação, o <i>Test Driven Development</i> (TDD) [].                                                                                                                                                        |
+|   Manutenabilidade   | Em relação a meta de manutenabilidade, a equipe buscou criar uma arquitetura que utiliza de <i>frameworks</i> conhecidos e com grande suporte da comunidade. Dessa forma, esse fator de qualidade é fácilmente atingido permitindo a equipe manter o software por muito tempo. Além disso, é importante ressaltar que essa meta facilitou as pesquisas sobre os padrões de projeto que podem ser utilizados no projeto.                |
+|    Portabilidade     | Por fim, a meta de portabilidade foi destacada principalmente pelas vantagens provindas dos Padrões de Projetos utilizados, que auxiliam diretamente essa meta. Outro ponto muito importante, é que a API foi desenvolvida para poder ser utilizada independente do Frontend feito para o projeto.                                                                                                                                     |
 
 </center>
 
