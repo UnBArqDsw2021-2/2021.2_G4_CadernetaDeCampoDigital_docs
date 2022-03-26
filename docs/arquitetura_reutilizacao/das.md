@@ -12,7 +12,7 @@
 | 1.5    | 25/03/2022 | Adição do tópico de Visão de Implantação                | Rafael Ramos              |
 | 1.6    | 26/03/2022 | Adição do tópico de Visão de Dados                      | Thiago                    |
 | 1.7    | 26/03/2022 | Adição do tópico de Introdução e Tamanho e Performance  | Carlos                    |
-
+| 1.7    | 26/03/2022 | Adição do tópico de Representação Arquitetural  | Paulo                    |
 ## 2. Introdução 
 ### 2.1 Objetivo
 <p style="text-align: justify; text-indent: 20px"> Este documento fornece uma visão abrangente da arquitetura do sistema, usando diferentes visões arquiteturais para descrever diferentes aspectos do sistema. Destina-se a capturar e transmitir os fragmentos e decisões arquiteturais significativas que foram feitas no projeto Caderneta de Campo Digital. </p>
@@ -45,6 +45,7 @@
 - <a href="#12-qualidade">Qualidade</a>: Descreve como a arquitetura contribui para os quesitos de: extensibilidade, confiabilidade, portabilidade e etc. 
 - <a href="#13-referencias">Referências</a>: Lista todas os documentos que foram usados como referência.
 
+
 ## 3. Representação Arquitetural
 
 ### 3.1 Frontend
@@ -57,11 +58,29 @@
 
 <p style="text-align: justify; text-indent: 20px"> Flutter é um framework open source, desenvolvido pelo google para aplicações multiplataformas: mobile, desktop e web; permitindo a criação de aplicações nativas a partir de um único código base. A linguagem base do Flutter é o Dart, uma linguagem também criada pelo Google que se assemelha bastante ao JavaScript. </p>
 
-<p style="text-align: justify; text-indent: 20px"> A equipe optou pela escolha do flutter por diversos motivos, o principal deles foi que grande parte dos membros já tiveram um contato prévio com a tecnologia, além do que, as 3 principais características em que o flutter é baseado (produtivo, rápido e flexível) já são motivos suficientes para considerar como um forte candidato. Bom salientar que diversas empresas têm investido na ferramenta, desta forma, provocando um grande crescimento no mercado.</p>
+<p style="text-align: justify; text-indent: 20px"> A equipe optou pela escolha do flutter por diversos motivos, o principal deles foi que grande parte dos membros ja tiveram um contato prévio com a tecnologia, além do que, as 3 principais características em que o flutter é baseado (produtivo, rápido e flexivel) já são motivos suficientes para considerar como um forte candidato. Bom salientar que diversas empresas têm investido na ferramenta, desta forma, provocando um grande crescimento no mercado.</p>
 
 ### 3.2 Backend
 
+<center>
+<img src="../../../assets/arquitetura_reutilizacao/django.png" class="zoom"/>
+<h6>Figura 2: Imagem Django</h6>
+<h6>Fonte: Django.</h6>
+</center>
+
+<p style="text-align: justify; text-indent: 20px"> Django REST Framework ou DRF é um kit de ferramentas poderoso e flexível para construir APIs da Web. Permite a construção de APIs em qualquer plataforma, seja Windows, macOS ou Linux. É um framework muito utilizado por toda a comunidade, pois provê uma forma simples e rápida para a construção de APIs utilizando as facilidades que o Django oferece, como o sistema de rotas e seu ORM para manipulação de banco de dados.</p>
+
+<p style="text-align: justify; text-indent: 20px"> A escolha dessa tecnologia também foi com base na experiência prévia de alguns integrantes da equipe, que estavam dispostos a realizar treinamentos e fornecer ajuda aos demais membros. Sem falar das vantagens que a ferramenta traz, como possibilitar um rápido desenvolvimento e possuir uma excelente documentação.</p>
+
 ### 3.3 Banco de dados
+
+<center>
+<img src="../../../assets/arquitetura_reutilizacao/postgresql.jpg" class="zoom"/>
+<h6>Figura 2: Imagem PostgreSql</h6>
+<h6>Fonte: PostgreSql.</h6>
+</center>
+
+<p style="text-align: justify; text-indent: 20px"> O PostgreSQL é uma ferramenta open source que atua como sistema de gerenciamento de bancos de dados relacionados. Seu foco é permitir implementação da linguagem SQL em estruturas, garantindo um trabalho com os padrões desse tipo de ordenação dos dados. Será utilizado para armazenar os dados provenientes da API, sendo um dos bancos de dados mais populares da atualidade. </p>
 
 ## 4. Metas e Restrições Arquiteturais
 ### 4.1 Metas
@@ -186,3 +205,12 @@
 
 <!-- topico de qualidade -->
 > [] DevMedia, **Test Driven Development: TDD Simples e Prático**. Disponível em: <a href="https://www.devmedia.com.br/test-driven-development-tdd-simples-e-pratico/18533">https://www.devmedia.com.br/test-driven-development-tdd-simples-e-pratico/18533</a>. Acesso em: 22 de mar. de 2022.
+
+<!-- Representação Arquitetural -->
+> [] Treina Web **O que é Flutter?**. Disponivel em <a href= "https://www.treinaweb.com.br/blog/o-que-e-flutter">https://www.treinaweb.com.br/blog/o-que-e-flutter </a>  Acesso em 25 de mar. de 2022
+
+> [] Flutter **Documentação Flutter**. Disponivel em <a href= "https://flutter.dev/">https://flutter.dev/</a>  Acesso em 25 de mar. de 2022
+
+> [] Django Rest Framework **Documentação Django Rest Framework**. Disponivel em <a href= "https://www.django-rest-framework.org/">https://www.django-rest-framework.org/</a>  Acesso em 25 de mar. de 2022
+
+> [] Rock Content **PostgreSQL: saiba o que é, para que serve e como instalar**. Disponivel em <a href= "https://rockcontent.com/br/blog/postgresql/#5">https://rockcontent.com/br/blog/postgresql/#5</a>  Acesso em 26 de mar. de 2022
