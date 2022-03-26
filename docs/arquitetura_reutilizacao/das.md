@@ -2,21 +2,48 @@
 
 ## 1. Versionamento
 
-| Versão | Data       | Descrição                                            | Autor(es)                 |
-| ------ | ---------- | ---------------------------------------------------- | ------------------------- |
-| 1.0    | 22/03/2022 | Abertura do documento                                | Vitor Lamego e João Moura |
-| 1.1    | 22/03/2022 | Adição da Visão Lógica                               | Vitor Lamego              |
-| 1.2    | 22/03/2022 | Adição do tópico de Qualidade                        | João Moura                |
-| 1.3    | 23/03/2022 | Adição do tópico de Metas e Restrições Arquiteturais | Brenno                    |
-| 1.4    | 25/03/2022 | Adição do tópico de Visão de Implementação           | Eduardo Afonso            |
-| 1.5    | 25/03/2022 | Adição do tópico de Visão de Implantação             | Rafael Ramos              |
-| 1.6    | 26/03/2022 | Adição do tópico de Visão de Dados                   | Thiago                    |
+| Versão | Data       | Descrição                                               | Autor(es)                 |
+| ------ | ---------- | ----------------------------------------------------    | ------------------------- |
+| 1.0    | 22/03/2022 | Abertura do documento                                   | Vitor Lamego e João Moura |
+| 1.1    | 22/03/2022 | Adição da Visão Lógica                                  | Vitor Lamego              |
+| 1.2    | 22/03/2022 | Adição do tópico de Qualidade                           | João Moura                |
+| 1.3    | 23/03/2022 | Adição do tópico de Metas e Restrições Arquiteturais    | Brenno                    |
+| 1.4    | 25/03/2022 | Adição do tópico de Visão de Implementação              | Eduardo Afonso            |
+| 1.5    | 25/03/2022 | Adição do tópico de Visão de Implantação                | Rafael Ramos              |
+| 1.6    | 26/03/2022 | Adição do tópico de Visão de Dados                      | Thiago                    |
+| 1.7    | 26/03/2022 | Adição do tópico de Introdução e Tamanho e Performance  | Carlos                    |
 
 ## 2. Introdução 
-### 2.1 Proposta
+### 2.1 Objetivo
+<p style="text-align: justify; text-indent: 20px"> Este documento fornece uma visão abrangente da arquitetura do sistema, usando diferentes visões arquiteturais para descrever diferentes aspectos do sistema. Destina-se a capturar e transmitir os fragmentos e decisões arquiteturais significativas que foram feitas no projeto Caderneta de Campo Digital. </p>
+
 ### 2.2 Escopo
+<p style="text-align: justify; text-indent: 20px">Partindo do conjunto de visões definidas pelo RUP[1] além da visão de dados, este documento permite expor as principais decisões arquiteturais tomadas na construção e implementação do sistema.</p>
+<p style="text-align: justify; text-indent: 20px">Por isso apresenta significativos casos de uso, elementos de design, estrutura dos processos do sistema, elementos persistentes e importantes do modelo de dados e as principais dimensões de qualidade do sistema.</p> 
+
 ### 2.3 Definições, Acrônimos e Abreviações
+<p style="text-align: justify; text-indent: 20px">Termos, acrônimos e abreviações foram identificados e detalhados na tabela abaixo, junto de sua descrição.</p> 
+
+| Termo | Descrição |
+|:-----:|-----------|
+| RUP | <i>Rational Unified Process</i> |
+| iOS | Sistema operacional móvel da Apple Inc. |
+
 ### 2.4 Visão Geral
+<p style="text-align: justify; text-indent: 20px">Seguindo o template criado para uso com o RUP, temos os seguintes tópicos:</p>
+
+- <a href="#2-introducao">Introdução</a>: Promove uma visão geral do Documento de Arquitetura de Software.
+- <a href="#3-representacao-arquitetural">Representação Arquitetural</a>: Descreve qual é a arquitetura de software para o sistema atual e como ela é representada.
+- <a href="#4-metas-e-restricoes-arquiteturais">Metas e Restrições Arquiteturais</a>: Esta seção descreve os requisitos e objetivos de software que têm algum impacto significativo na arquitetura.
+- <a href="#5-visao-de-casos-de-uso">Visão de Casos de Uso</a>: Lista os casos de uso ou cenários que representam alguma funcionalidade central significativa no sistema final.
+- <a href="#6-visao-logica">Visão Lógica</a>: Descreve as partes arquitetonicamente significativas do modelo de design.
+- <a href="#7-visao-de-processos">Visão de Processos</a>: Descreve os principais modos de comunicação entre processos.
+- <a href="#8-visao-de-implantacao">Visão de Implantação</a>: Descreve as configurações do sistema para disponibilização de uso.
+- <a href="#9-visao-da-implementacao">Visão da Implementação</a>: Descreve a decomposição do software em camadas e subsistemas no modelo de implementação.
+- <a href="#10-visao-de-dados">Visão de Dados</a>: Descreve a perspectiva de armazenamento de dados persistente do sistema.
+- <a href="#11-tamanho-e-performance">Tamanho e Performance</a>: Descreve as características de dimensionamento do software que impactam a arquitetura.
+- <a href="#12-qualidade">Qualidade</a>: Descreve como a arquitetura contribui para os quesitos de: extensibilidade, confiabilidade, portabilidade e etc. 
+- <a href="#13-referencias">Referências</a>: Lista todas os documentos que foram usados como referência.
 
 ## 3. Representação Arquitetural
 
@@ -127,6 +154,8 @@
 
 
 ## 11. Tamanho e _Performance_
+<p style="text-align: justify; text-indent: 20px">Tendo em vista o tamanho descrito nos repositórios de backend e frontend, o sistema como um todo conta com menos de 1 gigabyte de tamanho.</p>
+<p style="text-align: justify; text-indent: 20px">Para a execução da aplicação, se tratando de aplicativo móvel, é necessário um <i>smartphone</i> com sistema operacional Android ou iOS com acesso à internet. Por ter como o objetivo a conexão de vários agricultores e técnicos é possível seu uso simultâneo com várias pessoas.</p>
 
 ## 12. Qualidade
 <p align="justify" style="text-indent: 20px">Por fim, o último tópico que será abordado nesse documento de Arquitetura de Software, é sobre os quesitos de qualidade da aplicação. Para tanto, serão utilizadas as visões tanto do usuário final como dos programadores sobre o produto desenvolvido, avaliando alguns pontos essenciais destacados pelo modelo de qualidade proposto por McCall's []. Esse modelo, define diversos fatores de qualidades e seus critérios de qualidades, que serão utilizados para classificar e demonstrar os principais pontos de qualidade da Caderneta de Campo Digital.</p>
@@ -147,6 +176,8 @@
 
 ## 13. Referências
 <!-- > [] ****. -->
+
+> [1] SERRANO, Milene. Arquitetura e Desenho de Software. **AULA - ARQUITETURA & DAS – PARTE II**. Acesso em: 26 mar. 2022.
 <!-- usado no topico de qualidade (não explicitamente) -->
 > [] **Diretriz: Documento de Arquitetura de Software**. Disponível em: <a href="https://www.cin.ufpe.br/~gta/rup-vc/core.base_rup/guidances/guidelines/software_architecture_document_F4C93435.html">https://www.cin.ufpe.br/~gta/rup-vc/core.base_rup/guidances/guidelines/software_architecture_document_F4C93435.html</a>.Acesso em: 22 de mar. de 2022.
 
