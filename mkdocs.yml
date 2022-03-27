@@ -124,8 +124,8 @@ nav:
     - Apresentações: apresentacoes/pc3.md
   - Arquitetura de Software e Reutilização:
     - Reutilização de Software:
-      - Flutter (Frontend): arquitetura_reutilizacao/reutilizacao/flutter.md
-      # - Django (Backend): arquitetura_reutilizacao/reutilizacao/django.md
+      - Flutter (Front-end): arquitetura_reutilizacao/reutilizacao/flutter.md
+      - Django (Back-end): arquitetura_reutilizacao/reutilizacao/django.md
       - Docker: arquitetura_reutilizacao/reutilizacao/docker.md
     - Iniciativas Extras:
       - Sprints:
