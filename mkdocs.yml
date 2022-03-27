@@ -126,6 +126,7 @@ nav:
     - Reutilização de Software:
       - Flutter (Front-end): arquitetura_reutilizacao/reutilizacao/flutter.md
       - Django (Back-end): arquitetura_reutilizacao/reutilizacao/django.md
+      - Pytest (Back-end): arquitetura_reutilizacao/reutilizacao/pytest.md
       - Docker: arquitetura_reutilizacao/reutilizacao/docker.md
     - Iniciativas Extras:
       - Sprints:
