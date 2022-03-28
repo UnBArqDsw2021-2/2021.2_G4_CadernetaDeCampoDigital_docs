@@ -6,6 +6,7 @@
 | ------ | ---------- | -------------------------------------| -------------------|
 | 1.0    | 27/03/2022 | Abertura do documento                | Paulo              |
 | 1.1    | 27/03/2022 | Adição dos tópicos 2.1 e 2.2         | Paulo              | 
+| 1.2    | 27/03/2022 | Adição dos tópico 3                  | Paulo              | 
 
 
 ## 2. Introdução
@@ -15,17 +16,29 @@
 
 ### 2.1 <i>Hot Spots</i>
 
-- Widgets
+- Stateful Widgets
 - Containers
-- AppBars
-- Buttons
 
 ### 2.2 <i>Frozen Spots</i>
 
 - Stateless Widget
 - Estruturação/Arquivos Fixos
 
-## 3. Referências
+# 3. Plugins
+
+<p align="justify" style="text-indent: 20px"> Vale ressaltar também que utilizamos de alguns plugins, são bastante úteis, e acabam adicioanando mais funções e recursos, facilitando o desenvolvimento e ajudaram a complementar nosso projeto. Estão listados alguns logo abaixo:</p>
+
+- dio: O dio é um poderoso cliente HTTP para Dart, que suporta interceptores, configuração global, FormData, cancelamento de solicitação, download de arquivo, tempo limite, entre outras funcionalidades.
+- dart_code_metrics: É uma ferramenta de análise estática que ajuda a analisar e melhorar a qualidade do código.
+- flutter_test: Biblioteca de testes para flutter.
+- cupertino_icons: É um repositório que contém o conjunto padrão de ícones usados ​​pelo Flutter Cupertino widgets.
+- flutter_localizations: É um pacote que simplifica a tradução no aplicativo.
+- cpf_cnpj_validator: Um plugin para validar CPF/CNPJ.
+- intl: Fornece recursos de internacionalização e localização.
+- flutter_svg: Desenha aquivos SVG em um widget.
+- flutter_lints: Este pacote contém um conjunto recomendado de lints para a aplicação.
+
+## 4. Referências
 
 > [1] DevMedia **Reutilização de Software - Revista Engenharia de Software Magazine 39**. Disponivel em <a href= "https://www.devmedia.com.br/reutilizacao-de-software-revista-engenharia-de-software-magazine-39/21956">https://www.devmedia.com.br/reutilizacao-de-software-revista-engenharia-de-software-magazine-39/21956</a>  Acesso em 27 de mar. de 2022
 
