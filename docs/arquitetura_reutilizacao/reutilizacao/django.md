@@ -7,6 +7,7 @@
 | 1.0    | 27/03/2022 | Abertura do documento                      | Thiago                    |
 | 1.1    | 27/03/2022 | Adição da introdução                       | Thiago                    |
 | 1.2    | 27/03/2022 | Adição dos plugins                         | Thiago                    |
+| 1.3    | 27/03/2022 | Revisão por pares                          | Brenno e Carlos           |
 
 ## 2. Introdução
 

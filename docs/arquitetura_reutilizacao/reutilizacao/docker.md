@@ -7,9 +7,10 @@
 | 1.0    | 26/03/2022 | Abertura do documento                      | João Moura                |
 | 1.1    | 26/03/2022 | Adição dos Hot e Frozen Spots              | João Moura                |
 | 1.2    | 26/03/2022 | Adição de imagens de código                | João Moura                |
+| 1.3    | 27/03/2022 | Revisão por pares                          | Brenno e Carlos           |
 
 ## 2. Introdução
-<p align="justify" style="text-indent: 20px">Assim como demonstrado para o backend e o frontend do projeto, o Docker também possui seus níveis de reutilização com <i>Hot Spots</i> e <i>Frozen Spots</i>. Não apenas o Docker, mas em conjunto com seu orquestrador de conteiners o docker-compose [1], permitem aos desenvolvedores a capacidade de atigirem níveis de reutilização de software cada vez maiores.</p>
+<p align="justify" style="text-indent: 20px">Assim como demonstrado para o backend e o frontend do projeto, o Docker também possui seus níveis de reutilização com <i>Hot Spots</i> e <i>Frozen Spots</i>. Não apenas o Docker, mas em conjunto com seu orquestrador de conteiners o docker-compose [1], permitem aos desenvolvedores a capacidade de atingirem níveis de reutilização de software cada vez maiores.</p>
 <p align="justify" style="text-indent: 20px">A sua utilização portanto, simplifica e torna mais eficiente todo o fluxo de projeto, desde a implantação da arquitetura básica até o desenvolvimento da aplicação final. Além disso, todo o Docker e docker-compose permitem aos programadores uma grande liberdade, fornecendo ferramentas, API's e diversas formas de reutilização que podem ser consideradas <i>Hot Spots</i> e <i>Frozen Spots</i> desse software.</p>
 <p align="justify" style="text-indent: 20px">Pelas características do projetos e por algumas limitações dos ambientes, apenas o backend recebeu um docker que comporta os seus containers de API e base de dados (PostgreSQL). A seguir está disposto o <a href="https://github.com/UnBArqDsw2021-2/2021.2_G4_CadernetaDeCampoDigital_Backend/blob/develop/Dockerfile">dockerfile</a> e o <a href="https://github.com/UnBArqDsw2021-2/2021.2_G4_CadernetaDeCampoDigital_Backend/blob/develop/docker-compose.yml">docker-compose</a> utilizados no backend do projeto:</p>
 
