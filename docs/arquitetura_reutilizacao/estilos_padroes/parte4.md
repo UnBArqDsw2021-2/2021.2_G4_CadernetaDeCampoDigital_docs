@@ -9,29 +9,31 @@
 
 ## 2. Introdução
 
-<p align="justify" style="text-indent: 20px">Conforme conteúdo estudado na disciplina, o assunto de "Estilos e Padrões Arquiteturais" foi divido em algumas partes para melhor divisão e compreensão. Sendo assim, esse documento é responsável pela documentação dos assuntos vistos na última parte, sendo apresentado o estilo arquitetural orientado a eventos e orientado a serviços.</p>
+<p align="justify" style="text-indent: 20px">Conforme conteúdo estudado na disciplina, o assunto de "Estilos e Padrões Arquiteturais" foi dividido em algumas partes para melhor divisão e compreensão. Sendo assim, esse documento é responsável pela documentação dos assuntos vistos na última parte, sendo apresentado o estilo arquitetural orientado a eventos e orientado a serviços.</p>
 
 ## 3. Estilo Arquitetural Orientado a Eventos
 
-<p align="justify" style="text-indent: 20px">Durante a disciplina, foi definido que a arquitetura de software é responsável por definir a estrutura que será implementada em um determinado software. Sabendo disso, iremos abordar alguns pontos importantes relacionados ao Estilo Arquitetural Orientado a Eventos. Para isso, é importante entender que um evento é tudo aquilo que representa uma mudança significativa no estado do software em questão, podendo ter uma origem interna, algum clique por parte d usuário, ou externa, alguma informação recebida do servidor [1]. A principal diferença entre um evento e uma entrada qualquer é que o evento está fora de controle do processo que o manipula. [2]</p>
+<p align="justify" style="text-indent: 20px">Durante a disciplina, foi definido que a arquitetura de software é responsável por padronizar a estrutura que será implementada em um determinado software. Sabendo disso, iremos abordar alguns pontos importantes relacionados ao Estilo Arquitetural Orientado a Eventos. Para isso, é importante entender que um evento é tudo aquilo que representa uma mudança significativa no estado do software em questão, podendo ter uma origem interna, algum clique por parte do usuário, ou externa com alguma informação recebida do servidor [1]. A principal diferença entre um evento e uma entrada qualquer é que o evento está fora de controle do processo que o manipula. [2]</p>
 
 <p align="justify" style="text-indent: 20px">Portanto, a arquitetura orientada a eventos acaba sendo voltada para o design de aplicações, e hoje em dia esse estilo de arquitetura pode ser implementado facilmente por qualquer framework que esteja sendo utilizado para o projeto. Para a efetiva implementação do estilo em questão é fundamental a presença de alguns componentes que lidam com a captura de evento, comunicação, processamento e persistência, sendo detalhado mais a frente a importância de cada um dentro dessa arquitetura. [1]</p>
 
-<p align="justify" style="text-indent: 20px">De forma básica, o seu funcionamento consiste em um evento ser publicado em um determinado barramento ou alguma fila e os serviços que possuem interesse nesse determinado evento consomem e reagem [3]. Entretanto, será abordado dois modelos de eventos existentes e que são bastante utilizados, sendo eles: </p>
+<p align="justify" style="text-indent: 20px">De forma básica, o seu funcionamento consiste em um evento ser publicado em um determinado barramento ou alguma fila e os serviços que possuem interesse nesse determinado evento consomem e reagem [3]. Para isso, existem dois diferentes modelos de eventos que são bastante utilizados, e que serão detalhados a seguir: </p>
 
 <ol>
     <li><b>Pub/Sub</b>: Assim que um evento é recebido, ele é enviado para todos os assinantes, naquele momento, daquele determinado evento.</li>
     <li><b>Streaming de Eventos</b>: Os eventos ficam armazenados em um registro, sendo assim os consumidores não precisam se inscrever naquele determinado evento, podendo acessar os registros armazenados e reagir a qualquer evento que já tenha ocorrido a qualquer momento. </li>
 </ol>
 
+<p align="justify" style="text-indent: 20px">Os padrões Observer e State, incluídos no grupo de padrões GoF's Comportamentais são exemplos de utilização do padrão arquitetural orientado a eventos. Mais detalhes sobre esses padrões podem ser encontrados no documento de <a href="../../../padroes_projetos/estudos/gofs_comportamentais">GoFs Comportamentais</a>.</p>
+
 ### Pontos Positivos
 
-<p align="justify" style="text-indent: 20px">A partir das explicações dadas e dos estudos feitos, pode-se perceber que existem algumas vantagens na utilização desse determinado estilo arquitetural no projeto. Alguns dos benefícios e das causas para utilização serão listados a seguir: </p>
+<p align="justify" style="text-indent: 20px">A partir das explicações dadas e dos estudos feitos, pode-se perceber que existem algumas vantagens na utilização desse determinado estilo arquitetural no projeto. Alguns dos benefícios serão listados a seguir: </p>
 
 <ol>
     <li><b>Baixo acoplamento</b>: Os produtores de evento não sabem que os consumidores estão detectando os eventos e muito menos o que está sendo feito como resposta</li>
     <li><b>Capacidade de adaptação</b>: A mudança de estados pode ser muito bem controlada a partir do consumo de eventos na aplicação, podendo ser feita tomadas de decisões em tempo real. </li>
-    <li><b>Escalabilidade</b>: A sua evolução acaba sendo uma tarefa muito simples, além de fornencer uma capacidade de resposta muito melhor para o projeto, aumentando a escalabilidade.</li>
+    <li><b>Escalabilidade</b>: A sua evolução acaba sendo uma tarefa muito simples, além de fornecer uma capacidade de resposta muito melhor para o projeto, aumentando a escalabilidade.</li>
 </ol>
 
 ## 4. Estilo Arquitetural Orientado a Serviços
@@ -40,7 +42,7 @@
 
 <p align="justify" style="text-indent: 20px">O estilo arquitetural orientado a serviços consiste em um tipo de design em que os componentes são reutilizáveis a partir do uso de algumas interfaces de serviços com uma linguagem de comunicação comum em uma rede [4]. Foi a partir dessa nova arquitetura de software que as empresas conseguiram ter um acesso mais democrático e viável a servidores remotos que estão fora da própria organização, além de permitir que as empresas e organizações tornem acessíveis as suas informações para outros programas a partir da publicação de uma interface de WebService [2]. Resumidamente, a arquitetura orientada a serviços integra componentes de software que foram implantados e mantidos separadamente, permitindo que trabalhem juntos para formar aplicações que funcionam em sistemas diferentes [4].</p>
 
-<p align="justify" style="text-indent: 20px">Falando um pouco mais sobre o funcionamento do estilo arquitetural orientado a serviços, a comunicação entre serviços é feita por um sistema de "baixo acomplamento" o que permite que a conexão entre os seus componentes seja mais simples por não possuírem dependência entre si, o que também permite a reutilização desses mesmos serviços em outros projetos. Antigamente, a cada projeto que se fazia necessário a utilização de serviços era feito um processo complexo de conexão da aplicação que incluía vários processos e fases que davam certo trabalho, também conhecido como modelo monoçítico.</p>
+<p align="justify" style="text-indent: 20px">Falando um pouco mais sobre o funcionamento do estilo arquitetural orientado a serviços, a comunicação entre serviços é feita por um sistema de "baixo acomplamento" o que permite que a conexão entre os seus componentes seja mais simples por não possuírem dependência entre si, o que também permite a reutilização desses mesmos serviços em outros projetos. Antigamente, a cada projeto que se fazia necessário a utilização de serviços era feito um processo complexo de conexão da aplicação que incluía vários processos e fases que davam certo trabalho, também conhecido como modelo monolítico.</p>
 
 ### Pontos Positivos
 
