@@ -24,7 +24,7 @@
 - Stateless Widget
 - Estruturação/Arquivos Fixos
 
-# 3. Plugins
+## 3. Plugins
 
 <p align="justify" style="text-indent: 20px"> Vale ressaltar também que utilizamos de alguns plugins, são bastante úteis, e acabam adicioanando mais funções e recursos, facilitando o desenvolvimento e ajudaram a complementar nosso projeto. Estão listados alguns logo abaixo:</p>
 
