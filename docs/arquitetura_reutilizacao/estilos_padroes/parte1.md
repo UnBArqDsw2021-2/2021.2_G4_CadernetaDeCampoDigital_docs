@@ -7,6 +7,7 @@
 | 1.0    | 22/03/2022 | Abertura do documento                        | Carlos      |
 | 1.1    | 22/03/222  | Adição do introdução, metodologia e tópico 4 | Carlos      |
 | 1.2    | 23/03/222  | Adição do stand-alone, n-camadas e mvc | Eduardo      |
+| 1.2.1    | 28/03/222  | Revisão por pares | João e Thiago      |
 
 ## 2. Introdução
 
