@@ -10,7 +10,7 @@
 
 ## 2. Introdução
 
-<p align="justify" style="text-indent: 20px">Com o objetivo de promover uma maior aderência ao conteúdo, este documento expõe um resumo dos estilos e padrões arquiteturais parte 1 disponibilizados durante a realização da disciplina.</p>
+<p align="justify" style="text-indent: 20px">Com o objetivo de promover uma maior aderência ao conteúdo, este documento expõe um resumo dos estilos e padrões arquiteturais parte 1 disponibilizados durante a realização da disciplina [2].</p>
 
 ## 3. Metodologia
 
@@ -22,7 +22,7 @@
 
 ### 4.1 Monolíticas
 
-<p align="justify" style="text-indent: 20px">A arquitetura monolítica é baseada em processamento centralizado, com terminais "burros" e redes de comunicação mais lentas. Suas funcionalidades são realizadas em um único processo, uma única instância de servidor, e para escalabilidade é feita a replicação. Para evolução e/ou substituição se torna algo complicado, devido ao sistema ter sido construído em conjunto [2]. Arquitetura muito usada no desenvolvimento de aplicações web [3].</p>
+<p align="justify" style="text-indent: 20px">A arquitetura monolítica é baseada em processamento centralizado, com terminais "burros" e redes de comunicação mais lentas. Suas funcionalidades são realizadas em um único processo, uma única instância de servidor, e para escalabilidade é feita a replicação. Para evolução e/ou substituição se torna algo complicado, devido ao sistema ter sido construído em conjunto [2]. Esse é um tipo de arquitetura muito usada no desenvolvimento de aplicações web [3].</p>
 
 Possui as seguintes vantagens [2, 3]:
 
@@ -36,13 +36,13 @@ E as seguintes desvantagens [2, 3]:
 - Dependência de replicação para escalabilidade.
 - Alto custo de manutenção e evolução.
 - Alto acoplamento.
-- Difícil adoção de nova tecnologia.
+- Difícil adoção de novas tecnologias.
 
 ### 4.2 Distribuídas
 
-<p align="justify" style="text-indent: 20px">A arquitetura distribuída é baseada em servidores de serviços compartilhados com alta capacidade de processamento, com estações de trabalho executando aplicações locais, sendo necessário redes mais rápidas [2]. </p>
+<p align="justify" style="text-indent: 20px">A arquitetura distribuída é baseada em servidores de serviços compartilhados com alta capacidade de processamento, com estações de trabalho executando aplicações locais, sendo necessárias redes mais rápidas [2]. </p>
 
-<p align="justify" style="text-indent: 20px">"É necessário pensar em como os componentes estão organizados e como devem interagir entre si bem como com outros componentes. A concepção/implantação efetiva de um sistema distribuído requer a instanciação e associação de componentes de software em máquinas reais, o que pode ser feito de diferentes maneiras." [4]</p>
+<p align="justify" style="text-indent: 20px">"Nessa arquitetura é necessário pensar em como os componentes estão organizados e como devem interagir entre si, bem como, com outros componentes. A concepção/implantação efetiva de um sistema distribuído requer a instanciação e associação de componentes de software em máquinas reais, o que pode ser feito de diferentes maneiras." [4]</p>
 
 Possui as seguintes vantagens [2]:
 
@@ -59,7 +59,7 @@ E as seguintes desvantagens [2]:
 
 ### 5.1 Stand-alone
 
-<p align="justify" style="text-indent: 20px">Pode-se traduzir o termo "stand-alone" como "de pé por si só", e esta tradução resume bem o estilo arquitetural. O stand-alone tem como premissa que o sistema deve funcionar de maneira independente e autossuficiente, sem consumir ou utilizar os serviços de terceiros. Por está limitação expressa na definição, o estilo é utilizado em produtos mais simples [2].</p>
+<p align="justify" style="text-indent: 20px">Pode-se traduzir o termo "stand-alone" como "de pé por si só", e esta tradução resume bem o estilo arquitetural. O stand-alone tem como premissa que o sistema deve funcionar de maneira independente e autossuficiente, sem consumir ou utilizar os serviços de terceiros. Em decorrência dessa limitação expressa na definição, o estilo é utilizado em produtos mais simples [2].</p>
 
 Possui a seguinte vantagem [2]:
 
@@ -77,10 +77,10 @@ E a seguinte desvantagem [2]:
 
 <p align="justify" style="text-indent: 20px">Cada camada deve estar em um nível de abstração diferente, sendo altamente recomendado que cada camada dependa somente da camada de nível imediatamente inferior ao dela (arquitetura restrita), ou no mínimo de quaisquer camadas que sejam de níveis inferiores ao dela (arquitetura relaxada), nunca de camadas de nível superior [2].</p>
 
-Possui a seguinte vantagem [2]:
+Possui as seguintes vantagens [2]:
 
 - Camadas podem ser reutilizadas.
-- Por as camadas estarem dispostas em níveis de abstração diferentes, as dependências entre as camadas é minimizado.
+- Por as camadas estarem dispostas em níveis de abstração diferentes, as dependências entre as camadas é minimizada.
 - É um estilo mais versátil e de fácil adaptação.
 - Pode ser utilizados em projetos de complexidade simples ou elevada.
 
@@ -94,14 +94,14 @@ E a seguinte desvantagem [2]:
 
 <p align="justify" style="text-indent: 20px">Este padrão de projeto é muito recomendado para projetos Web, ou projetos em que há mudanças recorrentes nas interfaces ou na apresentação e valor dos dados [2].</p>
 
-Possui a seguinte vantagem [2]:
+Possui as seguintes vantagens [2]:
 
 - Permite mudanças independentes em cada camada.
 - Níveis de abstração bem definidos e de fácil entedimento.
 
-E a seguinte desvantagem [2]:
+E as seguintes desvantagens [2]:
 
-- Para códigos muito simples pode acrescentes uma complexidade desnecessária.
+- Para códigos muito simples pode acrescentar uma complexidade desnecessária.
 - Alto acoplamento das camadas controller e view dependendo da implementação.
 
 ## 7. Referências
