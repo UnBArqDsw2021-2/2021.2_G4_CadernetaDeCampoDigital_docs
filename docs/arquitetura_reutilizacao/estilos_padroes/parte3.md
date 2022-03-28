@@ -2,10 +2,13 @@
 
 ## 1. Versionamento
 
-| Versão | Data       | Descrição                                   | Autor(es) |
-| ------ | ---------- | ------------------------------------------- | --------- |
-| 1.0    | 22/03/2022 | Abertura do documento                       | Brenno    |
-| 1.1    | 22/03/2022 | Adição da Introdução, Metodologia e Estilos | Brenno    |
+| Versão | Data       | Descrição                                   | Autor(es)       |
+| ------ | ---------- | ------------------------------------------- | --------------- |
+| 1.0    | 22/03/2022 | Abertura do documento                       | Brenno          |
+| 1.1    | 22/03/2022 | Adição da Introdução, Metodologia e Estilos | Brenno          |
+| 1.1.1  | 27/03/2022 | Correções no texto                          | Brenno          |
+| 1.1.2  | 27/03/2022 | Revisão por pares                           | Carlos e João   |
+
 
 ## 2. Introdução
 
@@ -49,7 +52,7 @@
 
 <p align="justify" style="text-indent: 20px">As duas principais maneiras para a troca de dados entre subsistemas são: o compartilhamento de um banco de dados central que permite o acesso de outros subsistemas e bancos de dados próprios para o subsistema, sendo esses os responsáveis pela troca de dados entre si.</p>
 
-<p align="justify" style="text-indent: 20px">O Estilo Repositório consiste nas primeira maneira apresentada, também chamada de repositório compartilhado, sendo mais adequada para o compartilhamento de grandes quantidades de dados, dessa forma os subsistemas não interagem diretamente para acessar os dados.</p>
+<p align="justify" style="text-indent: 20px">O Estilo Repositório consiste na primeira maneira apresentada, também chamada de repositório compartilhado, sendo mais adequada para o compartilhamento de grandes quantidades de dados, dessa forma os subsistemas não interagem diretamente para acessar os dados.</p>
 
 **Vantagens**
 
