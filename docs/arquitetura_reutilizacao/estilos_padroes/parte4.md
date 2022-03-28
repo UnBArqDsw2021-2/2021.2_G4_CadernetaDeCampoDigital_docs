@@ -2,10 +2,11 @@
 
 ## 1. Versionamento
 
-| Versão | Data       | Descrição                                    | Autor(es)         |
-| ------ | ---------- | -------------------------------------------- | -----------       |
-| 1.0    | 22/03/2022 | Abertura do documento                        | Vitor Lamego      |
-| 1.1    | 22/03/222  | Adição do resultado dos estudos              | Vitor Lamego      |
+| Versão | Data       | Descrição                                    | Autor(es)            |
+| ------ | ---------- | -------------------------------------------- | -------------------- |
+| 1.0    | 22/03/2022 | Abertura do documento                        | Vitor Lamego         |
+| 1.1    | 22/03/222  | Adição do resultado dos estudos              | Vitor Lamego         |
+| 1.1.1  | 28/03/222  | Revisão por pares                            | João Moura e Brenno  |
 
 ## 2. Introdução
 
