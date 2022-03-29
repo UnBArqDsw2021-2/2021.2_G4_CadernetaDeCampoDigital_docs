@@ -274,3 +274,5 @@
 > [] Django Rest Framework **Documentação Django Rest Framework**. Disponivel em <a href= "https://www.django-rest-framework.org/">https://www.django-rest-framework.org/</a>  Acesso em 25 de mar. de 2022
 
 > [] Rock Content **PostgreSQL: saiba o que é, para que serve e como instalar**. Disponivel em <a href= "https://rockcontent.com/br/blog/postgresql/#5">https://rockcontent.com/br/blog/postgresql/#5</a>  Acesso em 26 de mar. de 2022
+
+> [] Conceito: Visão de Processos. Disponivel em <a href= "https://www.cin.ufpe.br/~gta/rup-vc/core.base_rup/guidances/concepts/process_view_E3DD0B09.html">https://www.cin.ufpe.br/~gta/rup-vc/core.base_rup/guidances/concepts/process_view_E3DD0B09.html</a>  Acesso em 29 de mar. de 2022
