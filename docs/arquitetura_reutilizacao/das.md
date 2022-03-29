@@ -14,6 +14,7 @@
 | 1.7    | 26/03/2022 | Adição do tópico de Introdução e Tamanho e Performance  | Carlos                    |
 | 1.7    | 26/03/2022 | Adição do tópico de Representação Arquitetural  | Paulo                    |
 | 1.8    | 27/03/2022 | Adição do tópico de Visão de Casos de Uso  | Denniel William                    |
+| 1.9    | 29/03/2022 | Adição do tópico de Visão de processos  | Victor Lima                   |
 ## 2. Introdução 
 ### 2.1 Objetivo
 <p style="text-align: justify; text-indent: 20px"> Este documento fornece uma visão abrangente da arquitetura do sistema, usando diferentes visões arquiteturais para descrever diferentes aspectos do sistema. Destina-se a capturar e transmitir os fragmentos e decisões arquiteturais significativas que foram feitas no projeto Caderneta de Campo Digital. </p>
@@ -157,6 +158,34 @@
 <p style="text-align: justify; text-indent: 20px">Por fim, existem três pacotes que não possuem relação direta com o pacote de view, mas que são fundamentais para o bom funcionamento do servidor, sendo eles: pacote <b>tests</b> que possui os testes do módulo em específico, o pacote <b>tasks</b> que são tarefas que executadas de forma assíncrona a partir de um Observer ( Padrão GoF Comportamental ) e por último o pacote <b>admin</b> que são arquivos que armazenam configurações das páginas referentes ao objeto na página do administrador.</p>
 
 ## 7. Visão de Processos
+### 7.1 Visão Geral
+<p align="justify" style="text-indent: 20px">A visão de processos tem como objetivo fornecer uma base para compreensão da organização dos processos dentro do sistema desenvolvido e a vizualização de como esses grupos de processos interagem. De forma intuitiva fica claro por quais processos o sistema deverá passar para que uma atividade seja realizada.</p>
+
+<p align="justify" style="text-indent: 20px">Durante a etapa de modelagem dinâmica foram criados os <a href="../../modelagem/dinamica/diagrama_de_sequencia"> diagramas de sequência</a> que são utilizados para ilustrar os processos existentes no nosso projeto</p>
+
+### 7.2 Cadastro de usuário
+
+<img src="../../../assets/modelagem/diagramaSequencia1.svg" class="zoom"/>
+<h6 align = "center">Figura X: Diagrama de cadastro de usuário</h6>
+<h6 align = "center">Fonte: Autores</h6>
+
+### 7.3 Adicionar plantação
+
+<img src="../../../assets/modelagem/diagramaSequencia2.svg" class="zoom"/>
+<h6 align = "center">Figura X: Diagrama de adição de plantação</h6>
+<h6 align = "center">Fonte: Autores</h6>
+
+### 7.4 Aplicar agrotóxico
+
+<img src="../../../assets/modelagem/diagramaSequencia3.svg" class="zoom"/>
+<h6 align = "center">Figura X: Diagrama de aplicação de agrotóxico</h6>
+<h6 align = "center">Fonte: Autores</h6>
+
+### 7.5 Atribuir técnico à propriedade
+
+<img src="../../../assets/modelagem/diagramaSequencia4.svg" class="zoom"/>
+<h6 align = "center">Figura X: Diagrama de atribuição de técnico à propriedade</h6>
+<h6 align = "center">Fonte: Autores</h6>
 
 ## 8. Visão de Implantação
 
