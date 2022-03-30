@@ -6,7 +6,7 @@
 | ------ | ---------- | ------------------------------------------- | --------------- |
 | 1.0    | 27/03/2022 | Abertura do documento                       | Denniel William |
 | 1.1    | 28/03/2022 | Adição da Introdução, Metodologia e Estilos | Denniel William |
-
+| 1.2    | 30/03/2022 | Revisão por pares                           | Vitor e Rafael  |
 
 ## 2. Introdução
 
@@ -24,7 +24,7 @@
 
 - Separação entre clientes e servidores, sendo eles interligados entre si, geralmente utilizando-se de uma rede de computadores.
 - Cada instância de um cliente pode enviar requisições de dados para algum dos servidores conectados, e esperar por sua resposta.
-- Algum dos servidores disponíveis aceitam as requisições, processam e retornam o resultado para o cliente. 
+- Algum dos servidores disponíveis aceitam as requisições, processam e retornam o resultado para o cliente.
 
 <center>
 <img src="../../../assets/estilos_padroes/client_server.png" />
@@ -60,7 +60,7 @@
 
 - Redes de tráfego de bloqueio é um dos problemas relacionados com o modelo cliente-servidor.
 - Sobrecarregamento do servidor com o grande número de solicitações simultâneas dos clientes.
-- Elevados custos de comunicação. 
+- Elevados custos de comunicação.
 - Não tão robusto quanto uma rede P2P.
 - Se um servidor falhar os pedidos dos clientes não podem ser cumpridos.
 
@@ -131,6 +131,7 @@
 - Ele pode ser sobrecarregado.
 
 ## 5. Referências
+
 > [1] SERRANO, Milene. Arquitetura e Desenho de Software. **Aula Estilos e Padrões Arquiteturais II**. Acesso em: 28 mar. 2022.
 
 > [2] **O que é middleware?**. What Is Middleware?. Disponível em: <a href="https://azure.microsoft.com/pt-br/overview/what-is-middleware/">O que é middleware?</a>. Acesso em: 28 de mar. de 2022.
