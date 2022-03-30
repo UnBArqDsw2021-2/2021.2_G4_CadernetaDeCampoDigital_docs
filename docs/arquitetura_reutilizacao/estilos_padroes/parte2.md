@@ -49,7 +49,7 @@
 **Vantagens**
 
 - Permite uma distribuição de papéis e responsabilidades entre vários computadores, independentes, interconectados em uma rede.
-- Maior facilidade manutenção.
+- Maior facilidade de manutenção.
 - Todos os dados são armazenados nos servidores que possuem maior controle de segurança em comparação com os clientes.
 - Servidores podem controlar mais adequadamente os acessos e recursos.
 - Por sua centralização de dados, as atualizações são mais facilmente administráveis.
@@ -63,15 +63,14 @@
 - Elevados custos de comunicação. 
 - Não tão robusto quanto uma rede P2P.
 - Se um servidor falhar os pedidos dos clientes não podem ser cumpridos.
-- 
 
 ### 4.2. Cliente-Servidor - Protocolo TCP - Eclipse
 
 <p align="justify" style="text-indent: 20px">Partindo então do modelo apresentado anteriormente, temos esse mesmo estilo explicado anteriormente porém com a adição de protocolos em suas chamadas na rede.</p>
 
-<p align="justify" style="text-indent: 20px">Os protocolos do nível de transporte fornecem serviçoes que garantem uma transferência confiável de dados e aplicativos entre computadores (ou outro equipamento) remotos. Os programas utilizam desses protocolos para estabelecer contato com outras aplicações interagindo, assim, conforme o protocolo utilizado. A aplicação que aguarda a conexão informa, também baseando-se no protocolo, que está pronta para receber uma mensagem. A aplicação estabelece a conexão e as mensagens entre as duas aplicações são feitas através da conexão resultante entre as duas. [1]</p>
+<p align="justify" style="text-indent: 20px">Os protocolos do nível de transporte fornecem serviços que garantem uma transferência confiável de dados e aplicativos entre computadores (ou outro equipamento) remotos. Os programas utilizam desses protocolos para estabelecer contato com outras aplicações interagindo, assim, conforme o protocolo utilizado. A aplicação que aguarda a conexão informa, também baseando-se no protocolo, que está pronta para receber uma mensagem. A aplicação estabelece a conexão e as mensagens entre as duas aplicações são feitas através da conexão resultante entre as duas. [1]</p>
 
-<p align="justify" style="text-indent: 20px">O protocolo TCP (Transmission Control Protocol) é um protocolo orientado a conexão. Nele, o cliente estabelece uma conexão com o servidor e ambos trocam múltiplas mensagens de tamanhos variados, sendo a aplicação cliente quem a termina a sessão. [1]</p>
+<p align="justify" style="text-indent: 20px">O protocolo TCP (Transmission Control Protocol) é um protocolo orientado a conexão. Nele, o cliente estabelece uma conexão com o servidor e ambos trocam múltiplas mensagens de tamanhos variados, sendo a aplicação cliente responsável por terminar de sessão. [1]</p>
 
 **Vantagens**
 
@@ -95,7 +94,7 @@
 <p align="justify" style="text-indent: 20px">As responsabilidade do peer como servidor são: [1]</p>
 - Enviar pedidos de serviço de outros peers.
 - Processar os pedidos e executar os serviços requeridos.
-- Enviar a resposta dos pedidos de serviçoes requeridos.
+- Enviar a resposta dos pedidos de serviços requeridos.
 - Propagar os pedidos de serviço a outros peers.
 
 <center>
