@@ -61,7 +61,7 @@
 ### 3.1 Frontend
 
 <center>
-<img src="../../../../assets/arquitetura_reutilizacao/flutter.png" class="zoom"/>
+<img src="../../assets/arquitetura_reutilizacao/flutter.png" class="zoom"/>
 <h6>Figura 1: Imagem Flutter</h6>
 <h6>Fonte: Flutter.</h6>
 </center>
@@ -73,7 +73,7 @@
 ### 3.2 Backend
 
 <center>
-<img src="../../../../assets/arquitetura_reutilizacao/django.png" class="zoom"/>
+<img src="../../assets/arquitetura_reutilizacao/django.png" class="zoom"/>
 <h6>Figura 2: Imagem Django</h6>
 <h6>Fonte: Django.</h6>
 </center>
@@ -85,7 +85,7 @@
 ### 3.3 Banco de dados
 
 <center>
-<img src="../../../../assets/arquitetura_reutilizacao/postgresql.jpg" class="zoom"/>
+<img src="../../assets/arquitetura_reutilizacao/postgresql.jpg" class="zoom"/>
 <h6>Figura 3: Imagem PostgreSql</h6>
 <h6>Fonte: PostgreSql.</h6>
 </center>
@@ -145,7 +145,7 @@
 
 ### 6.2 Diagrama de Pacotes Mobile
 
-<img src="../../../../assets/modelagem/estatica/mobile.png" class="zoom"/>
+<img src="../../assets/modelagem/estatica/mobile.png" class="zoom"/>
 <h6 align = "center">Figura 4: Diagrama de pacotes mobile</h6>
 <h6 align = "center">Fonte: Autor</h6>
 
@@ -159,7 +159,7 @@
 
 ### 6.3 Diagrama de Pacotes Backend
 
-<img src="../../../../assets/modelagem/estatica/backend.png" class="zoom"/>
+<img src="../../assets/modelagem/estatica/backend.png" class="zoom"/>
 <h6 align = "center">Figura 5: Diagrama de pacotes backend</h6>
 <h6 align = "center">Fonte: Autor</h6>
 
@@ -179,25 +179,25 @@
 
 ### 7.2 Cadastro de usuário
 
-<img src="../../../../assets/modelagem/diagramaSequencia1.svg" class="zoom"/>
+<img src="../../assets/modelagem/diagramaSequencia1.svg" class="zoom"/>
 <h6 align = "center">Figura 6: Diagrama de cadastro de usuário</h6>
 <h6 align = "center">Fonte: Autores</h6>
 
 ### 7.3 Adicionar plantação
 
-<img src="../../../../assets/modelagem/diagramaSequencia2.svg" class="zoom"/>
+<img src="../../assets/modelagem/diagramaSequencia2.svg" class="zoom"/>
 <h6 align = "center">Figura 7: Diagrama de adição de plantação</h6>
 <h6 align = "center">Fonte: Autores</h6>
 
 ### 7.4 Aplicar agrotóxico
 
-<img src="../../../../assets/modelagem/diagramaSequencia3.svg" class="zoom"/>
+<img src="../../assets/modelagem/diagramaSequencia3.svg" class="zoom"/>
 <h6 align = "center">Figura 8: Diagrama de aplicação de agrotóxico</h6>
 <h6 align = "center">Fonte: Autores</h6>
 
 ### 7.5 Atribuir técnico à propriedade
 
-<img src="../../../../assets/modelagem/diagramaSequencia4.svg" class="zoom"/>
+<img src="../../assets/modelagem/diagramaSequencia4.svg" class="zoom"/>
 <h6 align = "center">Figura 9: Diagrama de atribuição de técnico à propriedade</h6>
 <h6 align = "center">Fonte: Autores</h6>
 
@@ -207,7 +207,7 @@
 <p align="justify" style="text-indent: 20px">A visão de implantação objetiva a representação física tanto a nível dos processos e/ou dos componentes, é estabelecida uma configuração física do sistema a partir dos nós representados nos diagramas [1]. O diagrama abaixo busca essa representação física da implantação de uma maneira um pouco generalista, porém com os processos e componentes necessários para tal implantação.</p>
 
 ### 8.2 Diagrama de Implantação
-<img src="../../../../assets/das/diagrama_de_implantacao.png" class="zoom"/>
+<img src="../../assets/das/diagrama_de_implantacao.png" class="zoom"/>
 <h6 align = "center">Figura 10: Diagrama de implantação</h6>
 <h6 align = "center">Fonte: Autor</h6>
 
@@ -218,17 +218,17 @@
 <p align="justify" style="text-indent: 20px">A equipe ao longo do projeto confeccionou o <a href="../../modelagem/estatica/diagrama_de_componentes">diagrama de componentes</a> que retrata esse escopo de sistemas e subsistemas, além disso, diagramas que também foram confeccionados e trazem uma ideia melhor das camadas das implementações, tanto do back-end como do front-end são os <a href="../../modelagem/estatica/diagrama_de_pacotes">diagramas de pacotes</a>.</p>
 
 ### 9.2 Diagrama de Componentes
-<img src="../../../../assets/modelagem/diagramaComponentes.svg" class="zoom"/>
+<img src="../../assets/modelagem/diagramaComponentes.svg" class="zoom"/>
 <h6 align = "center">Figura 11: Diagrama de pacotes componentes</h6>
 <h6 align = "center">Fonte: Autor</h6>
 
 ### 9.3 Diagrama de Pacotes Backend
-<img src="../../../../assets/modelagem/estatica/backend.png" class="zoom"/>
+<img src="../../assets/modelagem/estatica/backend.png" class="zoom"/>
 <h6 align = "center">Figura 12: Diagrama de pacotes backend</h6>
 <h6 align = "center">Fonte: Autor</h6>
 
 ### 9.4 Diagrama de Pacotes Frontend
-<img src="../../../../assets/modelagem/estatica/mobile.png" class="zoom"/>
+<img src="../../assets/modelagem/estatica/mobile.png" class="zoom"/>
 <h6 align = "center">Figura 13: Diagrama de pacotes frontend</h6>
 <h6 align = "center">Fonte: Autor</h6>
 
@@ -239,7 +239,7 @@
 <p align="justify" style="text-indent: 20px">A modelagem de dados na Caderneta de Campo Digital teve como objetivo garantir que as entidades e seus relacionamentos conseguissem atender todas as necessidades especificadas no <a href="../../modelagem/agil/product_backlog">Product Backlog</a>, garantindo a proteção dos dados, a alta coesão e tornar o bancos de dados mais flexível, eliminando a redundância e dependência inconsistente.</p>
 <p align="justify" style="text-indent: 20px">Dessa forma, a equipe começou a modelagem de uma forma mais abstrata pelo <a href="../../modelagem/extras/mer">Modelo Entidade-Relacionamento (MER)</a> que permitiu, de forma simples e eficiente, a identificação e modelagem das entidades, dos atributos e de seus relacionamentos. Posteriormente, as entidades, os atributos e seus relacionamentos foram representados em forma gráfica no <a href="../../modelagem/extras/der">Diagrama Entidade-Relacionamento (DER)</a>, como mostra a Figura 14.</p>
 
-<img src="../../../../assets/modelagem/extras/derV2.png" class="zoom"/>
+<img src="../../assets/modelagem/extras/derV2.png" class="zoom"/>
 <h6 align = "center">Figura 14: Diagrama Entidade-Relacionamento</h6>
 <h6 align = "center">Fonte: Autores</h6>
 
