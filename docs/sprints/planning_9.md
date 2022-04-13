@@ -16,9 +16,10 @@ A Sprint 9 tem os seguintes objetivos:
 |--|--|--|
 |[Front] Integrar pendências|Brenno|3|
 |[Front] Editar Card Propriedade, nome e icone do aplicativo|Eduardo|1|
-|[Back]Popular/Criar Imagens cultura|Thiago|3|
+|[Back] Popular/Criar Imagens de culturas|Thiago|3|
 |[Front] Pegar imagens da cultura|Denniel|3|
 |[Back] Listagem de cultura|João|3|
+|[Back] Listagem de propriedades sem técnico|João|3|
 |[Back] Endpoint histórico do talhão|Rafael|3|
 
 <!-- COPIA E COLA TEMPLATE. -->
