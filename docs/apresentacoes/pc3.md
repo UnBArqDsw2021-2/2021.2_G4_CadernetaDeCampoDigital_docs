@@ -1,8 +1,8 @@
 # 1. Versionamento
 |Versão|Data|Descrição|Autor(es)|
-|------|----|---------|---------|
-|1.0|21/03/2022|<center>Criação do documento</center>|<center>João Pedro</center>|
-|1.1|21/03/2022|<center>Gravação do vídeo</center>|<center>Todos da equipe</center>|
+|:------:|:----:|:---------:|:---------:|
+|1.0|21/03/2022|Criação do documento|João Pedro e Rafael Ramos|
+|1.1|21/03/2022|Gravação do vídeo|Todos da equipe|
 
 ## 2. GRASP(s)
 <div align="center">
