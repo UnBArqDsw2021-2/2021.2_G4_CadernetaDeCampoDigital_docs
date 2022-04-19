@@ -110,21 +110,32 @@
 [Figura 13 - GoF's Comportamental - Wiki](https://unbarqdsw2021-2.github.io/2021.2_G4_CadernetaDeCampoDigital_docs/padroes_projetos/aplicacao/gofs_comportamental/)
 
 ## Vídeo(s) Terceira Entrega <<FOCO: DSW(Padrões de Projeto)>>
-[Videos referentes a segunda entrega](https://unbarqdsw2021-2.github.io/2021.2_G4_CadernetaDeCampoDigital_docs/apresentacoes/pc3/)
+[Videos referentes a terceira entrega](https://unbarqdsw2021-2.github.io/2021.2_G4_CadernetaDeCampoDigital_docs/apresentacoes/pc3/)
 
-<!--
 ## Screenshots Quarta Entrega (FINAL) <<FOCOS: Arquitetura & Reutilização de Software & PROJETO FINAL>>
-Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcionamento.
+![Tabela Qualidade - DAS](docs/assets/entrega4/das-qualidade-wiki.png)
+[Documento de Arquitetura de Software](https://unbarqdsw2021-2.github.io/2021.2_G4_CadernetaDeCampoDigital_docs/arquitetura_reutilizacao/das/)
+
+![Reutilização Flutter](docs/assets/entrega4/reutilizacao-flutter-wiki.png)
+[Reutilização Flutter](https://unbarqdsw2021-2.github.io/2021.2_G4_CadernetaDeCampoDigital_docs/arquitetura_reutilizacao/reutilizacao/flutter/)
+
+<p>
+    <img src="docs/assets/entrega4/splash-screen-wiki.png" width="400" height="777"/>
+    <img src="docs/assets/entrega4/tela-historico-wiki.png" width="400" height="777"/>
+</p>
+
+[APK Mobile](https://github.com/UnBArqDsw2021-2/2021.2_G4_CadernetaDeCampoDigital_Mobile/releases/tag/v1.0.0)
+
+[API v1](https://github.com/UnBArqDsw2021-2/2021.2_G4_CadernetaDeCampoDigital_Backend/releases/tag/v1.0.0)
 
 ## Vídeo(s) Quarta Entrega (FINAL) <<FOCOS: Arquitetura & Reutilização de Software & PROJETO FINAL>>
-Adicione o(s)s vídeo(s) da Entrega Final.
+[Videos referentes a quarta entrega](https://unbarqdsw2021-2.github.io/2021.2_G4_CadernetaDeCampoDigital_docs/apresentacoes/pc4/)
 
 ## Descritivo dos Principais Aspectos Técnicos
-**Principal(is) Metodologia(s) Adotada(s)**: xxxxxx<br>
-**Principais Linguagens Utilizadas e/ou Pretendidas**: xxxxxx<br>
-**Principais Tecnologias Utilizadas e/ou Pretendidas**: xxxxxx<br>
-**Principal(is) Estilo(s) Arquitetural(is) Adotado(s)**: xxxxxx<br>
--->
+**Principal(is) Metodologia(s) Adotada(s)**: Scrum e XP (<i>Extreme Programming</i>)<br>
+**Principais Linguagens Utilizadas e/ou Pretendidas**: Python e Dart<br>
+**Principais Tecnologias Utilizadas e/ou Pretendidas**: Django, django-rest e Flutter<br>
+**Principal(is) Estilo(s) Arquitetural(is) Adotado(s)**: Model-View-Template (Backend), Model Page Controller e Service (Frontend)<br>
 
 ## O Projeto está rodando?
 

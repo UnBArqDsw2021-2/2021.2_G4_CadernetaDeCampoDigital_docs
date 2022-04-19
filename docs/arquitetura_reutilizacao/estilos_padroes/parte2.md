@@ -1,4 +1,4 @@
-# Estilos e Padrões Arquiteturais Parte 3
+# Estilos e Padrões Arquiteturais Parte 2
 
 ## 1. Versionamento
 
@@ -7,6 +7,7 @@
 | 1.0    | 27/03/2022 | Abertura do documento                       | Denniel William |
 | 1.1    | 28/03/2022 | Adição da Introdução, Metodologia e Estilos | Denniel William |
 | 1.2    | 30/03/2022 | Revisão por pares                           | Vitor e Rafael  |
+| 1.2.1  | 18/04/2022 | Correção do título da página                | João e Rafael   |
 
 ## 2. Introdução
 
